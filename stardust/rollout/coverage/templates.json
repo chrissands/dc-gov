@@ -1,0 +1,127 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-06T19:18:42.076Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-06T22:39:30.068Z",
+  "templates": [
+    {
+      "id": "agency-directory",
+      "representativeSlug": "agency-directory",
+      "pages": [
+        "agency-directory"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "feedback",
+        "hero-simple",
+        "sidebar"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "index",
+      "representativeSlug": "index",
+      "pages": [
+        "index"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "card-shapes",
+        "carousel-grid",
+        "feedback",
+        "hero-home",
+        "scroll-combo",
+        "social-feed",
+        "stats",
+        "tabset"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "listing",
+      "representativeSlug": "events",
+      "pages": [
+        "events",
+        "services"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "neighborhoods",
+      "representativeSlug": "neighborhoods",
+      "pages": [
+        "neighborhoods"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "cards-tabbed",
+        "emblem",
+        "hero"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "news",
+      "representativeSlug": "news",
+      "pages": [
+        "news"
+      ],
+      "pageCount": 1,
+      "blocks": [
+        "emblem",
+        "hero-simple",
+        "news-listing"
+      ],
+      "delivery": {
+        "verified": 1,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    },
+    {
+      "id": "static",
+      "representativeSlug": "community-engagement-and-feedback",
+      "pages": [
+        "community-engagement-and-feedback",
+        "organizational-charts-agencies-and-offices-under-mayors-authority"
+      ],
+      "pageCount": 2,
+      "blocks": [],
+      "delivery": {
+        "verified": 2,
+        "deployed": 0,
+        "contentPending": 0,
+        "pending": 0
+      }
+    }
+  ]
+}

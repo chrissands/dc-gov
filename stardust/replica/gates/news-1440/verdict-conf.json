@@ -1,0 +1,29 @@
+{
+  "round": "conf",
+  "width": 1440,
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/news-1440/diff-conf.png"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/news-1440/content-diff-conf.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/news-1440/visual-diff-conf.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/news-1440/chrome-parity-conf.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/news-1440/clip-conf.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-06T19:11:12.880Z"
+}

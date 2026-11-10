@@ -1,0 +1,10 @@
+/* mayors-greeting — lifted from stardust/prototypes/css/lifted.css (GPL-2.0-or-later Drupal theme CSS), kebab-mapped, scoped */
+/* stylelint-disable */
+.mayors-greeting .tp {
+  display: contents;
+}
+
+.c-layout-double:where(.mayors-greeting *){color:var(--l-color,var(--color-m-text))}.c-layout-double:where(.mayors-greeting *){width:100%}.c-layout-double .c-layout-double-l:where(.mayors-greeting *){align-items:stretch;display:flex;flex-direction:row;gap:var(--i-layout-double-m-gap-v,clamp(1.5rem,1.7778cqw + .94rem,2.5rem)) var(--i-layout-double-m-gap,clamp(1.5rem,1.3333cqw + .83rem,2rem))}.c-layout-double .c-layout-double-left:where(.mayors-greeting *){container:layout_column/inline-size;flex-basis:var(--i-layout-double-m-split,50%)}.c-layout-double .c-layout-double-right:where(.mayors-greeting *){container:layout_column/inline-size;flex-basis:calc(100% - var(--i-layout-double-m-split,50%))}.mayors-greeting-block-double .c-layout-double-left:where(.mayors-greeting *),
+.mayors-greeting-block-double .c-layout-double-right:where(.mayors-greeting *){display:flex;flex-flow:column;justify-content:center}.mayors-greeting-block-double .c-layout-double-left img:where(.mayors-greeting *){display:block;height:auto;max-width:100%;width:100%}
+/* scoped inline styles of the source */
+@media screen and (max-width: 750px) { #layout-double-scope-id { flex-direction: column; }#layout-double-scope-id .c-layout-double-left, #layout-double-scope-id .c-layout-double-right { flex: 0 0 auto; width: 100%; } }

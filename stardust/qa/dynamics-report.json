@@ -1,0 +1,46 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics check",
+  "writtenAt": "2026-11-06T22:39:20.983Z",
+  "origin": "https://main--7ddb4c84--aemcoder.aem.live",
+  "parity": "stardust/dynamics/parity.json"
+ },
+ "results": [
+  {
+   "feature": "Juicer social feed on home",
+   "id": "juicer-feed",
+   "class": "A",
+   "status": "done",
+   "type": "dom-count",
+   "pass": true,
+   "detail": "6 × .juicer-feed li.feed-item (min 3)",
+   "thirdParty": "www.juicer.io:200×20",
+   "ms": 2888,
+   "environmentLimit": null
+  },
+  {
+   "feature": "no uncaught exceptions on the delivered pages",
+   "id": "page-errors",
+   "class": "A",
+   "status": "done",
+   "type": "no-page-errors",
+   "pass": true,
+   "detail": "none on 8 page(s)",
+   "thirdParty": "",
+   "ms": 15872,
+   "environmentLimit": null
+  },
+  {
+   "feature": "home hero video (autoplay, muted; frozen at capture, restoreAtDelivery)",
+   "id": "hero-video",
+   "class": "V",
+   "status": "done",
+   "type": "video-plays",
+   "pass": true,
+   "detail": "iframe/video: false · video playing (Δt 0.80s)",
+   "thirdParty": "www.juicer.io:200×20",
+   "ms": 7560,
+   "environmentLimit": null
+  }
+ ]
+}

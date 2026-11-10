@@ -1,0 +1,36 @@
+{
+ "url": "https://main--7ddb4c84--aemcoder.aem.page/events",
+ "at": "2026-11-06T21:56:50.717Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 83,
+  "controls": 54,
+  "total": 0
+ },
+ "groups": [],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 91,
+   "controls": 54,
+   "total": 0
+  }
+ }
+}

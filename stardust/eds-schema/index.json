@@ -1,0 +1,1854 @@
+{
+ "source": "http://localhost:8791/index-proposed.html",
+ "width": 1280,
+ "profile": "eds",
+ "sections": [
+  {
+   "section": "c-hero-home",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Welcome to Washington, DC"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "From services to neighborhood news, DC.gov is your official and trusted source for what's happening in the District."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Pause animation"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Play animation"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "home-search",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Search for Services"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Search services"
+    },
+    {
+     "role": "heading",
+     "order": 2,
+     "text": "Search services results"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Close search services results"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 2,
+   "repeats": []
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Mayor Muriel Bowser"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mayor Muriel Bowser, serving since 2015, is dedicated to making DC a city of opportunity for all. Her leadership focuses on safety, education, economic growth, and ensuring residents are healthy, housed, and connected."
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "DC Government Organization",
+     "href": "/dc-government-organization"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Visit the Mayor's Website",
+     "href": "https://mayor.dc.gov/"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "City Administrator",
+     "href": "https://oca.dc.gov"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Executive Branch",
+     "href": "https://mayor.dc.gov/page/executive-branch-0"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Chief of Police",
+     "href": "https://mpdc.dc.gov/biography/commander-jeffery-carroll-0"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Interim Chancellor",
+     "href": "https://dcps.dc.gov/biography/dr-kim-jackson"
+    }
+   ],
+   "imgCount": 1,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "A.c-link-blocky",
+     "count": 4,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Service Status"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Swipe"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "as a carousel"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Stack"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "in a list"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Previous slide"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Next slide"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Services",
+     "href": "https://311.dc.gov"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Call 311 at any time to request non-emergency scheduled services."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "DMV Service Centers",
+     "href": "https://dmv.dc.gov/page/all-dc-dmv-locations"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Find more detailed information on each DC DMV service location."
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Trash & Recycling",
+     "href": "http://collectionday.dcgis.dc.gov/"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Pickup is running on its normal schedule today."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Parking",
+     "href": "https://www.parkdc.com/"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "A collection of information and maps for digital/residential parking permits, paid parking, parking meters, and accessible parking in the District."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Metro Service",
+     "href": "https://www.wmata.com/"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Check the System Status for both train and buses! Train alerts Bus alerts"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Road Closures",
+     "href": "https://x.com/DCPoliceTraffic"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "For timely traffic information, please login to Twitter/X to view ."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "posts by DCPoliceTraffic",
+     "href": "https://s.com/DCPoliceTraffic"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 3,
+   "repeats": [
+    {
+     "unitSelector": "LI.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "BUTTON.c-layout-carousel-grid-arrow",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    },
+    {
+     "unitSelector": "LI.c-layout-carousel-grid__slide",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Frequently Requested Services"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Popular"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "New Residents"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Job Seeker"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Business Owners"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Senior"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Taxpayer"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "311 Non-Emergency Requests"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Quickly request non-emergency services and report issues in the District."
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "New request",
+     "href": "https://311.dc.gov/"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Login",
+     "href": "https://311.dc.gov/citizen/s/login/"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "Elderly and Persons with Physical Disabilities Waiver Program",
+     "href": "/services/elderly-and-persons-physical-disabilities-waiver-program"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Get services and support that help you live safely at home or in assisted living."
+    },
+    {
+     "role": "cta",
+     "order": 13,
+     "text": "Adult Protective Services",
+     "href": "/services/adult-protective-services"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Report concerns about an adult who may be harmed, abused, or taken advantage of."
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "Alzheimer's Disease and Related Dementias",
+     "href": "/services/alzheimers-disease-and-related-dementias"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Find information, resources, and support for people living with Alzheimer's disease and other dementias."
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Benefits Assistance",
+     "href": "/services/benefits-assistance"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Get help applying for benefits like Medicaid, the EPD Waiver, and SNAP."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "All citywide services",
+     "href": "/services"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Birth Certificate",
+     "href": "/services/birth-certificate"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "Order a birth certificate."
+    },
+    {
+     "role": "cta",
+     "order": 22,
+     "text": "My School DC",
+     "href": "/services/my-school-dc"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "Register your PK3-12 child for school through My School DC."
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "Out-of-State Driver Licenses",
+     "href": "/services/out-state-driver-licenses"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "If you reside in the District for more than 60 days, you must convert your out-of-state driver license."
+    },
+    {
+     "role": "cta",
+     "order": 26,
+     "text": "Residential Parking Permits",
+     "href": "/services/residential-parking-permits"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "Register for a residential parking permit for a DC DMV-registered private vehicle."
+    },
+    {
+     "role": "cta",
+     "order": 28,
+     "text": "Vehicle Registration",
+     "href": "/services/vehicle-registration"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Visit the DC Department of Motor Vehicles and register your vehicle as a District resident."
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "All citywide services",
+     "href": "/services"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "DC Careers",
+     "href": "/services/dc-careers"
+    },
+    {
+     "role": "body",
+     "order": 32,
+     "text": "Explore job openings with DC government."
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Department of Employment Services (DOES)",
+     "href": "/services/department-employment-services-does"
+    },
+    {
+     "role": "body",
+     "order": 34,
+     "text": "Find job services and resources for DC workers, job seekers, and employers."
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "FedSupport",
+     "href": "/services/fedsupport"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Access training and career tools to help you advance professionally."
+    },
+    {
+     "role": "cta",
+     "order": 37,
+     "text": "Occupational Skills Training",
+     "href": "/services/occupational-skills-training"
+    },
+    {
+     "role": "body",
+     "order": 38,
+     "text": "Get training and education to help you get the job you're looking for."
+    },
+    {
+     "role": "cta",
+     "order": 39,
+     "text": "Talent Capital AI",
+     "href": "/services/talent-capital-ai"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "Sign up to explore new job and career resources."
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "Unemployment Compensation",
+     "href": "/services/unemployment-compensation"
+    },
+    {
+     "role": "body",
+     "order": 42,
+     "text": "Apply for unemployment benefits."
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "All citywide services",
+     "href": "/services"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Building Permit",
+     "href": "/services/building-permit"
+    },
+    {
+     "role": "body",
+     "order": 45,
+     "text": "Apply and pay for building permits online."
+    },
+    {
+     "role": "cta",
+     "order": 46,
+     "text": "Business License",
+     "href": "/services/business-license"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "Apply for a business license."
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "Business Resource Center",
+     "href": "/services/business-resource-center"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Get training and guidance to help you start, manage, or grow your business."
+    },
+    {
+     "role": "cta",
+     "order": 50,
+     "text": "Caregiver Programs",
+     "href": "/services/caregiver-programs"
+    },
+    {
+     "role": "body",
+     "order": 51,
+     "text": "Find training, support, and short-term relief for unpaid caregivers of seniors and adults with disabilities."
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Case Management",
+     "href": "/services/case-management"
+    },
+    {
+     "role": "body",
+     "order": 53,
+     "text": "Get help finding community programs, benefits, and services for eligible seniors and adults with disabilities."
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Commercial Vehicles",
+     "href": "/services/commercial-vehicles"
+    },
+    {
+     "role": "body",
+     "order": 55,
+     "text": "Apply for a commercial driver license (CDL)."
+    },
+    {
+     "role": "cta",
+     "order": 56,
+     "text": "All citywide services",
+     "href": "/services"
+    },
+    {
+     "role": "cta",
+     "order": 57,
+     "text": "Elderly and Persons with Physical Disabilities Waiver Program",
+     "href": "/services/elderly-and-persons-physical-disabilities-waiver-program"
+    },
+    {
+     "role": "body",
+     "order": 58,
+     "text": "Get services and support that help you live safely at home or in assisted living."
+    },
+    {
+     "role": "cta",
+     "order": 59,
+     "text": "Adult Protective Services",
+     "href": "/services/adult-protective-services"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "Report concerns about an adult who may be harmed, abused, or taken advantage of."
+    },
+    {
+     "role": "cta",
+     "order": 61,
+     "text": "Alzheimer's Disease and Related Dementias",
+     "href": "/services/alzheimers-disease-and-related-dementias"
+    },
+    {
+     "role": "body",
+     "order": 62,
+     "text": "Find information, resources, and support for people living with Alzheimer's disease and other dementias."
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "Benefits Assistance",
+     "href": "/services/benefits-assistance"
+    },
+    {
+     "role": "body",
+     "order": 64,
+     "text": "Get help applying for benefits like Medicaid, the EPD Waiver, and SNAP."
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Nutrition for Seniors",
+     "href": "/services/nutrition-seniors"
+    },
+    {
+     "role": "body",
+     "order": 66,
+     "text": "Find nutrition programs designed to serve seniors 60+ and adults with disabilities."
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "Safe at Home Program",
+     "href": "/services/safe-home-program"
+    },
+    {
+     "role": "body",
+     "order": 68,
+     "text": "Get home safety modifications to help prevent falls."
+    },
+    {
+     "role": "cta",
+     "order": 69,
+     "text": "All citywide services",
+     "href": "/services"
+    },
+    {
+     "role": "cta",
+     "order": 70,
+     "text": "Certificate of Clean Hands",
+     "href": "/services/certificate-clean-hands"
+    },
+    {
+     "role": "body",
+     "order": 71,
+     "text": "Verify if you're current on DC tax obligations."
+    },
+    {
+     "role": "cta",
+     "order": 72,
+     "text": "MyTax.DC.gov",
+     "href": "/services/mytaxdcgov"
+    },
+    {
+     "role": "body",
+     "order": 73,
+     "text": "Pay a tax bill, make a property payment, check your refund status, and more."
+    },
+    {
+     "role": "cta",
+     "order": 74,
+     "text": "New Business Registration",
+     "href": "/services/new-business-registration"
+    },
+    {
+     "role": "body",
+     "order": 75,
+     "text": "Register your new business."
+    },
+    {
+     "role": "cta",
+     "order": 76,
+     "text": "OTR Recorder of Deeds",
+     "href": "/services/otr-recorder-deeds"
+    },
+    {
+     "role": "body",
+     "order": 77,
+     "text": "View document images and index information online from August 1921 to today."
+    },
+    {
+     "role": "cta",
+     "order": 78,
+     "text": "Search, File, Pay Taxes Online",
+     "href": "/services/search-file-pay-taxes-online"
+    },
+    {
+     "role": "body",
+     "order": 79,
+     "text": "File, amend, pay your taxes online for free."
+    },
+    {
+     "role": "cta",
+     "order": 80,
+     "text": "Tax Forms & Instructions",
+     "href": "/services/tax-forms-instructions"
+    },
+    {
+     "role": "body",
+     "order": 81,
+     "text": "Find all DC tax forms and instructions in one place."
+    },
+    {
+     "role": "cta",
+     "order": 82,
+     "text": "All citywide services",
+     "href": "/services"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 69,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.c-tabset__panel",
+     "count": 6,
+     "unit": {
+      "headings": 5,
+      "ctas": 7,
+      "imgs": 0,
+      "textRuns": 13
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "What's happening in DC"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "More updates",
+     "href": "/news?field_agency_dropdown%5Bdc_gov%5D=dc_gov"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "8"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Nov"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "National Veterans Parade",
+     "href": "/events/national-veterans-parade"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Honor veterans at the for a heartfelt tribute to their service"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "National Veterans Parade"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "Upcoming Event"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "Sat, Nov 21, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Ward 4 Roll Off Day - Nov 21, 2026: Riggs-LaSalle Community Ctr",
+     "href": "/events/ward-4-roll-day-nov-21-2026-riggs-lasalle-community-ctr"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Event"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "Fri, Nov 13, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 12,
+     "text": "#BeDowntown: DowntownDC Holiday Market Dates Announced",
+     "href": "/events/bedowntown-downtowndc-holiday-market-dates-announced"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "Event"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Sun, Nov 8, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 15,
+     "text": "National Veterans Parade 5K",
+     "href": "/events/national-veterans-parade-5k"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "Event"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "Sat, Nov 7, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Ward 5 Roll Off Day - Nov 7, 2026: Arboretum Community Ctr",
+     "href": "/events/ward-5-roll-day-nov-7-2026-arboretum-community-ctr"
+    },
+    {
+     "role": "body",
+     "order": 19,
+     "text": "Event"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Thu, Nov 5, 2026"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Mayor Bowser Marks Start of Hypothermia Season, Urges Residents to Call the Shelter Hotline to Connect Neighbors in Need with Free, Accessible Transportation to Shelter",
+     "href": "/news/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Press Releases"
+    }
+   ],
+   "imgCount": 5,
+   "editableTexts": 13,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "ARTICLE.c-slab-tight",
+     "count": 5,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 3
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "More of what's happening in DC"
+    },
+    {
+     "role": "cta",
+     "order": 1,
+     "text": "Upcoming Events",
+     "href": "/events"
+    },
+    {
+     "role": "cta",
+     "order": 2,
+     "text": "District News",
+     "href": "/news"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "Newsletters",
+     "href": "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "Mayoral Initiatives",
+     "href": "/initiatives"
+    },
+    {
+     "role": "cta",
+     "order": 5,
+     "text": "Citywide Projects",
+     "href": "/citywide-projects"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "Jobs & Careers",
+     "href": "https://dc.gov/jobs"
+    }
+   ],
+   "imgCount": 6,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "ARTICLE.c-card-animated-shape",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 1,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Essential Fall Resources"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Embrace the season with information and services for DC residents"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "8"
+    },
+    {
+     "role": "eyebrow",
+     "order": 3,
+     "text": "Nov"
+    },
+    {
+     "role": "cta",
+     "order": 4,
+     "text": "National Veterans Parade 5K",
+     "href": "/events/national-veterans-parade-5k"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "National Veterans Parade 5K"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Upcoming Event"
+    },
+    {
+     "role": "body",
+     "order": 7,
+     "text": "13"
+    },
+    {
+     "role": "eyebrow",
+     "order": 8,
+     "text": "Nov"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "#BeDowntown: DowntownDC Holiday Market Dates Announced",
+     "href": "/events/bedowntown-downtowndc-holiday-market-dates-announced"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "DowntownDC Holiday Market Returns for 22nd Season With Extended Run and New Holiday Experiences"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "The beloved Downtown DC tradition returns November 13 through December 23 with more time to shop, celebrate and give back"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Upcoming Event"
+    },
+    {
+     "role": "heading",
+     "order": 13,
+     "text": "A Local's Guide to the Best Things to do in DC"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "Link to site",
+     "href": "https://entertainment.dc.gov/"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Essential Fall Services"
+    },
+    {
+     "role": "cta",
+     "order": 16,
+     "text": "All Services",
+     "href": "/services"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "Free Produce From DPR",
+     "href": "/services/free-produce-dpr"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "Free produce at DPR urban garden locations."
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Holiday Safety Tips From MPD",
+     "href": "/services/holiday-safety-tips-mpd"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "Learn how to keep your holiday safe from crime."
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "Leaf Collection",
+     "href": "/services/leaf-collection"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Find a leaf collection near you."
+    },
+    {
+     "role": "cta",
+     "order": 23,
+     "text": "My School DC",
+     "href": "/services/my-school-dc"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "Register your PK3-12 child for school through My School DC."
+    },
+    {
+     "role": "cta",
+     "order": 25,
+     "text": "Parks",
+     "href": "/services/parks"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "DPR has a great park for you and your family, just minutes away from your front door."
+    },
+    {
+     "role": "cta",
+     "order": 27,
+     "text": "Winter Wellness",
+     "href": "/services/winter-wellness"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "Find resources to help improve your health and well-being during winter."
+    }
+   ],
+   "imgCount": 3,
+   "editableTexts": 21,
+   "repeats": [
+    {
+     "unitSelector": "DIV.c-card-service-link",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 1,
+      "imgs": 0,
+      "textRuns": 2
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "District Statistics"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Data and insights paint a picture of our vibrant community"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Updated September 2026"
+    },
+    {
+     "role": "heading",
+     "order": 3,
+     "text": "Population"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "702,250"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Census Estimate"
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "2025"
+    },
+    {
+     "role": "heading",
+     "order": 7,
+     "text": "Housing Units"
+    },
+    {
+     "role": "body",
+     "order": 8,
+     "text": "368,700"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "American Community Survey 1-yr Estimates"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "2024"
+    },
+    {
+     "role": "heading",
+     "order": 11,
+     "text": "Median Household Income"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "$109,707"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "American Community Survey 1-yr Estimates"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "2024"
+    },
+    {
+     "role": "heading",
+     "order": 15,
+     "text": "Poverty Rate"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "17%"
+    },
+    {
+     "role": "body",
+     "order": 17,
+     "text": "American Community Survey 1-yr Estimates"
+    },
+    {
+     "role": "body",
+     "order": 18,
+     "text": "2024"
+    },
+    {
+     "role": "heading",
+     "order": 19,
+     "text": "Median Rent"
+    },
+    {
+     "role": "body",
+     "order": 20,
+     "text": "$1,931"
+    },
+    {
+     "role": "body",
+     "order": 21,
+     "text": "American Community Survey 1-yr Estimates"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "2024"
+    },
+    {
+     "role": "heading",
+     "order": 23,
+     "text": "Unemployment Rate"
+    },
+    {
+     "role": "body",
+     "order": 24,
+     "text": "6%"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "American Community Survey 1-yr Estimates"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "2018-2022"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 15,
+   "repeats": [
+    {
+     "unitSelector": "P.",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 0
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.c-card-stat",
+     "count": 6,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 4
+     },
+     "uniform": true
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "Social Updates"
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Mayor Muriel Bowser"
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "@MayorBowser"
+    },
+    {
+     "role": "cta",
+     "order": 3,
+     "text": "X (Twitter) Logo",
+     "href": "https://twitter.com/MayorBowser/status/2118749109809025098"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "Photo from MayorBowser on Twitter at 11/6/26 at 4:55PM"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Winter is around the corner, which means winter weather is, too! Become a Snow Team Hero by signing up to help neighbors in need clear their pathways:"
+    },
+    {
+     "role": "cta",
+     "order": 6,
+     "text": "snowteam.dc.gov",
+     "href": "https://t.co/vKQLJ4BPfj"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "https://t.co/l8dVZLI5et",
+     "href": "https://t.co/l8dVZLI5et"
+    },
+    {
+     "role": "cta",
+     "order": 8,
+     "text": "Reply",
+     "href": "https://twitter.com/intent/tweet?in_reply_to=2118749109809025098"
+    },
+    {
+     "role": "cta",
+     "order": 9,
+     "text": "Retweet",
+     "href": "https://twitter.com/intent/retweet?tweet_id=2118749109809025098"
+    },
+    {
+     "role": "cta",
+     "order": 10,
+     "text": "Like",
+     "href": "https://twitter.com/intent/like?tweet_id=2118749109809025098"
+    },
+    {
+     "role": "cta",
+     "order": 11,
+     "text": "6 Nov 2026",
+     "href": "https://twitter.com/MayorBowser/status/2118749109809025098"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "Mayor Muriel Bowser"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "@MayorBowser"
+    },
+    {
+     "role": "cta",
+     "order": 14,
+     "text": "X (Twitter) Logo",
+     "href": "https://twitter.com/MayorBowser/status/2118374415691846046"
+    },
+    {
+     "role": "body",
+     "order": 15,
+     "text": "LIVE: Mayor Bowser Encourages District Residents to Take Pledge During Hypothermia Season"
+    },
+    {
+     "role": "body",
+     "order": 16,
+     "text": "LIVE: Mayor Bowser Encourages District Residents to Take Pledge During Hypothermia Season"
+    },
+    {
+     "role": "cta",
+     "order": 17,
+     "text": "x.com/i/broadcasts/2…",
+     "href": "https://t.co/WE1n4t6APb"
+    },
+    {
+     "role": "cta",
+     "order": 18,
+     "text": "Reply",
+     "href": "https://twitter.com/intent/tweet?in_reply_to=2118374415691846046"
+    },
+    {
+     "role": "cta",
+     "order": 19,
+     "text": "Retweet",
+     "href": "https://twitter.com/intent/retweet?tweet_id=2118374415691846046"
+    },
+    {
+     "role": "cta",
+     "order": 20,
+     "text": "Like",
+     "href": "https://twitter.com/intent/like?tweet_id=2118374415691846046"
+    },
+    {
+     "role": "cta",
+     "order": 21,
+     "text": "5 Nov 2026",
+     "href": "https://twitter.com/MayorBowser/status/2118374415691846046"
+    },
+    {
+     "role": "body",
+     "order": 22,
+     "text": "Mayor Muriel Bowser"
+    },
+    {
+     "role": "body",
+     "order": 23,
+     "text": "@MayorBowser"
+    },
+    {
+     "role": "cta",
+     "order": 24,
+     "text": "X (Twitter) Logo",
+     "href": "https://twitter.com/MayorBowser/status/2118392403820474730"
+    },
+    {
+     "role": "body",
+     "order": 25,
+     "text": "Photo from MayorBowser on Twitter at 11/5/26 at 5:18PM"
+    },
+    {
+     "role": "body",
+     "order": 26,
+     "text": "Happy PoPville Day in Washington, DC!"
+    },
+    {
+     "role": "body",
+     "order": 27,
+     "text": "PoPville"
+    },
+    {
+     "role": "body",
+     "order": 28,
+     "text": "@PoPville"
+    },
+    {
+     "role": "body",
+     "order": 29,
+     "text": "Remember, Remember, the 5th of November for Today is PoPville Day Now and Forever - A true honor for real. Some memories and words of gratitude:"
+    },
+    {
+     "role": "cta",
+     "order": 30,
+     "text": "https://t.co/3onV2do79k",
+     "href": "https://t.co/3onV2do79k"
+    },
+    {
+     "role": "cta",
+     "order": 31,
+     "text": "https://t.co/KCbpGW8HuL",
+     "href": "https://t.co/KCbpGW8HuL"
+    },
+    {
+     "role": "cta",
+     "order": 32,
+     "text": "Reply",
+     "href": "https://twitter.com/intent/tweet?in_reply_to=2118392403820474730"
+    },
+    {
+     "role": "cta",
+     "order": 33,
+     "text": "Retweet",
+     "href": "https://twitter.com/intent/retweet?tweet_id=2118392403820474730"
+    },
+    {
+     "role": "cta",
+     "order": 34,
+     "text": "Like",
+     "href": "https://twitter.com/intent/like?tweet_id=2118392403820474730"
+    },
+    {
+     "role": "cta",
+     "order": 35,
+     "text": "5 Nov 2026",
+     "href": "https://twitter.com/MayorBowser/status/2118392403820474730"
+    },
+    {
+     "role": "body",
+     "order": 36,
+     "text": "Mayor Muriel Bowser"
+    },
+    {
+     "role": "body",
+     "order": 37,
+     "text": "@MayorBowser"
+    },
+    {
+     "role": "cta",
+     "order": 38,
+     "text": "X (Twitter) Logo",
+     "href": "https://twitter.com/MayorBowser/status/2118027815769821489"
+    },
+    {
+     "role": "body",
+     "order": 39,
+     "text": "Photo from MayorBowser on Twitter at 11/4/26 at 5:09PM"
+    },
+    {
+     "role": "body",
+     "order": 40,
+     "text": "RT @DCDPR: FUN ALERT: Registration for Winter Programs Opens TODAY & Thursday at NOON! Waiting room opens at 11:55 a.m. …"
+    },
+    {
+     "role": "cta",
+     "order": 41,
+     "text": "t.co/3So1Vh",
+     "href": "https://t.co/3So1Vh"
+    },
+    {
+     "role": "cta",
+     "order": 42,
+     "text": "Reply",
+     "href": "https://twitter.com/intent/tweet?in_reply_to=2118027815769821489"
+    },
+    {
+     "role": "cta",
+     "order": 43,
+     "text": "Retweet",
+     "href": "https://twitter.com/intent/retweet?tweet_id=2118027815769821489"
+    },
+    {
+     "role": "cta",
+     "order": 44,
+     "text": "Like",
+     "href": "https://twitter.com/intent/like?tweet_id=2118027815769821489"
+    },
+    {
+     "role": "cta",
+     "order": 45,
+     "text": "4 Nov 2026",
+     "href": "https://twitter.com/MayorBowser/status/2118027815769821489"
+    },
+    {
+     "role": "body",
+     "order": 46,
+     "text": "Mayor Muriel Bowser"
+    },
+    {
+     "role": "body",
+     "order": 47,
+     "text": "@MayorBowser"
+    },
+    {
+     "role": "cta",
+     "order": 48,
+     "text": "X (Twitter) Logo",
+     "href": "https://twitter.com/MayorBowser/status/2118389825095012353"
+    },
+    {
+     "role": "body",
+     "order": 49,
+     "text": "Photo from MayorBowser on Twitter at 11/5/26 at 5:07PM"
+    },
+    {
+     "role": "body",
+     "order": 50,
+     "text": "Registration for all @DCDPR winter programming is now open in Washington, DC!"
+    },
+    {
+     "role": "cta",
+     "order": 51,
+     "text": "https://t.co/UPVW2pNFUC",
+     "href": "https://t.co/UPVW2pNFUC"
+    },
+    {
+     "role": "cta",
+     "order": 52,
+     "text": "Reply",
+     "href": "https://twitter.com/intent/tweet?in_reply_to=2118389825095012353"
+    },
+    {
+     "role": "cta",
+     "order": 53,
+     "text": "Retweet",
+     "href": "https://twitter.com/intent/retweet?tweet_id=2118389825095012353"
+    },
+    {
+     "role": "cta",
+     "order": 54,
+     "text": "Like",
+     "href": "https://twitter.com/intent/like?tweet_id=2118389825095012353"
+    },
+    {
+     "role": "cta",
+     "order": 55,
+     "text": "5 Nov 2026",
+     "href": "https://twitter.com/MayorBowser/status/2118389825095012353"
+    },
+    {
+     "role": "body",
+     "order": 56,
+     "text": "DC Parks & Recreation #WhereFunHappens"
+    },
+    {
+     "role": "body",
+     "order": 57,
+     "text": "@DCDPR"
+    },
+    {
+     "role": "cta",
+     "order": 58,
+     "text": "X (Twitter) Logo",
+     "href": "https://twitter.com/DCDPR/status/2117979442173669752"
+    },
+    {
+     "role": "body",
+     "order": 59,
+     "text": "Photo from DCDPR on Twitter at 11/4/26 at 1:57PM"
+    },
+    {
+     "role": "body",
+     "order": 60,
+     "text": "FUN ALERT: Registration for Winter Programs Opens TODAY & Thursday at NOON! Waiting room opens at 11:55 a.m."
+    },
+    {
+     "role": "body",
+     "order": 61,
+     "text": "Retweeted by"
+    },
+    {
+     "role": "cta",
+     "order": 62,
+     "text": "Mayor Muriel Bowser",
+     "href": "https://x.com/MayorBowser"
+    },
+    {
+     "role": "cta",
+     "order": 63,
+     "text": "nixle.us/HSRHH",
+     "href": "https://t.co/3So1VheObQ"
+    },
+    {
+     "role": "cta",
+     "order": 64,
+     "text": "Reply",
+     "href": "https://twitter.com/intent/tweet?in_reply_to=2117979442173669752"
+    },
+    {
+     "role": "cta",
+     "order": 65,
+     "text": "Retweet",
+     "href": "https://twitter.com/intent/retweet?tweet_id=2117979442173669752"
+    },
+    {
+     "role": "cta",
+     "order": 66,
+     "text": "Like",
+     "href": "https://twitter.com/intent/like?tweet_id=2117979442173669752"
+    },
+    {
+     "role": "cta",
+     "order": 67,
+     "text": "4 Nov 2026",
+     "href": "https://twitter.com/DCDPR/status/2117979442173669752"
+    },
+    {
+     "role": "cta",
+     "order": 68,
+     "text": "Load More",
+     "href": "#"
+    }
+   ],
+   "imgCount": 11,
+   "editableTexts": 2,
+   "repeats": [
+    {
+     "unitSelector": "DIV.j-stack",
+     "count": 3,
+     "unit": {
+      "headings": 0,
+      "ctas": 13,
+      "imgs": 4,
+      "textRuns": 21
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.feed-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 7,
+      "imgs": 2,
+      "textRuns": 11
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.feed-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 8,
+      "imgs": 2,
+      "textRuns": 14
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "LI.feed-item",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 6,
+      "imgs": 2,
+      "textRuns": 10
+     },
+     "uniform": false
+    }
+   ]
+  },
+  {
+   "section": "c-layout-container",
+   "items": [
+    {
+     "role": "heading",
+     "order": 0,
+     "text": "We want to hear from you."
+    },
+    {
+     "role": "body",
+     "order": 1,
+     "text": "Your feedback is important to us. We use it to improve this website and District services, and it's always anonymous."
+    },
+    {
+     "role": "body",
+     "order": 2,
+     "text": "Was this page helpful?"
+    },
+    {
+     "role": "body",
+     "order": 3,
+     "text": "Yes"
+    },
+    {
+     "role": "body",
+     "order": 4,
+     "text": "No"
+    },
+    {
+     "role": "body",
+     "order": 5,
+     "text": "Tell us what you think in our 5 minute survey."
+    },
+    {
+     "role": "body",
+     "order": 6,
+     "text": "Send feedback"
+    },
+    {
+     "role": "cta",
+     "order": 7,
+     "text": "Contact us",
+     "href": "/"
+    },
+    {
+     "role": "heading",
+     "order": 8,
+     "text": "Send your feedback"
+    },
+    {
+     "role": "body",
+     "order": 9,
+     "text": "Close feedback form"
+    },
+    {
+     "role": "body",
+     "order": 10,
+     "text": "Please do not include personal information (home address, tax ID, social security number, etc.)"
+    },
+    {
+     "role": "body",
+     "order": 11,
+     "text": "What was helpful about this page?"
+    },
+    {
+     "role": "body",
+     "order": 12,
+     "text": "If you need us to contact you, please provide an email address:"
+    },
+    {
+     "role": "body",
+     "order": 13,
+     "text": "If this is an emergency, please call 911"
+    },
+    {
+     "role": "body",
+     "order": 14,
+     "text": "Leave this field blank"
+    }
+   ],
+   "imgCount": 0,
+   "editableTexts": 7,
+   "repeats": [
+    {
+     "unitSelector": "DIV.c-feedback__card",
+     "count": 2,
+     "unit": {
+      "headings": 1,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 5
+     },
+     "uniform": false
+    },
+    {
+     "unitSelector": "DIV.webform-type-webform-markup",
+     "count": 2,
+     "unit": {
+      "headings": 0,
+      "ctas": 0,
+      "imgs": 0,
+      "textRuns": 1
+     },
+     "uniform": true
+    }
+   ]
+  }
+ ]
+}

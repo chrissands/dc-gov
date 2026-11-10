@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority",
+  "width": 1440,
+  "vh": 900,
+  "height": 3017,
+  "chunks": 4,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "at": "2026-11-06T21:38:34.277Z"
+}

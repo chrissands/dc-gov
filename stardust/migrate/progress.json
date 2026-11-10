@@ -1,0 +1,44 @@
+{
+  "units": {
+    "plan": {
+      "status": "done",
+      "kind": "plan",
+      "templates": [
+        "landing",
+        "listing",
+        "static",
+        "unique"
+      ],
+      "pages": 4,
+      "startedAt": "2026-11-06T19:18:11Z",
+      "endedAt": "2026-11-06T19:18:34Z",
+      "verdict": "rendered 4, unchanged 0, refused 0, passthrough 0 (archetypes index, news, agency-directory, neighborhoods; siblings render after their archetype unit)"
+    },
+    "render-listing": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-06T20:53:16Z",
+      "endedAt": "2026-11-06T20:56:09Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0 (services, events: A′ siblings of news; structural clones stardust/prototypes/siblings/*.html; variance budgeted as hero-stack + view-listing grid/media + feedback)"
+    },
+    "render-static": {
+      "status": "done",
+      "kind": "render",
+      "templates": [
+        "static"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-06T21:27:48Z",
+      "endedAt": "2026-11-06T21:28:55Z",
+      "verdict": "rendered 2, unchanged 0, refused 0, passthrough 0 (organizational-charts…, community-engagement-and-feedback: A′ siblings of agency-directory; both heroes are hero-stack; org charts has no sidebar)"
+    },
+    "report": {
+      "status": "pending",
+      "kind": "report"
+    }
+  }
+}

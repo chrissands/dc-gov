@@ -1,0 +1,17 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://beta.dc.gov/
+  modules  7 sections: capped 1920 ×4, 1464 ×2 · full-bleed ×1
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/index-proposed.html
+  modules  7 sections: capped 1920 ×4, 1464 ×2 · full-bleed ×1
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1920px = build 1920px (±20, shared module cap)
+  ✓ module 1/7: full-bleed on both
+  ✓ module 2/7: 1920px = 1920px
+  ✓ module 3/7: 1464px = 1464px
+  ✓ module 4/7: 1464px = 1464px
+  ✓ module 5/7: 1920px = 1920px
+  ✓ module 6/7: 1920px = 1920px
+  ✓ module 7/7: 1920px = 1920px
+cap-probe: PASS at 2560 — 0 of 8 rows failed (evidence stardust/replica/gates/index-2560/cap-iter.json)

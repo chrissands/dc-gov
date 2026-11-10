@@ -1,0 +1,25 @@
+{
+  "frozenAt": "2026-11-06T22:24:35.703Z",
+  "root": ".",
+  "paths": [
+    "styles/",
+    "blocks/header/",
+    "blocks/footer/",
+    "head.html",
+    "scripts/"
+  ],
+  "files": {
+    "blocks/footer/footer.css": "ae13d96e67408303638560bb399b5d02902ba53a71cbe80e681321b6894dd8ba",
+    "blocks/footer/footer.js": "05916d311cf5727dde63e905e7bf6dd2f2f5a235006cd46b64076c23fdef21ba",
+    "blocks/header/header.css": "a30204ef27243894e29cc208e76508f242b018113331c714357e639c7da4c67a",
+    "blocks/header/header.js": "786516baa689753c52ed2f04c768e09458642cab28caa310084867e016bcf915",
+    "head.html": "febf320b5244a1634f688726999064ba4b95335ec71ef14628d4806501baca65",
+    "scripts/aem.js": "786e8019b14b4c0bee9df38a3162f129c04310d9d00e7a6dd326c7e5830c84ae",
+    "scripts/consent-check.js": "ac21f825288cfc82c52a6acd9c57bbb76a2017ee1b06319d493244f32751249a",
+    "scripts/consented.js": "8a0ec7239cfab36c9bbfd8e7cde178c6c9061f68da8539879411ee9fa09b18ab",
+    "scripts/scripts.js": "e075a538e0a277f78844b05e5e3d5d71148d6de0158be6a9e213118296a2783f",
+    "styles/fonts.css": "61839f4ddc9e136eb7096861ad0e1c67152c10a6c031817c8f8233d9f5c5a831",
+    "styles/lazy-styles.css": "391d6721991eb169fa04d7c71d9b597361d76c24ab8a3d5f1dcb47457d8ca2d6",
+    "styles/styles.css": "7aa75bdf684c7f0a6572dc71d5a7d9e890171d4a18a5a8c22ed19b3bb699dce1"
+  }
+}

@@ -1,0 +1,180 @@
+{
+  "slug": "neighborhoods",
+  "type": "unique",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero",
+    "cards-tabbed",
+    "emblem"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "shct",
+    "block--main"
+  ],
+  "canonShas": {
+    "header": "f1887f413a05",
+    "footer": "da2b6d195b0c",
+    "css": "48f0559f0425"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Neighborhoods | DC.gov",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Neighborhoods | DC.gov",
+    "url": "https://beta.dc.gov/neighborhoods"
+  },
+  "migratedAt": "2026-11-06T19:18:19Z",
+  "designMdSha": "97e903412583",
+  "designJsonSha": "2a11f90f5560",
+  "sourceCurrentSha": "633df7cb1c9d",
+  "sourceProposedSha": "a6a8bbdb2e09",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 22,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/services/marriage-license",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/unemployment-compensation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/apply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/check-status",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/8",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/31",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/27",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/roles/job-seeker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/22",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/news/mayor-bowser-announces-ramon-griffin-thurgood-marshall-academy-2027-dc-teacher-year-surprise",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/community-engagement-and-feedback",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/search?key=Public%20School%20Enrollment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Boundaries%20Map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Choice%20and%20Lottery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=Special%20Education%20Services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Calendars%20and%20Holidays",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/mayor",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/dc-agency-facebook-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-twitter-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-youtube-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-dc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-and-security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-and-conditions-use",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "neighborhoods/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "neighborhoods/_meta.json",
+  "driverVersion": "1"
+}

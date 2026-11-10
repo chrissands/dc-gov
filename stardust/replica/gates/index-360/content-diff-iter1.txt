@@ -1,0 +1,143 @@
+[live-session] waiting to pace live navigations to beta.dc.gov (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 360px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 312 text nodes — 22 headings, 3 eyebrows, 126 CTAs, 161 body; 26 img
+  build: 304 text nodes — 22 headings, 3 eyebrows, 126 CTAs, 153 body; 26 img
+  editable texts (outermost h*/p/ul/ol): source 147 / build 147
+  attributes (placeholder/aria-label/title): source 24 / build 9; icons: source 96 / build 95
+root "header"
+  source: 82 text nodes — 10 headings, 0 eyebrows, 39 CTAs, 33 body; 4 img
+  build: 63 text nodes — 7 headings, 0 eyebrows, 23 CTAs, 33 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 20 / build 10
+  attributes (placeholder/aria-label/title): source 1 / build 2; icons: source 28 / build 22
+root "footer" — build: absent (no <footer> / [role="contentinfo"] outside the main root(s)) — measured as empty
+  source: 44 text nodes — 0 headings, 0 eyebrows, 28 CTAs, 16 body; 0 img
+  build: 0 text nodes — 0 headings, 0 eyebrows, 0 CTAs, 0 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 0
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 6 / build 0
+
+Findings: 122 (54 structural 🔴)
+Tiers: looks-same 🔴 54 · nothing-lost 🟡 19 · accepted 🟢 0 (owner 0, auto 0) · advisory 49
+  🔴 MISSING HEADING [header]: source heading "Browse by Action" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [header]: source cta "Apply for a Building Permit" → https://alpha.dc.gov/services/building-permit has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Apply for a Business License" → https://dlcp.dc.gov/service/business-licensing-division has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Apply for a Marriage License" → /services/marriage-license has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Apply for Unemployment Compensation" → /services/unemployment-compensation has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "More" → /actions/apply has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Check Status of my Business License" → https://mybusiness.dc.gov/login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Check Status of my Property Taxes" → https://otr.cfo.dc.gov/page/real-property-tax-rates has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Check Status of my FOIA Request" → https://myfoiadc.govqa.us/WEBAPP/_rs/(S(4ch5nkdwosjrwbqfyrt1fbio))/supporthome.aspx has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "More" → /actions/check-status has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [header]: source heading "Browse by Life Changes" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [header]: source cta "All Life Changes" → / has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Moving to DC" → /taxonomy/term/8 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING [header]: source heading "Browse by Your Role or Identity" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA [header]: source cta "All Roles & Identities" → / has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Veteran" → /taxonomy/term/31 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Older Adult" → /taxonomy/term/27 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "Job Seeker" → /roles/job-seeker has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [header]: source cta "New Resident" → /taxonomy/term/22 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [header]: source inline svg #location-pin-question (0×0) at "i want to" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source empty icon box (0×0) at "i want to" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source empty icon box (0×0) at "apply for" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source empty icon box (0×0) at "check status of" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source inline svg #user (0×0) at "i am a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING ICON [header]: source empty icon box (0×0) at "i am a" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🔴 MISSING CTA [footer]: source cta "Services" → /services has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Neighborhoods" → /neighborhoods has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Accessibility" → /dcgov-accessibility-policy has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Submit a request" → https://311.dc.gov/citizen/s/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Citywide News" → /news has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Citywide Calendar" → /events has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Subscribe to Receive Emails" → https://service.govdelivery.com/service/user.html?code=DCWASH has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Subscribe to Text Alerts" → https://textalert.ema.dc.gov/index.php?CCheck=1 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Subscribe to Newsletters" → https://public.govdelivery.com/accounts/DCWASH/subscriber/new? has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Green DC" → https://green.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Age-Friendly DC" → https://agefriendly.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Sustainable DC" → https://sustainable.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Connect DC" → https://connect.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Great Streets" → https://greatstreets.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Ready DC" → https://ready.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Open DC" → https://ogag.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Budget" → https://cfo.dc.gov/budget has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Emancipation" → https://emancipation.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Consumer Protection" → https://oag.dc.gov/consumer-protection has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Property Quest" → https://propertyquest.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Service Request Center" → https://311.dc.gov/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Facebook Pages" → /dc-agency-facebook-links has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "X Feeds" → /dc-agency-twitter-links has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "YouTube channels." → /dc-agency-youtube-links has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "About DC" → /about-dc has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Accessibility" → /dcgov-accessibility-policy has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Privacy and Security" → /privacy-and-security has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA [footer]: source cta "Terms and Conditions" → /terms-and-conditions-use has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING ICON [footer]: source inline svg #dcgov-flag (96×50) at "home" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟠 FONT FORK [#main-content]: 3 matched line(s) render a DIFFERENT face: body "13": source Neue Haas Grotesk Display Pro→sys vs build Neue Haas Grotesk Display Pro→sys (15%); body "17%": source Neue Haas Grotesk Display Pro→sys vs build Neue Haas Grotesk Display Pro→sys (13%); body "$1,931": source Neue Haas Grotesk Display Pro→sys vs build Neue Haas Grotesk Display Pro→sys (11%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟠 FONT FORK [header]: 2 matched line(s) render a DIFFERENT face: body "1": source Neue Haas Grotesk Text Pro→sys vs build Neue Haas Grotesk Text Pro→sys (42%); body "1": source Neue Haas Grotesk Text Pro→sys vs build Neue Haas Grotesk Text Pro→sys (42%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 MISSING BODY [#main-content]: source body "Select Language"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "English"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Spanish"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Amharic"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Chinese (Simplified)"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "French"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Korean"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [#main-content]: source body "Vietnamese"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <select> aria-label="Select Language" has no build <select> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Previous slide" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Next slide" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Go to slide 1" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Go to slide 2" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Go to slide 3" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Go to slide 4" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Go to slide 5" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <button> aria-label="Go to slide 6" has no build <button> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="1 of 6" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="2 of 6" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="3 of 6" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="4 of 6" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="5 of 6" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ARIA-LABEL [#main-content]: source <li> aria-label="6 of 6" has no build <li> with that aria-label. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 MISSING ICON [#main-content]: source inline svg #translate (20×18) at "select language english spanish amharic " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING BODY [header]: source body "I want to"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "Apply For"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "Check Status Of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "LIfe Changes"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "Find resources and guidance for milestones like "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "I am a"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "How do you identify?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [header]: source body "Find resources tailored to you. Choose your role"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA [header]: build body "Select Language" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "English" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Spanish" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Amharic" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Chinese (Simplified)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "French" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Korean" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [header]: build body "Vietnamese" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT [header]: build has 10 outermost editable element(s) vs 20 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 EXTRA ARIA-LABEL [header]: build <select> aria-label="Select Language" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).
+  🟡 MISSING ICON [header]: source inline svg #briefcase (0×0) at "job seeker" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 EXTRA ICON [header]: build inline svg #translate (0×0) at "select language english spanish amharic " has no source source. Build-only icon — confirm it is intended.
+  🟡 MISSING BODY [footer]: source body "Government"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "District News"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [footer]: source body "Toggle sub-menu" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [footer]: source body "District Initiatives"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [footer]: source body "Toggle sub-menu" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [footer]: source body "About DC"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [footer]: source body "Toggle sub-menu" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [footer]: source body "Contact Us"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING SR-ONLY TEXT [footer]: source body "Toggle sub-menu" (visually hidden, read by assistive tech) not found in build. Visually hidden text the source gives screen readers is gone — restore it (sr-only text or the aria-label it fed).
+  🟡 MISSING BODY [footer]: source body "41 pages available"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Follow Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "72 feeds available"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Read Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "27 channels available"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Follow Now"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY [footer]: source body "Copyright © 2026 DC.Gov. All rights reserved."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EDITABLE COUNT [footer]: build has 0 outermost editable element(s) vs 5 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).
+  🟡 MISSING ICON [footer]: source inline svg #body (16×17) at "accessibility" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg #311 (31×28) at "submit a request" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg #facebook (33×26) at "facebook pages 41 pages available follow" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg #x-twitter (33×26) at "x feeds 72 feeds available read now" has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.
+  🟡 MISSING ICON [footer]: source inline svg #youtube (33×26) at "youtube channels. 27 channels available " has no build icon there. A source icon with no build icon at the same anchor — an empty icon box or a dropped glyph; lift the same glyph, file or svg.

@@ -1,0 +1,11 @@
+{
+  "/agency-directory": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-06T21:19:19.308Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "units": {
+    "foundation": {
+      "status": "done",
+      "kind": "foundation",
+      "templates": [
+        "landing",
+        "listing",
+        "static",
+        "unique"
+      ],
+      "startedAt": "2026-11-06T19:19:35Z",
+      "endedAt": "2026-11-06T19:37:58Z",
+      "blocks": 2,
+      "gates": {
+        "360": {
+          "chromeParity": "0 deltas"
+        },
+        "1440": {
+          "chromeParity": "13 deltas (12 R-01 text widths/registered footer-social spacing, 1 shell offset) on the published /footer shell"
+        },
+        "crop": "deferred to archetype-index (first delivered page; no in-scope shell page exists)",
+        "chrome": "13/0"
+      },
+      "verdict": "foundation: header+footer+styles live, nav/footer published, lint ok, chrome-parity 1440 13 / 360 0 deltas, pushed ab3a592"
+    },
+    "archetype-index": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "landing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-06T19:38:06Z",
+      "endedAt": "2026-11-06T20:12:36Z",
+      "blocks": 10,
+      "gates": {
+        "360": {
+          "pixel": 7.27,
+          "heightDelta": 31,
+          "heightPct": 0.2,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 3.93,
+          "heightDelta": 59,
+          "heightPct": 0.6,
+          "verdict": "PASS"
+        },
+        "crop": "header 0.50% footer 1.41%",
+        "chrome": "foundation 13/0"
+      },
+      "verdict": "archetype-index: live https://main--7ddb4c84--aemcoder.aem.page/, blocks 10, gate 1440 3.93% Δh 59px (0.6%) / 360 7.27% Δh 31px (0.2%), crop header 0.50% footer 1.41%, requests 0, pushed 058cbb7"
+    },
+    "archetype-news": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "listing"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-06T20:30:00Z",
+      "endedAt": "2026-11-06T20:52:27Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": 2.09,
+          "heightDelta": 1,
+          "heightPct": 0,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 0.86,
+          "heightDelta": 1,
+          "heightPct": 0,
+          "verdict": "PASS"
+        },
+        "crop": "chrome blocks unchanged since the foundation/index crop (header 0.50% footer 1.41%)",
+        "chrome": "foundation 13/0"
+      },
+      "verdict": "archetype-news: live https://main--7ddb4c84--aemcoder.aem.page/news, blocks 3 (hero-simple, view-listing, emblem-section), gate 1440 0.86% Δh 1px / 360 2.09% Δh 1px, clipped 0, MISSING+HIDDEN 0, 3 fix rounds (pager data-num tiers, :before scoping), requests 0"
+    },
+    "archetype-agency-directory": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "static"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-06T21:15:53Z",
+      "endedAt": "2026-11-06T21:27:39Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": 3.15,
+          "heightDelta": 1,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 1.37,
+          "heightDelta": 1,
+          "verdict": "PASS"
+        },
+        "crop": "chrome blocks unchanged since the foundation/index crop",
+        "chrome": "foundation 13/0"
+      },
+      "verdict": "archetype-agency-directory: live https://main--7ddb4c84--aemcoder.aem.page/agency-directory, blocks 3 (sidebar-layout new; hero-simple, feedback reused), gate 1440 1.37% Δh 1 / 360 3.15% Δh 1, clipped 0, MISSING+HIDDEN 0, 1 fix round (node-bottom gap), requests 0, pushed abb4cd9"
+    },
+    "archetype-neighborhoods": {
+      "status": "done",
+      "kind": "archetype",
+      "templates": [
+        "unique"
+      ],
+      "pages": 1,
+      "startedAt": "2026-11-06T21:43:13Z",
+      "endedAt": "2026-11-06T21:54:13Z",
+      "blocks": 3,
+      "gates": {
+        "360": {
+          "pixel": 6.35,
+          "heightDelta": 22,
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 1.21,
+          "heightDelta": 1,
+          "verdict": "PASS"
+        },
+        "crop": "chrome blocks unchanged since the foundation/index crop",
+        "chrome": "foundation 13/0"
+      },
+      "verdict": "archetype-neighborhoods: live https://main--7ddb4c84--aemcoder.aem.page/neighborhoods, blocks 3 (hero-image, link-card-grid new; emblem-section variant plain), gate 1440 1.21% Δh 1 / 360 6.35% Δh 22 (R-01 wrap, as prototyped), clipped 0, MISSING+HIDDEN 0, rounds 0, requests 0, pushed 5a543c0"
+    },
+    "cluster-listing": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "listing"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-06T20:56:18Z",
+      "endedAt": "2026-11-06T21:15:46Z",
+      "blocks": 1,
+      "gates": {
+        "services": {
+          "360": {
+            "pixel": 2.25,
+            "heightDelta": 1,
+            "verdict": "PASS"
+          },
+          "1440": {
+            "pixel": 1.37,
+            "heightDelta": 1,
+            "verdict": "PASS"
+          }
+        },
+        "events": {
+          "360": {
+            "pixel": 1.32,
+            "heightDelta": 1,
+            "verdict": "PASS"
+          },
+          "1440": {
+            "pixel": 0.81,
+            "heightDelta": 1,
+            "verdict": "PASS"
+          }
+        },
+        "newsRegate": {
+          "360": 2.09,
+          "1440": 0.86
+        }
+      },
+      "verdict": "cluster-listing: services 1440 1.37%/360 2.25%, events 1440 0.81%/360 1.32% (1 fix round), news re-gate 0.86%/2.09% PASS; +hero-stack, view-listing variants grid/media; clipped 0, MISSING+HIDDEN 0; requests 0; pushed 69d78f8"
+    },
+    "cluster-static": {
+      "status": "done",
+      "kind": "cluster",
+      "templates": [
+        "static"
+      ],
+      "pages": 2,
+      "startedAt": "2026-11-06T21:29:04Z",
+      "endedAt": "2026-11-06T21:43:07Z",
+      "blocks": 1,
+      "gates": {
+        "organizational-charts-agencies-and-offices-under-mayors-authority": {
+          "360": {
+            "pixel": 8.08,
+            "heightDelta": 19,
+            "verdict": "PASS"
+          },
+          "1440": {
+            "pixel": 0.91,
+            "heightDelta": 1,
+            "verdict": "PASS"
+          }
+        },
+        "community-engagement-and-feedback": {
+          "360": {
+            "pixel": 1.47,
+            "heightDelta": 1,
+            "verdict": "PASS"
+          },
+          "1440": {
+            "pixel": 0.88,
+            "heightDelta": 1,
+            "verdict": "PASS"
+          }
+        }
+      },
+      "verdict": "cluster-static: org charts 1440 0.91%/360 8.08% Δh19 (R-01 one wrap junction), community engagement 0.88%/1.47%; +accordion-stack, sidebar-layout variant mist; clipped 0, MISSING+HIDDEN 0; requests 0; pushed 8fd939b"
+    },
+    "gate-all": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-06T21:54:23Z",
+      "endedAt": "2026-11-06T22:00:38Z",
+      "pages": 8,
+      "verdict": "gate-all: roster published-origin gate 1440 8 PASS / 0 FAIL, 360 8 PASS / 0 FAIL (clipped 0, MISSING+HIDDEN 0); coverage updated from both summaries"
+    },
+    "final": {
+      "status": "done",
+      "kind": "final",
+      "startedAt": "2026-11-06T22:01:11Z",
+      "note": "done-check gaps at start: pages_unfinished:1; pages_not_live:3 (/agency-directory/, /neighborhoods/, /news/ — publicUrl adds a trailing slash because coverage source.migratedHtml is <slug>/index.html; pages answer 200 at /news etc.; fix via the redirects sheet or the coverage path, then re-run done-check); header_parity unchecked (chrome-compare --profile replica --json stardust/chrome/header-parity.json); rollout_incomplete (C-deliver end + rollout D…I). foundation-freeze check unchanged; foundation-requests.md empty.",
+      "endedAt": "2026-11-06T22:24:41Z",
+      "gates": {
+        "foundationFreeze": "check exit 0 at start; re-frozen after the request (12 files)",
+        "headerParity": "routed-code probe 1440/390: every contract toggle opens (search, alerts, translate, Government dropover, small menu + search drawers); chrome-compare on the live host re-run in E-full-site (egress cache holds the 19:35 header for ≤2h)"
+      },
+      "verdict": "final: foundation-requests 1 line applied once (header behaviour + slot moves + 133 ported open-state rules, be72451); freeze re-taken; closed-state chrome unchanged (rules gate on open states); archetype re-gate + header parity scheduled in E-full-site"
+    }
+  }
+}

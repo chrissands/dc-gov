@@ -1,0 +1,17 @@
+{
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "sectionModel": "main > div.section, no foundation max-width/padding: blocks own their containers (lifted c-layout-container family is global in styles/styles.css)",
+  "pageWrapper": "body.appear carries the source .page rules (flex column, container page/inline-size); body > main carries .page-below-header (padding-top: var(--site-header-offset))",
+  "pageClasses": "scripts.js loadEager adds body.set-bg-light.mod-ready.mod-alerts and main.site-content.set-bg-light",
+  "classNaming": "source BEM names mapped to kebab-case: leading _ dropped, leading -- becomes mod-, __/--/_ inside a class become -; custom properties: -- inside becomes -m-",
+  "chrome": {
+    "header": "blocks/header — fixed header#site-header.site-header, large/small switch at (min-width: 1100.01px), short header via #intersection-trigger; authored /nav sections styled nav-alerts, nav-menu, nav-leadership, nav-featured, nav-iwt, nav-iaa, nav-search",
+    "footer": "blocks/footer — footer#site-footer.site-footer.set-bg-dark; authored /footer sections styled footer-top, footer-menus, footer-social, footer-legal",
+    "icons": "/icons/dc-icons-sprite.svg (40 symbols used by the prototypes), <svg><use href=\"/icons/dc-icons-sprite.svg#<id>\">"
+  }
+}

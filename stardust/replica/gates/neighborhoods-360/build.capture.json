@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "http://localhost:8791/neighborhoods-proposed.html",
+  "width": 360,
+  "vh": 900,
+  "height": 5149,
+  "chunks": 6,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "at": "2026-11-06T19:10:14.804Z"
+}

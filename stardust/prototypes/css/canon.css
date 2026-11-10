@@ -1,0 +1,63 @@
+/* Canon overrides for the beta.dc.gov replica — hand-authored deltas on top of lifted.css.
+   R-01: the licensed Neue Haas Grotesk faces are not rehosted. The lifted stacks keep the brand
+   family names first (a licensed drop-in wins later); right after them come these metric-matched
+   local fallbacks, whose size-adjust values are measured advance-width ratios of the real faces over letters
+   only (canvas measureText on the live site, 2026-11-06, charwidths.mjs) and whose ascent/descent overrides are its
+   font-box metrics divided by size-adjust (the overrides are scaled by size-adjust; measured per
+   weight, fontmetric3.mjs). Two letter ratios are set at the wrap-junction optimum of the gated pages
+   instead of the corpus mean (heights.mjs sweep): display 600 93.3% (mean 92.2); text 400 keeps its
+   corpus mean, 105.2%, with one scoped compensation below (footer social column). */
+@font-face { font-family: nhg-display-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); size-adjust: 99.8%; ascent-override: 93.19%; descent-override: 26.05%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); size-adjust: 93.3%; ascent-override: 99.68%; descent-override: 27.87%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); size-adjust: 96.1%; ascent-override: 97.81%; descent-override: 27.06%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 400; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); size-adjust: 105.2%; ascent-override: 93.16%; descent-override: 23.76%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); size-adjust: 108.0%; ascent-override: 91.67%; descent-override: 24.07%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); size-adjust: 100.0%; ascent-override: 99.00%; descent-override: 26.00%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); size-adjust: 102.4%; ascent-override: 97.66%; descent-override: 25.39%; line-gap-override: 0%; }
+/* Per-glyph-class advances (digits, space, comma/period) differ from the letter ratio by up to 40% —
+   these faces carry their own measured ratios (charwidths.mjs) so wrap junctions land where the live face's do. */
+@font-face { font-family: nhg-display-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+0030-0039; size-adjust: 100.7%; ascent-override: 92.35%; descent-override: 25.82%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+0020; size-adjust: 60.5%; ascent-override: 153.72%; descent-override: 42.98%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+002C,U+002E; size-adjust: 78.5%; ascent-override: 118.47%; descent-override: 33.12%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0030-0039; size-adjust: 100.7%; ascent-override: 92.35%; descent-override: 25.82%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0020; size-adjust: 60.5%; ascent-override: 153.72%; descent-override: 42.98%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+002C,U+002E; size-adjust: 78.5%; ascent-override: 118.47%; descent-override: 33.12%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0030-0039; size-adjust: 104.8%; ascent-override: 89.69%; descent-override: 24.81%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0020; size-adjust: 55.8%; ascent-override: 168.46%; descent-override: 46.59%; line-gap-override: 0%; }
+@font-face { font-family: nhg-display-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+002C,U+002E; size-adjust: 84.6%; ascent-override: 111.11%; descent-override: 30.73%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 400; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+0030-0039; size-adjust: 105.5%; ascent-override: 92.89%; descent-override: 23.70%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 400; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+0020; size-adjust: 95.7%; ascent-override: 102.40%; descent-override: 26.12%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 400; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+002C,U+002E; size-adjust: 77.7%; ascent-override: 126.13%; descent-override: 32.18%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+0030-0039; size-adjust: 108.5%; ascent-override: 91.24%; descent-override: 23.96%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+0020; size-adjust: 91.1%; ascent-override: 108.67%; descent-override: 28.54%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 500; src: local("Helvetica Neue"), local("Arial"), local("ArialMT"), local("Liberation Sans"); unicode-range: U+002C,U+002E; size-adjust: 84.9%; ascent-override: 116.61%; descent-override: 30.62%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0030-0039; size-adjust: 108.5%; ascent-override: 91.24%; descent-override: 23.96%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0020; size-adjust: 91.1%; ascent-override: 108.67%; descent-override: 28.54%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 600; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+002C,U+002E; size-adjust: 84.9%; ascent-override: 116.61%; descent-override: 30.62%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0030-0039; size-adjust: 111.1%; ascent-override: 90.01%; descent-override: 23.40%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+0020; size-adjust: 86.7%; ascent-override: 115.34%; descent-override: 29.99%; line-gap-override: 0%; }
+@font-face { font-family: nhg-text-fallback; font-weight: 700; src: local("Helvetica Neue Bold"), local("Arial Bold"), local("Arial-BoldMT"), local("Liberation Sans Bold"); unicode-range: U+002C,U+002E; size-adjust: 91.4%; ascent-override: 109.41%; descent-override: 28.45%; line-gap-override: 0%; }
+
+/* gtranslate dropdown, small header (vendor-rendered on the source; static equivalent here). */
+.shs-translate-slot { display: flex; justify-content: center; }
+.shs-translate-slot select { appearance: none; background: #fff url(../assets/css-img/caret-down--blue.svg) no-repeat right 12px center / 12px auto; border: 1px solid #b8b8b8; border-radius: 6px; color: #053068; font-family: var(--font--display); font-size: 14px; font-weight: 500; height: 32px; letter-spacing: .2px; line-height: 15.4px; padding: 2px 32px 3px 12px; width: 174px; }
+
+/* Juicer social feed (frozen capture): the vendor re-flows its three column stacks into one
+   column below its tablet width; the static capture carries the desktop stacks. */
+@media (max-width: 767px) {
+  .juicer-feed .j-stacker { display: flex !important; flex-direction: column; }
+  .juicer-feed .j-stack { display: contents !important; }
+  .juicer-feed .j-stack:nth-child(1) > li:nth-child(1) { order: 1; }
+  .juicer-feed .j-stack:nth-child(2) > li:nth-child(1) { order: 2; }
+  .juicer-feed .j-stack:nth-child(3) > li:nth-child(1) { order: 3; }
+  .juicer-feed .j-stack:nth-child(1) > li:nth-child(2) { order: 4; }
+  .juicer-feed .j-stack:nth-child(2) > li:nth-child(2) { order: 5; }
+  .juicer-feed .j-stack:nth-child(3) > li:nth-child(2) { order: 6; }
+  .juicer-feed .j-stacker-wrapper { margin: 0 !important; }
+}
+
+/* Small header: the vendor translate widget leaves 10px under its dropdown before the page content. */
+body.--sh-small .shct:not([hidden]) { margin-bottom: 10px; }
+
+/* R-01 wrap-junction compensation (footer social column, 0.5px slack on live): see register R-01. */
+.menu-social-footer .social-item { letter-spacing: -0.015em; }

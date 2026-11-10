@@ -1,0 +1,350 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics plan",
+  "writtenAt": "2026-11-06T19:18:56.627Z",
+  "input": "stardust/current/_dynamics.json",
+  "target": "https://main--7ddb4c84--aemcoder.aem.live",
+  "migrated": "stardust/migrated",
+  "knowledge": null,
+  "chrome": null
+ },
+ "rows": [
+  {
+   "id": "a-cms-app-settings-object-drupalsettings",
+   "class": "A",
+   "feature": "CMS / app settings object drupalSettings",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "ajaxTrustedUrl",
+    "webform"
+   ],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "delivered-by-capture",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)",
+   "alreadyDelivered": "output already carries \"webform\""
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [],
+   "pattern": "read-settings",
+   "disposition": "static-snapshot",
+   "target": "content",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "detect",
+   "decision": "— (keys name endpoints, ids, vendors)"
+  },
+  {
+   "id": "a-unknown-third-party-host-www-juicer-io",
+   "class": "A",
+   "feature": "unknown third-party host www.juicer.io",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.juicer.io"
+   ],
+   "pattern": "inspect",
+   "disposition": "static-snapshot",
+   "target": null,
+   "reproducibility": "needs-human-capture",
+   "status": "delivered-by-capture",
+   "phase": "detect",
+   "decision": "inspect the XHR, add a vendor row",
+   "alreadyDelivered": "output already carries \"www.juicer.io\""
+  },
+  {
+   "id": "f-form-webform-submission-send-your-feedback-add-form-7-orig",
+   "class": "F",
+   "feature": "form \"webform-submission-send-your-feedback-add-form--7\" → origin / (3 fields)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "textarea:about_this_page,email:email,text:url",
+    "form_build_id,form_id"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "f-form-email-e-checkbox-consent-no-action-js-wired-2-fields",
+   "class": "F",
+   "feature": "form \"email:e+checkbox:consent\" → no action (JS-wired) (2 fields)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "email:e,checkbox:consent"
+   ],
+   "pattern": "client-compute",
+   "disposition": "client-only",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "client tools",
+   "decision": "none"
+  },
+  {
+   "id": "f-form-webform-submission-send-your-feedback-node-391-add-fo",
+   "class": "F",
+   "feature": "form \"webform-submission-send-your-feedback-node-391-add-form--20\" → origin /services (3 fields)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "textarea:about_this_page,email:email,text:url",
+    "form_build_id,form_id"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "f-form-webform-submission-send-your-feedback-node-661-add-fo",
+   "class": "F",
+   "feature": "form \"webform-submission-send-your-feedback-node-661-add-form\" → origin /organizational-charts-agencies-and-offices-under-mayors-authority (3 fields)",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "textarea:about_this_page,email:email,text:url",
+    "form_build_id,form_id"
+   ],
+   "pattern": "forms",
+   "disposition": "rebuild-native",
+   "target": "block",
+   "reproducibility": "needs-backend",
+   "status": "pending",
+   "phase": "forms",
+   "decision": "production endpoint; interim capture ships now"
+  },
+  {
+   "id": "m-modal-trigger-prefix-overlay-action-later-button-content",
+   "class": "M",
+   "feature": "modal trigger prefix-overlay-action-later → button:content",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "Remind Me Later"
+   ],
+   "pattern": "modal-loader",
+   "disposition": "rebuild-native",
+   "target": "runtime",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "interactive",
+   "decision": "none"
+  },
+  {
+   "id": "s-site-search-form-search",
+   "class": "S",
+   "feature": "site search form → /search",
+   "pages": 4,
+   "probed": 4,
+   "reach": {
+    "pages": 3,
+    "of": 8
+   },
+   "evidence": [
+    "search:key"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "s-site-search-form-services",
+   "class": "S",
+   "feature": "site search form → /services",
+   "pages": 1,
+   "probed": 4,
+   "reach": {
+    "pages": 3,
+    "of": 8
+   },
+   "evidence": [
+    "text:search_api_fulltext,search:combodrop-text-filter--agency,checkbox:field_agency_dropdown[dc_gov],checkbox:field_agency_dropdown[ddot_dc_gov],checkbox:field_agency_dropdown[mayormb_dc_gov],checkbox:field_agency_dropdown[preview_odr_dc_gov],checkbox:field_agency_dropdown[osse_dc_gov],search:combodrop-text-filter--topics,search:combodrop-text-filter--seasons,checkbox:field_seasons[35],checkbox:field_seasons[33],checkbox:field_seasons[34]"
+   ],
+   "pattern": "search-index-backed",
+   "disposition": "index-backed",
+   "target": "widget",
+   "reproducibility": "self",
+   "status": "pending",
+   "phase": "search",
+   "decision": "none (corpus = the migrated pages; second corpora stay out)"
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "feature": "unknown third-party host static.cloudflareinsights.com",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "static.cloudflareinsights.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-gtranslate-net",
+   "class": "T",
+   "feature": "unknown third-party host cdn.gtranslate.net",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "cdn.gtranslate.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "stats.g.doubleclick.net"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "t-unknown-third-party-host-content-govdelivery-com",
+   "class": "T",
+   "feature": "unknown third-party host content.govdelivery.com",
+   "pages": 1,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "content.govdelivery.com"
+   ],
+   "pattern": "consent-gated-tags",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-business-decision",
+   "status": "pending",
+   "phase": "tags",
+   "decision": "which tags run on the new host; property ids"
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "1×1"
+   ],
+   "pattern": "embed-passthrough",
+   "disposition": "embed-passthrough",
+   "target": "embed",
+   "reproducibility": "needs-human-capture",
+   "status": "pending",
+   "phase": "embeds",
+   "decision": "resolve the runtime src from a rendered capture"
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "pages": 4,
+   "probed": 4,
+   "reach": null,
+   "evidence": [
+    "https://mybusiness.dc.gov/login",
+    "https://311.dc.gov/citizen/s/login/",
+    "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?"
+   ],
+   "pattern": "decided-out",
+   "disposition": "decided-out",
+   "target": null,
+   "reproducibility": "needs-backend",
+   "status": "delivered-by-capture",
+   "phase": "register",
+   "decision": "auth / commerce on the new host?",
+   "alreadyDelivered": "output already carries \"https://mybusiness.dc.gov/login\""
+  }
+ ]
+}

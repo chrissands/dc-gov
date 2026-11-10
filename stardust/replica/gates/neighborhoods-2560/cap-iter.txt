@@ -1,0 +1,13 @@
+cap-probe  base 1440 → probe 2560 (from DESIGN.json)
+live   https://beta.dc.gov/neighborhoods
+  modules  3 sections: capped 1920 ×2, 1968 ×1 · full-bleed ×0
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root #main-content
+build  http://localhost:8791/neighborhoods-proposed.html
+  modules  3 sections: capped 1920 ×2, 1968 ×1 · full-bleed ×0
+  contentMaxWidth 1920px (module) · shellMaxWidth fluid · root #main-content
+rows
+  ✓ content cap: live 1920px = build 1920px (±20, shared module cap)
+  ✓ module 1/3: 1920px = 1920px
+  ✓ module 2/3: 1920px = 1920px
+  ✓ module 3/3: 1968px = 1968px
+cap-probe: PASS at 2560 — 0 of 4 rows failed (evidence stardust/replica/gates/neighborhoods-2560/cap-iter.json)

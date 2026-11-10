@@ -1,0 +1,325 @@
+{
+ "tool": "chrome-explore",
+ "url": "https://main--7ddb4c84--aemcoder.aem.live/",
+ "at": "2026-11-06T22:20:04.950Z",
+ "shots": "stardust/.work/chrome/header-build",
+ "widths": {
+  "390": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header-small>div:nth-of-type(2)>div>div:nth-of-type(1)>a",
+     "href": "https://main--7ddb4c84--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      31,
+      13,
+      33,
+      23
+     ],
+     "actions": {}
+    },
+    {
+     "name": "1 alert 1",
+     "key": "1 alert 1",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header-small>div:nth-of-type(2)>div>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      336,
+      11,
+      23,
+      27
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Toggle menu",
+     "key": "toggle menu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#site-header-small>div:nth-of-type(2)>div>div:nth-of-type(2)>button:nth-of-type(1)",
+     "expanded": "false",
+     "rect": [
+      20,
+      60,
+      40,
+      40
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header-small>div:nth-of-type(2)>div>div:nth-of-type(2)>a",
+     "href": "https://main--7ddb4c84--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      159,
+      67,
+      72,
+      26
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle search",
+     "key": "toggle search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header-small>div:nth-of-type(2)>div>div:nth-of-type(2)>button:nth-of-type(2)",
+     "expanded": "false",
+     "rect": [
+      330,
+      60,
+      40,
+      40
+     ],
+     "actions": {
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 112,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 60,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 60,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 112,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 0,
+   "truncated": null,
+   "loads": 1,
+   "requests": 57,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  },
+  "1440": {
+   "root": "#site-header",
+   "controls": [
+    {
+     "name": "",
+     "key": "",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>a",
+     "href": "https://main--7ddb4c84--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      24,
+      35,
+      186,
+      127
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle translation Translate",
+     "key": "toggle translation translate",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(1)>button",
+     "expanded": "false",
+     "rect": [
+      1156,
+      43,
+      84,
+      20
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "1 alert 1",
+     "key": "1 alert 1",
+     "role": "toggle",
+     "kind": "menu",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(2)>button",
+     "expanded": "false",
+     "rect": [
+      1269,
+      39,
+      23,
+      27
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Toggle search Search",
+     "key": "toggle search search",
+     "role": "toggle",
+     "kind": "search",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>div:nth-of-type(1)>div:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      1322,
+      35,
+      94,
+      36
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    },
+    {
+     "name": "Services",
+     "key": "services",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(1)>a",
+     "href": "https://main--7ddb4c84--aemcoder.aem.live/services",
+     "expanded": null,
+     "rect": [
+      916,
+      100,
+      79,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Neighborhoods",
+     "key": "neighborhoods",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(2)>a",
+     "href": "https://main--7ddb4c84--aemcoder.aem.live/neighborhoods",
+     "expanded": null,
+     "rect": [
+      1055,
+      100,
+      142,
+      24
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Government",
+     "key": "government",
+     "role": "link",
+     "kind": "link",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(3)>a",
+     "href": "https://main--7ddb4c84--aemcoder.aem.live/",
+     "expanded": null,
+     "rect": [
+      1257,
+      99,
+      113,
+      27
+     ],
+     "actions": {}
+    },
+    {
+     "name": "Toggle sub-menu",
+     "key": "toggle submenu",
+     "role": "toggle",
+     "kind": "drawer",
+     "sel": "#site-header-large>div:nth-of-type(2)>div>div:nth-of-type(2)>div:nth-of-type(2)>nav>ul>li:nth-of-type(3)>button",
+     "expanded": "false",
+     "rect": [
+      1376,
+      100,
+      24,
+      24
+     ],
+     "actions": {
+      "hover": null,
+      "click": null,
+      "key": null
+     }
+    }
+   ],
+   "scroll": [
+    {
+     "at": "top",
+     "y": 0,
+     "top": 0,
+     "height": 170,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "down",
+     "y": 1000,
+     "top": 0,
+     "height": 92,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "up",
+     "y": 700,
+     "top": 0,
+     "height": 92,
+     "position": "fixed",
+     "inView": true
+    },
+    {
+     "at": "back",
+     "y": 0,
+     "top": 0,
+     "height": 170,
+     "position": "fixed",
+     "inView": true
+    }
+   ],
+   "states": 0,
+   "truncated": null,
+   "loads": 1,
+   "requests": 56,
+   "maxRequests": 600,
+   "inputsSkipped": 0
+  }
+ },
+ "probe": null
+}

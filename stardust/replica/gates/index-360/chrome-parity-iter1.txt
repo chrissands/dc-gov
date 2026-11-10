@@ -1,0 +1,17 @@
+[live-session] waiting to pace live navigations to beta.dc.gov (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 318 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://beta.dc.gov/
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 6 delta(s) — 0 paired of 4/0 texts, 4/0 icons
+  REGION BOX   Δw -360px (360→0), Δh -112px (112→0)
+  MISSING      "1 alert"  live <span> "1 alert" has no build element with the same text
+  MISSING      "1"  live <span> "1" has no build element with the same text
+  MISSING      "Toggle menu"  live <span> "Toggle menu" has no build element with the same text
+  MISSING      "Toggle search"  live <span> "Toggle search" has no build element with the same text
+  ICONS        4 live vs 0 build (svg/img) — harvest the live vectors verbatim (recreation-procedure.md § Asset harvest), never approximate
+
+■ footer: 1 delta(s)
+  REGION       build: no element matches "footer" — pass --region footer=<liveSel>|<buildSel>
+
+✗ 7 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

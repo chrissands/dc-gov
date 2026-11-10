@@ -1,0 +1,18 @@
+[live-session] waiting to pace live navigations to beta.dc.gov (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://beta.dc.gov/agency-directory
+  build: http://localhost:8791/agency-directory-proposed.html
+
+■ header: ✓ parity — 4 paired of 4/4 texts, 4/4 icons
+
+■ footer: 7 delta(s) — 22 paired of 22/22 texts, 6/6 icons
+  OFFSET       the region and its 15 paired text(s) sit Δy -21px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "District News"  Δy -21px (4792→4771); Δw -3px (99→96)
+  PAIR         "District Initiatives"  Δy -21px (4853→4832); Δw -3px (127→124)
+  PAIR         "About DC"  Δy -21px (4914→4893); Δw -2px (73→71)
+  PAIR         "Contact Us"  Δy -21px (4975→4954); Δw -2px (84→82)
+  PAIR         "Copyright © 2026 DC.Gov. All rights rese"  Δx +3px (31→34); Δy -22px (5288→5266); Δw -5px (297→292)
+  PAIR         "Accessibility"  Δy -21px (5369→5348); Δw -2px (81→79)
+  PAIR         "Terms and Conditions"  Δy -21px (5446→5425); Δw -2px (142→140)
+
+✗ 7 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

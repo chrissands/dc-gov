@@ -1,0 +1,1095 @@
+ul.home-jump-links
+  li
+    a.--active | Today in DC [href=#today-in-dc]
+  li
+    a | Leadership [href=#mayor-muriel-bowser]
+  li
+    a | Services [href=#frequently-requested-services]
+  li
+    a | What's Happening [href=#what039s-happening-in-dc]
+  li
+    a | Seasonal Services [href=#essential-fall-resources]
+div.node-header
+  section.c-hero-home._set-bg-light
+    div.c-hero-home__l
+      div.c-hero-home__text
+        div.c-hero-home__text-l
+          h1.c-heading.c-hero-home__heading | Welcome to Washington, DC
+          div.c-hero-home__content
+            p | From services to neighborhood news, DC.gov is your official and trusted source for what's 
+      video.c-hero-home__video [src=/themes/custom/dc/img/hero-home/herohome.mp4]
+      button.c-hero-home__video-toggle
+        span.c-hero-home__video-toggle-label.--pause | Pause animation
+        span.c-hero-home__video-toggle-icon.--pause
+        span.c-hero-home__video-toggle-label.--play | Play animation
+        span.c-hero-home__video-toggle-icon.--play
+section.home-search
+  h2._visually-hidden | Search for Services
+  form
+    div.home-search__l
+      div.home-search__icon
+      div.home-search__loading-icon
+      label._visually-hidden | Search services
+      input.home-search__key
+      input
+      input
+      input.home-search__submit
+  div.home-search-drawer._set-bg-mid
+    h3._visually-hidden | Search services results
+    button.home-search-drawer__dismiss
+      span._visually-hidden | Close search services results
+      div.c-icon.__icon
+    div.home-search-drawer__view
+div.home-post-hero
+  div.hph-item.--weather
+    div.hph-item__text
+      p.hph-item__heading | Today in DC
+      p.hph-item__date | Friday, November 6
+    div.hph-item__weather
+      div
+        div | Cloudy
+        div
+          span | 64 °F
+  div.hph-item.--link
+    p.hph-item__label | It's a great day in the District!
+    a.hph-item__link._stretch-link | Essential Fall Resources [href=#essential-fall-resources]
+  div.hph-item.--link
+    div.hph-item__icon
+      div.c-icon
+    a.hph-item__link._stretch-link | Find your ANC [href=https://oanc.dc.gov/landing-page/ancs-ward]
+div.node-details
+  section.c-layout-container.mayors-greeting-block
+    div.c-layout-container__color-wrapper
+      div.c-layout-container__l-content-width
+        div.c-layout-container__content
+          div.c-layout-stack
+            div.c-layout-double.mayors-greeting-block__double
+              div.c-layout-double__l
+                div.c-layout-double__left
+                  img [src=/sites/default/files/styles/card_450x270/public/sites/dc/sites/dc_gov/images/new%20mayor%2 alt=Mayor Muriel Bowser and DC Flag]
+                div.c-layout-double__right
+                  h2.c-heading | Mayor Muriel Bowser
+                  p | Mayor Muriel Bowser, serving since 2015, is dedicated to making DC a city of opportunity f
+                  div.c-layout-flex
+                    a.c-link-arrow.--arrow | DC Government Organization [href=/dc-government-organization]
+                    a.c-link-arrow.--arrow | Visit the Mayor's Website [href=https://mayor.dc.gov/]
+            div.c-layout-content-width.--vertical-spacing-top
+              div.c-layout-grid._expand-context
+                a.c-link-blocky.--new-tab [href=https://oca.dc.gov]
+                  div.c-icon.c-link-blocky__icon
+                  div.c-link-blocky__label | City Administrator
+                  div.c-link-blocky__arrow
+                a.c-link-blocky.--new-tab [href=https://mayor.dc.gov/page/executive-branch-0]
+                  div.c-icon.c-link-blocky__icon
+                  div.c-link-blocky__label | Executive Branch
+                  div.c-link-blocky__arrow
+                a.c-link-blocky.--new-tab [href=https://mpdc.dc.gov/biography/commander-jeffery-carroll-0]
+                  div.c-icon.c-link-blocky__icon
+                  div.c-link-blocky__label | Chief of Police
+                  div.c-link-blocky__arrow
+                a.c-link-blocky.--new-tab [href=https://dcps.dc.gov/biography/dr-kim-jackson]
+                  div.c-icon.c-link-blocky__icon
+                  div.c-link-blocky__label | Interim Chancellor
+                  div.c-link-blocky__arrow
+  section.c-layout-container.--no-content-padding
+    div.c-layout-container__color-wrapper
+      div.c-layout-container__l-content-width
+        h2.c-heading.c-layout-container__heading | Service Status
+        div.c-layout-container__content
+          div.c-layout-carousel-grid.--edge
+            ul.c-layout-carousel-grid__stackable-controls
+              li
+                button.c-button-pill-toggle.--active | Swipe
+                  span._visually-hidden | as a carousel
+              li
+                button.c-button-pill-toggle.c-layout-carousel-grid__stack | Stack
+                  span._visually-hidden | in a list
+            div.splide.is-overflow
+              div.c-layout-carousel-grid__controls
+                div.c-layout-carousel-grid__arrows.splide__arrows
+                  button.c-layout-carousel-grid-arrow.c-layout-carousel-grid-arrow--prev
+                    span._visually-hidden | Previous slide
+                  button.c-layout-carousel-grid-arrow.c-layout-carousel-grid-arrow--next
+                    span._visually-hidden | Next slide
+                ul.c-layout-carousel-grid__pagination.splide__pagination
+                div.c-layout-carousel-grid__track.splide__track
+                  ul.c-layout-carousel-grid__list.splide__list
+                    li.c-layout-carousel-grid__slide.splide__slide
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-icon.c-card-service-link__icon
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link | Services [href=https://311.dc.gov]
+                            div.c-card-service-link__content
+                              p | Call 311 at any time to request non-emergency scheduled services.
+                          div.c-card-service-link__arrow
+                    li.c-layout-carousel-grid__slide.splide__slide
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-icon.c-card-service-link__icon
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link | DMV Service Centers [href=https://dmv.dc.gov/page/all-dc-dmv-locations]
+                            div.c-card-service-link__content
+                              p | Find more detailed information on each DC DMV service location.
+                          div.c-card-service-link__arrow
+                    li.c-layout-carousel-grid__slide.splide__slide
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-icon.c-card-service-link__icon
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link | Trash & Recycling [href=http://collectionday.dcgis.dc.gov/]
+                            div.c-card-service-link__content
+                              p | Pickup is running on its normal schedule today.
+                          div.c-card-service-link__arrow
+                    li.c-layout-carousel-grid__slide.splide__slide
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-icon.c-card-service-link__icon
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link | Parking [href=https://www.parkdc.com/]
+                            div.c-card-service-link__content
+                              p | A collection of information and maps for digital/residential parking permits, paid parking
+                          div.c-card-service-link__arrow
+                    li.c-layout-carousel-grid__slide.splide__slide
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-icon.c-card-service-link__icon
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link | Metro Service [href=https://www.wmata.com/]
+                            div.c-card-service-link__content
+                              p | Check the System Status for both train and buses! Train alerts Bus alerts
+                                br
+                                span.drupal-icon
+                                br
+                                span.drupal-icon
+                          div.c-card-service-link__arrow
+                    li.c-layout-carousel-grid__slide.splide__slide
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-icon.c-card-service-link__icon
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link | Road Closures [href=https://x.com/DCPoliceTraffic]
+                            div.c-card-service-link__content
+                              p | For timely traffic information, please login to Twitter/X to view .
+                                a | posts by DCPoliceTraffic [href=https://s.com/DCPoliceTraffic]
+                          div.c-card-service-link__arrow
+div.node-core
+  section.c-layout-container.--regular
+    div.c-layout-container__color-wrapper
+      div.c-layout-container__l-content-width
+        h2.c-heading.c-layout-container__heading | Frequently Requested Services
+        div.c-layout-container__content
+          div.c-tabset
+            div.c-tabset__tablist
+              button.c-tabset__tab.--active | Popular
+              button.c-tabset__tab | New Residents
+              button.c-tabset__tab | Job Seeker
+              button.c-tabset__tab | Business Owners
+              button.c-tabset__tab | Senior
+              button.c-tabset__tab | Taxpayer
+            div.c-tabset__panels
+              article.c-tabset__panel
+                div.views-element-container
+                  div.view.js-view-dom-id-cf266ebb1d717b90a82480f0938142ea965f4562736aad50f734dc445783da39
+                    div.c-layout-adaptive-grid._expand-context
+                      article.c-card-frame._set-small-text
+                        div.c-card-frame__l._grid-cell-stretch
+                          div.c-icon
+                          div.c-spacer
+                          h3 | 311 Non-Emergency Requests
+                          p | Quickly request non-emergency services and report issues in the District.
+                          div.c-spacer
+                          div.c-layout-flex
+                            a.c-link-pill.--arrow | New request [href=https://311.dc.gov/]
+                            a.c-link-small-pill [href=https://311.dc.gov/citizen/s/login/]
+                              div.c-icon.c-link-small-pill__icon
+                              span.c-link-small-pill__label | Login
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/elderly-and-persons-physical-disabilities-waiver-program]
+                                span | Elderly and Persons with Physical Disabilities Waiver Program
+                            div.c-card-service-link__content
+                              p | Get services and support that help you live safely at home or in assisted living.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/adult-protective-services]
+                                span | Adult Protective Services
+                            div.c-card-service-link__content
+                              p | Report concerns about an adult who may be harmed, abused, or taken advantage of.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/alzheimers-disease-and-related-dementias]
+                                span | Alzheimer's Disease and Related Dementias
+                            div.c-card-service-link__content
+                              p | Find information, resources, and support for people living with Alzheimer's disease and ot
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/benefits-assistance]
+                                span | Benefits Assistance
+                            div.c-card-service-link__content
+                              p | Get help applying for benefits like Medicaid, the EPD Waiver, and SNAP.
+                          div.c-card-service-link__arrow
+                    div.c-layout-flex.--column
+                      div.c-spacer
+                      a.c-link-arrow.--arrow | All citywide services [href=/services]
+              article.c-tabset__panel
+                div.views-element-container
+                  div.view.js-view-dom-id-4c84e2ebd28e0edf4f751d77c758abcb784ec48550174b1e7a13c4e34597d7a1
+                    div.c-layout-adaptive-grid._expand-context
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/birth-certificate]
+                                span | Birth Certificate
+                            div.c-card-service-link__content
+                              p | Order a birth certificate.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/my-school-dc]
+                                span | My School DC
+                            div.c-card-service-link__content
+                              p | Register your PK3-12 child for school through My School DC.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/out-state-driver-licenses]
+                                span | Out-of-State Driver Licenses
+                            div.c-card-service-link__content
+                              p | If you reside in the District for more than 60 days, you must convert your out-of-state dr
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/residential-parking-permits]
+                                span | Residential Parking Permits
+                            div.c-card-service-link__content
+                              p | Register for a residential parking permit for a DC DMV-registered private vehicle.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/vehicle-registration]
+                                span | Vehicle Registration
+                            div.c-card-service-link__content
+                              p | Visit the DC Department of Motor Vehicles and register your vehicle as a District resident
+                          div.c-card-service-link__arrow
+                    div.c-layout-flex.--column
+                      div.c-spacer
+                      a.c-link-arrow.--arrow | All citywide services [href=/services]
+              article.c-tabset__panel
+                div.views-element-container
+                  div.view.js-view-dom-id-d0946bb72a85f6cfef46cd83918a29c79aa116e4e7e148b7cc6795472c4a086b
+                    div.c-layout-adaptive-grid._expand-context
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/dc-careers]
+                                span | DC Careers
+                            div.c-card-service-link__content
+                              p | Explore job openings with DC government.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/department-employment-services-does]
+                                span | Department of Employment Services (DOES)
+                            div.c-card-service-link__content
+                              p | Find job services and resources for DC workers, job seekers, and employers.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/fedsupport]
+                                span | FedSupport
+                            div.c-card-service-link__content
+                              p | Access training and career tools to help you advance professionally.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/occupational-skills-training]
+                                span | Occupational Skills Training
+                            div.c-card-service-link__content
+                              p | Get training and education to help you get the job you're looking for.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/talent-capital-ai]
+                                span | Talent Capital AI
+                            div.c-card-service-link__content
+                              p | Sign up to explore new job and career resources.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/unemployment-compensation]
+                                span | Unemployment Compensation
+                            div.c-card-service-link__content
+                              p | Apply for unemployment benefits.
+                          div.c-card-service-link__arrow
+                    div.c-layout-flex.--column
+                      div.c-spacer
+                      a.c-link-arrow.--arrow | All citywide services [href=/services]
+              article.c-tabset__panel
+                div.views-element-container
+                  div.view.js-view-dom-id-1cd5d80f7d9bdbda6c6682d4909a22f88fd2869dfe8230035695be03df4c0f28
+                    div.c-layout-adaptive-grid._expand-context
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/building-permit]
+                                span | Building Permit
+                            div.c-card-service-link__content
+                              p | Apply and pay for building permits online.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/business-license]
+                                span | Business License
+                            div.c-card-service-link__content
+                              p | Apply for a business license.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/business-resource-center]
+                                span | Business Resource Center
+                            div.c-card-service-link__content
+                              p | Get training and guidance to help you start, manage, or grow your business.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/caregiver-programs]
+                                span | Caregiver Programs
+                            div.c-card-service-link__content
+                              p | Find training, support, and short-term relief for unpaid caregivers of seniors and adults 
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/case-management]
+                                span | Case Management
+                            div.c-card-service-link__content
+                              p | Get help finding community programs, benefits, and services for eligible seniors and adult
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/commercial-vehicles]
+                                span | Commercial Vehicles
+                            div.c-card-service-link__content
+                              p | Apply for a commercial driver license (CDL).
+                          div.c-card-service-link__arrow
+                    div.c-layout-flex.--column
+                      div.c-spacer
+                      a.c-link-arrow.--arrow | All citywide services [href=/services]
+              article.c-tabset__panel
+                div.views-element-container
+                  div.view.js-view-dom-id-1f4b7277cf567246d5b8fd7ab1fadeee21b0138f191dcf03019acbf32c79ee58
+                    div.c-layout-adaptive-grid._expand-context
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/elderly-and-persons-physical-disabilities-waiver-program]
+                                span | Elderly and Persons with Physical Disabilities Waiver Program
+                            div.c-card-service-link__content
+                              p | Get services and support that help you live safely at home or in assisted living.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/adult-protective-services]
+                                span | Adult Protective Services
+                            div.c-card-service-link__content
+                              p | Report concerns about an adult who may be harmed, abused, or taken advantage of.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/alzheimers-disease-and-related-dementias]
+                                span | Alzheimer's Disease and Related Dementias
+                            div.c-card-service-link__content
+                              p | Find information, resources, and support for people living with Alzheimer's disease and ot
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/benefits-assistance]
+                                span | Benefits Assistance
+                            div.c-card-service-link__content
+                              p | Get help applying for benefits like Medicaid, the EPD Waiver, and SNAP.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/nutrition-seniors]
+                                span | Nutrition for Seniors
+                            div.c-card-service-link__content
+                              p | Find nutrition programs designed to serve seniors 60+ and adults with disabilities.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/safe-home-program]
+                                span | Safe at Home Program
+                            div.c-card-service-link__content
+                              p | Get home safety modifications to help prevent falls.
+                          div.c-card-service-link__arrow
+                    div.c-layout-flex.--column
+                      div.c-spacer
+                      a.c-link-arrow.--arrow | All citywide services [href=/services]
+              article.c-tabset__panel
+                div.views-element-container
+                  div.view.js-view-dom-id-c5e39c49d74691c6f5e0a136c32a304657a5a9201812a73b7f110965bbaf28a3
+                    div.c-layout-adaptive-grid._expand-context
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/certificate-clean-hands]
+                                span | Certificate of Clean Hands
+                            div.c-card-service-link__content
+                              p | Verify if you're current on DC tax obligations.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/mytaxdcgov]
+                                span | MyTax.DC.gov
+                            div.c-card-service-link__content
+                              p | Pay a tax bill, make a property payment, check your refund status, and more.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/new-business-registration]
+                                span | New Business Registration
+                            div.c-card-service-link__content
+                              p | Register your new business.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/otr-recorder-deeds]
+                                span | OTR Recorder of Deeds
+                            div.c-card-service-link__content
+                              p | View document images and index information online from August 1921 to today.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/search-file-pay-taxes-online]
+                                span | Search, File, Pay Taxes Online
+                            div.c-card-service-link__content
+                              p | File, amend, pay your taxes online for free.
+                          div.c-card-service-link__arrow
+                      div.c-card-service-link._stretch-shape
+                        div.c-card-service-link__l._grid-cell-stretch
+                          div.c-card-service-link__text-l
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/services/tax-forms-instructions]
+                                span | Tax Forms & Instructions
+                            div.c-card-service-link__content
+                              p | Find all DC tax forms and instructions in one place.
+                          div.c-card-service-link__arrow
+                    div.c-layout-flex.--column
+                      div.c-spacer
+                      a.c-link-arrow.--arrow | All citywide services [href=/services]
+  section.c-layout-container.whats-happening-in-dc
+    div.c-layout-container__color-wrapper
+      div.c-layout-container__l-content-width
+        div.c-layout-container__content
+          div.scroll-combo-header
+            h2.c-heading | What's happening in DC
+            a.c-link-arrow.--arrow | More updates [href=/news?field_agency_dropdown%5Bdc_gov%5D=dc_gov]
+          section.c-layout-scroll-combo.--flip-h
+            div.c-layout-scroll-combo__l
+              div.c-layout-scroll-combo__lock
+                div.c-layout-scroll-combo__lock-l
+                  article.c-card-event._set-small-text
+                    div.c-card-event__l._grid-cell-stretch
+                      div.c-card-event__img
+                        img [src=/sites/default/files/styles/promo_card/public/sites/dc/sites/dc_gov/images/veterans.jpeg.w alt=National Veterans Parade]
+                        div.c-card-event__date
+                          div.c-card-event__date-day | 8
+                          div.c-card-event__date-month | Nov
+                      h3.c-heading.--link
+                        a.c-heading__link._stretch-link [href=/events/national-veterans-parade]
+                          span | National Veterans Parade
+                      div.c-card-event__content
+                        p | Honor veterans at the for a heartfelt tribute to their service
+                          strong | National Veterans Parade
+                        p
+                          br
+                      div.c-card-event__bottom
+                        span.c-tag | Upcoming Event
+              div.c-layout-scroll-combo__scroll
+                div.views-element-container
+                  div.view.js-view-dom-id-d9c8b622949c80973194f985ceb27133b88e1fafbb95b4256e9462494bc7935b
+                    div.c-layout-adaptive-grid._expand-context
+                      article.c-slab-tight._set-small-text
+                        div.c-slab-tight__l
+                          div.c-slab-tight__img
+                            img [src=/sites/default/files/styles/listing_thumbnail/public/sites/dc/sites/dc_gov/images/Riggs-La alt=Riggs-LaSalle Community Ctr-ward4]
+                          div.c-slab-tight__content
+                            p
+                              span | Sat, Nov 21, 2026
+                            h3.c-heading.--link
+                              a.c-heading__link [href=/events/ward-4-roll-day-nov-21-2026-riggs-lasalle-community-ctr]
+                                span | Ward 4 Roll Off Day - Nov 21, 2026: Riggs-LaSalle Community Ctr
+                            span._tag | Event
+                      article.c-slab-tight._set-small-text
+                        div.c-slab-tight__l
+                          div.c-slab-tight__img
+                            img [src=/sites/default/files/styles/listing_thumbnail/public/sites/dc/sites/dc_gov/images/winter-s alt=Holiday market]
+                          div.c-slab-tight__content
+                            p
+                              span | Fri, Nov 13, 2026
+                            h3.c-heading.--link
+                              a.c-heading__link [href=/events/bedowntown-downtowndc-holiday-market-dates-announced]
+                                span | #BeDowntown: DowntownDC Holiday Market Dates Announced
+                            span._tag | Event
+                      article.c-slab-tight._set-small-text
+                        div.c-slab-tight__l
+                          div.c-slab-tight__img
+                            img [src=/sites/default/files/styles/listing_thumbnail/public/sites/dc/sites/dc_gov/images/Veterans alt=National Veterans Parade 5K]
+                          div.c-slab-tight__content
+                            p
+                              span | Sun, Nov 8, 2026
+                            h3.c-heading.--link
+                              a.c-heading__link [href=/events/national-veterans-parade-5k]
+                                span | National Veterans Parade 5K
+                            span._tag | Event
+                      article.c-slab-tight._set-small-text
+                        div.c-slab-tight__l
+                          div.c-slab-tight__img
+                            img [src=/sites/default/files/styles/listing_thumbnail/public/sites/dc/sites/dc_gov/images/Arboretu alt=Arboretum Community Ctr]
+                          div.c-slab-tight__content
+                            p
+                              span | Sat, Nov 7, 2026
+                            h3.c-heading.--link
+                              a.c-heading__link [href=/events/ward-5-roll-day-nov-7-2026-arboretum-community-ctr]
+                                span | Ward 5 Roll Off Day - Nov 7, 2026: Arboretum Community Ctr
+                            span._tag | Event
+                      article.c-slab-tight._set-small-text
+                        div.c-slab-tight__l
+                          div.c-slab-tight__content
+                            p | Thu, Nov 5, 2026
+                            h3.c-heading.--link
+                              a.c-heading__link [href=/news/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect]
+                                span | Mayor Bowser Marks Start of Hypothermia Season, Urges Residents to Call the Shelter Hotlin
+                            span._tag | Press Releases
+  section.c-layout-container.--bg
+    div.c-layout-container__color-wrapper
+      div.c-layout-container__l-content-width
+        h2.c-heading.c-layout-container__heading | More of what's happening in DC
+        div.c-layout-container__content
+          div.c-layout-grid._expand-context
+            article.c-card-animated-shape._set-small-text
+              div.c-card-animated-shape__top-l._stretch-shape
+                div.c-card-animated-shape__img
+                  div.c-card-animated-shape__shape
+                  img [src=/sites/default/files/styles/feature_card_max_540w/public/sites/dc/sites/dc_gov/images/Gett alt=Upcoming Events]
+                  div.c-card-animated-shape__icon-tab
+                h3.c-heading.--link
+                  a.c-heading__link._stretch-link | Upcoming Events [href=/events]
+            article.c-card-animated-shape._set-small-text
+              div.c-card-animated-shape__top-l._stretch-shape
+                div.c-card-animated-shape__img
+                  div.c-card-animated-shape__shape
+                  img [src=/sites/default/files/styles/feature_card_max_540w/public/sites/dc/sites/dc_gov/images/Dist alt=News]
+                  div.c-card-animated-shape__icon-tab
+                h3.c-heading.--link
+                  a.c-heading__link._stretch-link | District News [href=/news]
+            article.c-card-animated-shape._set-small-text
+              div.c-card-animated-shape__top-l._stretch-shape
+                div.c-card-animated-shape__img
+                  div.c-card-animated-shape__shape
+                  img [src=/sites/default/files/styles/feature_card_max_540w/public/sites/dc/sites/dc_gov/images/man- alt=Man on couch]
+                  div.c-card-animated-shape__icon-tab
+                h3.c-heading.--link
+                  a.c-heading__link._stretch-link | Newsletters [href=https://public.govdelivery.com/accounts/DCWASH/subscriber/new?]
+            article.c-card-animated-shape._set-small-text
+              div.c-card-animated-shape__top-l._stretch-shape
+                div.c-card-animated-shape__img
+                  div.c-card-animated-shape__shape
+                  img [src=/sites/default/files/styles/feature_card_max_540w/public/sites/dc/sites/dc_gov/images/Gett alt=Mayor Initiatives]
+                  div.c-card-animated-shape__icon-tab
+                h3.c-heading.--link
+                  a.c-heading__link._stretch-link | Mayoral Initiatives [href=/initiatives]
+            article.c-card-animated-shape._set-small-text
+              div.c-card-animated-shape__top-l._stretch-shape
+                div.c-card-animated-shape__img
+                  div.c-card-animated-shape__shape
+                  img [src=/sites/default/files/styles/feature_card_max_540w/public/sites/dc/sites/dc_gov/images/our- alt=Our RFK]
+                  div.c-card-animated-shape__icon-tab
+                h3.c-heading.--link
+                  a.c-heading__link._stretch-link | Citywide Projects [href=/citywide-projects]
+            article.c-card-animated-shape._set-small-text
+              div.c-card-animated-shape__top-l._stretch-shape
+                div.c-card-animated-shape__img
+                  div.c-card-animated-shape__shape
+                  img [src=/sites/default/files/styles/feature_card_max_540w/public/sites/dc/sites/dc_gov/images/Gett alt=Jobs and careers]
+                  div.c-card-animated-shape__icon-tab
+                h3.c-heading.--link
+                  a.c-heading__link._stretch-link | Jobs & Careers [href=https://dc.gov/jobs]
+  div.seasonal-area
+    section.c-layout-container.--regular
+      div.c-layout-container__color-wrapper
+        div.c-layout-container__l-content-width
+          h2.c-heading.c-layout-container__heading | Essential Fall Resources
+          div.c-layout-container__pre-content
+            p | Embrace the season with information and services for DC residents
+          div.c-layout-container__content
+            section.c-layout-scroll-combo
+              div.c-layout-scroll-combo__l
+                div.c-layout-scroll-combo__lock
+                  div.c-layout-scroll-combo__lock-l
+                    div.seasonal-area__cards-l.--has-bottom-card
+                      div.seasonal-area__card-tall
+                        article.c-card-event._set-small-text
+                          div.c-card-event__l._grid-cell-stretch
+                            div.c-card-event__img
+                              img [src=/sites/default/files/styles/promo_card/public/sites/dc/sites/dc_gov/images/Veterans-5K.jpg alt=National Veterans Parade 5K]
+                              div.c-card-event__date
+                                div.c-card-event__date-day | 8
+                                div.c-card-event__date-month | Nov
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/events/national-veterans-parade-5k]
+                                span | National Veterans Parade 5K
+                            div.c-card-event__content
+                              p | National Veterans Parade 5K
+                              p
+                                br
+                            div.c-card-event__bottom
+                              span.c-tag | Upcoming Event
+                      div.seasonal-area__card-top
+                        article.c-card-event._set-small-text
+                          div.c-card-event__l._grid-cell-stretch
+                            div.c-card-event__img
+                              img [src=/sites/default/files/styles/card_450x270/public/sites/dc/sites/dc_gov/images/winter-season alt=Holiday market]
+                              div.c-card-event__date
+                                div.c-card-event__date-day | 13
+                                div.c-card-event__date-month | Nov
+                            h3.c-heading.--link
+                              a.c-heading__link._stretch-link [href=/events/bedowntown-downtowndc-holiday-market-dates-announced]
+                                span | #BeDowntown: DowntownDC Holiday Market Dates Announced
+                            div.c-card-event__content
+                              h3
+                                strong | DowntownDC Holiday Market Returns for 22nd Season With Extended Run and New Holiday Experi
+                              p
+                                strong | The beloved Downtown DC tradition returns November 13 through December 23 with more time t
+                            div.c-card-event__bottom
+                              span.c-tag | Upcoming Event
+                      div.seasonal-area__card-bottom
+                        article.c-card-frame._set-small-text
+                          div.c-card-frame__l._grid-cell-stretch
+                            img [src=/sites/default/files/styles/thumbnail/public/sites/dc/sites/dc_gov/images/washingtondc_log alt=Washington DC Logo]
+                            div.c-spacer
+                            h3.c-heading | A Local's Guide to the Best Things to do in DC
+                            a.c-link-arrow.--arrow | Link to site [href=https://entertainment.dc.gov/]
+                div.c-layout-scroll-combo__scroll
+                  div.seasonal-area__scroll-content
+                    div.views-element-container
+                      div.view.js-view-dom-id-b3d576e79494be7b10738858ce5ac426d0d88c9f3e7f4544773db84d13d6dce7
+                        div.scroll-combo-header
+                          h3 | Essential Fall Services
+                          a.c-link-arrow.--arrow | All Services [href=/services]
+                        div.c-layout-adaptive-grid._expand-context
+                          div.c-card-service-link._stretch-shape
+                            div.c-card-service-link__l._grid-cell-stretch
+                              div.c-card-service-link__text-l
+                                h3.c-heading.--link
+                                  a.c-heading__link._stretch-link [href=/services/free-produce-dpr]
+                                    span | Free Produce From DPR
+                                div.c-card-service-link__content
+                                  p | Free produce at DPR urban garden locations.
+                              div.c-card-service-link__arrow
+                          div.c-card-service-link._stretch-shape
+                            div.c-card-service-link__l._grid-cell-stretch
+                              div.c-card-service-link__text-l
+                                h3.c-heading.--link
+                                  a.c-heading__link._stretch-link [href=/services/holiday-safety-tips-mpd]
+                                    span | Holiday Safety Tips From MPD
+                                div.c-card-service-link__content
+                                  p | Learn how to keep your holiday safe from crime.
+                              div.c-card-service-link__arrow
+                          div.c-card-service-link._stretch-shape
+                            div.c-card-service-link__l._grid-cell-stretch
+                              div.c-card-service-link__text-l
+                                h3.c-heading.--link
+                                  a.c-heading__link._stretch-link [href=/services/leaf-collection]
+                                    span | Leaf Collection
+                                div.c-card-service-link__content
+                                  p | Find a leaf collection near you.
+                              div.c-card-service-link__arrow
+                          div.c-card-service-link._stretch-shape
+                            div.c-card-service-link__l._grid-cell-stretch
+                              div.c-card-service-link__text-l
+                                h3.c-heading.--link
+                                  a.c-heading__link._stretch-link [href=/services/my-school-dc]
+                                    span | My School DC
+                                div.c-card-service-link__content
+                                  p | Register your PK3-12 child for school through My School DC.
+                              div.c-card-service-link__arrow
+                          div.c-card-service-link._stretch-shape
+                            div.c-card-service-link__l._grid-cell-stretch
+                              div.c-card-service-link__text-l
+                                h3.c-heading.--link
+                                  a.c-heading__link._stretch-link [href=/services/parks]
+                                    span | Parks
+                                div.c-card-service-link__content
+                                  p | DPR has a great park for you and your family, just minutes away from your front door.
+                              div.c-card-service-link__arrow
+                          div.c-card-service-link._stretch-shape
+                            div.c-card-service-link__l._grid-cell-stretch
+                              div.c-card-service-link__text-l
+                                h3.c-heading.--link
+                                  a.c-heading__link._stretch-link [href=/services/winter-wellness]
+                                    span | Winter Wellness
+                                div.c-card-service-link__content
+                                  p | Find resources to help improve your health and well-being during winter.
+                              div.c-card-service-link__arrow
+  section.c-layout-container.--regular
+    div.c-layout-container__color-wrapper
+      div.c-layout-container__l-content-width
+        h2.c-heading.c-layout-container__heading | District Statistics
+        div.c-layout-container__pre-content
+          p | Data and insights paint a picture of our vibrant community
+          p
+            em | Updated September 2026
+        div.c-layout-container__content
+          div.c-layout-grid._expand-context
+            div.c-card-stat._set-small-text
+              div.c-icon.c-card-stat__icon
+              h3.c-heading.c-card-stat__heading | Population
+              div.c-card-stat__stat | 702,250
+              div.c-card-stat__bottom
+                p | Census Estimate
+                  br
+                  em
+                    strong | 2025
+            div.c-card-stat._set-small-text
+              div.c-icon.c-card-stat__icon
+              h3.c-heading.c-card-stat__heading | Housing Units
+              div.c-card-stat__stat | 368,700
+              div.c-card-stat__bottom
+                p | American Community Survey 1-yr Estimates
+                  br
+                  em
+                    strong | 2024
+            div.c-card-stat._set-small-text
+              div.c-icon.c-card-stat__icon
+              h3.c-heading.c-card-stat__heading | Median Household Income
+              div.c-card-stat__stat | $109,707
+              div.c-card-stat__bottom
+                p | American Community Survey 1-yr Estimates
+                  br
+                  em
+                    strong | 2024
+            div.c-card-stat._set-small-text
+              div.c-icon.c-card-stat__icon
+              h3.c-heading.c-card-stat__heading | Poverty Rate
+              div.c-card-stat__stat | 17%
+              div.c-card-stat__bottom
+                p | American Community Survey 1-yr Estimates
+                  br
+                  em
+                    strong | 2024
+            div.c-card-stat._set-small-text
+              div.c-icon.c-card-stat__icon
+              h3.c-heading.c-card-stat__heading | Median Rent
+              div.c-card-stat__stat | $1,931
+              div.c-card-stat__bottom
+                p | American Community Survey 1-yr Estimates
+                  br
+                  em
+                    strong | 2024
+            div.c-card-stat._set-small-text
+              div.c-icon.c-card-stat__icon
+              h3.c-heading.c-card-stat__heading | Unemployment Rate
+              div.c-card-stat__stat | 6%
+              div.c-card-stat__bottom
+                p | American Community Survey 1-yr Estimates
+                  br
+                  em
+                    strong | 2018-2022
+  section.c-layout-container.--regular
+    div.c-layout-container__color-wrapper
+      div.c-layout-container__l-content-width
+        h2.c-heading.c-layout-container__heading | Social Updates
+        div.c-layout-container__content
+          ul.juicer-feed.j-initialized
+            div.j-stacker-wrapper
+              div.j-stacker
+                div.j-stack.galcolumn
+                  li.feed-item.j-x-twitter
+                    div.j-poster
+                      a [href=https://x.com/MayorBowser]
+                        img [src=https://www.juicer.io/api/posts/511915506/poster_images.jpg?external_id=211874910980902509 alt=Profile image for MayorBowser]
+                        div.j-twitter-poster
+                          div.j-twitter-display-name | Mayor Muriel Bowser
+                          div.j-twitter-screen-name | @MayorBowser
+                      a.j-twitter.j-twitter-text | X (Twitter) Logo [href=https://twitter.com/MayorBowser/status/2118749109809025098]
+                      span.sr-only | Photo from MayorBowser on Twitter at 11/6/26 at 4:55PM
+                    div.j-text
+                      div.j-message
+                        p | Winter is around the corner, which means winter weather is, too!Become a Snow Team Hero by
+                          br
+                          br
+                          a | snowteam.dc.gov [href=https://t.co/vKQLJ4BPfj]
+                          a.auto | https://t.co/l8dVZLI5et [href=https://t.co/l8dVZLI5et]
+                      a.j-image [href=https://twitter.com/MayorBowser/status/2118749109809025098]
+                        img.j-content-image [src=https://www.juicer.io/api/media/38043223?s=be4ba95c5679ed42e431da5658f47866a82ac03b alt=Photo from MayorBowser on Twitter at 11/6/26 at 4:55PM]
+                      div.j-meta
+                        ul.j-twitter-intents
+                          li
+                            a.j-twitter-reply | Reply [href=https://twitter.com/intent/tweet?in_reply_to=2118749109809025098]
+                          li
+                            a.j-twitter-retweet | Retweet [href=https://twitter.com/intent/retweet?tweet_id=2118749109809025098]
+                          li
+                            a.j-twitter-like | Like [href=https://twitter.com/intent/like?tweet_id=2118749109809025098]
+                        a [href=https://twitter.com/MayorBowser/status/2118749109809025098]
+                          time.j-date.j-twitter-date | 6 Nov 2026
+                  li.feed-item.j-x-twitter
+                    div.j-poster
+                      a [href=https://x.com/MayorBowser]
+                        img [src=https://www.juicer.io/api/posts/511887205/poster_images.jpg?external_id=211837441569184604 alt=Profile image for MayorBowser]
+                        div.j-twitter-poster
+                          div.j-twitter-display-name | Mayor Muriel Bowser
+                          div.j-twitter-screen-name | @MayorBowser
+                      a.j-twitter.j-twitter-text | X (Twitter) Logo [href=https://twitter.com/MayorBowser/status/2118374415691846046]
+                      span.sr-only | LIVE: Mayor Bowser Encourages District Residents to Take Pledge During Hypothermia Season
+                    div.j-text
+                      div.j-message
+                        p | LIVE: Mayor Bowser Encourages District Residents to Take Pledge During Hypothermia Season
+                          a | x.com/i/broadcasts/2… [href=https://t.co/WE1n4t6APb]
+                      a.j-image [href=https://twitter.com/MayorBowser/status/2118374415691846046]
+                        img.j-content-image [src=https://www.juicer.io/api/media/37982222?s=423d3b8e3d9c57fde4f073a8a61e9a805b2b14db alt=LIVE: Mayor Bowser Encourages District Residents to Take Pledge During Hypothermia Season]
+                      div.j-meta
+                        ul.j-twitter-intents
+                          li
+                            a.j-twitter-reply | Reply [href=https://twitter.com/intent/tweet?in_reply_to=2118374415691846046]
+                          li
+                            a.j-twitter-retweet | Retweet [href=https://twitter.com/intent/retweet?tweet_id=2118374415691846046]
+                          li
+                            a.j-twitter-like | Like [href=https://twitter.com/intent/like?tweet_id=2118374415691846046]
+                        a [href=https://twitter.com/MayorBowser/status/2118374415691846046]
+                          time.j-date.j-twitter-date | 5 Nov 2026
+                div.j-stack.galcolumn
+                  li.feed-item.j-x-twitter
+                    div.j-poster
+                      a [href=https://x.com/MayorBowser]
+                        img [src=https://www.juicer.io/api/posts/511889014/poster_images.jpg?external_id=211839240382047473 alt=Profile image for MayorBowser]
+                        div.j-twitter-poster
+                          div.j-twitter-display-name | Mayor Muriel Bowser
+                          div.j-twitter-screen-name | @MayorBowser
+                      a.j-twitter.j-twitter-text | X (Twitter) Logo [href=https://twitter.com/MayorBowser/status/2118392403820474730]
+                      span.sr-only | Photo from MayorBowser on Twitter at 11/5/26 at 5:18PM
+                    div.j-text
+                      div.j-message
+                        p | Happy PoPville Day in Washington, DC!
+                        div.j-twitter-quote
+                          a [href=https://x.com/PoPville]
+                            div.j-twitter-quote-display-name | PoPville
+                            div.j-twitter-quote-screen-name | @PoPville
+                          div.j-twitter-quote-text | Remember, Remember, the 5th of November for Today is PoPville Day Now and Forever - A true
+                            a.auto | https://t.co/3onV2do79k [href=https://t.co/3onV2do79k]
+                            a.auto | https://t.co/KCbpGW8HuL [href=https://t.co/KCbpGW8HuL]
+                      a.j-image [href=https://twitter.com/MayorBowser/status/2118392403820474730]
+                        img.j-content-image [src=https://www.juicer.io/api/media/37985888?s=e611a769316aaef45956bb4d2af9b10ab919682a alt=Photo from MayorBowser on Twitter at 11/5/26 at 5:18PM]
+                      div.j-meta
+                        ul.j-twitter-intents
+                          li
+                            a.j-twitter-reply | Reply [href=https://twitter.com/intent/tweet?in_reply_to=2118392403820474730]
+                          li
+                            a.j-twitter-retweet | Retweet [href=https://twitter.com/intent/retweet?tweet_id=2118392403820474730]
+                          li
+                            a.j-twitter-like | Like [href=https://twitter.com/intent/like?tweet_id=2118392403820474730]
+                        a [href=https://twitter.com/MayorBowser/status/2118392403820474730]
+                          time.j-date.j-twitter-date | 5 Nov 2026
+                  li.feed-item.j-x-twitter
+                    div.j-poster
+                      a [href=https://x.com/MayorBowser]
+                        img [src=https://www.juicer.io/api/posts/511899142/poster_images.jpg?external_id=211802781576982148 alt=Profile image for MayorBowser]
+                        div.j-twitter-poster
+                          div.j-twitter-display-name | Mayor Muriel Bowser
+                          div.j-twitter-screen-name | @MayorBowser
+                      a.j-twitter.j-twitter-text | X (Twitter) Logo [href=https://twitter.com/MayorBowser/status/2118027815769821489]
+                      span.sr-only | Photo from MayorBowser on Twitter at 11/4/26 at 5:09PM
+                    div.j-text
+                      div.j-message
+                        p | RT @DCDPR: FUN ALERT: Registration for Winter Programs Opens TODAY & Thursday at NOON! Wai
+                          a | t.co/3So1Vh [href=https://t.co/3So1Vh]
+                      div.j-meta
+                        ul.j-twitter-intents
+                          li
+                            a.j-twitter-reply | Reply [href=https://twitter.com/intent/tweet?in_reply_to=2118027815769821489]
+                          li
+                            a.j-twitter-retweet | Retweet [href=https://twitter.com/intent/retweet?tweet_id=2118027815769821489]
+                          li
+                            a.j-twitter-like | Like [href=https://twitter.com/intent/like?tweet_id=2118027815769821489]
+                        a [href=https://twitter.com/MayorBowser/status/2118027815769821489]
+                          time.j-date.j-twitter-date | 4 Nov 2026
+                div.j-stack.galcolumn
+                  li.feed-item.j-x-twitter
+                    div.j-poster
+                      a [href=https://x.com/MayorBowser]
+                        img [src=https://www.juicer.io/api/posts/511889012/poster_images.jpg?external_id=211838982509501235 alt=Profile image for MayorBowser]
+                        div.j-twitter-poster
+                          div.j-twitter-display-name | Mayor Muriel Bowser
+                          div.j-twitter-screen-name | @MayorBowser
+                      a.j-twitter.j-twitter-text | X (Twitter) Logo [href=https://twitter.com/MayorBowser/status/2118389825095012353]
+                      span.sr-only | Photo from MayorBowser on Twitter at 11/5/26 at 5:07PM
+                    div.j-text
+                      div.j-message
+                        p | Registration for all @DCDPR winter programming is now open in Washington, DC!
+                          a.auto | https://t.co/UPVW2pNFUC [href=https://t.co/UPVW2pNFUC]
+                      a.j-image [href=https://twitter.com/MayorBowser/status/2118389825095012353]
+                        img.j-content-image [src=https://www.juicer.io/api/media/37985886?s=fb5dcb0591cec2b66e28cf32bcd3eb3bb564a27c alt=Photo from MayorBowser on Twitter at 11/5/26 at 5:07PM]
+                      div.j-meta
+                        ul.j-twitter-intents
+                          li
+                            a.j-twitter-reply | Reply [href=https://twitter.com/intent/tweet?in_reply_to=2118389825095012353]
+                          li
+                            a.j-twitter-retweet | Retweet [href=https://twitter.com/intent/retweet?tweet_id=2118389825095012353]
+                          li
+                            a.j-twitter-like | Like [href=https://twitter.com/intent/like?tweet_id=2118389825095012353]
+                        a [href=https://twitter.com/MayorBowser/status/2118389825095012353]
+                          time.j-date.j-twitter-date | 5 Nov 2026
+                  li.feed-item.j-x-twitter
+                    div.j-poster
+                      a [href=https://x.com/DCDPR]
+                        img [src=https://www.juicer.io/api/posts/511869096/poster_images.jpg?external_id=211797944217366975 alt=Profile image for DCDPR]
+                        div.j-twitter-poster
+                          div.j-twitter-display-name | DC Parks & Recreation #WhereFunHappens
+                          div.j-twitter-screen-name | @DCDPR
+                      a.j-twitter.j-twitter-text | X (Twitter) Logo [href=https://twitter.com/DCDPR/status/2117979442173669752]
+                      span.sr-only | Photo from DCDPR on Twitter at 11/4/26 at 1:57PM
+                    div.j-text
+                      div.j-message | FUN ALERT: Registration for Winter Programs Opens TODAY & Thursday at NOON! Waiting room o
+                        p
+                        div.j-retweet.j-twitter-meta | Retweeted by
+                          a | Mayor Muriel Bowser [href=https://x.com/MayorBowser]
+                        a | nixle.us/HSRHH [href=https://t.co/3So1VheObQ]
+                      a.j-image [href=https://twitter.com/DCDPR/status/2117979442173669752]
+                        img.j-content-image [src=https://www.juicer.io/api/media/37943980?s=4a3256e3e270e8af49042974b04589c02cccebb5 alt=Photo from DCDPR on Twitter at 11/4/26 at 1:57PM]
+                      div.j-meta
+                        ul.j-twitter-intents
+                          li
+                            a.j-twitter-reply | Reply [href=https://twitter.com/intent/tweet?in_reply_to=2117979442173669752]
+                          li
+                            a.j-twitter-retweet | Retweet [href=https://twitter.com/intent/retweet?tweet_id=2117979442173669752]
+                          li
+                            a.j-twitter-like | Like [href=https://twitter.com/intent/like?tweet_id=2117979442173669752]
+                        a [href=https://twitter.com/DCDPR/status/2117979442173669752]
+                          time.j-date.j-twitter-date | 4 Nov 2026
+            div
+            a.j-paginate.juicer-button | Load More [href=#]
+div.node-bottom
+  div.node-feedback
+    section.c-layout-container
+      div.c-layout-container__color-wrapper
+        div.c-layout-container__l-content-width
+          div.c-layout-container__content
+            article.c-feedback
+              div.c-feedback__l
+                div.c-feedback__cards-l
+                  div.c-feedback__card.--left
+                    h2.c-heading.c-feedback__heading | We want to hear from you.
+                    p | Your feedback is important to us. We use it to improve this website and District services,
+                    div.c-feedback__card-bottom
+                      p | Was this page helpful?
+                      div.c-feedback__card-actions
+                        button.c-button-pill.c-feedback__form-open | Yes
+                        button.c-button-pill.c-feedback__form-open | No
+                  div.c-feedback__card.--right
+                    div.c-feedback__card-top._set-bg-dark
+                      p | Tell us what you think in our 5 minute survey.
+                    div.c-feedback__card-bottom._set-bg-mid
+                      button.c-button-pill.--icon | Send feedback
+                        div.c-icon.c-button-pill__icon
+                      a.c-link-arrow.--arrow | Contact us [href=/]
+                div.c-feedback__form._set-bg-mid
+                  div.c-feedback__form-scroll-anchor
+                  div.c-feedback__form-top
+                    h3.c-heading.c-feedback__form-heading | Send your feedback
+                    button.c-feedback__form-close
+                      span._visually-hidden | Close feedback form
+                  div.c-feedback__form-l
+                    div
+                      div.webform-ajax-form-wrapper
+                        form.webform-submission-form.webform-submission-add-form
+                          div.js-webform-type-webform-markup.webform-type-webform-markup
+                            p | Please do not include personal information (home address, tax ID, social security number, 
+                          div.js-webform-type-textarea.webform-type-textarea
+                            label.js-form-required.form-required | What was helpful about this page?
+                            div
+                              textarea.form-textarea.required
+                          div.js-webform-type-email.webform-type-email
+                            label.js-form-required.form-required | If you need us to contact you, please provide an email address:
+                            input.form-email.required
+                          div.js-webform-type-webform-markup.webform-type-webform-markup
+                            p | If this is an emergency, please call 911
+                          div.form-actions.webform-actions
+                            input.webform-button--submit.submit
+                          input
+                          input
+                          div.url-textfield.js-form-wrapper
+                            div.js-form-item.form-item
+                              label | Leave this field blank
+                              input.form-text
+  div.node-attribution
+    div.node-attribution__updated | Last updated: 8:16 AM EST November 2, 2026
+    div.node-attribution__maintainer | Maintained by
+      a | DC.gov [href=/]

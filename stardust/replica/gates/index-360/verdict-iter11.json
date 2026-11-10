@@ -1,0 +1,29 @@
+{
+  "round": "iter11",
+  "width": 360,
+  "pixel": {
+    "rc": 2,
+    "diff": "stardust/replica/gates/index-360/diff-iter11.png"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/content-diff-iter11.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/visual-diff-iter11.txt"
+    },
+    "chrome-parity": {
+      "rc": 2,
+      "evidence": "stardust/replica/gates/index-360/chrome-parity-iter11.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/index-360/clip-iter11.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-06T19:00:30.088Z"
+}

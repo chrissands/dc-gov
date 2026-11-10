@@ -1,0 +1,299 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-06T19:18:47.751Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-06T19:18:47.751Z",
+  "blocks": [
+    {
+      "id": "card-shapes",
+      "label": "card-shapes",
+      "kind": "module",
+      "signature": "module:card-shapes",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "card-shapes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "cards-tabbed",
+      "label": "cards-tabbed",
+      "kind": "module",
+      "signature": "module:cards-tabbed",
+      "source": null,
+      "usedByTemplates": [
+        "neighborhoods"
+      ],
+      "usedByPages": [
+        "neighborhoods"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "cards-tabbed",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "carousel-grid",
+      "label": "carousel-grid",
+      "kind": "module",
+      "signature": "module:carousel-grid",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "carousel-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "emblem",
+      "label": "emblem",
+      "kind": "module",
+      "signature": "module:emblem",
+      "source": null,
+      "usedByTemplates": [
+        "neighborhoods",
+        "news"
+      ],
+      "usedByPages": [
+        "neighborhoods",
+        "news"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "emblem",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feedback",
+      "label": "feedback",
+      "kind": "module",
+      "signature": "module:feedback",
+      "source": null,
+      "usedByTemplates": [
+        "agency-directory",
+        "index"
+      ],
+      "usedByPages": [
+        "agency-directory",
+        "index"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "feedback",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero",
+      "label": "hero",
+      "kind": "module",
+      "signature": "module:hero",
+      "source": null,
+      "usedByTemplates": [
+        "neighborhoods"
+      ],
+      "usedByPages": [
+        "neighborhoods"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-home",
+      "label": "hero-home",
+      "kind": "module",
+      "signature": "module:hero-home",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-home",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-simple",
+      "label": "hero-simple",
+      "kind": "module",
+      "signature": "module:hero-simple",
+      "source": null,
+      "usedByTemplates": [
+        "agency-directory",
+        "news"
+      ],
+      "usedByPages": [
+        "agency-directory",
+        "news"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-simple",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "news-listing",
+      "label": "news-listing",
+      "kind": "module",
+      "signature": "module:news-listing",
+      "source": null,
+      "usedByTemplates": [
+        "news"
+      ],
+      "usedByPages": [
+        "news"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "news-listing",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "scroll-combo",
+      "label": "scroll-combo",
+      "kind": "module",
+      "signature": "module:scroll-combo",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "scroll-combo",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "sidebar",
+      "label": "sidebar",
+      "kind": "module",
+      "signature": "module:sidebar",
+      "source": null,
+      "usedByTemplates": [
+        "agency-directory"
+      ],
+      "usedByPages": [
+        "agency-directory"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "sidebar",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "social-feed",
+      "label": "social-feed",
+      "kind": "module",
+      "signature": "module:social-feed",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "social-feed",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stats",
+      "label": "stats",
+      "kind": "module",
+      "signature": "module:stats",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "stats",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tabset",
+      "label": "tabset",
+      "kind": "module",
+      "signature": "module:tabset",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "tabset",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

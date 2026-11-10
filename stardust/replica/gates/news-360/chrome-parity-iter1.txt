@@ -1,0 +1,22 @@
+[live-session] waiting to pace live navigations to beta.dc.gov (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 675 ms
+chrome-parity @ 360px, tolerance 1px
+  live:  https://beta.dc.gov/news
+  build: http://localhost:8791/news-proposed.html
+
+■ header: ✓ parity — 4 paired of 4/4 texts, 4/4 icons
+
+■ footer: 11 delta(s) — 22 paired of 22/22 texts, 6/6 icons
+  OFFSET       the region and its 11 paired text(s) sit Δy +85px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "Services"  Δy +87px (7028→7115); Δw -2px (72→70)
+  PAIR         "Neighborhoods"  Δx +3px (116→119); Δy +87px (7076→7163); Δw -5px (128→123)
+  PAIR         "Government"  Δy +87px (7124→7211); Δw -3px (102→99)
+  PAIR         "Accessibility"  Δx +2px (147→149); Δy +86px (7175→7261); Δw -4px (104→100)
+  PAIR         "District News"  Δy +86px (7361→7447); Δw -2px (99→97)
+  PAIR         "District Initiatives"  Δy +86px (7422→7508); Δw -3px (127→124)
+  PAIR         "Contact Us"  Δy +86px (7544→7630); Δw -2px (84→82)
+  PAIR         "Facebook Pages"  Δx -2px (37→35); Δy +86px (7684→7770); Δw +3px (122→125)
+  PAIR         "Copyright © 2026 DC.Gov. All rights rese"  Δx +2px (31→33); Δy +86px (7857→7943); Δw -2px (297→295)
+  PAIR         "Accessibility"  Δy +86px (7938→8024); Δw -2px (81→79)
+  PAIR         "Terms and Conditions"  Δy +85px (8016→8101); Δw -2px (142→140)
+
+✗ 11 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

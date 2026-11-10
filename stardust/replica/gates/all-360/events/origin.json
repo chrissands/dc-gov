@@ -1,0 +1,9 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://beta.dc.gov/events",
+  "log": [
+    "stitched stardust/replica/gates/all-360/events/origin.png: 360x5016 from 6 chunks"
+  ],
+  "fontsFailed": [],
+  "at": "2026-11-06T21:10:45.497Z"
+}

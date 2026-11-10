@@ -1,0 +1,117 @@
+div.site-footer__l
+  div.site-footer__top-l
+    a.site-footer__logo [href=/]
+      span._visually-hidden | Home
+    div.site-footer__top-center-l
+      ul.menu.menu-simple-footer
+        li.menu-item
+          a | Services [href=/services]
+        li.menu-item
+          a | Neighborhoods [href=/neighborhoods]
+        li.menu-item
+          span | Government
+      div.site-footer__accessibility
+        div.accessibility-link__icon
+        a | Accessibility [href=/dcgov-accessibility-policy]
+    div.site-footer__submit-request
+      a | Submit a request [href=https://311.dc.gov/citizen/s/]
+  div.site-footer__middle-l
+    ul.menu.menu-footer
+      li.menu-item.--has-submenu
+        div.accordion-menu__top
+          span | District News
+          button.accordion-menu__toggle._js-accordion
+            span._visually-hidden | Toggle sub-menu
+            span.accordion-menu__toggle-icon
+        div.accordion-menu__panel
+          ul.menu.submenu
+            li.menu-item
+              a | Citywide News [href=/news]
+            li.menu-item
+              a | Citywide Calendar [href=/events]
+            li.menu-item
+              a | Subscribe to Receive Emails [href=https://service.govdelivery.com/service/user.html?code=DCWASH]
+            li.menu-item
+              a | Subscribe to Text Alerts [href=https://textalert.ema.dc.gov/index.php?CCheck=1]
+            li.menu-item
+              a | Subscribe to Newsletters [href=https://public.govdelivery.com/accounts/DCWASH/subscriber/new?]
+      li.menu-item.--has-submenu
+        div.accordion-menu__top
+          span | District Initiatives
+          button.accordion-menu__toggle._js-accordion
+            span._visually-hidden | Toggle sub-menu
+            span.accordion-menu__toggle-icon
+        div.accordion-menu__panel
+          ul.menu.submenu
+            li.menu-item
+              a | Green DC [href=https://green.dc.gov/]
+            li.menu-item
+              a | Age-Friendly DC [href=https://agefriendly.dc.gov/]
+            li.menu-item
+              a | Sustainable DC [href=https://sustainable.dc.gov/]
+            li.menu-item
+              a | Connect DC [href=https://connect.dc.gov/]
+            li.menu-item
+              a | Great Streets [href=https://greatstreets.dc.gov/]
+            li.menu-item
+              a | Ready DC [href=https://ready.dc.gov/]
+      li.menu-item.--has-submenu
+        div.accordion-menu__top
+          span | About DC
+          button.accordion-menu__toggle._js-accordion
+            span._visually-hidden | Toggle sub-menu
+            span.accordion-menu__toggle-icon
+        div.accordion-menu__panel
+          ul.menu.submenu
+            li.menu-item
+              a | Open DC [href=https://ogag.dc.gov/]
+            li.menu-item
+              a | Budget [href=https://cfo.dc.gov/budget]
+            li.menu-item
+              a | Emancipation [href=https://emancipation.dc.gov/]
+            li.menu-item
+              a | Consumer Protection [href=https://oag.dc.gov/consumer-protection]
+            li.menu-item
+              a | Property Quest [href=https://propertyquest.dc.gov/]
+      li.menu-item.--has-submenu
+        div.accordion-menu__top
+          span | Contact Us
+          button.accordion-menu__toggle._js-accordion
+            span._visually-hidden | Toggle sub-menu
+            span.accordion-menu__toggle-icon
+        div.accordion-menu__panel
+          ul.menu.submenu
+            li.menu-item
+              a | Service Request Center [href=https://311.dc.gov/]
+    ul.menu.menu-social-footer
+      li.social-item
+        div.social-item__icon
+        div.social-item__text
+          a | Facebook Pages [href=/dc-agency-facebook-links]
+          p.social-item__count | 41 pages available
+          p.social-item__action | Follow Now
+      li.social-item
+        div.social-item__icon
+        div.social-item__text
+          a | X Feeds [href=/dc-agency-twitter-links]
+          p.social-item__count | 72 feeds available
+          p.social-item__action | Read Now
+      li.social-item
+        div.social-item__icon
+        div.social-item__text
+          a | YouTube channels. [href=/dc-agency-youtube-links]
+          p.social-item__count | 27 channels available
+          p.social-item__action | Follow Now
+  div.site-footer__bottom-l
+    div.site-footer__legal
+      p | Copyright © 2026 DC.Gov. All rights reserved.
+    div.site-footer__final-links
+      ul.menu.menu-policies-footer
+        li.menu-item
+          a | About DC [href=/about-dc]
+        li.menu-item
+          a | Accessibility [href=/dcgov-accessibility-policy]
+        li.menu-item
+          a | Privacy and Security [href=/privacy-and-security]
+        li.menu-item
+          a | Terms and Conditions [href=/terms-and-conditions-use]

@@ -1,0 +1,29 @@
+{
+  "round": "conf",
+  "width": 360,
+  "pixel": {
+    "rc": 0,
+    "diff": "stardust/replica/gates/neighborhoods-360/diff-conf.png"
+  },
+  "probes": {
+    "content-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/neighborhoods-360/content-diff-conf.txt"
+    },
+    "visual-diff": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/neighborhoods-360/visual-diff-conf.txt"
+    },
+    "chrome-parity": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/neighborhoods-360/chrome-parity-conf.txt"
+    },
+    "clip-probe": {
+      "rc": 0,
+      "evidence": "stardust/replica/gates/neighborhoods-360/clip-conf.txt"
+    }
+  },
+  "structural": 0,
+  "nothingLost": 0,
+  "at": "2026-11-06T19:10:38.022Z"
+}

@@ -1,0 +1,22 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://beta.dc.gov/neighborhoods (live side from cache stardust/replica/gates/neighborhoods-1440/chrome-live.json, probed 2026-11-06T19:06:17.579Z — delete the file to re-probe)
+  build: http://localhost:8791/neighborhoods-proposed.html
+
+■ header: 1 delta(s) — 11 paired of 11/11 texts, 4/4 icons
+  PAIR         "Neighborhoods"  Δx -2px (1057→1055); Δw +2px (140→142)
+
+■ footer: 12 delta(s) — 41 paired of 41/41 texts, 6/6 icons
+  PAIR         "District News"  Δw -2px (112→110)
+  PAIR         "Subscribe to Newsletters"  Δw -2px (172→170)
+  PAIR         "District Initiatives"  Δw -2px (143→141)
+  PAIR         "Great Streets"  Δw -3px (92→89)
+  PAIR         "Service Request Center"  Δw -2px (162→160)
+  PAIR         "41 pages available"  letterSpacing normal → -0.21px
+  PAIR         "Follow Now"  letterSpacing normal → -0.21px
+  PAIR         "X Feeds"  Δw -2px (116→114)
+  PAIR         "72 feeds available"  letterSpacing normal → -0.21px; Δw -2px (116→114)
+  PAIR         "Read Now"  letterSpacing normal → -0.21px; Δw -2px (93→91)
+  PAIR         "27 channels available"  letterSpacing normal → -0.21px
+  PAIR         "Follow Now"  letterSpacing normal → -0.21px
+
+✗ 13 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

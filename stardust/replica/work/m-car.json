@@ -1,0 +1,569 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-06T18:10:02.597Z",
+    "urls": [
+      "https://beta.dc.gov/"
+    ],
+    "widths": [
+      360
+    ],
+    "selectors": [
+      ".c-layout-carousel-grid",
+      ".splide",
+      ".splide__track",
+      ".splide__list",
+      ".splide__slide",
+      ".c-layout-carousel-grid__controls",
+      ".c-layout-carousel-grid__stackable-controls",
+      ".c-layout-scroll-combo",
+      ".c-layout-scroll-combo__lock",
+      ".c-layout-scroll-combo__scroll",
+      ".seasonal-area__cards-l",
+      ".whats-happening-in-dc .c-slab-tight"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    360
+  ],
+  "selectors": [
+    ".c-layout-carousel-grid",
+    ".splide",
+    ".splide__track",
+    ".splide__list",
+    ".splide__slide",
+    ".c-layout-carousel-grid__controls",
+    ".c-layout-carousel-grid__stackable-controls",
+    ".c-layout-scroll-combo",
+    ".c-layout-scroll-combo__lock",
+    ".c-layout-scroll-combo__scroll",
+    ".seasonal-area__cards-l",
+    ".whats-happening-in-dc .c-slab-tight"
+  ],
+  "root": {
+    "https://beta.dc.gov/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 18227,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://beta.dc.gov/": {
+      "360": {
+        ".c-layout-carousel-grid": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2028,
+              "w": 360,
+              "h": 335
+            },
+            "visible": true,
+            "text": "Swipe as a carousel Stack in a list Pre…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "335.109px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".splide": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2082,
+              "w": 360,
+              "h": 281
+            },
+            "visible": true,
+            "text": "Previous slide Next slide Services Call…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "281.109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".splide__track": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2082,
+              "w": 360,
+              "h": 233
+            },
+            "visible": true,
+            "text": "Services Call 311 at any time to reques…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "233.109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 16px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".splide__list": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 2082,
+              "w": 328,
+              "h": 233
+            },
+            "visible": true,
+            "text": "Services Call 311 at any time to reques…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "233.109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".splide__slide": [
+          {
+            "index": 0,
+            "of": 6,
+            "rect": {
+              "x": 16,
+              "y": 2082,
+              "w": 328,
+              "h": 233
+            },
+            "visible": true,
+            "text": "Services Call 311 at any time to reques…",
+            "props": {
+              "display": "list-item",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "233.109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".c-layout-carousel-grid__controls": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2082,
+              "w": 360,
+              "h": 281
+            },
+            "visible": true,
+            "text": "Previous slide Next slide Services Call…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "281.109px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 48px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".c-layout-carousel-grid__stackable-controls": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 2028,
+              "w": 360,
+              "h": 38
+            },
+            "visible": true,
+            "text": "Swipe as a carousel Stack in a list",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "38px",
+              "maxWidth": "none",
+              "margin": "0px 0px 16px",
+              "padding": "0px",
+              "gap": "10px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".c-layout-scroll-combo": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 16,
+              "y": 3912,
+              "w": 328,
+              "h": 2256
+            },
+            "visible": true,
+            "text": "8 NOV National Veterans Parade Honor ve…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "2256.36px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".c-layout-scroll-combo__lock": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 16,
+              "y": 3912,
+              "w": 328,
+              "h": 543
+            },
+            "visible": true,
+            "text": "8 NOV National Veterans Parade Honor ve…",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "543.203px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".c-layout-scroll-combo__scroll": [
+          {
+            "index": 0,
+            "of": 2,
+            "rect": {
+              "x": 16,
+              "y": 4479,
+              "w": 328,
+              "h": 1689
+            },
+            "visible": true,
+            "text": "Sat, Nov 21, 2026 Ward 4 Roll Off Day -…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "1689.16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".seasonal-area__cards-l": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 16,
+              "y": 8666,
+              "w": 328,
+              "h": 1281
+            },
+            "visible": true,
+            "text": "8 NOV National Veterans Parade 5K Natio…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "1281.02px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "24px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".whats-happening-in-dc .c-slab-tight": [
+          {
+            "index": 0,
+            "of": 5,
+            "rect": {
+              "x": 16,
+              "y": 4479,
+              "w": 328,
+              "h": 340
+            },
+            "visible": true,
+            "text": "Sat, Nov 21, 2026 Ward 4 Roll Off Day -…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "328px",
+              "height": "340.031px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "400",
+              "lineHeight": "18.6662px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1117 @@
+{
+ "_provenance": {
+  "writtenBy": "stardust:dynamics detect",
+  "writtenAt": "2026-11-06T17:56:35.633Z",
+  "settleMs": 5000,
+  "width": 1440,
+  "urls": [
+   "https://beta.dc.gov/",
+   "https://beta.dc.gov/services",
+   "https://beta.dc.gov/neighborhoods",
+   "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority"
+  ],
+  "reachSource": "stardust/current/pages"
+ },
+ "pages": {
+  "/": {
+   "url": "https://beta.dc.gov/",
+   "status": 200,
+   "host": "beta.dc.gov",
+   "title": "Home",
+   "forms": [
+    {
+     "name": "sh-search-form",
+     "action": "https://beta.dc.gov/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:key"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "home-search-form",
+     "action": "https://beta.dc.gov/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:key"
+     ],
+     "hidden": [
+      "type[services]",
+      "sort_bef_combine"
+     ],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "webform-submission-send-your-feedback-add-form--7",
+     "action": "https://beta.dc.gov/",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 3,
+     "signature": [
+      "textarea:about_this_page",
+      "email:email",
+      "text:url"
+     ],
+     "hidden": [
+      "form_build_id",
+      "form_id"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 2,
+     "signature": [
+      "email:e",
+      "checkbox:consent"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    },
+    {
+     "name": "prefix-formStepForm",
+     "action": null,
+     "method": "get",
+     "role": "",
+     "inChrome": false,
+     "fields": 0,
+     "signature": [],
+     "hidden": [],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [
+    {
+     "text": "Remind Me Later",
+     "href": null,
+     "marker": "prefix-overlay-action-later",
+     "inChrome": false,
+     "titleOnTrigger": null,
+     "target": {
+      "role": "button",
+      "heading": "",
+      "textLen": 15,
+      "hasForm": false,
+      "hasIframe": false,
+      "hasVideo": false
+     }
+    }
+   ],
+   "dialogs": [
+    {
+     "role": "dialog",
+     "heading": "",
+     "textLen": 467,
+     "hasForm": true,
+     "hasIframe": false,
+     "hasVideo": false
+    }
+   ],
+   "dialogCount": 1,
+   "media": [
+    {
+     "tag": "video",
+     "src": "/themes/custom/dc/img/hero-home/herohome.mp4",
+     "account": null,
+     "player": null,
+     "videoId": null,
+     "inDialog": false
+    }
+   ],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://mybusiness.dc.gov/login",
+    "https://311.dc.gov/citizen/s/login/",
+    "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?",
+    "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 2
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "gtag",
+     "ajaxPageState",
+     "ajaxTrustedUrl",
+     "gtm",
+     "webform",
+     "ajax",
+     "views",
+     "user",
+     "dialog"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "Drupal"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 6414,
+   "domAddedAfterLoad": 3,
+   "hosts": {
+    "beta.dc.gov": 40,
+    "static.cloudflareinsights.com": 1,
+    "content.govdelivery.com": 2,
+    "cdn.gtranslate.net": 1,
+    "www.juicer.io": 21,
+    "www.googletagmanager.com": 2,
+    "fonts.googleapis.com": 1,
+    "fonts.gstatic.com": 1,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "content.govdelivery.com",
+    "cdn.gtranslate.net",
+    "www.juicer.io",
+    "www.googletagmanager.com",
+    "fonts.googleapis.com",
+    "fonts.gstatic.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+    "https://content.govdelivery.com/overlay/js/18684.js",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtm.js?tibu7u",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtag.js?tibu7u",
+    "https://beta.dc.gov/sites/default/files/js/js_HvAZFYugeclJH3OTtkGBZfQFiQEGoaNd9bo9I1hHDjM.js?scope=header&delta=0&language=en&theme=dcgov&include=eJyFjkEOgzAMBD-Ekichh2ytVDaWahd4PhR6aaHqZVae3YPrkFmskH",
+    "https://cdn.gtranslate.net/widgets/latest/dropdown.js",
+    "https://www.juicer.io/embed/mayorbowser-b4670da6-f4d8-4646-8daa-7efbc323d09e/embed-code.js?per=6",
+    "https://beta.dc.gov/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NXP2FJ3N",
+    "https://www.juicer.io/embed-2ec2bc3f741509aef30eba8ac5da9537bb0d57fc53b06864aece31c31148116a.js",
+    "https://beta.dc.gov/sites/default/files/js/js_FBJPg6QeODTVCJagNtEAfkhaN4V-rAUXWidlLhplsZY.js?scope=footer&delta=1&language=en&theme=dcgov&include=eJyFjkEOgzAMBD-Ekichh2ytVDaWahd4PhR6aaHqZVae3YPrkFmskH",
+    "https://www.googletagmanager.com/gtag/js?id=G-XLLLT5975Z&cx=c&gtm=4e6b41",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a565f9cbde24347d",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a565f9cbde24347d"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/{hash}",
+     "query": [],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565f9cbde24347d"
+    },
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/rum"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST analytics.google.com/g/collect",
+    "GET www.juicer.io/api/feeds/mayorbowser-b4670da6-f4d8-4646-8daa-7efbc323d09e",
+    "POST www.juicer.io/api/page_views"
+   ],
+   "postBodies": [
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565f9cbde24347d",
+     "body": "sAd7jkawj-N17U-rcXm9uMasFRUEsqHUU+$x$ki3ggL0sSg4+RXO9LFR1tvqMczGNspNav6xOAD+I5YPB308$kn3$oJImap$ZOU$KaY4tXddpg9mRLNzZh4TsvXgGYlG$fCjkz4cb5K2Ri162KUoMtsMSgbA9tCHXmux6TvzSFxnrOyADc2XJ$w50j93$R1RNQ6YDmA1a9nXKIcsXd-l4NSGxabkAipVnBpO+cITrYELcfP$ys-IkE8JKzXjiUXSeVC6iMpbjSXt$N8iQDtzwhyfO4rRltt$7-v1BexyAy8PUVqqFpjQK3-fb-KT6v1EQfH7uhIYLppO36dEr7hhmQYpeGSKhtd5NTEiEYqmhVbegTHLa$PioS0E4rL5GKiRqwlHpbf0Q4jQTmKJ"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-XLLLT5975Z&gtm=45je6b41v898517650za20ozb9251489358zd9251489358xf1&_p=1793987796382&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1718626866.1793",
+     "body": ""
+    },
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/rum?",
+     "body": "{\"startTime\":1793987795783,\"pageloadId\":\"28ec7083-6173-4bf7-9b81-5d0949f216e7\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://beta.dc.gov/\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"158\",\"bv\":\"158\"},\"memory\":{\"totalJSHeapSize\":26210786,\"usedJSHeapSize\":19176134,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":712,\"firstContentfulPaint\":712,\"timingsV2\":{\"next"
+    },
+    {
+     "url": "https://www.juicer.io/api/page_views",
+     "body": "{\"feed_id\":333048}"
+    }
+   ],
+   "textAtLoad": 4617,
+   "mainEmptyAtLoad": false
+  },
+  "/services": {
+   "url": "https://beta.dc.gov/services",
+   "status": 200,
+   "host": "beta.dc.gov",
+   "title": "Services | DC.gov",
+   "forms": [
+    {
+     "name": "sh-search-form",
+     "action": "https://beta.dc.gov/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:key"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "views-exposed-form-services-all-services",
+     "action": "https://beta.dc.gov/services",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 14,
+     "signature": [
+      "text:search_api_fulltext",
+      "search:combodrop-text-filter--agency",
+      "checkbox:field_agency_dropdown[dc_gov]",
+      "checkbox:field_agency_dropdown[ddot_dc_gov]",
+      "checkbox:field_agency_dropdown[mayormb_dc_gov]",
+      "checkbox:field_agency_dropdown[preview_odr_dc_gov]",
+      "checkbox:field_agency_dropdown[osse_dc_gov]",
+      "search:combodrop-text-filter--topics",
+      "search:combodrop-text-filter--seasons",
+      "checkbox:field_seasons[35]",
+      "checkbox:field_seasons[33]",
+      "checkbox:field_seasons[34]"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "webform-submission-send-your-feedback-node-391-add-form--20",
+     "action": "https://beta.dc.gov/services",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 3,
+     "signature": [
+      "textarea:about_this_page",
+      "email:email",
+      "text:url"
+     ],
+     "hidden": [
+      "form_build_id",
+      "form_id"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://mybusiness.dc.gov/login",
+    "https://311.dc.gov/citizen/s/login/",
+    "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "gtag",
+     "ajaxPageState",
+     "ajaxTrustedUrl",
+     "gtm",
+     "webform",
+     "ajax",
+     "views",
+     "user",
+     "dialog"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "Drupal"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 2496,
+   "domAddedAfterLoad": 3,
+   "hosts": {
+    "beta.dc.gov": 27,
+    "static.cloudflareinsights.com": 1,
+    "cdn.gtranslate.net": 1,
+    "www.googletagmanager.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "cdn.gtranslate.net",
+    "www.googletagmanager.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtag.js?tibu7u",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtm.js?tibu7u",
+    "https://beta.dc.gov/sites/default/files/js/js_HvAZFYugeclJH3OTtkGBZfQFiQEGoaNd9bo9I1hHDjM.js?scope=header&delta=0&language=en&theme=dcgov&include=eJyFjl0OgzAMgy8E9EhVCibqlDYTydiOv-7vYcC0l0T-7EROcMcScT",
+    "https://beta.dc.gov/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+    "https://cdn.gtranslate.net/widgets/latest/dropdown.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NXP2FJ3N",
+    "https://beta.dc.gov/sites/default/files/js/js_8Q5dpiowuwjsFTnBD_VJLs7bFvqj4J_YGXxz9I7IDgs.js?scope=footer&delta=1&language=en&theme=dcgov&include=eJyFjl0OgzAMgy8E9EhVCibqlDYTydiOv-7vYcC0l0T-7EROcMcScT",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a565fa169d9f347d",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a565fa169d9f347d",
+    "https://www.googletagmanager.com/gtag/js?id=G-XLLLT5975Z&cx=c&gtm=4e6b50h2"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/{hash}",
+     "query": [],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565fa169d9f347d"
+    },
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/rum"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST analytics.google.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565fa169d9f347d",
+     "body": "sAd7jkawj-N17U-rcXm9oHl7FqUEsqHUU+$x$ki3ggL0sSg4+RXO9LFR1tvqMczGNspNav6xOAD+I5YPB308$kn3$oJImap$ZOU$KaY4tXddpg9mRLNzZh4TsvXgGYlG$fCjkz4cb5K2Ri162KUoMtsMSgbA9tCHXmux6TvzSFxnrOyADc2XJ$w50j93$R1RNQ6YDmA1a9nXKIcsXd-l4NSGxabkAipVnBpO+cITrYELcfP$ys-IkE8JKzXjiUXSeVC6iMpbjSXt$N8iQDtzwhyfO4rRltt$7-v1BexyAy8PUVqqFpjQK3-fb-KT6v1EQfH7uhIYLppO36dEr7hhmQYpeGSKhtd5NTEiEYqmhVbegTHLa$PioS0E4rL5GKiRqwlHpbf0Q4jQTmKJ"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-XLLLT5975Z&gtm=45je6b50h2v898517650za20ozb9251489358zd9251489358xf1&_p=1793987808131&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=762568851.179",
+     "body": ""
+    },
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/rum?",
+     "body": "{\"startTime\":1793987807750,\"pageloadId\":\"2d80f26a-8130-49bb-85e4-1c0eb9c60ec4\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://beta.dc.gov/services\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"158\",\"bv\":\"158\"},\"memory\":{\"totalJSHeapSize\":19989859,\"usedJSHeapSize\":14308135,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":512,\"firstContentfulPaint\":512,\"timingsV2"
+    }
+   ],
+   "textAtLoad": 2496,
+   "mainEmptyAtLoad": false
+  },
+  "/neighborhoods": {
+   "url": "https://beta.dc.gov/neighborhoods",
+   "status": 200,
+   "host": "beta.dc.gov",
+   "title": "Neighborhoods | DC.gov",
+   "forms": [
+    {
+     "name": "sh-search-form",
+     "action": "https://beta.dc.gov/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:key"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://mybusiness.dc.gov/login",
+    "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "gtag",
+     "ajaxPageState",
+     "ajaxTrustedUrl",
+     "gtm",
+     "webform",
+     "user",
+     "dialog"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "Drupal"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 2123,
+   "domAddedAfterLoad": 3,
+   "hosts": {
+    "beta.dc.gov": 34,
+    "static.cloudflareinsights.com": 1,
+    "cdn.gtranslate.net": 1,
+    "www.googletagmanager.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "cdn.gtranslate.net",
+    "www.googletagmanager.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtag.js?tibu7u",
+    "https://beta.dc.gov/sites/default/files/js/js_HvAZFYugeclJH3OTtkGBZfQFiQEGoaNd9bo9I1hHDjM.js?scope=header&delta=0&language=en&theme=dcgov&include=eJxLSdZPz8lPSszRSc_PT89JjS9JTNdPBxLofL3ErMQKVMFcnfLUpL",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtm.js?tibu7u",
+    "https://cdn.gtranslate.net/widgets/latest/dropdown.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NXP2FJ3N",
+    "https://beta.dc.gov/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+    "https://www.googletagmanager.com/gtag/js?id=G-XLLLT5975Z&cx=c&gtm=4e6b41",
+    "https://beta.dc.gov/sites/default/files/js/js_fGtqNEmUQltYu3BlMf_6gJXgss4ECSCgHVGqsRyQLaQ.js?scope=footer&delta=1&language=en&theme=dcgov&include=eJxLSdZPz8lPSszRSc_PT89JjS9JTNdPBxLofL3ErMQKVMFcnfLUpL",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a565fa5c8be7347d",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a565fa5c8be7347d"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/{hash}",
+     "query": [],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565fa5c8be7347d"
+    },
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/rum"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST analytics.google.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-XLLLT5975Z&gtm=45je6b41v898517650za20ozb9251489358zd9251489358xf1&_p=1793987819235&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=1980365299.1793",
+     "body": ""
+    },
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565fa5c8be7347d",
+     "body": "sAd7jkawj-N17U-rcXm9oHOs0pUEsqHUU+$x$ki3ggL0sSg4+RXO9LFR1tvqMczGNspNav6xOAD+I5YPB308$kn3$oJImap$ZOU$KaY4tXddpg9mRLNzZh4TsvXgGYlG$fCjkz4cb5K2Ri162KUoMtsMSgbA9tCHXmux6TvzSFxnrOyADc2XJ$w50j93$R1RNQ6YDmA1a9nXKIcsXd-l4NSGxabkAipVnBpO+cITrYELcfP$ys-IkE8JKzXjiUXSeVC6iMpbjSXt$N8iQDtzwhyfO4rRltt$7-v1BexyAy8PUVqqFpjQK3-fb-KT6v1EQfH7uhIYLppO36dEr7hhmQYpeGSKhtd5NTEiEYqmhVbegTHLa$PioS0E4rL5GKiRqwlHpbf0Q4jQTmKJ"
+    },
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/rum?",
+     "body": "{\"startTime\":1793987818940,\"pageloadId\":\"08981b9b-a33c-40ce-86d1-fbaa7885086a\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://beta.dc.gov/neighborhoods\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"158\",\"bv\":\"158\"},\"memory\":{\"totalJSHeapSize\":21753182,\"usedJSHeapSize\":15858038,\"jsHeapSizeLimit\":4395630592},\"firstPaint\":372,\"firstContentfulPaint\":372,\"timi"
+    }
+   ],
+   "textAtLoad": 2123,
+   "mainEmptyAtLoad": false
+  },
+  "/organizational-charts-agencies-and-offices-under-mayors-authority": {
+   "url": "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority",
+   "status": 200,
+   "host": "beta.dc.gov",
+   "title": "Organizational Charts for Agencies and Offices Under the Mayor's Authority | DC.gov",
+   "forms": [
+    {
+     "name": "sh-search-form",
+     "action": "https://beta.dc.gov/search",
+     "method": "get",
+     "role": "",
+     "inChrome": true,
+     "fields": 1,
+     "signature": [
+      "search:key"
+     ],
+     "hidden": [],
+     "tokens": [],
+     "search": true,
+     "inlineHandler": false
+    },
+    {
+     "name": "webform-submission-send-your-feedback-node-661-add-form",
+     "action": "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority",
+     "method": "post",
+     "role": "",
+     "inChrome": true,
+     "fields": 3,
+     "signature": [
+      "textarea:about_this_page",
+      "email:email",
+      "text:url"
+     ],
+     "hidden": [
+      "form_build_id",
+      "form_id"
+     ],
+     "tokens": [],
+     "search": false,
+     "inlineHandler": false
+    }
+   ],
+   "controlGroups": [],
+   "triggers": [],
+   "dialogs": [],
+   "dialogCount": 0,
+   "media": [],
+   "iframes": [
+    {
+     "src": null,
+     "title": null,
+     "w": 1,
+     "h": 1
+    }
+   ],
+   "mounts": [],
+   "auth": [
+    "https://mybusiness.dc.gov/login",
+    "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?"
+   ],
+   "commerce": {
+    "cart": false,
+    "prices": 0
+   },
+   "locale": {
+    "lang": "en",
+    "hreflang": [],
+    "switcher": []
+   },
+   "cms": {
+    "drupalSettings": [
+     "path",
+     "pluralDelimiter",
+     "suppressDeprecationErrors",
+     "gtag",
+     "ajaxPageState",
+     "ajaxTrustedUrl",
+     "gtm",
+     "webform",
+     "ajax",
+     "user",
+     "dialog"
+    ],
+    "dataLayer": [
+     "0",
+     "1",
+     "2",
+     "3",
+     "4",
+     "5",
+     "6",
+     "push"
+    ]
+   },
+   "framework": null,
+   "globals": [
+    "google_tag_manager",
+    "gtag",
+    "Drupal"
+   ],
+   "clientRendered": [],
+   "listingCandidates": [],
+   "inlineScripts": 3,
+   "inlineFetch": false,
+   "mainText": 949,
+   "domAddedAfterLoad": 3,
+   "hosts": {
+    "beta.dc.gov": 23,
+    "static.cloudflareinsights.com": 1,
+    "cdn.gtranslate.net": 1,
+    "www.googletagmanager.com": 2,
+    "stats.g.doubleclick.net": 1,
+    "analytics.google.com": 1
+   },
+   "thirdPartyHosts": [
+    "static.cloudflareinsights.com",
+    "cdn.gtranslate.net",
+    "www.googletagmanager.com",
+    "stats.g.doubleclick.net",
+    "analytics.google.com"
+   ],
+   "scripts": [
+    "https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtm.js?tibu7u",
+    "https://beta.dc.gov/sites/default/files/js/js_HvAZFYugeclJH3OTtkGBZfQFiQEGoaNd9bo9I1hHDjM.js?scope=header&delta=0&language=en&theme=dcgov&include=eJyFj90OwyAIRl_I6CM1qN-IDUqmdD9vv27rzdotu4FwOIF8STtCaY",
+    "https://beta.dc.gov/modules/contrib/google_tag/js/gtag.js?tibu7u",
+    "https://beta.dc.gov/sites/default/files/js/js_-yaNcUKlzCzjbs4E7-t4F27B8zZ_WsMETu_-L6cXS9U.js?scope=footer&delta=1&language=en&theme=dcgov&include=eJyFj90OwyAIRl_I6CM1qN-IDUqmdD9vv27rzdotu4FwOIF8STtCaY",
+    "https://beta.dc.gov/core/assets/vendor/jquery/jquery.min.js?v=4.0.0",
+    "https://cdn.gtranslate.net/widgets/latest/dropdown.js",
+    "https://www.googletagmanager.com/gtm.js?id=GTM-NXP2FJ3N",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/scripts/jsd/main.js?ray=a565faa32d76347d",
+    "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/scripts/jsd/8340802ab0bb/main.js?ray=a565faa32d76347d",
+    "https://www.googletagmanager.com/gtag/js?id=G-XLLLT5975Z&cx=c&gtm=4e6b41"
+   ],
+   "firstPartyApi": [
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/{hash}",
+     "query": [],
+     "status": 200,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565faa32d76347d"
+    },
+    {
+     "method": "POST",
+     "host": "beta.dc.gov",
+     "path": "/cdn-cgi/rum",
+     "query": [],
+     "status": 204,
+     "contentType": "text/plain",
+     "example": "https://beta.dc.gov/cdn-cgi/rum"
+    }
+   ],
+   "thirdPartyXhr": [
+    "POST analytics.google.com/g/collect"
+   ],
+   "postBodies": [
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565faa32d76347d",
+     "body": "sAd7jkawj-N17U-rcXm9oHlE0pUEsqHUU+$x$ki3ggL0sSg4+RXO9LFR1tvqMczGNspNav6xOAD+I5YPB308$kn3$oJImap$ZOU$KaY4tXddpg9mRLNzZh4TsvXgGYlG$fCjkz4cb5K2Ri162KUoMtsMSgbA9tCHXmux6TvzSFxnrOyADc2XJ$w50j93$R1RNQ6YDmA1a9nXKIcsXd-l4NSGxabkAipVnBpO+cITrYELcfP$ys-IkE8JKzXjiUXSeVC6iMpbjSXt$N8iQDtzwhyfO4rRltt$7-v1BexyAy8PUVqqFpjQK3-fb-KT6v1EQfH7uhIYLppO36dEr7hhmQYpeGSKhtd5NTEiEYqmhVbegTHLa$PioS0E4rL5GKiRqwlHpbf0Q4jQTmKJ"
+    },
+    {
+     "url": "https://analytics.google.com/g/collect?v=2&tid=G-XLLLT5975Z&gtm=45je6b41v898517650za20ozb9251489358zd9251489358xf1&_p=1793987830682&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAACAC&cid=472273802.17939",
+     "body": ""
+    },
+    {
+     "url": "https://beta.dc.gov/cdn-cgi/rum?",
+     "body": "{\"startTime\":1793987830239,\"pageloadId\":\"72198c26-0cdc-40e5-acac-b557142c67bc\",\"eventType\":1,\"nt\":\"navigate\",\"location\":\"https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority\",\"versions\":{\"fl\":\"2024.11.0\",\"js\":\"2026.10.1\",\"timings\":2},\"bi\":{\"be\":\"Blink\",\"bev\":\"158\",\"bv\":\"158\"},\"memory\":{\"totalJSHeapSize\":21824491,\"usedJSHeapSize\":13526891,\"jsHeapSizeLimit\":439563059"
+    }
+   ],
+   "textAtLoad": 949,
+   "mainEmptyAtLoad": false
+  }
+ },
+ "findings": [
+  {
+   "id": "a-cms-app-settings-object-drupalsettings",
+   "class": "A",
+   "feature": "CMS / app settings object drupalSettings",
+   "hint": "settings",
+   "evidence": [
+    "ajaxTrustedUrl",
+    "webform"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "a-cms-app-settings-object-datalayer",
+   "class": "A",
+   "feature": "CMS / app settings object dataLayer",
+   "hint": "settings",
+   "evidence": [],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "a-unknown-third-party-host-www-juicer-io",
+   "class": "A",
+   "feature": "unknown third-party host www.juicer.io",
+   "hint": "inspect",
+   "evidence": [
+    "www.juicer.io"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-webform-submission-send-your-feedback-add-form-7-orig",
+   "class": "F",
+   "feature": "form \"webform-submission-send-your-feedback-add-form--7\" → origin / (3 fields)",
+   "signature": [
+    "textarea:about_this_page",
+    "email:email",
+    "text:url"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "textarea:about_this_page,email:email,text:url",
+    "form_build_id,form_id"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-email-e-checkbox-consent-no-action-js-wired-2-fields",
+   "class": "F",
+   "feature": "form \"email:e+checkbox:consent\" → no action (JS-wired) (2 fields)",
+   "signature": [
+    "email:e",
+    "checkbox:consent"
+   ],
+   "hint": "client-compute?",
+   "evidence": [
+    "email:e,checkbox:consent"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "f-form-webform-submission-send-your-feedback-node-391-add-fo",
+   "class": "F",
+   "feature": "form \"webform-submission-send-your-feedback-node-391-add-form--20\" → origin /services (3 fields)",
+   "signature": [
+    "textarea:about_this_page",
+    "email:email",
+    "text:url"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "textarea:about_this_page,email:email,text:url",
+    "form_build_id,form_id"
+   ],
+   "pages": [
+    "/services"
+   ]
+  },
+  {
+   "id": "f-form-webform-submission-send-your-feedback-node-661-add-fo",
+   "class": "F",
+   "feature": "form \"webform-submission-send-your-feedback-node-661-add-form\" → origin /organizational-charts-agencies-and-offices-under-mayors-authority (3 fields)",
+   "signature": [
+    "textarea:about_this_page",
+    "email:email",
+    "text:url"
+   ],
+   "hint": "forms",
+   "evidence": [
+    "textarea:about_this_page,email:email,text:url",
+    "form_build_id,form_id"
+   ],
+   "pages": [
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "m-modal-trigger-prefix-overlay-action-later-button-content",
+   "class": "M",
+   "feature": "modal trigger prefix-overlay-action-later → button:content",
+   "hint": "modal",
+   "evidence": [
+    "Remind Me Later"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "s-site-search-form-search",
+   "class": "S",
+   "feature": "site search form → /search",
+   "hint": "search",
+   "evidence": [
+    "search:key"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 8
+   }
+  },
+  {
+   "id": "s-site-search-form-services",
+   "class": "S",
+   "feature": "site search form → /services",
+   "hint": "search",
+   "evidence": [
+    "text:search_api_fulltext,search:combodrop-text-filter--agency,checkbox:field_agency_dropdown[dc_gov],checkbox:field_agency_dropdown[ddot_dc_gov],checkbox:field_agency_dropdown[mayormb_dc_gov],checkbox:field_agency_dropdown[preview_odr_dc_gov],checkbox:field_agency_dropdown[osse_dc_gov],search:combodrop-text-filter--topics,search:combodrop-text-filter--seasons,checkbox:field_seasons[35],checkbox:field_seasons[33],checkbox:field_seasons[34]"
+   ],
+   "pages": [
+    "/services"
+   ],
+   "reach": {
+    "pages": 3,
+    "of": 8
+   }
+  },
+  {
+   "id": "t-unknown-third-party-host-static-cloudflareinsights-com",
+   "class": "T",
+   "feature": "unknown third-party host static.cloudflareinsights.com",
+   "hint": "inspect",
+   "evidence": [
+    "static.cloudflareinsights.com"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-cdn-gtranslate-net",
+   "class": "T",
+   "feature": "unknown third-party host cdn.gtranslate.net",
+   "hint": "inspect",
+   "evidence": [
+    "cdn.gtranslate.net"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "t-tag-manager-google-tag-manager",
+   "class": "T",
+   "feature": "tag manager: Google Tag Manager",
+   "role": "tag manager: Google Tag Manager",
+   "hint": "tags",
+   "evidence": [
+    "www.googletagmanager.com"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "t-marketing-ad-retargeting-pixel",
+   "class": "T",
+   "feature": "marketing: ad / retargeting pixel",
+   "role": "marketing: ad / retargeting pixel",
+   "hint": "tags",
+   "evidence": [
+    "stats.g.doubleclick.net"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "t-analytics-google-analytics-ads",
+   "class": "T",
+   "feature": "analytics: Google Analytics / Ads",
+   "role": "analytics: Google Analytics / Ads",
+   "hint": "tags",
+   "evidence": [
+    "analytics.google.com"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "t-unknown-third-party-host-content-govdelivery-com",
+   "class": "T",
+   "feature": "unknown third-party host content.govdelivery.com",
+   "hint": "inspect",
+   "evidence": [
+    "content.govdelivery.com"
+   ],
+   "pages": [
+    "/"
+   ]
+  },
+  {
+   "id": "v-iframe-without-src-runtime-injected-embed",
+   "class": "V",
+   "feature": "iframe without src (runtime-injected embed)",
+   "hint": "embed-runtime",
+   "evidence": [
+    "1×1"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  },
+  {
+   "id": "x-sign-in-account-links",
+   "class": "X",
+   "feature": "sign-in / account links",
+   "hint": "decided-out",
+   "evidence": [
+    "https://mybusiness.dc.gov/login",
+    "https://311.dc.gov/citizen/s/login/",
+    "https://public.govdelivery.com/accounts/DCWASH/subscriber/new?"
+   ],
+   "pages": [
+    "/",
+    "/services",
+    "/neighborhoods",
+    "/organizational-charts-agencies-and-offices-under-mayors-authority"
+   ]
+  }
+ ],
+ "reach": {
+  "pagesWithEvidence": 8,
+  "of": 8,
+  "endpoints": {
+   "POST beta.dc.gov/cdn-cgi/rum": 8,
+   "POST analytics.google.com/g/collect": 6,
+   "POST beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/{hash}": 3,
+   "GET www.juicer.io/api/feeds/mayorbowser-{uuid}": 1,
+   "POST www.juicer.io/api/page_views": 1
+  },
+  "searchFormPages": 3,
+  "formPages": 1,
+  "triggerPages": {}
+ }
+}

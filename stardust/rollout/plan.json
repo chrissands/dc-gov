@@ -1,0 +1,173 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/plan",
+    "writtenAt": "2026-11-06T19:18:47.800Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-06T19:18:47.800Z",
+  "fragments": [],
+  "deliveryOrder": [
+    "events",
+    "services",
+    "community-engagement-and-feedback",
+    "organizational-charts-agencies-and-offices-under-mayors-authority",
+    "agency-directory",
+    "index",
+    "neighborhoods",
+    "news"
+  ],
+  "steps": [
+    {
+      "slug": "events",
+      "path": "/events",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "services",
+      "path": "/services",
+      "templateId": "listing",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "community-engagement-and-feedback",
+      "path": "/community-engagement-and-feedback",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+      "path": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "templateId": "static",
+      "status": "content-pending",
+      "isRepresentative": false,
+      "convert": [],
+      "reuse": []
+    },
+    {
+      "slug": "agency-directory",
+      "path": "/agency-directory",
+      "templateId": "agency-directory",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-simple",
+          "edsBlockName": "hero-simple"
+        },
+        {
+          "id": "sidebar",
+          "edsBlockName": "sidebar"
+        },
+        {
+          "id": "feedback",
+          "edsBlockName": "feedback"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "templateId": "index",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero-home",
+          "edsBlockName": "hero-home"
+        },
+        {
+          "id": "carousel-grid",
+          "edsBlockName": "carousel-grid"
+        },
+        {
+          "id": "tabset",
+          "edsBlockName": "tabset"
+        },
+        {
+          "id": "scroll-combo",
+          "edsBlockName": "scroll-combo"
+        },
+        {
+          "id": "card-shapes",
+          "edsBlockName": "card-shapes"
+        },
+        {
+          "id": "stats",
+          "edsBlockName": "stats"
+        },
+        {
+          "id": "social-feed",
+          "edsBlockName": "social-feed"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "feedback",
+          "edsBlockName": "feedback",
+          "convertedBy": "agency-directory"
+        }
+      ]
+    },
+    {
+      "slug": "neighborhoods",
+      "path": "/neighborhoods",
+      "templateId": "neighborhoods",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "hero",
+          "edsBlockName": "hero"
+        },
+        {
+          "id": "cards-tabbed",
+          "edsBlockName": "cards-tabbed"
+        },
+        {
+          "id": "emblem",
+          "edsBlockName": "emblem"
+        }
+      ],
+      "reuse": []
+    },
+    {
+      "slug": "news",
+      "path": "/news",
+      "templateId": "news",
+      "status": "pending",
+      "isRepresentative": true,
+      "convert": [
+        {
+          "id": "news-listing",
+          "edsBlockName": "news-listing"
+        }
+      ],
+      "reuse": [
+        {
+          "id": "hero-simple",
+          "edsBlockName": "hero-simple",
+          "convertedBy": "agency-directory"
+        },
+        {
+          "id": "emblem",
+          "edsBlockName": "emblem",
+          "convertedBy": "neighborhoods"
+        }
+      ]
+    }
+  ]
+}

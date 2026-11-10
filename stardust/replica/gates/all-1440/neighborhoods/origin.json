@@ -1,0 +1,9 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://beta.dc.gov/neighborhoods",
+  "log": [
+    "stitched stardust/replica/gates/all-1440/neighborhoods/origin.png: 1440x4082 from 5 chunks"
+  ],
+  "fontsFailed": [],
+  "at": "2026-11-06T21:51:11.946Z"
+}

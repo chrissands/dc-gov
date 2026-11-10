@@ -1,0 +1,17 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://beta.dc.gov/ (live side from cache stardust/replica/gates/index-360/chrome-live.json, probed 2026-11-06T18:07:12.572Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 4 paired of 4/4 texts, 4/4 icons
+
+■ footer: 7 delta(s) — 22 paired of 22/22 texts, 6/6 icons
+  OFFSET       the region and its 15 paired text(s) sit Δy +11px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "District News"  Δy +12px (17513→17525); Δw -3px (99→96)
+  PAIR         "District Initiatives"  Δy +12px (17574→17586); Δw -3px (127→124)
+  PAIR         "About DC"  Δy +12px (17635→17647); Δw -2px (73→71)
+  PAIR         "Contact Us"  Δy +12px (17696→17708); Δw -2px (84→82)
+  PAIR         "Copyright © 2026 DC.Gov. All rights rese"  Δx +3px (31→34); Δy +11px (18009→18020); Δw -5px (297→292)
+  PAIR         "Accessibility"  Δy +12px (18090→18102); Δw -2px (81→79)
+  PAIR         "Terms and Conditions"  Δy +11px (18168→18179); Δw -2px (142→140)
+
+✗ 7 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

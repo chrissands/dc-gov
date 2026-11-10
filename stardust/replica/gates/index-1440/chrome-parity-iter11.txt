@@ -1,0 +1,23 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://beta.dc.gov/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-06T18:07:09.084Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 1 delta(s) — 11 paired of 11/11 texts, 4/4 icons
+  PAIR         "Neighborhoods"  Δx -2px (1057→1055); Δw +2px (140→142)
+
+■ footer: 12 delta(s) — 41 paired of 41/41 texts, 6/6 icons
+  OFFSET       the region and its 29 paired text(s) sit Δy +2px from live as one block — content identical; the page above is a different height (fix that, or a live feed rendered another length)
+  PAIR         "District News"  Δy +2px (9418→9420); Δw -4px (112→108)
+  PAIR         "Subscribe to Newsletters"  Δy +2px (9589→9591); Δw -2px (172→170)
+  PAIR         "District Initiatives"  Δy +2px (9418→9420); Δw -4px (143→139)
+  PAIR         "Great Streets"  Δy +2px (9589→9591); Δw -3px (92→89)
+  PAIR         "About DC"  Δy +2px (9418→9420); Δw -2px (82→80)
+  PAIR         "Contact Us"  Δy +2px (9418→9420); Δw -2px (94→92)
+  PAIR         "Service Request Center"  Δy +2px (9457→9459); Δw -2px (162→160)
+  PAIR         "Copyright © 2026 DC.Gov. All rights rese"  Δy +2px (9738→9740); Δw -5px (297→292)
+  PAIR         "About DC"  Δx +6px (937→943); Δy +2px (9738→9740)
+  PAIR         "Accessibility"  Δx +5px (1021→1026); Δy +2px (9738→9740); Δw -2px (81→79)
+  PAIR         "Privacy and Security"  Δx +3px (1122→1125); Δy +2px (9738→9740)
+  PAIR         "Terms and Conditions"  Δx +2px (1274→1276); Δy +2px (9738→9740); Δw -2px (142→140)
+
+✗ 13 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.
