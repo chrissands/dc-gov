@@ -1,0 +1,9 @@
+measure: http://localhost:8791/index-proposed.html @360: horizontal overflow +161px (scrollWidth 521 > viewport 360)
+measure  http://localhost:8791/index-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   521  viewport 360  scrollHeight  16904  ◄◄ OVERFLOW +161px
+  html
+       x     0  y      0  w   360  h 16904  vis  "Skip to main content 1 alert 1 Toggle m…"
+      display: block

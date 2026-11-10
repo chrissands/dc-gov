@@ -1,0 +1,498 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/neighborhoods-1440/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3260,
+  "textLen": 2149,
+  "images": [
+   {
+    "src": "logo-flag.svg",
+    "natural": "35x26",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-small.svg",
+    "natural": "72x26",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo.svg",
+    "natural": "154x71",
+    "rendered": "100x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Mayor-image.png.webp?itok=FKYJybJW",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "neighborhood-hero3.png.webp?itok=ORou2Hin",
+    "natural": "650x500",
+    "rendered": "650x500",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward1.jpg.webp?itok=-hv9n9gY",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward2.jpg.webp?itok=qeGF-yha",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward3.jpg.webp?itok=XGPTvDqf",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward4.jpg.webp?itok=PEfv5iZn",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward5.jpg.webp?itok=6KlcIQnw",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward6.jpg.webp?itok=92UylUnl",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward7.jpg.webp?itok=R9RzFlwY",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "ward8.jpg.webp?itok=BIfmaUjk",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "we-are-dc-logo.webp",
+    "natural": "120x155",
+    "rendered": "86x86",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "DC%20gov%20logo-min.png.webp?itok=ydf4roEP",
+    "natural": "220x101",
+    "rendered": "220x101",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Mayor-image.png.webp?itok=A5hc1XKK",
+    "natural": "480x361",
+    "rendered": "56x56",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Breadcrumb",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "40px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h1",
+    "text": "Neighborhoods",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.8154px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Choose Your Ward",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 1",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 2",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 3",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 4",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 5",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 6",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 7",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 8",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "c-hero__l",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "c-layout-grid",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "c-emblem-section__top",
+    "width": 1176,
+    "left": 132
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 3260,
+  "textLen": 2149,
+  "images": [
+   {
+    "src": "logo-flag.svg",
+    "natural": "35x26",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-small.svg",
+    "natural": "72x26",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo.svg",
+    "natural": "154x71",
+    "rendered": "100x46",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "max_650x650--Mayor-image.png.webp",
+    "natural": "650x489",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "hero_image_plain--neighborhood-hero3.png.webp",
+    "natural": "650x500",
+    "rendered": "650x500",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward1.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward2.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward3.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward4.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward5.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward6.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward7.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_660x230--ward8.jpg.webp",
+    "natural": "660x230",
+    "rendered": "680x230",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "we-are-dc-logo.webp",
+    "natural": "120x155",
+    "rendered": "86x86",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "medium--DC_20gov_20logo-min.png.webp",
+    "natural": "220x101",
+    "rendered": "220x101",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "large--Mayor-image.png.webp",
+    "natural": "480x361",
+    "rendered": "56x56",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Breadcrumb",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "40px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h1",
+    "text": "Neighborhoods",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "43.8154px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Choose Your Ward",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 1",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 2",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 3",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 4",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 5",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 6",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 7",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 8",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "c-hero__l",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "c-layout-grid",
+    "width": 1392,
+    "left": 24
+   },
+   {
+    "sel": "c-emblem-section__top",
+    "width": 1176,
+    "left": 132
+   }
+  ]
+ }
+}

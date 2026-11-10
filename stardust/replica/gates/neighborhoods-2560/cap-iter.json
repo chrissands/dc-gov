@@ -1,0 +1,547 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+    "writtenAt": "2026-11-06T19:12:25.480Z",
+    "baseWidth": 1440,
+    "urls": [
+      "https://beta.dc.gov/neighborhoods",
+      "http://localhost:8791/neighborhoods-proposed.html"
+    ],
+    "probeWidth": 2560,
+    "probeNote": "from DESIGN.json",
+    "tolerance": 20
+  },
+  "urls": [
+    "https://beta.dc.gov/neighborhoods",
+    "http://localhost:8791/neighborhoods-proposed.html"
+  ],
+  "probeNote": "from DESIGN.json",
+  "live": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 40,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "article.node.node--department-landing-page > div.node__l > div.node-header > section.c-hero",
+        "tier": 5,
+        "share": 0.1,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1464,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-header > section.c-hero > div.c-hero__l",
+        "tier": 6,
+        "share": 0.1,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1464px"
+      },
+      {
+        "kind": "module",
+        "px": 650,
+        "via": "fixed",
+        "selector": "section.c-hero > div.c-hero__l > div.c-hero__img-l > div.c-hero__img",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 650,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "article.node.node--department-landing-page > div.node__l > div.node-core > section.c-layout-container",
+        "tier": 5,
+        "share": 0.63,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1464,
+        "via": "max-width",
+        "selector": "div.node-core > section.c-layout-container > div > div",
+        "tier": 7,
+        "share": 0.63,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1464px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 1968,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-bottom > section.c-emblem-section > div.c-emblem-section__l",
+        "tier": 6,
+        "share": 0.2,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "1968px"
+      },
+      {
+        "kind": "module",
+        "px": 1176,
+        "via": "max-width",
+        "selector": "div.node-bottom > section.c-emblem-section > div.c-emblem-section__l > div.c-emblem-section__top",
+        "tier": 7,
+        "share": 0.2,
+        "section": 2,
+        "w1": 1176,
+        "maxWidth": "1176px"
+      },
+      {
+        "kind": "module",
+        "px": 334,
+        "via": "fixed",
+        "selector": "section.c-emblem-section > div.c-emblem-section__l > div.c-emblem-section__top > div.c-emblem-section__right",
+        "tier": 8,
+        "share": 0.13,
+        "section": 2,
+        "w1": 334,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 289,
+        "via": "fixed",
+        "selector": "div.c-emblem-section__l > div.c-emblem-section__top > div.c-emblem-section__right > div.c-profile",
+        "tier": 9,
+        "share": 0.05,
+        "section": 2,
+        "w1": 289,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 732,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-bottom > div.node-attribution > div.node-attribution__updated",
+        "tier": 6,
+        "share": 0.03,
+        "section": 2,
+        "w1": 720,
+        "maxWidth": "732px"
+      },
+      {
+        "kind": "module",
+        "px": 732,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-bottom > div.node-attribution > div.node-attribution__maintainer",
+        "tier": 6,
+        "share": 0.05,
+        "section": 2,
+        "w1": 720,
+        "maxWidth": "732px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-header",
+        "px": 1920,
+        "capSelector": "article.node.node--department-landing-page > div.node__l > div.node-header > section.c-hero"
+      },
+      {
+        "index": 1,
+        "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-core",
+        "px": 1920,
+        "capSelector": "article.node.node--department-landing-page > div.node__l > div.node-core > section.c-layout-container"
+      },
+      {
+        "index": 2,
+        "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-bottom",
+        "px": 1968,
+        "capSelector": "div.node__l > div.node-bottom > section.c-emblem-section > div.c-emblem-section__l"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1920,
+    "contentFrom": "module",
+    "maxCap": 1968,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 123
+  },
+  "build": {
+    "baseWidth": 1440,
+    "probeWidth": 2560,
+    "root": {
+      "selector": "#main-content",
+      "isBody": false,
+      "leaves": 40,
+      "w2": 2560
+    },
+    "origins": [
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "article.node.node--department-landing-page > div.node__l > div.node-header > section.c-hero",
+        "tier": 5,
+        "share": 0.1,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1464,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-header > section.c-hero > div.c-hero__l",
+        "tier": 6,
+        "share": 0.1,
+        "section": 0,
+        "w1": 1440,
+        "maxWidth": "1464px"
+      },
+      {
+        "kind": "module",
+        "px": 650,
+        "via": "fixed",
+        "selector": "section.c-hero > div.c-hero__l > div.c-hero__img-l > div.c-hero__img",
+        "tier": 8,
+        "share": 0,
+        "section": 0,
+        "w1": 650,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 1920,
+        "via": "max-width",
+        "selector": "article.node.node--department-landing-page > div.node__l > div.node-core > section.c-layout-container",
+        "tier": 5,
+        "share": 0.63,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1920px"
+      },
+      {
+        "kind": "module",
+        "px": 1464,
+        "via": "max-width",
+        "selector": "div.node-core > section.c-layout-container > div > div",
+        "tier": 7,
+        "share": 0.63,
+        "section": 1,
+        "w1": 1440,
+        "maxWidth": "1464px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 690,
+        "via": "max-width",
+        "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+        "tier": 10,
+        "share": 0.08,
+        "section": 1,
+        "w1": 680,
+        "maxWidth": "690px"
+      },
+      {
+        "kind": "module",
+        "px": 1968,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-bottom > section.c-emblem-section > div.c-emblem-section__l",
+        "tier": 6,
+        "share": 0.2,
+        "section": 2,
+        "w1": 1440,
+        "maxWidth": "1968px"
+      },
+      {
+        "kind": "module",
+        "px": 1176,
+        "via": "max-width",
+        "selector": "div.node-bottom > section.c-emblem-section > div.c-emblem-section__l > div.c-emblem-section__top",
+        "tier": 7,
+        "share": 0.2,
+        "section": 2,
+        "w1": 1176,
+        "maxWidth": "1176px"
+      },
+      {
+        "kind": "module",
+        "px": 334,
+        "via": "fixed",
+        "selector": "section.c-emblem-section > div.c-emblem-section__l > div.c-emblem-section__top > div.c-emblem-section__right",
+        "tier": 8,
+        "share": 0.13,
+        "section": 2,
+        "w1": 334,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 287,
+        "via": "fixed",
+        "selector": "div.c-emblem-section__l > div.c-emblem-section__top > div.c-emblem-section__right > div.c-profile",
+        "tier": 9,
+        "share": 0.05,
+        "section": 2,
+        "w1": 287,
+        "maxWidth": "none"
+      },
+      {
+        "kind": "module",
+        "px": 732,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-bottom > div.node-attribution > div.node-attribution__updated",
+        "tier": 6,
+        "share": 0.03,
+        "section": 2,
+        "w1": 720,
+        "maxWidth": "732px"
+      },
+      {
+        "kind": "module",
+        "px": 732,
+        "via": "max-width",
+        "selector": "div.node__l > div.node-bottom > div.node-attribution > div.node-attribution__maintainer",
+        "tier": 6,
+        "share": 0.05,
+        "section": 2,
+        "w1": 720,
+        "maxWidth": "732px"
+      }
+    ],
+    "modules": [
+      {
+        "index": 0,
+        "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-header",
+        "px": 1920,
+        "capSelector": "article.node.node--department-landing-page > div.node__l > div.node-header > section.c-hero"
+      },
+      {
+        "index": 1,
+        "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-core",
+        "px": 1920,
+        "capSelector": "article.node.node--department-landing-page > div.node__l > div.node-core > section.c-layout-container"
+      },
+      {
+        "index": 2,
+        "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-bottom",
+        "px": 1968,
+        "capSelector": "div.node__l > div.node-bottom > section.c-emblem-section > div.c-emblem-section__l"
+      }
+    ],
+    "shellMaxWidth": null,
+    "contentMaxWidth": 1920,
+    "contentFrom": "module",
+    "maxCap": 1968,
+    "fluid": false,
+    "probeNote": "pinned",
+    "candidates": 122
+  },
+  "compare": {
+    "probeWidth": 2560,
+    "rows": [
+      {
+        "ok": true,
+        "label": "content cap",
+        "detail": "live 1920px = build 1920px (±20, shared module cap)",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 1/3",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 2/3",
+        "detail": "1920px = 1920px",
+        "advisory": false
+      },
+      {
+        "ok": true,
+        "label": "module 3/3",
+        "detail": "1968px = 1968px",
+        "advisory": false
+      }
+    ],
+    "fails": 0,
+    "pass": true
+  },
+  "evidence": "stardust/replica/gates/neighborhoods-2560/cap-iter.json"
+}

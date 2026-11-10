@@ -1,0 +1,185 @@
+{
+ "tool": "chrome-compare",
+ "at": "2026-11-06T22:03:53.565Z",
+ "source": "https://beta.dc.gov/",
+ "build": "https://main--7ddb4c84--aemcoder.aem.live/",
+ "profile": "replica",
+ "bar": 0.02,
+ "widths": [
+  390,
+  1440
+ ],
+ "counts": {
+  "error": 16,
+  "warn": 3,
+  "decided": 0
+ },
+ "findings": [
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "state-missing@390 1 alert 1 [click]",
+   "width": 390,
+   "path": "1 alert 1",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (1 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@390 1 alert 1 [key]",
+   "width": 390,
+   "path": "1 alert 1",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (1 links); nothing opens on the build"
+  },
+  {
+   "key": "state-missing@390 Toggle menu [click]",
+   "width": 390,
+   "path": "Toggle menu",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (3 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@390 Toggle menu [key]",
+   "width": 390,
+   "path": "Toggle menu",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (3 links); nothing opens on the build"
+  },
+  {
+   "key": "link-missing@390 link",
+   "width": 390,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "state-missing@390 Toggle search [click]",
+   "width": 390,
+   "path": "Toggle search",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (5 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@390 Toggle search [key]",
+   "width": 390,
+   "path": "Toggle search",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (5 links); nothing opens on the build"
+  },
+  {
+   "key": "control-missing@390 search",
+   "width": 390,
+   "path": "search",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source header has a search input; the build none"
+  },
+  {
+   "key": "link-missing@1440 link",
+   "width": 1440,
+   "path": "link",
+   "id": "link-missing",
+   "severity": "warn",
+   "detail": "top-level link / not in the build header"
+  },
+  {
+   "key": "state-missing@1440 Toggle translation Translate [click]",
+   "width": 1440,
+   "path": "Toggle translation Translate",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (0 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@1440 Toggle translation Translate [key]",
+   "width": 1440,
+   "path": "Toggle translation Translate",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (0 links); nothing opens on the build"
+  },
+  {
+   "key": "state-missing@1440 1 alert 1 [click]",
+   "width": 1440,
+   "path": "1 alert 1",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (1 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@1440 1 alert 1 [key]",
+   "width": 1440,
+   "path": "1 alert 1",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (1 links); nothing opens on the build"
+  },
+  {
+   "key": "state-missing@1440 Toggle search Search [click]",
+   "width": 1440,
+   "path": "Toggle search Search",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (5 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@1440 Toggle search Search [key]",
+   "width": 1440,
+   "path": "Toggle search Search",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (5 links); nothing opens on the build"
+  },
+  {
+   "key": "state-missing@1440 Toggle sub-menu [click]",
+   "width": 1440,
+   "path": "Toggle sub-menu",
+   "action": "click",
+   "id": "state-missing",
+   "severity": "error",
+   "detail": "opens on click on the source (13 links); nothing opens on the build"
+  },
+  {
+   "key": "keyboard@1440 Toggle sub-menu [key]",
+   "width": 1440,
+   "path": "Toggle sub-menu",
+   "action": "key",
+   "id": "keyboard",
+   "severity": "error",
+   "detail": "opens on Enter on the source (13 links); nothing opens on the build"
+  },
+  {
+   "key": "control-missing@1440 search",
+   "width": 1440,
+   "path": "search",
+   "id": "control-missing",
+   "severity": "error",
+   "detail": "the source header has a search input; the build none"
+  }
+ ]
+}

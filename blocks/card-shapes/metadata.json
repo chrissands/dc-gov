@@ -1,0 +1,11 @@
+{
+  "variantName": "card-shapes",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "\"More of what's happening in DC\" grid of image link cards with decorative shaped image crops and a short label (Upcoming Events, District News, Newsletters, Mayoral Initiatives, Citywide Projects, Jobs & Careers).",
+  "contentPattern": "Rows: heading, then one row per card (image, label link).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage navigation into major content areas.",
+  "reuseGuidance": "Reuse for small grids of shaped image cards that link to sections of the site."
+}

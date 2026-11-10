@@ -1,0 +1,397 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/blocks",
+    "writtenAt": "2026-11-06T19:18:47.751Z",
+    "readArtifacts": [
+      "stardust/rollout/coverage/pages.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-06T19:18:47.751Z",
+  "blocks": [
+    {
+      "id": "accordion-stack",
+      "label": "accordion-stack",
+      "kind": "module",
+      "signature": "module:accordion-stack",
+      "source": null,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "accordion-stack",
+        "blockPath": null,
+        "convertedAt": null
+      },
+      "usedByTemplates": [
+        "static"
+      ],
+      "usedByPages": [
+        "organizational-charts-agencies-and-offices-under-mayors-authority"
+      ],
+      "instanceCount": 1
+    },
+    {
+      "id": "card-shapes",
+      "label": "card-shapes",
+      "kind": "module",
+      "signature": "module:card-shapes",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "card-shapes",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "carousel-grid",
+      "label": "carousel-grid",
+      "kind": "module",
+      "signature": "module:carousel-grid",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "carousel-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "emblem-section",
+      "label": "emblem-section",
+      "kind": "module",
+      "signature": "module:emblem-section",
+      "source": null,
+      "usedByTemplates": [
+        "static",
+        "neighborhoods",
+        "news",
+        "listing"
+      ],
+      "usedByPages": [
+        "community-engagement-and-feedback",
+        "neighborhoods",
+        "news",
+        "services"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "emblem-section",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "feedback",
+      "label": "feedback",
+      "kind": "module",
+      "signature": "module:feedback",
+      "source": null,
+      "usedByTemplates": [
+        "agency-directory",
+        "listing",
+        "index",
+        "static"
+      ],
+      "usedByPages": [
+        "agency-directory",
+        "events",
+        "index",
+        "organizational-charts-agencies-and-offices-under-mayors-authority"
+      ],
+      "instanceCount": 4,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "feedback",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-home",
+      "label": "hero-home",
+      "kind": "module",
+      "signature": "module:hero-home",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-home",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-image",
+      "label": "hero-image",
+      "kind": "module",
+      "signature": "module:hero-image",
+      "source": null,
+      "usedByTemplates": [
+        "neighborhoods"
+      ],
+      "usedByPages": [
+        "neighborhoods"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-image",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-simple",
+      "label": "hero-simple",
+      "kind": "module",
+      "signature": "module:hero-simple",
+      "source": null,
+      "usedByTemplates": [
+        "agency-directory",
+        "listing",
+        "news"
+      ],
+      "usedByPages": [
+        "agency-directory",
+        "events",
+        "news"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-simple",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "hero-stack",
+      "label": "hero-stack",
+      "kind": "module",
+      "signature": "module:hero-stack",
+      "source": null,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "hero-stack",
+        "blockPath": null,
+        "convertedAt": null
+      },
+      "usedByTemplates": [
+        "static",
+        "listing"
+      ],
+      "usedByPages": [
+        "community-engagement-and-feedback",
+        "organizational-charts-agencies-and-offices-under-mayors-authority",
+        "services"
+      ],
+      "instanceCount": 3
+    },
+    {
+      "id": "link-card-grid",
+      "label": "link-card-grid",
+      "kind": "module",
+      "signature": "module:link-card-grid",
+      "source": null,
+      "usedByTemplates": [
+        "neighborhoods"
+      ],
+      "usedByPages": [
+        "neighborhoods"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "link-card-grid",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "mayors-greeting",
+      "label": "mayors-greeting",
+      "kind": "module",
+      "signature": "module:mayors-greeting",
+      "source": null,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "mayors-greeting",
+        "blockPath": null,
+        "convertedAt": null
+      },
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1
+    },
+    {
+      "id": "scroll-combo",
+      "label": "scroll-combo",
+      "kind": "module",
+      "signature": "module:scroll-combo",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "scroll-combo",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "seasonal-area",
+      "label": "seasonal-area",
+      "kind": "module",
+      "signature": "module:seasonal-area",
+      "source": null,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "seasonal-area",
+        "blockPath": null,
+        "convertedAt": null
+      },
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1
+    },
+    {
+      "id": "sidebar-layout",
+      "label": "sidebar-layout",
+      "kind": "module",
+      "signature": "module:sidebar-layout",
+      "source": null,
+      "usedByTemplates": [
+        "agency-directory",
+        "static"
+      ],
+      "usedByPages": [
+        "agency-directory",
+        "community-engagement-and-feedback"
+      ],
+      "instanceCount": 2,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "sidebar-layout",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "social-feed",
+      "label": "social-feed",
+      "kind": "module",
+      "signature": "module:social-feed",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "social-feed",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "stats",
+      "label": "stats",
+      "kind": "module",
+      "signature": "module:stats",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "stats",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "tabset",
+      "label": "tabset",
+      "kind": "module",
+      "signature": "module:tabset",
+      "source": null,
+      "usedByTemplates": [
+        "index"
+      ],
+      "usedByPages": [
+        "index"
+      ],
+      "instanceCount": 1,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "tabset",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    },
+    {
+      "id": "view-listing",
+      "label": "view-listing",
+      "kind": "module",
+      "signature": "module:view-listing",
+      "source": null,
+      "usedByTemplates": [
+        "listing",
+        "news"
+      ],
+      "usedByPages": [
+        "events",
+        "news",
+        "services"
+      ],
+      "instanceCount": 3,
+      "delivery": {
+        "status": "pending",
+        "edsBlockName": "view-listing",
+        "blockPath": null,
+        "convertedAt": null
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "writtenBy": "skills/replica/scripts/stitch-shot.mjs",
+  "url": "https://beta.dc.gov/",
+  "width": 360,
+  "vh": 900,
+  "height": 18227,
+  "chunks": 21,
+  "denialCheck": "ok",
+  "fontsFailed": [],
+  "fixedLayers": {
+    "capture": "once",
+    "count": 1,
+    "late": 0
+  },
+  "at": "2026-11-06T18:00:17.429Z"
+}

@@ -1,0 +1,381 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-06T19:18:42.076Z",
+    "readArtifacts": [
+      "stardust/migrated",
+      "stardust/state.json"
+    ],
+    "stardustVersion": "0.0.0"
+  },
+  "generatedAt": "2026-11-06T22:39:30.068Z",
+  "pages": [
+    {
+      "slug": "agency-directory",
+      "path": "/agency-directory",
+      "title": "Agency Directory | DC.gov",
+      "templateId": "agency-directory",
+      "source": {
+        "migratedHtml": "stardust/migrated/agency-directory/index.html",
+        "metaJson": "stardust/migrated/agency-directory/_meta.json",
+        "sourceHash": "sha256:8b79258330b83d6fd604b37fba54a2a18f2d6ae5fd3c349b72f28cc58fe59cd3",
+        "sourceUrl": "https://beta.dc.gov/agency-directory"
+      },
+      "blocks": [
+        "hero-simple",
+        "sidebar-layout",
+        "feedback"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/agency-directory",
+        "deployedAt": null,
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 3.15,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    },
+    {
+      "slug": "community-engagement-and-feedback",
+      "path": "/community-engagement-and-feedback",
+      "title": "Community Engagement and Feedback | DC.gov",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:400d71306fa1f5a2088cd2962825daa941015b6e935c569aa88d95f5ef0b4d49",
+        "currentStatePath": "stardust/current/pages/community-engagement-and-feedback.json",
+        "sourceUrl": "https://beta.dc.gov/community-engagement-and-feedback"
+      },
+      "blocks": [
+        "hero-stack",
+        "sidebar-layout",
+        "emblem-section"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/community-engagement-and-feedback",
+        "deployedAt": null,
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.47,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    },
+    {
+      "slug": "events",
+      "path": "/events",
+      "title": "Events | DC.gov",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:08be0ffb4d8796bbbf951a21d9229d6c01ca83ce510ae8e107302400fff2345c",
+        "currentStatePath": "stardust/current/pages/events.json",
+        "sourceUrl": "https://beta.dc.gov/events"
+      },
+      "blocks": [
+        "hero-simple",
+        "view-listing",
+        "feedback"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/events",
+        "deployedAt": null,
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 1.32,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    },
+    {
+      "slug": "index",
+      "path": "/",
+      "title": "Home",
+      "templateId": "index",
+      "source": {
+        "migratedHtml": "stardust/migrated/index.html",
+        "metaJson": "stardust/migrated/_meta.json",
+        "sourceHash": "sha256:23e686116f87206a98f59e4fb2031287e5913c999d94d6a7cdd83d404cd57628",
+        "sourceUrl": "https://beta.dc.gov/"
+      },
+      "blocks": [
+        "hero-home",
+        "mayors-greeting",
+        "carousel-grid",
+        "tabset",
+        "scroll-combo",
+        "card-shapes",
+        "seasonal-area",
+        "stats",
+        "social-feed",
+        "feedback"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/",
+        "deployedAt": "2026-11-06T20:12:03.452Z",
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 7.27,
+          "heightDelta": 31,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 6,
+            "hiddenButtons": 0,
+            "findings": 6,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    },
+    {
+      "slug": "neighborhoods",
+      "path": "/neighborhoods",
+      "title": "Neighborhoods | DC.gov",
+      "templateId": "neighborhoods",
+      "source": {
+        "migratedHtml": "stardust/migrated/neighborhoods/index.html",
+        "metaJson": "stardust/migrated/neighborhoods/_meta.json",
+        "sourceHash": "sha256:34db90ed1a021324943354f927aa540fa0a9a03ef7d65ea35770b6a250ffa06c",
+        "sourceUrl": "https://beta.dc.gov/neighborhoods"
+      },
+      "blocks": [
+        "hero-image",
+        "link-card-grid",
+        "emblem-section"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/neighborhoods",
+        "deployedAt": null,
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 6.35,
+          "heightDelta": 22,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    },
+    {
+      "slug": "news",
+      "path": "/news",
+      "title": "All News | DC.gov",
+      "templateId": "news",
+      "source": {
+        "migratedHtml": "stardust/migrated/news/index.html",
+        "metaJson": "stardust/migrated/news/_meta.json",
+        "sourceHash": "sha256:fd22ab1460edd10ecb6af2731293861d80d14caf1076dab611516e9931f4bbe2",
+        "sourceUrl": "https://beta.dc.gov/news"
+      },
+      "blocks": [
+        "hero-simple",
+        "view-listing",
+        "emblem-section"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/news",
+        "deployedAt": "2026-11-06T20:39:53.268Z",
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.09,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 1,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    },
+    {
+      "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+      "path": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "title": "Organizational Charts for Agencies and Offices Under the Mayor's Authority | DC.gov",
+      "templateId": "static",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:5d17de52245f9c16be0e58a7b460e8d3675c4615bb5768a18c1a95e273f76ec8",
+        "currentStatePath": "stardust/current/pages/organizational-charts-agencies-and-offices-under-mayors-authority.json",
+        "sourceUrl": "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority"
+      },
+      "blocks": [
+        "hero-stack",
+        "accordion-stack",
+        "feedback"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/organizational-charts-agencies-and-offices-under-mayors-authority",
+        "deployedAt": null,
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 8.08,
+          "heightDelta": 19,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    },
+    {
+      "slug": "services",
+      "path": "/services",
+      "title": "Services | DC.gov",
+      "templateId": "listing",
+      "representative": null,
+      "source": {
+        "migratedHtml": null,
+        "metaJson": null,
+        "sourceHash": "sha256:51190cf0f0a03eded9cca87a13c9cdcf7c342dbefd9947bd421611a96277acab",
+        "currentStatePath": "stardust/current/pages/services.json",
+        "sourceUrl": "https://beta.dc.gov/services"
+      },
+      "blocks": [
+        "hero-stack",
+        "view-listing",
+        "emblem-section"
+      ],
+      "widgets": [],
+      "delivery": {
+        "status": "verified",
+        "deployedUrl": "https://main--7ddb4c84--aemcoder.aem.page/services",
+        "deployedAt": null,
+        "verifiedAt": "2026-11-06T22:38:11.889Z",
+        "error": null,
+        "gate": {
+          "pass": true,
+          "pct": 2.25,
+          "heightDelta": 1,
+          "clipped": 0,
+          "content": {
+            "missing": 0,
+            "hidden": 0,
+            "controlState": 0,
+            "missingButtons": 0,
+            "hiddenButtons": 0,
+            "findings": 0,
+            "variable": []
+          },
+          "reasons": [],
+          "override": null,
+          "table": "stardust/replica/gates/all-360/summary.json",
+          "at": "2026-11-06T22:39:30.068Z"
+        }
+      }
+    }
+  ]
+}

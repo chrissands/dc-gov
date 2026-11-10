@@ -1,0 +1,3248 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-06T21:59:07.010Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority",
+  "at": "2026-11-06T21:58:49.365Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3546,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > a.shs-top-logo",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__top._set-bg-dark > a.shs-top-logo > img",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 25,
+    "text": "home",
+    "file": "logo-flag"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > a.shs-logo",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__bottom > a.shs-logo > img",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "file": "logo-small"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-translate > div.gtranslate_wrapper.gt_container--wz96ug > select.gt_selector.notranslate",
+    "x": 107,
+    "y": 112,
+    "w": 174,
+    "h": 32,
+    "label": "select language",
+    "value": "english",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs__link.--home-link",
+    "x": 150,
+    "y": 186,
+    "w": 45,
+    "h": 20,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs__text",
+    "x": 38,
+    "y": 211,
+    "w": 305,
+    "h": 41,
+    "text": "Organizational Charts For Agencies And Offices Under The Mayor's Authority"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-hero-stack__l > div.c-hero-stack__text > h1#organizational-charts-for-agencies-and-offices-under-the-mayor039s-authority",
+    "x": 16,
+    "y": 277,
+    "w": 328,
+    "h": 129,
+    "level": 1,
+    "text": "organizational charts for agencies and offices under the mayor's authority"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container__content > div.accordion-toggle-all-l > button.c-button-plus._js-accordion-set",
+    "x": 130,
+    "y": 496,
+    "w": 101,
+    "h": 24,
+    "text": "toggle all"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1131 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 540,
+    "w": 328,
+    "h": 78,
+    "level": 3,
+    "text": "executive office of the mayor (eom)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1131 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 540,
+    "w": 328,
+    "h": 78,
+    "text": "executive office of the mayor (eom)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1131 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 540,
+    "w": 328,
+    "h": 78,
+    "label": "trigger",
+    "value": "executive office of the mayor (eom)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1136 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 641,
+    "w": 328,
+    "h": 60,
+    "level": 3,
+    "text": "office of the senior advisor (osa)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1136 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 641,
+    "w": 328,
+    "h": 60,
+    "text": "office of the senior advisor (osa)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1136 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 641,
+    "w": 328,
+    "h": 60,
+    "label": "trigger",
+    "value": "office of the senior advisor (osa)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1146 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 725,
+    "w": 328,
+    "h": 78,
+    "level": 3,
+    "text": "office of the city administrator (oca)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1146 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 725,
+    "w": 328,
+    "h": 78,
+    "text": "office of the city administrator (oca)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1146 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 725,
+    "w": 328,
+    "h": 78,
+    "label": "trigger",
+    "value": "office of the city administrator (oca)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1151 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 827,
+    "w": 328,
+    "h": 95,
+    "level": 3,
+    "text": "office of the deputy mayor for operations and infrastructure (dmoi)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1151 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 827,
+    "w": 328,
+    "h": 95,
+    "text": "office of the deputy mayor for operations and infrastructure (dmoi)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1151 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 827,
+    "w": 328,
+    "h": 95,
+    "label": "trigger",
+    "value": "office of the deputy mayor for operations and infrastructure",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1156 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 946,
+    "w": 328,
+    "h": 95,
+    "level": 3,
+    "text": "office of the deputy mayor for health and human services (dmhhs)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1156 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 946,
+    "w": 328,
+    "h": 95,
+    "text": "office of the deputy mayor for health and human services (dmhhs)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1156 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 946,
+    "w": 328,
+    "h": 95,
+    "label": "trigger",
+    "value": "office of the deputy mayor for health and human services (dm",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1161 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 1065,
+    "w": 328,
+    "h": 95,
+    "level": 3,
+    "text": "office of the deputy mayor for planning and economic development (dmped)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1161 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1065,
+    "w": 328,
+    "h": 95,
+    "text": "office of the deputy mayor for planning and economic development (dmped)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1161 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1065,
+    "w": 328,
+    "h": 95,
+    "label": "trigger",
+    "value": "office of the deputy mayor for planning and economic develop",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1166 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 1184,
+    "w": 328,
+    "h": 78,
+    "level": 3,
+    "text": "office of the deputy mayor for education (dme)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1166 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1184,
+    "w": 328,
+    "h": 78,
+    "text": "office of the deputy mayor for education (dme)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1166 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1184,
+    "w": 328,
+    "h": 78,
+    "label": "trigger",
+    "value": "office of the deputy mayor for education (dme)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1171 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 1286,
+    "w": 328,
+    "h": 78,
+    "level": 3,
+    "text": "office of the deputy mayor for public safety and justice (dmpsj)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1171 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1286,
+    "w": 328,
+    "h": 78,
+    "text": "office of the deputy mayor for public safety and justice (dmpsj)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1171 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1286,
+    "w": 328,
+    "h": 78,
+    "label": "trigger",
+    "value": "office of the deputy mayor for public safety and justice (dm",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#paragraph-1176 > h3.c-accordion__heading",
+    "x": 16,
+    "y": 1387,
+    "w": 328,
+    "h": 60,
+    "level": 3,
+    "text": "internal services (is)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1176 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1387,
+    "w": 328,
+    "h": 60,
+    "text": "internal services (is)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#paragraph-1176 > h3.c-accordion__heading > button.c-accordion__toggle._js-accordion",
+    "x": 16,
+    "y": 1387,
+    "w": 328,
+    "h": 60,
+    "label": "trigger",
+    "value": "internal services (is)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > h2#we-want-to-hear-from-you",
+    "x": 56,
+    "y": 1595,
+    "w": 248,
+    "h": 57,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > p",
+    "x": 56,
+    "y": 1677,
+    "w": 248,
+    "h": 96,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--left > div.c-feedback__card-bottom > p",
+    "x": 79,
+    "y": 1821,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 44,
+    "y": 1867,
+    "w": 126,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 190,
+    "y": 1867,
+    "w": 126,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-top._set-bg-dark > p",
+    "x": 101,
+    "y": 2005,
+    "w": 203,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > button.c-button-pill.--icon",
+    "x": 50,
+    "y": 2122,
+    "w": 260,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > a.c-link-arrow.--arrow",
+    "x": 125,
+    "y": 2190,
+    "w": 111,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__updated",
+    "x": 0,
+    "y": 2294,
+    "w": 360,
+    "h": 21,
+    "text": "Last updated: 3:01 PM EDT June 9, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__maintainer",
+    "x": 0,
+    "y": 2336,
+    "w": 360,
+    "h": 21,
+    "text": "Maintained by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution > div.node-attribution__maintainer > a",
+    "x": 207,
+    "y": 2336,
+    "w": 53,
+    "h": 20,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__l > div.site-footer__top-l > a.site-footer__logo",
+    "x": 132,
+    "y": 2417,
+    "w": 96,
+    "h": 50,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 144,
+    "y": 2499,
+    "w": 72,
+    "h": 22,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 116,
+    "y": 2547,
+    "w": 128,
+    "h": 22,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 129,
+    "y": 2595,
+    "w": 102,
+    "h": 22,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-center-l > div.site-footer__accessibility > a",
+    "x": 147,
+    "y": 2646,
+    "w": 104,
+    "h": 24,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-l > div.site-footer__submit-request > a",
+    "x": 103,
+    "y": 2733,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 2832,
+    "w": 99,
+    "h": 21,
+    "text": "District News"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 2826,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 2826,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 2893,
+    "w": 127,
+    "h": 21,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 2887,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 2887,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 2954,
+    "w": 73,
+    "h": 21,
+    "text": "About DC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 2948,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 2948,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 3015,
+    "w": 84,
+    "h": 21,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 3009,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 3009,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 37,
+    "y": 3154,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 232,
+    "y": 3154,
+    "w": 60,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 113,
+    "y": 3258,
+    "w": 134,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__bottom-l > div.site-footer__legal > p",
+    "x": 31,
+    "y": 3327,
+    "w": 297,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 148,
+    "y": 3370,
+    "w": 64,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 140,
+    "y": 3409,
+    "w": 81,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 114,
+    "y": 3447,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 109,
+    "y": 3486,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 42,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--7ddb4c84--aemcoder.aem.page/organizational-charts-agencies-and-offices-under-mayors-authority",
+  "at": "2026-11-06T21:59:06.901Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3527,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > a.shs-top-logo",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-top.set-bg-dark > a.shs-top-logo > img",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 25,
+    "text": "home",
+    "file": "logo-flag"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > a.shs-logo",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-bottom > a.shs-logo > img",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "file": "logo-small"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#site-header-content-top > div.shs-translate-slot > select.gt-selector.notranslate",
+    "x": 93,
+    "y": 112,
+    "w": 174,
+    "h": 32,
+    "label": "select language",
+    "value": "english",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs-link.mod-home-link",
+    "x": 149,
+    "y": 186,
+    "w": 46,
+    "h": 20,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs-text",
+    "x": 37,
+    "y": 211,
+    "w": 306,
+    "h": 41,
+    "text": "Organizational Charts For Agencies And Offices Under The Mayor's Authority"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-hero-stack-l > div.c-hero-stack-text > h1#services",
+    "x": 16,
+    "y": 277,
+    "w": 328,
+    "h": 129,
+    "level": 1,
+    "text": "organizational charts for agencies and offices under the mayor's authority"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container-content > div.accordion-toggle-all-l > button.c-button-plus.js-accordion-set",
+    "x": 130,
+    "y": 496,
+    "w": 101,
+    "h": 24,
+    "text": "toggle all"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-1 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 540,
+    "w": 328,
+    "h": 60,
+    "level": 3,
+    "text": "executive office of the mayor (eom)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-1 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 540,
+    "w": 328,
+    "h": 60,
+    "text": "executive office of the mayor (eom)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-1 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 540,
+    "w": 328,
+    "h": 60,
+    "label": "trigger",
+    "value": "executive office of the mayor (eom)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-2 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 624,
+    "w": 328,
+    "h": 60,
+    "level": 3,
+    "text": "office of the senior advisor (osa)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-2 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 624,
+    "w": 328,
+    "h": 60,
+    "text": "office of the senior advisor (osa)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-2 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 624,
+    "w": 328,
+    "h": 60,
+    "label": "trigger",
+    "value": "office of the senior advisor (osa)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-3 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 708,
+    "w": 328,
+    "h": 78,
+    "level": 3,
+    "text": "office of the city administrator (oca)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-3 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 708,
+    "w": 328,
+    "h": 78,
+    "text": "office of the city administrator (oca)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-3 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 708,
+    "w": 328,
+    "h": 78,
+    "label": "trigger",
+    "value": "office of the city administrator (oca)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-4 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 809,
+    "w": 328,
+    "h": 95,
+    "level": 3,
+    "text": "office of the deputy mayor for operations and infrastructure (dmoi)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-4 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 809,
+    "w": 328,
+    "h": 95,
+    "text": "office of the deputy mayor for operations and infrastructure (dmoi)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-4 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 809,
+    "w": 328,
+    "h": 95,
+    "label": "trigger",
+    "value": "office of the deputy mayor for operations and infrastructure",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-5 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 928,
+    "w": 328,
+    "h": 95,
+    "level": 3,
+    "text": "office of the deputy mayor for health and human services (dmhhs)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-5 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 928,
+    "w": 328,
+    "h": 95,
+    "text": "office of the deputy mayor for health and human services (dmhhs)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-5 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 928,
+    "w": 328,
+    "h": 95,
+    "label": "trigger",
+    "value": "office of the deputy mayor for health and human services (dm",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-6 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 1048,
+    "w": 328,
+    "h": 95,
+    "level": 3,
+    "text": "office of the deputy mayor for planning and economic development (dmped)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-6 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1048,
+    "w": 328,
+    "h": 95,
+    "text": "office of the deputy mayor for planning and economic development (dmped)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-6 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1048,
+    "w": 328,
+    "h": 95,
+    "label": "trigger",
+    "value": "office of the deputy mayor for planning and economic develop",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-7 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 1167,
+    "w": 328,
+    "h": 78,
+    "level": 3,
+    "text": "office of the deputy mayor for education (dme)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-7 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1167,
+    "w": 328,
+    "h": 78,
+    "text": "office of the deputy mayor for education (dme)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-7 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1167,
+    "w": 328,
+    "h": 78,
+    "label": "trigger",
+    "value": "office of the deputy mayor for education (dme)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-8 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 1268,
+    "w": 328,
+    "h": 78,
+    "level": 3,
+    "text": "office of the deputy mayor for public safety and justice (dmpsj)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-8 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1268,
+    "w": 328,
+    "h": 78,
+    "text": "office of the deputy mayor for public safety and justice (dmpsj)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-8 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1268,
+    "w": 328,
+    "h": 78,
+    "label": "trigger",
+    "value": "office of the deputy mayor for public safety and justice (dm",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "li > article#accordion-stack-1-item-9 > h3.c-accordion-heading",
+    "x": 16,
+    "y": 1370,
+    "w": 328,
+    "h": 60,
+    "level": 3,
+    "text": "internal services (is)"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-9 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1370,
+    "w": 328,
+    "h": 60,
+    "text": "internal services (is)"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article#accordion-stack-1-item-9 > h3.c-accordion-heading > button.c-accordion-toggle.js-accordion",
+    "x": 16,
+    "y": 1370,
+    "w": 328,
+    "h": 60,
+    "label": "trigger",
+    "value": "internal services (is)",
+    "via": "trigger"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > h2#we-want-to-hear-from-you-7",
+    "x": 56,
+    "y": 1578,
+    "w": 248,
+    "h": 57,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > p",
+    "x": 56,
+    "y": 1659,
+    "w": 248,
+    "h": 96,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-left > div.c-feedback-card-bottom > p",
+    "x": 78,
+    "y": 1803,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 44,
+    "y": 1850,
+    "w": 126,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 190,
+    "y": 1850,
+    "w": 126,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-top.set-bg-dark > p",
+    "x": 101,
+    "y": 1988,
+    "w": 203,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-bottom.set-bg-mid > button.c-button-pill.mod-icon",
+    "x": 50,
+    "y": 2105,
+    "w": 260,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom.set-bg-mid > p.tp > a.c-link-arrow.mod-arrow",
+    "x": 125,
+    "y": 2173,
+    "w": 110,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution-maintainer > p.tp > a",
+    "x": 207,
+    "y": 2318,
+    "w": 55,
+    "h": 20,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-l > div.site-footer-top-l > a.site-footer-logo",
+    "x": 132,
+    "y": 2400,
+    "w": 96,
+    "h": 50,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 144,
+    "y": 2481,
+    "w": 72,
+    "h": 22,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 117,
+    "y": 2529,
+    "w": 127,
+    "h": 22,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 129,
+    "y": 2577,
+    "w": 103,
+    "h": 22,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-center-l > div.site-footer-accessibility > a",
+    "x": 148,
+    "y": 2628,
+    "w": 103,
+    "h": 24,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-l > div.site-footer-submit-request > a",
+    "x": 103,
+    "y": 2716,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 2814,
+    "w": 98,
+    "h": 21,
+    "text": "District News"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2809,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2809,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 2875,
+    "w": 126,
+    "h": 21,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2870,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2870,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 2936,
+    "w": 73,
+    "h": 21,
+    "text": "About DC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2931,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2931,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 2997,
+    "w": 83,
+    "h": 21,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2992,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 2992,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 37,
+    "y": 3137,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 232,
+    "y": 3137,
+    "w": 59,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 113,
+    "y": 3241,
+    "w": 134,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-bottom-l > div.site-footer-legal > p",
+    "x": 32,
+    "y": 3310,
+    "w": 296,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 148,
+    "y": 3353,
+    "w": 63,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 140,
+    "y": 3391,
+    "w": 80,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 113,
+    "y": 3430,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 109,
+    "y": 3468,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 42,
+    "controls": 38,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "organizational charts for agencies and offices under the mayor's authority",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "executive office of the mayor (eom)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "office of the senior advisor (osa)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "office of the city administrator (oca)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "office of the deputy mayor for operations and infrastructure (dmoi)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "office of the deputy mayor for health and human services (dmhhs)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "office of the deputy mayor for planning and economic development (dmped)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "office of the deputy mayor for education (dme)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "office of the deputy mayor for public safety and justice (dmpsj)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "internal services (is)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 1,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 1,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "we want to hear from you.",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 3,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 319,
+    "y": 13,
+    "w": 4,
+    "h": 11
+   },
+   {
+    "x": 150,
+    "y": 187,
+    "w": 45,
+    "h": 20
+   },
+   {
+    "x": 38,
+    "y": 211,
+    "w": 305,
+    "h": 20
+   },
+   {
+    "x": 52,
+    "y": 233,
+    "w": 276,
+    "h": 20
+   },
+   {
+    "x": 36,
+    "y": 276,
+    "w": 289,
+    "h": 33
+   },
+   {
+    "x": 69,
+    "y": 308,
+    "w": 221,
+    "h": 33
+   },
+   {
+    "x": 64,
+    "y": 340,
+    "w": 231,
+    "h": 33
+   },
+   {
+    "x": 63,
+    "y": 373,
+    "w": 234,
+    "h": 33
+   },
+   {
+    "x": 130,
+    "y": 498,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 560,
+    "w": 215,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 578,
+    "w": 48,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 661,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 745,
+    "w": 227,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 763,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 847,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 865,
+    "w": 217,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 882,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 966,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 984,
+    "w": 201,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1001,
+    "w": 70,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1085,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1103,
+    "w": 172,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1121,
+    "w": 170,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1204,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1222,
+    "w": 125,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1306,
+    "w": 220,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1324,
+    "w": 254,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1408,
+    "w": 154,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1596,
+    "w": 210,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 1625,
+    "w": 42,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 1677,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 1701,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 1725,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 1749,
+    "w": 225,
+    "h": 22
+   },
+   {
+    "x": 79,
+    "y": 1822,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 93,
+    "y": 1881,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 242,
+    "y": 1881,
+    "w": 22,
+    "h": 20
+   },
+   {
+    "x": 101,
+    "y": 2006,
+    "w": 191,
+    "h": 24
+   },
+   {
+    "x": 101,
+    "y": 2033,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 111,
+    "y": 2136,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 125,
+    "y": 2193,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 29,
+    "y": 2294,
+    "w": 302,
+    "h": 20
+   },
+   {
+    "x": 99,
+    "y": 2336,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 2336,
+    "w": 53,
+    "h": 20
+   },
+   {
+    "x": 144,
+    "y": 2499,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 116,
+    "y": 2547,
+    "w": 128,
+    "h": 22
+   },
+   {
+    "x": 129,
+    "y": 2595,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 147,
+    "y": 2646,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 2733,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2832,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 2893,
+    "w": 127,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 2954,
+    "w": 73,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 3015,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 37,
+    "y": 3154,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 232,
+    "y": 3154,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 3258,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 3277,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 31,
+    "y": 3327,
+    "w": 297,
+    "h": 17
+   },
+   {
+    "x": 148,
+    "y": 3370,
+    "w": 64,
+    "h": 17
+   },
+   {
+    "x": 140,
+    "y": 3409,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 114,
+    "y": 3447,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 109,
+    "y": 3486,
+    "w": 142,
+    "h": 17
+   }
+  ],
+  "eds": [
+   {
+    "x": 318,
+    "y": 13,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 149,
+    "y": 187,
+    "w": 46,
+    "h": 20
+   },
+   {
+    "x": 37,
+    "y": 211,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 53,
+    "y": 233,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 35,
+    "y": 276,
+    "w": 290,
+    "h": 33
+   },
+   {
+    "x": 69,
+    "y": 308,
+    "w": 222,
+    "h": 33
+   },
+   {
+    "x": 66,
+    "y": 340,
+    "w": 229,
+    "h": 33
+   },
+   {
+    "x": 62,
+    "y": 373,
+    "w": 235,
+    "h": 33
+   },
+   {
+    "x": 130,
+    "y": 498,
+    "w": 69,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 560,
+    "w": 264,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 644,
+    "w": 250,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 728,
+    "w": 228,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 745,
+    "w": 45,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 829,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 847,
+    "w": 219,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 865,
+    "w": 51,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 949,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 966,
+    "w": 202,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 984,
+    "w": 67,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1068,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1085,
+    "w": 174,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1103,
+    "w": 168,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1187,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1204,
+    "w": 124,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1288,
+    "w": 218,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1306,
+    "w": 253,
+    "h": 19
+   },
+   {
+    "x": 34,
+    "y": 1390,
+    "w": 153,
+    "h": 19
+   },
+   {
+    "x": 56,
+    "y": 1579,
+    "w": 209,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 1607,
+    "w": 43,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 1659,
+    "w": 242,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 1683,
+    "w": 233,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 1707,
+    "w": 241,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 1731,
+    "w": 228,
+    "h": 22
+   },
+   {
+    "x": 78,
+    "y": 1804,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 92,
+    "y": 1864,
+    "w": 29,
+    "h": 20
+   },
+   {
+    "x": 242,
+    "y": 1864,
+    "w": 23,
+    "h": 20
+   },
+   {
+    "x": 101,
+    "y": 1989,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 101,
+    "y": 2015,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 2119,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 125,
+    "y": 2176,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 27,
+    "y": 2277,
+    "w": 306,
+    "h": 20
+   },
+   {
+    "x": 98,
+    "y": 2318,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 2318,
+    "w": 55,
+    "h": 20
+   },
+   {
+    "x": 144,
+    "y": 2481,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 117,
+    "y": 2529,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 129,
+    "y": 2577,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 148,
+    "y": 2628,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 2716,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 2814,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 2875,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 2936,
+    "w": 73,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 2997,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 37,
+    "y": 3137,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 232,
+    "y": 3137,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 3241,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 3259,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 3310,
+    "w": 296,
+    "h": 17
+   },
+   {
+    "x": 148,
+    "y": 3353,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 140,
+    "y": 3391,
+    "w": 80,
+    "h": 17
+   },
+   {
+    "x": 113,
+    "y": 3430,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 109,
+    "y": 3468,
+    "w": 142,
+    "h": 17
+   }
+  ]
+ }
+}

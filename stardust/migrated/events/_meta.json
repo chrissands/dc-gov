@@ -1,0 +1,198 @@
+{
+  "slug": "events",
+  "type": "listing",
+  "renderBranch": "A'",
+  "template": "news",
+  "modules": [
+    "hero-simple",
+    "view-listing",
+    "feedback"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "shct",
+    "block--main"
+  ],
+  "canonShas": {
+    "header": "5808c2c1f5d4",
+    "footer": "23d96d430869",
+    "css": "48f0559f0425"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Events | DC.gov",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Events | DC.gov",
+    "url": "https://beta.dc.gov/events"
+  },
+  "migratedAt": "2026-11-06T20:54:55Z",
+  "designMdSha": "97e903412583",
+  "designJsonSha": "2a11f90f5560",
+  "sourceCurrentSha": "bfa7218d2e62",
+  "sourceProposedSha": "a0e78fcf6bea",
+  "fidelityTier": "sibling",
+  "archetypeSource": "news",
+  "archetypeSha": "4dbb06d852b0",
+  "variants": [
+    "view-listing media"
+  ],
+  "gatesPassed": [
+    "variance-probe",
+    "content-count",
+    "content-fidelity",
+    "delivery-lint",
+    "media-reconcile",
+    "pixel-gate-1440",
+    "pixel-gate-360"
+  ],
+  "gateEvidence": {
+    "variance-probe": "sibling-variance vs /news at 1440 (stardust/.work/rollout/cluster-listing/variance.json): no filters, dark image slabs, load-more pager, node-feedback instead of emblem → view-listing variant media + feedback block",
+    "content-count": "content-diff capture vs render (main div.node__l + chrome): 🔴 0; main 🟡 0; header 🟡 2 = gtranslate language options, canon chrome identical to the gated archetype",
+    "content-fidelity": "node__l cloned verbatim from the capture; scripts and Drupal runtime attributes dropped only",
+    "delivery-lint": "content/events.html: 0 P0 · 0 P1 · 0 P2; localize-links check PASS; davids-model-lint 0 🔴; block-roundtrip --ew 27/27 editable, 0 🔴",
+    "media-reconcile": "media-reconcile content/events.html: 5 hosted (media/events/)",
+    "pixel-gate-1440": "published origin gate-all 1440: 0.81%, Δh 1px, clipped 0, MISSING 0 / HIDDEN 0, PASS (stardust/replica/gates/all-1440/events)",
+    "pixel-gate-360": "published origin gate-all 360: 1.32%, Δh 1px, clipped 0, MISSING 0 / HIDDEN 0, PASS (stardust/replica/gates/all-360/events)"
+  },
+  "contentDeviations": [],
+  "assetsBundled": 12,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/services/marriage-license",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/unemployment-compensation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/apply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/check-status",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/8",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/31",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/27",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/roles/job-seeker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/22",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/news/mayor-bowser-announces-ramon-griffin-thurgood-marshall-academy-2027-dc-teacher-year-surprise",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/community-engagement-and-feedback",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/search?key=Public%20School%20Enrollment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Boundaries%20Map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Choice%20and%20Lottery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=Special%20Education%20Services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Calendars%20and%20Holidays",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/ward-5-roll-day-nov-7-2026-arboretum-community-ctr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/national-veterans-parade-5k",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/national-veterans-parade",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/bedowntown-downtowndc-holiday-market-dates-announced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/ward-4-roll-day-nov-21-2026-riggs-lasalle-community-ctr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-facebook-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-twitter-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-youtube-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-dc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-and-security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-and-conditions-use",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "events/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "events/_meta.json",
+  "driverVersion": "1"
+}

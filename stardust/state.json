@@ -1,0 +1,383 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:migrate",
+    "writtenAt": "2026-11-06T21:28:55Z",
+    "stardustVersion": "0.37.0"
+  },
+  "site": {
+    "originUrl": "https://beta.dc.gov/",
+    "deployUrl": null,
+    "extractedAt": "2026-11-06T17:49:30.843Z",
+    "pageCap": null,
+    "totalDiscovered": 8,
+    "crawled": 8,
+    "captureGaps": []
+  },
+  "direction": null,
+  "handsOff": true,
+  "flow": "replica",
+  "flowChosenAt": "2026-11-06T17:49:30.843Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://beta.dc.gov/",
+      "title": "Home",
+      "type": "landing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:28.384Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-11-06T18:38:24Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-06T18:38:24Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "services",
+      "url": "https://beta.dc.gov/services",
+      "title": "Services | DC.gov",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:27.157Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-06T20:54:55Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-06T20:55:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/services.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "neighborhoods",
+      "url": "https://beta.dc.gov/neighborhoods",
+      "title": "Neighborhoods | DC.gov",
+      "type": "unique",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:27.156Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-06T19:14:17Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/neighborhoods.json",
+      "prototypePath": "stardust/prototypes/neighborhoods-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+      "url": "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "title": "Organizational Charts for Agencies and Offices Under the Mayor's Authority | DC.gov",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:34.027Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-06T21:28:28Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-06T21:28:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/organizational-charts-agencies-and-offices-under-mayors-authority.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "agency-directory",
+      "url": "https://beta.dc.gov/agency-directory",
+      "title": "Agency Directory | DC.gov",
+      "type": "static",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:34.331Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-06T19:05:07Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/agency-directory.json",
+      "prototypePath": "stardust/prototypes/agency-directory-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "news",
+      "url": "https://beta.dc.gov/news",
+      "title": "All News | DC.gov",
+      "type": "listing",
+      "status": "approved",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:35.748Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-11-06T19:01:28Z",
+          "approvedBy": "hands-off"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/news.json",
+      "prototypePath": "stardust/prototypes/news-proposed.html",
+      "migratedPath": null
+    },
+    {
+      "slug": "events",
+      "url": "https://beta.dc.gov/events",
+      "title": "Events | DC.gov",
+      "type": "listing",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:40.204Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-06T20:54:55Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-06T20:55:59Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/events.json",
+      "prototypePath": null,
+      "migratedPath": null
+    },
+    {
+      "slug": "community-engagement-and-feedback",
+      "url": "https://beta.dc.gov/community-engagement-and-feedback",
+      "title": "Community Engagement and Feedback | DC.gov",
+      "type": "static",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-11-06T17:45:40.203Z"
+        },
+        {
+          "status": "directed",
+          "at": "2026-11-06T21:28:28Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-11-06T21:28:55Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/community-engagement-and-feedback.json",
+      "prototypePath": null,
+      "migratedPath": null
+    }
+  ],
+  "migrate": {
+    "at": "2026-11-06T21:28:28Z",
+    "outputDir": "stardust/migrated/",
+    "selfContained": true,
+    "pageMap": [
+      {
+        "sourceUrl": "/",
+        "outputPath": "index.html",
+        "slug": "index",
+        "outputPathDefault": null
+      },
+      {
+        "sourceUrl": "/services",
+        "outputPath": "services/index.html",
+        "slug": "services",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/neighborhoods",
+        "outputPath": "neighborhoods/index.html",
+        "slug": "neighborhoods",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+        "outputPath": "organizational-charts-agencies-and-offices-under-mayors-authority/index.html",
+        "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/agency-directory",
+        "outputPath": "agency-directory/index.html",
+        "slug": "agency-directory",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/news",
+        "outputPath": "news/index.html",
+        "slug": "news",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/events",
+        "outputPath": "events/index.html",
+        "slug": "events",
+        "outputPathDefault": "trailing-slash"
+      },
+      {
+        "sourceUrl": "/community-engagement-and-feedback",
+        "outputPath": "community-engagement-and-feedback/index.html",
+        "slug": "community-engagement-and-feedback",
+        "outputPathDefault": "trailing-slash"
+      }
+    ],
+    "totalAssetsBundled": 48,
+    "bundledAssets": [
+      "canon.css",
+      "css-img/caret-down--blue.svg",
+      "css-img/caret-down--dark-gray.svg",
+      "css-img/checkbox-check--white.svg",
+      "css-img/search--blue.svg",
+      "css/canon.css",
+      "css/lifted.css",
+      "dc-icons-sprite.svg",
+      "favicon.ico",
+      "js/canon.js",
+      "media/agency_logo_small--DC_20gov_20logo-min.png.webp",
+      "media/card_450x270--new_20mayor_20headshot_202x.png.webp",
+      "media/card_450x270--winter-season-thumbnail.png.webp",
+      "media/card_660x230--ward1.jpg.webp",
+      "media/card_660x230--ward2.jpg.webp",
+      "media/card_660x230--ward3.jpg.webp",
+      "media/card_660x230--ward4.jpg.webp",
+      "media/card_660x230--ward5.jpg.webp",
+      "media/card_660x230--ward6.jpg.webp",
+      "media/card_660x230--ward7.jpg.webp",
+      "media/card_660x230--ward8.jpg.webp",
+      "media/feature_card_max_540w--District_20News_203x.png.webp",
+      "media/feature_card_max_540w--GettyImages-1195566019.jpg.webp",
+      "media/feature_card_max_540w--GettyImages-2170556126.jpg.webp",
+      "media/feature_card_max_540w--GettyImages-2186986083.jpg.webp",
+      "media/feature_card_max_540w--man-sitting-600x500.png.webp",
+      "media/feature_card_max_540w--our-rfk_450x270.png.webp",
+      "media/hero_image_plain--neighborhood-hero3.png.webp",
+      "media/herohome.mp4",
+      "media/large--Mayor-image.png.webp",
+      "media/listing_thumbnail--Arboretum_20Community_20Ctr-Ward-5.jpg.webp",
+      "media/listing_thumbnail--Riggs-LaSalle_20Community_20Ctr-ward4.jpg.webp",
+      "media/listing_thumbnail--Veterans-5K.jpg.webp",
+      "media/listing_thumbnail--winter-season-thumbnail.png.webp",
+      "media/logo-flag.svg",
+      "media/logo-small.svg",
+      "media/logo.svg",
+      "media/max_650x650--Mayor-image.png.webp",
+      "media/medium--DC_20gov_20logo-min.png.webp",
+      "media/promo_card--Veterans-5K.jpg.webp",
+      "media/promo_card--veterans.jpeg.webp",
+      "media/small_card--Arboretum_20Community_20Ctr-Ward-5.jpg.webp",
+      "media/small_card--Riggs-LaSalle_20Community_20Ctr-ward4.jpg.webp",
+      "media/small_card--Veterans-5K.jpg.webp",
+      "media/small_card--veterans.jpeg.webp",
+      "media/small_card--winter-season-thumbnail.png.webp",
+      "media/thumbnail--washingtondc_logo_white.png.webp",
+      "media/we-are-dc-logo.webp"
+    ],
+    "pages": [
+      {
+        "slug": "index",
+        "file": "stardust/migrated/index.html",
+        "assetsBundled": 30
+      },
+      {
+        "slug": "news",
+        "file": "stardust/migrated/news/index.html",
+        "assetsBundled": 13
+      },
+      {
+        "slug": "agency-directory",
+        "file": "stardust/migrated/agency-directory/index.html",
+        "assetsBundled": 11
+      },
+      {
+        "slug": "neighborhoods",
+        "file": "stardust/migrated/neighborhoods/index.html",
+        "assetsBundled": 22
+      },
+      {
+        "slug": "services",
+        "file": "stardust/migrated/services/index.html",
+        "assetsBundled": 10
+      },
+      {
+        "slug": "events",
+        "file": "stardust/migrated/events/index.html",
+        "assetsBundled": 12
+      },
+      {
+        "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+        "file": "stardust/migrated/organizational-charts-agencies-and-offices-under-mayors-authority/index.html",
+        "assetsBundled": 7
+      },
+      {
+        "slug": "community-engagement-and-feedback",
+        "file": "stardust/migrated/community-engagement-and-feedback/index.html",
+        "assetsBundled": 11
+      }
+    ],
+    "missingAssets": [],
+    "cleanedAssets": [],
+    "lastRun": {
+      "at": "2026-11-06T21:28:28Z",
+      "rendered": [
+        "organizational-charts-agencies-and-offices-under-mayors-authority",
+        "community-engagement-and-feedback"
+      ],
+      "unchanged": [],
+      "refused": [],
+      "passthrough": []
+    }
+  }
+}

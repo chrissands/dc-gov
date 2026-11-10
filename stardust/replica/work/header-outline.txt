@@ -1,0 +1,253 @@
+div.shl-main__l
+  a.shl-logo [href=/]
+    img [src=/themes/custom/dcgov/img/logo.svg alt=Home]
+  div.shl-main__top
+    div.shl-translate-toggle-slot-tall
+      button.shl-translate-toggle
+        span._visually-hidden | Toggle translation
+        div.shl-translate-toggle__icon.shl-toggle__icon
+          span.menu-toggle-line.--top
+          span.menu-toggle-line.--bottom
+        span.shl-translate-toggle__label | Translate
+    div.shl-alerts-toggle-slot-tall
+      button.shl-alerts-toggle
+        span._visually-hidden | 1 alert
+        span.shl-alerts-toggle__icon
+          span.shl-alerts-toggle__icon-count | 1
+    div.shl-search-toggle-slot-tall
+      button.shl-search-toggle
+        span._visually-hidden | Toggle search
+        div.shl-search-toggle__icon.shl-toggle__icon
+          span.menu-toggle-line.--top
+          span.menu-toggle-line.--bottom
+        span.shl-search-toggle__label | Search
+  div.shl-main__bottom
+    div.shl-i-menus
+      div.shl-iwt-slot
+        div.sh-iwt.i-menu
+          button.iwt__toggle.i-menu-toggle | I want to
+            div.i-menu__accordion-icon
+          div.iwt__panel.i-menu-panel
+            div.iwt-action
+              h2.iwt-action__heading | Browse by Action
+              ul.menu.iwt-action__menu
+                li.iwt-flyout._js-dropover
+                  button.iwt-flyout__toggle._js-dropover-toggle | Apply For
+                    div.iwt-flyout__toggle-icon
+                  div.iwt-flyout__panel._js-dropover-panel
+                    ul.menu.iwt-action__submenu
+                      li
+                        a.iwt-action__link | Building Permit [href=https://alpha.dc.gov/services/building-permit]
+                          span.iwt-action__link-prefix | Apply for a
+                      li
+                        a.iwt-action__link | Business License [href=https://dlcp.dc.gov/service/business-licensing-division]
+                          span.iwt-action__link-prefix | Apply for a
+                      li
+                        a.iwt-action__link | Marriage License [href=/services/marriage-license]
+                          span.iwt-action__link-prefix | Apply for a
+                      li
+                        a.iwt-action__link | Unemployment Compensation [href=/services/unemployment-compensation]
+                          span.iwt-action__link-prefix | Apply for
+                    a.c-link-pill.--arrow | More [href=/actions/apply]
+                li.iwt-flyout._js-dropover
+                  button.iwt-flyout__toggle._js-dropover-toggle | Check Status Of
+                    div.iwt-flyout__toggle-icon
+                  div.iwt-flyout__panel._js-dropover-panel
+                    ul.menu.iwt-action__submenu
+                      li
+                        a.iwt-action__link | Business License [href=https://mybusiness.dc.gov/login]
+                          span.iwt-action__link-prefix | Check Status of my
+                      li
+                        a.iwt-action__link | Property Taxes [href=https://otr.cfo.dc.gov/page/real-property-tax-rates]
+                          span.iwt-action__link-prefix | Check Status of my
+                      li
+                        a.iwt-action__link | FOIA Request [href=https://myfoiadc.govqa.us/WEBAPP/_rs/(S(4ch5nkdwosjrwbqfyrt1fbio))/supporthome.aspx]
+                          span.iwt-action__link-prefix | Check Status of my
+                    a.c-link-pill.--arrow | More [href=/actions/check-status]
+            div.iwt-life
+              div.iwt-life__intro
+                h2.iwt-life__heading.i-menu__pre-card-heading | Browse by Life Changes
+                div.iwt-life__card.i-menu__card
+                  p.iwt-life__card-heading.i-menu__card-heading | LIfe Changes
+                  div.iwt-life__card-body.i-menu__card-body
+                    p | Find resources and guidance for milestones like moving, starting a business, or growing yo
+                  div.iwt-life__card-link.i-menu__card-link
+                    a | All Life Changes [href=/]
+              ul.menu.iwt-life__menu
+                li
+                  div.c-icon-content-icon
+                    div.c-icon-content-icon__content
+                      a | Moving to DC [href=/taxonomy/term/8]
+      div.shl-iaa-slot
+        div.sh-iaa.i-menu
+          button.iaa__toggle.i-menu-toggle | I am a
+            div.i-menu__accordion-icon
+          div.iaa__panel.i-menu-panel
+            div.iaa__intro
+              h2.iaa__heading.i-menu__pre-card-heading | Browse by Your Role or Identity
+              div.iaa__card.i-menu__card
+                p.iaa__card-heading.i-menu__card-heading | How do you identify?
+                div.iaa__card-body.i-menu__card-body
+                  p | Find resources tailored to you. Choose your role or identity - like resident, business own
+                div.iaa__card-link.i-menu__card-link
+                  a | All Roles & Identities [href=/]
+            ul.menu.iaa__menu
+              li
+                div.c-icon-content-icon
+                  div.c-icon-content-icon__content
+                    a | Veteran [href=/taxonomy/term/31]
+              li
+                div.c-icon-content-icon
+                  div.c-icon-content-icon__content
+                    a | Older Adult [href=/taxonomy/term/27]
+              li
+                div.c-icon-content-icon
+                  div.c-icon.c-icon-content-icon__icon
+                    div.c-icon
+                  div.c-icon-content-icon__content
+                    a | Job Seeker [href=/roles/job-seeker]
+              li
+                div.c-icon-content-icon
+                  div.c-icon-content-icon__content
+                    a | New Resident [href=/taxonomy/term/22]
+    div.shl-nav-slot
+      nav.sh-nav
+        h2._visually-hidden | Main Menu
+        ul.menu.menu-main
+          li.menu-item.--menu-level-0
+            a | Services [href=/services]
+          li.menu-item.--menu-level-0
+            a | Neighborhoods [href=/neighborhoods]
+          li.menu-item.--menu-level-0
+            a.is-active | Government [href=/]
+            button.menu-main-toggle._js-dropover-toggle
+              span._visually-hidden | Toggle sub-menu
+              span.menu-main-toggle__icon
+            div.menu-main-panel._js-dropover-panel
+              div.mm-leadership
+                div.mm-leadership__mayor
+                  div.mm-leadership__photo-l
+                    img [src=/sites/default/files/styles/max_650x650/public/sites/dc/sites/dc_gov/images/Mayor-image.pn alt=Mayor Muriel Bowser]
+                    a.c-link-arrow.--arrow | Visit the Mayor's site [href=https://mayor.dc.gov]
+                  div.mm-leadership__content-l
+                    h3.mm-leadership__heading | Muriel Bowser
+                    p.mm-leadership__subhead | Mayor of the District of Columbia
+                    ul.mm-leadership__links
+                      li
+                        a | Leadership [href=/organizational-charts-agencies-and-offices-under-mayors-authority]
+                      li
+                        a | Offices [href=/agency-directory]
+                      li
+                        a | Press releases [href=/news]
+                div.mm-leadership__featured
+                  p.mm-leadership__dateline | Oct 26, 2026
+                  h3 | Mayor Bowser Announces Ramon Griffin of Thurgood Marshall Academy as the 2027 DC Teacher o
+                  a.c-link-pill.--arrow | Press Release [href=/news/mayor-bowser-announces-ramon-griffin-thurgood-marshall-academy-2027-dc-teacher-year-surprise]
+              div.menu-main-panel__submenu
+                ul.menu.submenu
+                  li.menu-item.--menu-level-1
+                    div.accordion-menu__top
+                      span | News and Updates
+                      button.accordion-menu__toggle._js-accordion
+                        span._visually-hidden | Toggle sub-menu
+                        span.accordion-menu__toggle-icon
+                    div.accordion-menu__panel
+                      ul.menu.submenu
+                        li.menu-item.--menu-level-2
+                          a | Budget [href=https://budget.dc.gov]
+                        li.menu-item.--menu-level-2
+                          a | Events [href=/events]
+                        li.menu-item.--menu-level-2
+                          a | Feedback [href=/community-engagement-and-feedback]
+                        li.menu-item.--menu-level-2
+                          a | News [href=/news]
+                  li.menu-item.--menu-level-1
+                    div.accordion-menu__top
+                      span | Resources and Tools
+                      button.accordion-menu__toggle._js-accordion
+                        span._visually-hidden | Toggle sub-menu
+                        span.accordion-menu__toggle-icon
+                    div.accordion-menu__panel
+                      ul.menu.submenu
+                        li.menu-item.--menu-level-2
+                          a | Historic Districts [href=https://planning.dc.gov/page/dc-historic-districts]
+                        li.menu-item.--menu-level-2
+                          a | Jobs [href=https://dc.gov/jobs]
+                        li.menu-item.--menu-level-2
+                          a | Laws [href=https://dccouncil.gov/legislation/]
+                        li.menu-item.--menu-level-2
+                          a | Webcasts [href=https://mayor.dc.gov/live]
+    div.shl-misc
+      div.shl-translate-toggle-slot-short
+      div.shl-accessibility-slot-short
+      div.shl-alerts-toggle-slot-short
+      div.shl-search-toggle-slot-short
+  div.shl-translate-drawer.shl-drawer
+    div.shl-translate-slot.shl-drawer-slot
+      div.sh-translate
+        div.sh-translate__icon
+        div.gtranslate_wrapper.gt_container--wz96ug
+          select.gt_selector.notranslate
+            option | Select Language
+            option | English
+            option | Spanish
+            option | Amharic
+            option | Chinese (Simplified)
+            option | French
+            option | Korean
+            option | Vietnamese
+  div.shl-search-drawer.shl-drawer
+    div.shl-search-slot.shl-drawer-slot
+      div.sh-search
+        form
+          div.sh-search__l
+            div.sh-search__icon
+            div.sh-search__loading-icon
+            label._visually-hidden | Search
+            input.sh-search__key
+            input.sh-search__submit
+        div.sh-search-results
+          div.sh-search-results__view
+          div.search-block-view__middle-columns
+            article.c-card-sidebar._set-bg-mid
+              h3.c-heading.c-card-sidebar__heading | SUGGESTED SEARCHES
+              div.c-card-sidebar__content
+                ul.search-suggested__list
+                  li.search-suggested__list-item
+                    div.c-icon-content-icon
+                      div.c-icon.c-icon-content-icon__icon
+                      div.c-icon-content-icon__content
+                        a | Public School Enrollment [href=/search?key=Public%20School%20Enrollment]
+                  li.search-suggested__list-item
+                    div.c-icon-content-icon
+                      div.c-icon.c-icon-content-icon__icon
+                      div.c-icon-content-icon__content
+                        a | School Boundaries Map [href=/search?key=School%20Boundaries%20Map]
+                  li.search-suggested__list-item
+                    div.c-icon-content-icon
+                      div.c-icon.c-icon-content-icon__icon
+                      div.c-icon-content-icon__content
+                        a | School Choice and Lottery [href=/search?key=School%20Choice%20and%20Lottery]
+                  li.search-suggested__list-item
+                    div.c-icon-content-icon
+                      div.c-icon.c-icon-content-icon__icon
+                      div.c-icon-content-icon__content
+                        a | Special Education Services [href=/search?key=Special%20Education%20Services]
+                  li.search-suggested__list-item
+                    div.c-icon-content-icon
+                      div.c-icon.c-icon-content-icon__icon
+                      div.c-icon-content-icon__content
+                        a | School Calendars and Holidays [href=/search?key=School%20Calendars%20and%20Holidays]
+            article.c-card-sidebar._set-bg-mid
+              h3.c-heading.c-card-sidebar__heading | SUGGESTED QUESTIONS
+              div.c-card-sidebar__content
+                div.search-questions__all-link._flex-col-center-h
+                  a.c-link-arrow.--arrow | All Questions [href=/faq]
+          article.c-card-sidebar._set-bg-mid
+            h3.c-heading.c-card-sidebar__heading | RECENT SEARCHES
+            div.c-card-sidebar__content
+              p.search-recent__intro | Resume your search for...
+              ul.search-recent__links
+              button.c-button-plus.--active | Clear
+                span._visually-hidden | recent searches
+                span.c-button-plus__icon-box

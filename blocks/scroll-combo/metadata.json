@@ -1,0 +1,11 @@
+{
+  "variantName": "scroll-combo",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "\"What's happening in DC\" section: a heading with a \"More updates\" link, a large featured event card with date badge, and a scrolling list of smaller event/news cards with type label and date.",
+  "contentPattern": "Rows: heading and more link, featured item (date, title, text, image), then one row per list item (type, date, title, link).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage events and news highlights.",
+  "reuseGuidance": "Reuse for a featured item plus a list of dated events or news."
+}

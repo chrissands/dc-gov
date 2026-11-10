@@ -1,0 +1,3273 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-06T21:59:58.940Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://beta.dc.gov/events",
+  "at": "2026-11-06T21:59:39.792Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5016,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > a.shs-top-logo",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__top._set-bg-dark > a.shs-top-logo > img",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 25,
+    "text": "home",
+    "file": "logo-flag"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > a.shs-logo",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__bottom > a.shs-logo > img",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "file": "logo-small"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-translate > div.gtranslate_wrapper.gt_container--wz96ug > select.gt_selector.notranslate",
+    "x": 107,
+    "y": 112,
+    "w": 174,
+    "h": 32,
+    "label": "select language",
+    "value": "english",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs__link.--home-link",
+    "x": 16,
+    "y": 176,
+    "w": 45,
+    "h": 20,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs__text",
+    "x": 97,
+    "y": 177,
+    "w": 52,
+    "h": 20,
+    "text": "Events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-header > section.c-hero-simple._set-bg-light > h1#events",
+    "x": 16,
+    "y": 207,
+    "w": 328,
+    "h": 35,
+    "level": 1,
+    "text": "events"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__l > div.c-slab-action__img > img",
+    "x": 16,
+    "y": 303,
+    "w": 328,
+    "h": 270,
+    "text": "arboretum community ctr",
+    "file": "Arboretum%20Community%20Ctr-Ward-5.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#ward-5-roll-off-day-nov-7-2026-arboretum-community-ctr--2",
+    "x": 40,
+    "y": 597,
+    "w": 280,
+    "h": 72,
+    "level": 3,
+    "text": "ward 5 roll off day - nov 7, 2026: arboretum community ctr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#ward-5-roll-off-day-nov-7-2026-arboretum-community-ctr--2 > a.c-heading__link",
+    "x": 40,
+    "y": 597,
+    "w": 264,
+    "h": 72,
+    "text": "ward 5 roll off day - nov 7, 2026: arboretum community ctr",
+    "href": "/events/ward-5-roll-day-nov-7-2026-arboretum-community-ctr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 40,
+    "y": 680,
+    "w": 160,
+    "h": 17,
+    "text": "10am"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 212,
+    "y": 680,
+    "w": 29,
+    "h": 17,
+    "text": "2pm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > p",
+    "x": 40,
+    "y": 698,
+    "w": 280,
+    "h": 19,
+    "text": "2412 Rand Pl NE, Washington, DC 20002"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 40,
+    "y": 741,
+    "w": 158,
+    "h": 48,
+    "text": "learn more",
+    "href": "/e/ward-5-roll-off-day-nov-7-2026-arboretum-community-ctr-tickets-1985763252343"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__l > div.c-slab-action__img > img",
+    "x": 16,
+    "y": 837,
+    "w": 328,
+    "h": 270,
+    "text": "national veterans parade 5k",
+    "file": "Veterans-5K.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#national-veterans-parade-5k--2",
+    "x": 40,
+    "y": 1131,
+    "w": 280,
+    "h": 24,
+    "level": 3,
+    "text": "national veterans parade 5k"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#national-veterans-parade-5k--2 > a.c-heading__link",
+    "x": 40,
+    "y": 1131,
+    "w": 258,
+    "h": 24,
+    "text": "national veterans parade 5k",
+    "href": "/events/national-veterans-parade-5k"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 40,
+    "y": 1166,
+    "w": 156,
+    "h": 17,
+    "text": "8am"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 208,
+    "y": 1166,
+    "w": 34,
+    "h": 17,
+    "text": "12pm"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 40,
+    "y": 1208,
+    "w": 97,
+    "h": 48,
+    "text": "lea",
+    "href": "/event/national-veterans-parade"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__l > div.c-slab-action__img > img",
+    "x": 16,
+    "y": 1304,
+    "w": 328,
+    "h": 270,
+    "text": "national veterans parade",
+    "file": "veterans.jpeg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#national-veterans-parade--2",
+    "x": 40,
+    "y": 1598,
+    "w": 280,
+    "h": 24,
+    "level": 3,
+    "text": "national veterans parade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#national-veterans-parade--2 > a.c-heading__link",
+    "x": 40,
+    "y": 1598,
+    "w": 228,
+    "h": 24,
+    "text": "national veterans parade",
+    "href": "/events/national-veterans-parade"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div > time > strong",
+    "x": 40,
+    "y": 1632,
+    "w": 123,
+    "h": 18,
+    "text": "November 8, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 194,
+    "y": 1633,
+    "w": 29,
+    "h": 17,
+    "text": "4pm"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 40,
+    "y": 1676,
+    "w": 97,
+    "h": 48,
+    "text": "lea",
+    "href": "/event/national-veterans-parade"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__l > div.c-slab-action__img > img",
+    "x": 16,
+    "y": 1772,
+    "w": 328,
+    "h": 270,
+    "text": "holiday market",
+    "file": "winter-season-thumbnail.png"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#bedowntown-downtowndc-holiday-market-dates-announced--2",
+    "x": 40,
+    "y": 2066,
+    "w": 280,
+    "h": 72,
+    "level": 3,
+    "text": "#bedowntown: downtowndc holiday market dates announced"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#bedowntown-downtowndc-holiday-market-dates-announced--2 > a.c-heading__link",
+    "x": 40,
+    "y": 2066,
+    "w": 268,
+    "h": 72,
+    "text": "#bedowntown: downtowndc holiday market dates announced",
+    "href": "/events/bedowntown-downtowndc-holiday-market-dates-announced"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 40,
+    "y": 2149,
+    "w": 178,
+    "h": 17,
+    "text": "All Day"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 40,
+    "y": 2192,
+    "w": 175,
+    "h": 48,
+    "text": "register here",
+    "href": "/event/march-festival-2026"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__l > div.c-slab-action__img > img",
+    "x": 16,
+    "y": 2288,
+    "w": 328,
+    "h": 270,
+    "text": "riggs-lasalle community ctr-ward4",
+    "file": "Riggs-LaSalle%20Community%20Ctr-ward4.jp"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#ward-4-roll-off-day-nov-21-2026-riggs-lasalle-community-ctr--2",
+    "x": 40,
+    "y": 2582,
+    "w": 280,
+    "h": 72,
+    "level": 3,
+    "text": "ward 4 roll off day - nov 21, 2026: riggs-lasalle community ctr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#ward-4-roll-off-day-nov-21-2026-riggs-lasalle-community-ctr--2 > a.c-heading__link",
+    "x": 40,
+    "y": 2582,
+    "w": 252,
+    "h": 72,
+    "text": "ward 4 roll off day - nov 21, 2026: riggs-lasalle community ctr",
+    "href": "/events/ward-4-roll-day-nov-21-2026-riggs-lasalle-community-ctr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 40,
+    "y": 2665,
+    "w": 167,
+    "h": 17,
+    "text": "10am"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.dates-upcoming > div > time",
+    "x": 220,
+    "y": 2665,
+    "w": 29,
+    "h": 17,
+    "text": "2pm"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > p",
+    "x": 40,
+    "y": 2683,
+    "w": 280,
+    "h": 37,
+    "text": "Riggs-LaSalle Community Center, 501 Riggs Rd NE, Washington, DC 20011"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 40,
+    "y": 2745,
+    "w": 158,
+    "h": 48,
+    "text": "learn more",
+    "href": "/e/ward-4-roll-off-day-nov-21-2026-riggs-lasalle-community-ctr-tickets-1985763035695"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.js-pager__items > div.c-layout-flex.--center > a.c-link-pill.--arrow",
+    "x": 116,
+    "y": 2849,
+    "w": 128,
+    "h": 48,
+    "text": "load more",
+    "href": "/events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > h2#we-want-to-hear-from-you--6",
+    "x": 56,
+    "y": 3045,
+    "w": 248,
+    "h": 57,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > p",
+    "x": 56,
+    "y": 3126,
+    "w": 248,
+    "h": 96,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--left > div.c-feedback__card-bottom > p",
+    "x": 79,
+    "y": 3270,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 44,
+    "y": 3317,
+    "w": 126,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 190,
+    "y": 3317,
+    "w": 126,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-top._set-bg-dark > p",
+    "x": 101,
+    "y": 3455,
+    "w": 203,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > button.c-button-pill.--icon",
+    "x": 50,
+    "y": 3572,
+    "w": 260,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > a.c-link-arrow.--arrow",
+    "x": 125,
+    "y": 3640,
+    "w": 111,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__updated",
+    "x": 0,
+    "y": 3744,
+    "w": 360,
+    "h": 43,
+    "text": "Last updated: 2:10 PM EST December 15, 2025"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__maintainer",
+    "x": 0,
+    "y": 3807,
+    "w": 360,
+    "h": 21,
+    "text": "Maintained by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution > div.node-attribution__maintainer > a",
+    "x": 207,
+    "y": 3807,
+    "w": 53,
+    "h": 20,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__l > div.site-footer__top-l > a.site-footer__logo",
+    "x": 132,
+    "y": 3888,
+    "w": 96,
+    "h": 50,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 144,
+    "y": 3969,
+    "w": 72,
+    "h": 22,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 116,
+    "y": 4017,
+    "w": 128,
+    "h": 22,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 129,
+    "y": 4065,
+    "w": 102,
+    "h": 22,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-center-l > div.site-footer__accessibility > a",
+    "x": 147,
+    "y": 4116,
+    "w": 104,
+    "h": 24,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-l > div.site-footer__submit-request > a",
+    "x": 103,
+    "y": 4204,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4303,
+    "w": 99,
+    "h": 21,
+    "text": "District News"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4297,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4297,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4364,
+    "w": 127,
+    "h": 21,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4358,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4358,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4425,
+    "w": 73,
+    "h": 21,
+    "text": "About DC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4419,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4419,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4486,
+    "w": 84,
+    "h": 21,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4480,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4480,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 37,
+    "y": 4625,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 232,
+    "y": 4625,
+    "w": 60,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 113,
+    "y": 4729,
+    "w": 134,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__bottom-l > div.site-footer__legal > p",
+    "x": 31,
+    "y": 4798,
+    "w": 297,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 148,
+    "y": 4841,
+    "w": 64,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 140,
+    "y": 4879,
+    "w": 81,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 114,
+    "y": 4918,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 109,
+    "y": 4957,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 63,
+    "controls": 39,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--7ddb4c84--aemcoder.aem.page/events",
+  "at": "2026-11-06T21:59:58.854Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5015,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > a.shs-top-logo",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-top.set-bg-dark > a.shs-top-logo > img",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 25,
+    "text": "home",
+    "file": "logo-flag"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > a.shs-logo",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-bottom > a.shs-logo > img",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "file": "logo-small"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#site-header-content-top > div.shs-translate-slot > select.gt-selector.notranslate",
+    "x": 93,
+    "y": 112,
+    "w": 174,
+    "h": 32,
+    "label": "select language",
+    "value": "english",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs-link.mod-home-link",
+    "x": 16,
+    "y": 176,
+    "w": 46,
+    "h": 20,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs-text",
+    "x": 98,
+    "y": 177,
+    "w": 53,
+    "h": 20,
+    "text": "Events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-header > section.c-hero-simple.set-bg-light > h1#all-news",
+    "x": 16,
+    "y": 207,
+    "w": 328,
+    "h": 35,
+    "level": 1,
+    "text": "events"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-img > picture.tp > img",
+    "x": 16,
+    "y": 303,
+    "w": 328,
+    "h": 270,
+    "text": "arboretum community ctr",
+    "file": "media_14f0242d3d2580262f75bfd3ea2208d5fc"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#ward-5-roll-off-day-nov-7-2026-arboretum-community-ctr-2",
+    "x": 40,
+    "y": 597,
+    "w": 280,
+    "h": 72,
+    "level": 3,
+    "text": "ward 5 roll off day - nov 7, 2026: arboretum community ctr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#ward-5-roll-off-day-nov-7-2026-arboretum-community-ctr-2 > a.c-heading-link",
+    "x": 40,
+    "y": 597,
+    "w": 266,
+    "h": 72,
+    "text": "ward 5 roll off day - nov 7, 2026: arboretum community ctr",
+    "href": "/events/ward-5-roll-day-nov-7-2026-arboretum-community-ctr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > p",
+    "x": 40,
+    "y": 698,
+    "w": 280,
+    "h": 19,
+    "text": "2412 Rand Pl NE, Washington, DC 20002"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 40,
+    "y": 741,
+    "w": 159,
+    "h": 48,
+    "text": "learn more",
+    "href": "/e/ward-5-roll-off-day-nov-7-2026-arboretum-community-ctr-tickets-1985763252343"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-img > picture.tp > img",
+    "x": 16,
+    "y": 837,
+    "w": 328,
+    "h": 270,
+    "text": "national veterans parade 5k",
+    "file": "media_1c6fd2c340537b77b863b1028b7d82800f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#national-veterans-parade-5k-2",
+    "x": 40,
+    "y": 1131,
+    "w": 280,
+    "h": 24,
+    "level": 3,
+    "text": "national veterans parade 5k"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#national-veterans-parade-5k-2 > a.c-heading-link",
+    "x": 40,
+    "y": 1131,
+    "w": 259,
+    "h": 24,
+    "text": "national veterans parade 5k",
+    "href": "/events/national-veterans-parade-5k"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 40,
+    "y": 1208,
+    "w": 98,
+    "h": 48,
+    "text": "lea",
+    "href": "/event/national-veterans-parade"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-img > picture.tp > img",
+    "x": 16,
+    "y": 1304,
+    "w": 328,
+    "h": 270,
+    "text": "national veterans parade",
+    "file": "media_1292b980d3342ae9f7bb91ace4239becd6"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#national-veterans-parade-2",
+    "x": 40,
+    "y": 1598,
+    "w": 280,
+    "h": 24,
+    "level": 3,
+    "text": "national veterans parade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#national-veterans-parade-2 > a.c-heading-link",
+    "x": 40,
+    "y": 1598,
+    "w": 230,
+    "h": 24,
+    "text": "national veterans parade",
+    "href": "/events/national-veterans-parade"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 40,
+    "y": 1676,
+    "w": 98,
+    "h": 48,
+    "text": "lea",
+    "href": "/event/national-veterans-parade"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-img > picture.tp > img",
+    "x": 16,
+    "y": 1772,
+    "w": 328,
+    "h": 270,
+    "text": "holiday market",
+    "file": "media_1f8c7388c768a54c90e21fefd5555fdc68"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#bedowntown-downtowndc-holiday-market-dates-announced-2",
+    "x": 40,
+    "y": 2066,
+    "w": 280,
+    "h": 72,
+    "level": 3,
+    "text": "#bedowntown: downtowndc holiday market dates announced"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#bedowntown-downtowndc-holiday-market-dates-announced-2 > a.c-heading-link",
+    "x": 40,
+    "y": 2066,
+    "w": 269,
+    "h": 72,
+    "text": "#bedowntown: downtowndc holiday market dates announced",
+    "href": "/events/bedowntown-downtowndc-holiday-market-dates-announced"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 40,
+    "y": 2192,
+    "w": 175,
+    "h": 48,
+    "text": "register here",
+    "href": "/event/march-festival-2026"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-img > picture.tp > img",
+    "x": 16,
+    "y": 2288,
+    "w": 328,
+    "h": 270,
+    "text": "riggs-lasalle community ctr-ward4",
+    "file": "media_1fd90b6a01b39599f10ba7e2c67e695403"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#ward-4-roll-off-day-nov-21-2026-riggs-lasalle-community-ctr-2",
+    "x": 40,
+    "y": 2582,
+    "w": 280,
+    "h": 72,
+    "level": 3,
+    "text": "ward 4 roll off day - nov 21, 2026: riggs-lasalle community ctr"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#ward-4-roll-off-day-nov-21-2026-riggs-lasalle-community-ctr-2 > a.c-heading-link",
+    "x": 40,
+    "y": 2582,
+    "w": 257,
+    "h": 72,
+    "text": "ward 4 roll off day - nov 21, 2026: riggs-lasalle community ctr",
+    "href": "/events/ward-4-roll-day-nov-21-2026-riggs-lasalle-community-ctr"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > p",
+    "x": 40,
+    "y": 2683,
+    "w": 280,
+    "h": 37,
+    "text": "Riggs-LaSalle Community Center, 501 Riggs Rd NE, Washington, DC 20011"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 40,
+    "y": 2745,
+    "w": 159,
+    "h": 48,
+    "text": "learn more",
+    "href": "/e/ward-4-roll-off-day-nov-21-2026-riggs-lasalle-community-ctr-tickets-1985763035695"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.js-pager-items > div.c-layout-flex.mod-center > a.c-link-pill.mod-arrow",
+    "x": 116,
+    "y": 2849,
+    "w": 129,
+    "h": 48,
+    "text": "load more",
+    "href": "/events"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > h2#we-want-to-hear-from-you-7",
+    "x": 56,
+    "y": 3045,
+    "w": 248,
+    "h": 57,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > p",
+    "x": 56,
+    "y": 3126,
+    "w": 248,
+    "h": 96,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-left > div.c-feedback-card-bottom > p",
+    "x": 78,
+    "y": 3270,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 44,
+    "y": 3317,
+    "w": 126,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 190,
+    "y": 3317,
+    "w": 126,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-top.set-bg-dark > p",
+    "x": 101,
+    "y": 3455,
+    "w": 203,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-bottom.set-bg-mid > button.c-button-pill.mod-icon",
+    "x": 50,
+    "y": 3572,
+    "w": 260,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom.set-bg-mid > p.tp > a.c-link-arrow.mod-arrow",
+    "x": 125,
+    "y": 3640,
+    "w": 110,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution-maintainer > p.tp > a",
+    "x": 207,
+    "y": 3807,
+    "w": 55,
+    "h": 20,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-l > div.site-footer-top-l > a.site-footer-logo",
+    "x": 132,
+    "y": 3888,
+    "w": 96,
+    "h": 50,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 144,
+    "y": 3969,
+    "w": 72,
+    "h": 22,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 117,
+    "y": 4017,
+    "w": 127,
+    "h": 22,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 129,
+    "y": 4065,
+    "w": 103,
+    "h": 22,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-center-l > div.site-footer-accessibility > a",
+    "x": 148,
+    "y": 4116,
+    "w": 103,
+    "h": 24,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-l > div.site-footer-submit-request > a",
+    "x": 103,
+    "y": 4204,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4303,
+    "w": 98,
+    "h": 21,
+    "text": "District News"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4297,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4297,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4364,
+    "w": 126,
+    "h": 21,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4358,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4358,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4425,
+    "w": 73,
+    "h": 21,
+    "text": "About DC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4419,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4419,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4486,
+    "w": 83,
+    "h": 21,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4480,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4480,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 37,
+    "y": 4625,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 232,
+    "y": 4625,
+    "w": 59,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 113,
+    "y": 4729,
+    "w": 134,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-bottom-l > div.site-footer-legal > p",
+    "x": 32,
+    "y": 4798,
+    "w": 296,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 148,
+    "y": 4841,
+    "w": 63,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 140,
+    "y": 4879,
+    "w": 80,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 113,
+    "y": 4918,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 109,
+    "y": 4957,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 55,
+    "controls": 39,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "events",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "ward 5 roll off day - nov 7, 2026: arboretum community ctr",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 3,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "national veterans parade 5k",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "national veterans parade",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "#bedowntown: downtowndc holiday market dates announced",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 1
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "ward 4 roll off day - nov 21, 2026: riggs-lasalle community ctr",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "we want to hear from you.",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 3,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 319,
+    "y": 13,
+    "w": 4,
+    "h": 11
+   },
+   {
+    "x": 16,
+    "y": 177,
+    "w": 45,
+    "h": 20
+   },
+   {
+    "x": 97,
+    "y": 177,
+    "w": 52,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 205,
+    "w": 103,
+    "h": 38
+   },
+   {
+    "x": 40,
+    "y": 597,
+    "w": 242,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 621,
+    "w": 264,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 645,
+    "w": 29,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 679,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 161,
+    "y": 680,
+    "w": 38,
+    "h": 17
+   },
+   {
+    "x": 200,
+    "y": 680,
+    "w": 13,
+    "h": 17
+   },
+   {
+    "x": 212,
+    "y": 680,
+    "w": 29,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 698,
+    "w": 267,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 755,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1131,
+    "w": 258,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1165,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 1166,
+    "w": 32,
+    "h": 17
+   },
+   {
+    "x": 196,
+    "y": 1166,
+    "w": 13,
+    "h": 17
+   },
+   {
+    "x": 208,
+    "y": 1166,
+    "w": 34,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 1222,
+    "w": 29,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1598,
+    "w": 228,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1632,
+    "w": 123,
+    "h": 18
+   },
+   {
+    "x": 163,
+    "y": 1633,
+    "w": 18,
+    "h": 17
+   },
+   {
+    "x": 181,
+    "y": 1633,
+    "w": 13,
+    "h": 17
+   },
+   {
+    "x": 194,
+    "y": 1633,
+    "w": 29,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 1690,
+    "w": 29,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2066,
+    "w": 268,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2090,
+    "w": 192,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2114,
+    "w": 105,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2148,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 169,
+    "y": 2149,
+    "w": 49,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 2206,
+    "w": 107,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2582,
+    "w": 252,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2606,
+    "w": 183,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2630,
+    "w": 138,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2664,
+    "w": 129,
+    "h": 18
+   },
+   {
+    "x": 169,
+    "y": 2665,
+    "w": 38,
+    "h": 17
+   },
+   {
+    "x": 207,
+    "y": 2665,
+    "w": 13,
+    "h": 17
+   },
+   {
+    "x": 220,
+    "y": 2665,
+    "w": 29,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2683,
+    "w": 245,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2702,
+    "w": 235,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 2759,
+    "w": 90,
+    "h": 20
+   },
+   {
+    "x": 138,
+    "y": 2863,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3046,
+    "w": 210,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 3074,
+    "w": 42,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 3126,
+    "w": 246,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 3150,
+    "w": 232,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 3174,
+    "w": 244,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 3198,
+    "w": 225,
+    "h": 22
+   },
+   {
+    "x": 79,
+    "y": 3271,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 93,
+    "y": 3331,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 242,
+    "y": 3331,
+    "w": 22,
+    "h": 20
+   },
+   {
+    "x": 101,
+    "y": 3456,
+    "w": 191,
+    "h": 24
+   },
+   {
+    "x": 101,
+    "y": 3482,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 111,
+    "y": 3586,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 125,
+    "y": 3643,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 28,
+    "y": 3744,
+    "w": 305,
+    "h": 20
+   },
+   {
+    "x": 160,
+    "y": 3765,
+    "w": 39,
+    "h": 20
+   },
+   {
+    "x": 99,
+    "y": 3807,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 3807,
+    "w": 53,
+    "h": 20
+   },
+   {
+    "x": 144,
+    "y": 3969,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 116,
+    "y": 4017,
+    "w": 128,
+    "h": 22
+   },
+   {
+    "x": 129,
+    "y": 4065,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 147,
+    "y": 4116,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 4204,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4303,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4364,
+    "w": 127,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4425,
+    "w": 73,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4486,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 37,
+    "y": 4625,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 232,
+    "y": 4625,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4729,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4747,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 31,
+    "y": 4798,
+    "w": 297,
+    "h": 17
+   },
+   {
+    "x": 148,
+    "y": 4841,
+    "w": 64,
+    "h": 17
+   },
+   {
+    "x": 140,
+    "y": 4879,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 114,
+    "y": 4918,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 109,
+    "y": 4957,
+    "w": 142,
+    "h": 17
+   }
+  ],
+  "eds": [
+   {
+    "x": 318,
+    "y": 13,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 16,
+    "y": 177,
+    "w": 46,
+    "h": 20
+   },
+   {
+    "x": 98,
+    "y": 177,
+    "w": 53,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 205,
+    "w": 105,
+    "h": 38
+   },
+   {
+    "x": 40,
+    "y": 597,
+    "w": 245,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 621,
+    "w": 266,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 645,
+    "w": 28,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 679,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 161,
+    "y": 680,
+    "w": 82,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 698,
+    "w": 269,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 755,
+    "w": 91,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1131,
+    "w": 259,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1165,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 161,
+    "y": 1166,
+    "w": 82,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 1222,
+    "w": 30,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1598,
+    "w": 230,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1632,
+    "w": 121,
+    "h": 18
+   },
+   {
+    "x": 161,
+    "y": 1633,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 1690,
+    "w": 30,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2066,
+    "w": 269,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2090,
+    "w": 193,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2114,
+    "w": 106,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2148,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 170,
+    "y": 2149,
+    "w": 50,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 2206,
+    "w": 107,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2582,
+    "w": 257,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2606,
+    "w": 185,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2630,
+    "w": 138,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2664,
+    "w": 130,
+    "h": 18
+   },
+   {
+    "x": 170,
+    "y": 2665,
+    "w": 82,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2683,
+    "w": 249,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2702,
+    "w": 241,
+    "h": 17
+   },
+   {
+    "x": 62,
+    "y": 2759,
+    "w": 91,
+    "h": 20
+   },
+   {
+    "x": 138,
+    "y": 2863,
+    "w": 85,
+    "h": 20
+   },
+   {
+    "x": 56,
+    "y": 3046,
+    "w": 209,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 3074,
+    "w": 43,
+    "h": 26
+   },
+   {
+    "x": 56,
+    "y": 3126,
+    "w": 242,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 3150,
+    "w": 233,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 3174,
+    "w": 241,
+    "h": 22
+   },
+   {
+    "x": 56,
+    "y": 3198,
+    "w": 228,
+    "h": 22
+   },
+   {
+    "x": 78,
+    "y": 3271,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 92,
+    "y": 3331,
+    "w": 29,
+    "h": 20
+   },
+   {
+    "x": 242,
+    "y": 3331,
+    "w": 23,
+    "h": 20
+   },
+   {
+    "x": 101,
+    "y": 3456,
+    "w": 190,
+    "h": 24
+   },
+   {
+    "x": 101,
+    "y": 3482,
+    "w": 201,
+    "h": 24
+   },
+   {
+    "x": 112,
+    "y": 3586,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 125,
+    "y": 3643,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 23,
+    "y": 3744,
+    "w": 313,
+    "h": 20
+   },
+   {
+    "x": 161,
+    "y": 3765,
+    "w": 38,
+    "h": 20
+   },
+   {
+    "x": 98,
+    "y": 3807,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 3807,
+    "w": 55,
+    "h": 20
+   },
+   {
+    "x": 144,
+    "y": 3969,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 117,
+    "y": 4017,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 129,
+    "y": 4065,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 148,
+    "y": 4116,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 4204,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4303,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4364,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4425,
+    "w": 73,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4486,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 37,
+    "y": 4625,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 232,
+    "y": 4625,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4729,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4747,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 4798,
+    "w": 296,
+    "h": 17
+   },
+   {
+    "x": 148,
+    "y": 4841,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 140,
+    "y": 4879,
+    "w": 80,
+    "h": 17
+   },
+   {
+    "x": 113,
+    "y": 4918,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 109,
+    "y": 4957,
+    "w": 142,
+    "h": 17
+   }
+  ]
+ }
+}

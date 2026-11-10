@@ -1,0 +1,4038 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-06T21:58:40.395Z",
+  "width": 360,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://beta.dc.gov/neighborhoods",
+  "at": "2026-11-06T21:58:21.172Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5171,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > a.shs-top-logo",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__top._set-bg-dark > a.shs-top-logo > img",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 25,
+    "text": "home",
+    "file": "logo-flag"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__top._set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > a.shs-logo",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__bottom > a.shs-logo > img",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "file": "logo-small"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main__l > div.shs-main__bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.sh-translate > div.gtranslate_wrapper.gt_container--wz96ug > select.gt_selector.notranslate",
+    "x": 107,
+    "y": 112,
+    "w": 174,
+    "h": 32,
+    "label": "select language",
+    "value": "english",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs__link.--home-link",
+    "x": 81,
+    "y": 186,
+    "w": 45,
+    "h": 20,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs__text",
+    "x": 162,
+    "y": 187,
+    "w": 117,
+    "h": 20,
+    "text": "Neighborhoods"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-hero__text-l > div.c-hero__text-main-l > h1#neighborhoods",
+    "x": 64,
+    "y": 225,
+    "w": 233,
+    "h": 35,
+    "level": 1,
+    "text": "neighborhoods"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container__color-wrapper > div.c-layout-container__l-content-width > h2#choose-your-ward",
+    "x": 16,
+    "y": 351,
+    "w": 328,
+    "h": 33,
+    "level": 2,
+    "text": "choose your ward"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 399,
+    "w": 328,
+    "h": 114,
+    "text": "ward 1",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 399,
+    "w": 328,
+    "h": 114,
+    "text": "ward 1",
+    "file": "ward1.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-1",
+    "x": 16,
+    "y": 481,
+    "w": 108,
+    "h": 32,
+    "level": 3,
+    "text": "ward 1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 537,
+    "w": 280,
+    "h": 107,
+    "text": "Known for its vibrant, diverse culture and bustling urban atmosphere. Ward 1 inc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 644,
+    "w": 328,
+    "h": 47,
+    "text": "Adams Morgan, Columbia Heights, Mount Pleasant, U Street, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 739,
+    "w": 328,
+    "h": 114,
+    "text": "ward 2",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 739,
+    "w": 328,
+    "h": 114,
+    "text": "ward 2",
+    "file": "ward2.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-2",
+    "x": 16,
+    "y": 821,
+    "w": 111,
+    "h": 32,
+    "level": 3,
+    "text": "ward 2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 877,
+    "w": 280,
+    "h": 107,
+    "text": "Home to much of downtown DC and several historic and tourist-heavy areas, Ward 2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 984,
+    "w": 328,
+    "h": 65,
+    "text": "Georgetown, Dupont Circle, Foggy Bottom, Logan Circle, Penn Quarter, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 1096,
+    "w": 328,
+    "h": 114,
+    "text": "ward 3",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 1096,
+    "w": 328,
+    "h": 114,
+    "text": "ward 3",
+    "file": "ward3.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-3",
+    "x": 16,
+    "y": 1179,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 1235,
+    "w": 280,
+    "h": 107,
+    "text": "Known for it's tree-lined neighborhoods, abundant parks, and vibrant commercial "
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 1235,
+    "w": 280,
+    "h": 107,
+    "label": "count offer",
+    "value": "3",
+    "via": "count"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 1341,
+    "w": 328,
+    "h": 65,
+    "text": "Chevy Chase, Friendship Heights, Palisades, Tenleytown, Woodley Park, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 1454,
+    "w": 328,
+    "h": 114,
+    "text": "ward 4",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 1454,
+    "w": 328,
+    "h": 114,
+    "text": "ward 4",
+    "file": "ward4.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-4",
+    "x": 16,
+    "y": 1536,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 1592,
+    "w": 280,
+    "h": 85,
+    "text": "Predominantly residential, Ward 4 is celebrated for its strong sense of communit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 1677,
+    "w": 328,
+    "h": 47,
+    "text": "Petworth, Takoma, Brightwood, Shepherd Park, Crestwood, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 1772,
+    "w": 328,
+    "h": 114,
+    "text": "ward 5",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 1772,
+    "w": 328,
+    "h": 114,
+    "text": "ward 5",
+    "file": "ward5.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-5",
+    "x": 16,
+    "y": 1855,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 1911,
+    "w": 280,
+    "h": 107,
+    "text": "Known for its rich history, strong neighborhoods, and growing opportunities, War"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 2017,
+    "w": 328,
+    "h": 47,
+    "text": "Brookland, Eckington, Fort Totten, Trinidad, Woodridge, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 2112,
+    "w": 328,
+    "h": 114,
+    "text": "ward 6",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 2112,
+    "w": 328,
+    "h": 114,
+    "text": "ward 6",
+    "file": "ward6.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-6",
+    "x": 16,
+    "y": 2195,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 2251,
+    "w": 280,
+    "h": 85,
+    "text": "Ward 6 is known for its historic landmarks, the bustling Capitol Hill area, and "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 2336,
+    "w": 328,
+    "h": 65,
+    "text": "Capitol Hill, H Street Corridor, Navy Yard, Southwest Waterfront, NoMa, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 2448,
+    "w": 328,
+    "h": 114,
+    "text": "ward 7",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 2448,
+    "w": 328,
+    "h": 114,
+    "text": "ward 7",
+    "file": "ward7.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-7",
+    "x": 16,
+    "y": 2531,
+    "w": 111,
+    "h": 32,
+    "level": 3,
+    "text": "ward 7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 2587,
+    "w": 280,
+    "h": 107,
+    "text": "Predominantly residential, Ward 7 is known for its quieter neighborhoods and is "
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 2693,
+    "w": 328,
+    "h": 65,
+    "text": "Deanwood, Hillcrest, Capitol View, Naylor Gardens, Benning Heights, and more"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > a._stretch-link",
+    "x": 16,
+    "y": 2806,
+    "w": 328,
+    "h": 114,
+    "text": "ward 8",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l-top > div.c-card-link-tabbed__img > img",
+    "x": 16,
+    "y": 2806,
+    "w": 328,
+    "h": 114,
+    "text": "ward 8",
+    "file": "ward8.jpg"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a._stretch-link > div.c-card-link-tabbed__l-top > h3#ward-8",
+    "x": 16,
+    "y": 2888,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 8"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed__l > div.c-card-link-tabbed__content > p",
+    "x": 40,
+    "y": 2944,
+    "w": 280,
+    "h": 107,
+    "text": "A vibrant ward with strong community ties, rich cultural heritage, expanding ame"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed._set-small-text > div.c-card-link-tabbed__l > div.c-card-link-tabbed__bottom",
+    "x": 16,
+    "y": 3051,
+    "w": 328,
+    "h": 65,
+    "text": "Anacostia, Congress Heights, Washington Highlands, Fort Stanton, and more"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__l > div.c-emblem-section__emblem > img",
+    "x": 147,
+    "y": 3235,
+    "w": 66,
+    "h": 66,
+    "text": "we are dc",
+    "file": "we-are-dc-logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__top > div.c-emblem-section__left > p",
+    "x": 136,
+    "y": 3339,
+    "w": 87,
+    "h": 21,
+    "text": "Powered by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > strong",
+    "x": 153,
+    "y": 3383,
+    "w": 55,
+    "h": 20,
+    "text": "DC.gov"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > img",
+    "x": 70,
+    "y": 3426,
+    "w": 220,
+    "h": 101,
+    "text": "dc logo",
+    "file": "DC%20gov%20logo-min.png"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > a.c-link-arrow.--arrow",
+    "x": 85,
+    "y": 3548,
+    "w": 190,
+    "h": 24,
+    "text": "visit dc.gov's website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__top > div.c-emblem-section__right > p",
+    "x": 131,
+    "y": 3596,
+    "w": 98,
+    "h": 21,
+    "text": "Presented by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__right > p > strong",
+    "x": 31,
+    "y": 3640,
+    "w": 297,
+    "h": 20,
+    "text": "Government of the District of Columbia"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile._set-small-text > div.c-profile__img > img",
+    "x": 152,
+    "y": 3682,
+    "w": 56,
+    "h": 56,
+    "text": "mayor-image.png",
+    "file": "Mayor-image.png"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile__content > p > strong",
+    "x": 132,
+    "y": 3748,
+    "w": 95,
+    "h": 18,
+    "text": "Muriel Bowser"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile._set-small-text > div.c-profile__content > p",
+    "x": 73,
+    "y": 3772,
+    "w": 214,
+    "h": 19,
+    "text": "Mayor of the District of Columbia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__right > p > a.c-link-arrow.--arrow",
+    "x": 90,
+    "y": 3812,
+    "w": 180,
+    "h": 24,
+    "text": "visit the mayor's site",
+    "href": "/mayor"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__updated",
+    "x": 0,
+    "y": 3920,
+    "w": 360,
+    "h": 21,
+    "text": "Last updated: 12:02 PM EDT June 12, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__maintainer",
+    "x": 0,
+    "y": 3961,
+    "w": 360,
+    "h": 21,
+    "text": "Maintained by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution > div.node-attribution__maintainer > a",
+    "x": 207,
+    "y": 3961,
+    "w": 53,
+    "h": 20,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__l > div.site-footer__top-l > a.site-footer__logo",
+    "x": 132,
+    "y": 4043,
+    "w": 96,
+    "h": 50,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 144,
+    "y": 4124,
+    "w": 72,
+    "h": 22,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a.is-active",
+    "x": 116,
+    "y": 4172,
+    "w": 128,
+    "h": 22,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 129,
+    "y": 4220,
+    "w": 102,
+    "h": 22,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-center-l > div.site-footer__accessibility > a",
+    "x": 147,
+    "y": 4271,
+    "w": 104,
+    "h": 24,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-l > div.site-footer__submit-request > a",
+    "x": 103,
+    "y": 4359,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4457,
+    "w": 99,
+    "h": 21,
+    "text": "District News"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4452,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4452,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4518,
+    "w": 127,
+    "h": 21,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4513,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4513,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4579,
+    "w": 73,
+    "h": 21,
+    "text": "About DC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4574,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4574,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 16,
+    "y": 4640,
+    "w": 84,
+    "h": 21,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4635,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > button.accordion-menu__toggle._js-accordion",
+    "x": 312,
+    "y": 4635,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 37,
+    "y": 4780,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 232,
+    "y": 4780,
+    "w": 60,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 113,
+    "y": 4884,
+    "w": 134,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__bottom-l > div.site-footer__legal > p",
+    "x": 31,
+    "y": 4953,
+    "w": 297,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 148,
+    "y": 4996,
+    "w": 64,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 140,
+    "y": 5034,
+    "w": 81,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 114,
+    "y": 5073,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 109,
+    "y": 5112,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 57,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--7ddb4c84--aemcoder.aem.page/neighborhoods",
+  "at": "2026-11-06T21:58:40.298Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 5149,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > a.shs-top-logo",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 23,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-top.set-bg-dark > a.shs-top-logo > img",
+    "x": 31,
+    "y": 13,
+    "w": 33,
+    "h": 25,
+    "text": "home",
+    "file": "logo-flag"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-top.set-bg-dark > button.shs-alerts-toggle",
+    "x": 306,
+    "y": 11,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-menu-toggle",
+    "x": 20,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > a.shs-logo",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-bottom > a.shs-logo > img",
+    "x": 144,
+    "y": 67,
+    "w": 72,
+    "h": 26,
+    "text": "home",
+    "file": "logo-small"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shs-main-l > div.shs-main-bottom > button.shs-search-toggle",
+    "x": 300,
+    "y": 60,
+    "w": 40,
+    "h": 40,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div#site-header-content-top > div.shs-translate-slot > select.gt-selector.notranslate",
+    "x": 93,
+    "y": 112,
+    "w": 174,
+    "h": 32,
+    "label": "select language",
+    "value": "english",
+    "via": "select"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs-link.mod-home-link",
+    "x": 80,
+    "y": 186,
+    "w": 46,
+    "h": 20,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs-text",
+    "x": 162,
+    "y": 187,
+    "w": 117,
+    "h": 20,
+    "text": "Neighborhoods"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-hero-text-l > div.c-hero-text-main-l > h1#neighborhoods",
+    "x": 62,
+    "y": 225,
+    "w": 236,
+    "h": 35,
+    "level": 1,
+    "text": "neighborhoods"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container-color-wrapper > div.c-layout-container-l-content-width > h2#choose-your-ward",
+    "x": 16,
+    "y": 351,
+    "w": 328,
+    "h": 33,
+    "level": 2,
+    "text": "choose your ward"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 399,
+    "w": 328,
+    "h": 114,
+    "text": "ward 1",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 399,
+    "w": 328,
+    "h": 114,
+    "text": "ward 1",
+    "file": "media_1a6a7bdeaafbaacace145bf9879e565bf2"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-1",
+    "x": 16,
+    "y": 481,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 1"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 537,
+    "w": 280,
+    "h": 107,
+    "text": "Known for its vibrant, diverse culture and bustling urban atmosphere. Ward 1 inc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 739,
+    "w": 328,
+    "h": 114,
+    "text": "ward 2",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 739,
+    "w": 328,
+    "h": 114,
+    "text": "ward 2",
+    "file": "media_116fc516ab519d637e42c203e9315aae4c"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-2",
+    "x": 16,
+    "y": 821,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 2"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 877,
+    "w": 280,
+    "h": 107,
+    "text": "Home to much of downtown DC and several historic and tourist-heavy areas, Ward 2"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 1096,
+    "w": 328,
+    "h": 114,
+    "text": "ward 3",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 1096,
+    "w": 328,
+    "h": 114,
+    "text": "ward 3",
+    "file": "media_12bd38a2d4f27b57c7c79841f8e1d30f64"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-3",
+    "x": 16,
+    "y": 1179,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 3"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 1235,
+    "w": 280,
+    "h": 107,
+    "text": "Known for it's tree-lined neighborhoods, abundant parks, and vibrant commercial "
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 1235,
+    "w": 280,
+    "h": 107,
+    "label": "count offer",
+    "value": "3",
+    "via": "count"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 1454,
+    "w": 328,
+    "h": 114,
+    "text": "ward 4",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 1454,
+    "w": 328,
+    "h": 114,
+    "text": "ward 4",
+    "file": "media_121bb88b5073ef4d6133d59f57470e019f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-4",
+    "x": 16,
+    "y": 1536,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 1592,
+    "w": 280,
+    "h": 85,
+    "text": "Predominantly residential, Ward 4 is celebrated for its strong sense of communit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 1772,
+    "w": 328,
+    "h": 114,
+    "text": "ward 5",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 1772,
+    "w": 328,
+    "h": 114,
+    "text": "ward 5",
+    "file": "media_1ef7688b7c706ddad7fe0aad6fc179fd31"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-5",
+    "x": 16,
+    "y": 1855,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 1911,
+    "w": 280,
+    "h": 107,
+    "text": "Known for its rich history, strong neighborhoods, and growing opportunities, War"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 2112,
+    "w": 328,
+    "h": 114,
+    "text": "ward 6",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 2112,
+    "w": 328,
+    "h": 114,
+    "text": "ward 6",
+    "file": "media_1962edea3abbe7a4d662e8ff318c108718"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-6",
+    "x": 16,
+    "y": 2195,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 6"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 2251,
+    "w": 280,
+    "h": 85,
+    "text": "Ward 6 is known for its historic landmarks, the bustling Capitol Hill area, and "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 2448,
+    "w": 328,
+    "h": 114,
+    "text": "ward 7",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 2448,
+    "w": 328,
+    "h": 114,
+    "text": "ward 7",
+    "file": "media_1be4db6415cf1cdb765ca7e870f099cff0"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-7",
+    "x": 16,
+    "y": 2531,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 7"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 2587,
+    "w": 280,
+    "h": 85,
+    "text": "Predominantly residential, Ward 7 is known for its quieter neighborhoods and is "
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-link-tabbed.set-small-text > div.c-card-link-tabbed-l > a.stretch-link",
+    "x": 16,
+    "y": 2785,
+    "w": 328,
+    "h": 114,
+    "text": "ward 8",
+    "href": "/landing-page/ancs-ward"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-img > picture.tp > img",
+    "x": 16,
+    "y": 2785,
+    "w": 328,
+    "h": 114,
+    "text": "ward 8",
+    "file": "media_196a73e30f31d0b508a40f451c3d351c5f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "a.stretch-link > div.c-card-link-tabbed-l-top > h3#ward-8",
+    "x": 16,
+    "y": 2867,
+    "w": 112,
+    "h": 32,
+    "level": 3,
+    "text": "ward 8"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-link-tabbed-l > div.c-card-link-tabbed-content > p",
+    "x": 40,
+    "y": 2923,
+    "w": 280,
+    "h": 107,
+    "text": "A vibrant ward with strong community ties, rich cultural heritage, expanding ame"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-emblem > picture.tp > img",
+    "x": 147,
+    "y": 3214,
+    "w": 66,
+    "h": 66,
+    "text": "we are dc",
+    "file": "media_125e7df68bea2963c49420c530124feaa5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-top > div.c-emblem-section-left > p",
+    "x": 136,
+    "y": 3318,
+    "w": 88,
+    "h": 21,
+    "text": "Powered by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-left > p > strong",
+    "x": 152,
+    "y": 3362,
+    "w": 55,
+    "h": 20,
+    "text": "DC.gov"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture.tp > img",
+    "x": 70,
+    "y": 3404,
+    "w": 220,
+    "h": 101,
+    "text": "dc logo",
+    "file": "media_1db1f5b26bf155ce68648f45c106930763"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-left > p > a.c-link-arrow.mod-arrow",
+    "x": 84,
+    "y": 3527,
+    "w": 192,
+    "h": 24,
+    "text": "visit dc.gov's website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-top > div.c-emblem-section-right > p",
+    "x": 131,
+    "y": 3575,
+    "w": 99,
+    "h": 21,
+    "text": "Presented by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-right > p > strong",
+    "x": 32,
+    "y": 3618,
+    "w": 297,
+    "h": 20,
+    "text": "Government of the District of Columbia"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile-img > picture.tp > img",
+    "x": 152,
+    "y": 3661,
+    "w": 56,
+    "h": 56,
+    "text": "mayor-image.png",
+    "file": "media_14f9a3a9fb9c918312a220030255cb92c5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile-content > p > strong",
+    "x": 132,
+    "y": 3727,
+    "w": 95,
+    "h": 18,
+    "text": "Muriel Bowser"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile.set-small-text > div.c-profile-content > p",
+    "x": 74,
+    "y": 3751,
+    "w": 212,
+    "h": 19,
+    "text": "Mayor of the District of Columbia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-right > p > a.c-link-arrow.mod-arrow",
+    "x": 90,
+    "y": 3791,
+    "w": 179,
+    "h": 24,
+    "text": "visit the mayor's site",
+    "href": "/mayor"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution-maintainer > p.tp > a",
+    "x": 207,
+    "y": 3940,
+    "w": 55,
+    "h": 20,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-l > div.site-footer-top-l > a.site-footer-logo",
+    "x": 132,
+    "y": 4021,
+    "w": 96,
+    "h": 50,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 144,
+    "y": 4103,
+    "w": 72,
+    "h": 22,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a.is-active",
+    "x": 117,
+    "y": 4151,
+    "w": 127,
+    "h": 22,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 129,
+    "y": 4199,
+    "w": 103,
+    "h": 22,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-center-l > div.site-footer-accessibility > a",
+    "x": 148,
+    "y": 4250,
+    "w": 103,
+    "h": 24,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-l > div.site-footer-submit-request > a",
+    "x": 103,
+    "y": 4337,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4436,
+    "w": 98,
+    "h": 21,
+    "text": "District News"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4431,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4431,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4497,
+    "w": 126,
+    "h": 21,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4492,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4492,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4558,
+    "w": 73,
+    "h": 21,
+    "text": "About DC"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4553,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4553,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 16,
+    "y": 4619,
+    "w": 83,
+    "h": 21,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4614,
+    "w": 32,
+    "h": 32,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > button.accordion-menu-toggle.js-accordion",
+    "x": 312,
+    "y": 4614,
+    "w": 32,
+    "h": 32,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 37,
+    "y": 4759,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 232,
+    "y": 4759,
+    "w": 59,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 113,
+    "y": 4862,
+    "w": 134,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-bottom-l > div.site-footer-legal > p",
+    "x": 32,
+    "y": 4932,
+    "w": 296,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 148,
+    "y": 4974,
+    "w": 63,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 140,
+    "y": 5013,
+    "w": 80,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 113,
+    "y": 5052,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 109,
+    "y": 5090,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 57,
+    "controls": 34,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "neighborhoods",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "choose your ward",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 0,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "ward 1",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "ward 2",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "ward 3",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "ward 4",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "ward 5",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "ward 6",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "ward 7",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 2,
+    "image": 1
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 1,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "ward 8",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 10,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 7,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 319,
+    "y": 13,
+    "w": 4,
+    "h": 11
+   },
+   {
+    "x": 81,
+    "y": 187,
+    "w": 45,
+    "h": 20
+   },
+   {
+    "x": 162,
+    "y": 187,
+    "w": 117,
+    "h": 20
+   },
+   {
+    "x": 64,
+    "y": 223,
+    "w": 233,
+    "h": 38
+   },
+   {
+    "x": 71,
+    "y": 351,
+    "w": 217,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 489,
+    "w": 60,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 537,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 559,
+    "w": 277,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 580,
+    "w": 248,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 601,
+    "w": 200,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 623,
+    "w": 94,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 656,
+    "w": 223,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 673,
+    "w": 230,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 829,
+    "w": 63,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 877,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 899,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 920,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 941,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 963,
+    "w": 221,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 996,
+    "w": 223,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1013,
+    "w": 233,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1031,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1187,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1235,
+    "w": 176,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1256,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1277,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1299,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1320,
+    "w": 122,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1353,
+    "w": 218,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1371,
+    "w": 242,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1388,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1544,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1592,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1613,
+    "w": 246,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1635,
+    "w": 192,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1656,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1689,
+    "w": 201,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1707,
+    "w": 243,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1863,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1911,
+    "w": 239,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1932,
+    "w": 211,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1953,
+    "w": 235,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1975,
+    "w": 274,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1996,
+    "w": 136,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2029,
+    "w": 220,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2047,
+    "w": 198,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2203,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2251,
+    "w": 228,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2272,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2293,
+    "w": 269,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2315,
+    "w": 218,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2348,
+    "w": 228,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2365,
+    "w": 228,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2383,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2539,
+    "w": 63,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2587,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2608,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2629,
+    "w": 204,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2651,
+    "w": 204,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2672,
+    "w": 96,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2705,
+    "w": 220,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2723,
+    "w": 218,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2740,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2896,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2944,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2966,
+    "w": 271,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2987,
+    "w": 264,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 3008,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 3030,
+    "w": 120,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 3063,
+    "w": 191,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 3080,
+    "w": 236,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 3098,
+    "w": 61,
+    "h": 17
+   },
+   {
+    "x": 136,
+    "y": 3339,
+    "w": 87,
+    "h": 20
+   },
+   {
+    "x": 153,
+    "y": 3383,
+    "w": 55,
+    "h": 20
+   },
+   {
+    "x": 85,
+    "y": 3551,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "x": 131,
+    "y": 3596,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 31,
+    "y": 3640,
+    "w": 297,
+    "h": 20
+   },
+   {
+    "x": 132,
+    "y": 3748,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 73,
+    "y": 3772,
+    "w": 214,
+    "h": 17
+   },
+   {
+    "x": 90,
+    "y": 3815,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "x": 21,
+    "y": 3920,
+    "w": 318,
+    "h": 20
+   },
+   {
+    "x": 99,
+    "y": 3961,
+    "w": 108,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 3961,
+    "w": 53,
+    "h": 20
+   },
+   {
+    "x": 144,
+    "y": 4124,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 116,
+    "y": 4172,
+    "w": 128,
+    "h": 22
+   },
+   {
+    "x": 129,
+    "y": 4220,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 147,
+    "y": 4271,
+    "w": 104,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 4359,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4457,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4518,
+    "w": 127,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4579,
+    "w": 73,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4640,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 37,
+    "y": 4780,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 232,
+    "y": 4780,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4884,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4902,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 31,
+    "y": 4953,
+    "w": 297,
+    "h": 17
+   },
+   {
+    "x": 148,
+    "y": 4996,
+    "w": 64,
+    "h": 17
+   },
+   {
+    "x": 140,
+    "y": 5034,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 114,
+    "y": 5073,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 109,
+    "y": 5112,
+    "w": 142,
+    "h": 17
+   }
+  ],
+  "eds": [
+   {
+    "x": 318,
+    "y": 13,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 80,
+    "y": 187,
+    "w": 46,
+    "h": 20
+   },
+   {
+    "x": 162,
+    "y": 187,
+    "w": 117,
+    "h": 20
+   },
+   {
+    "x": 62,
+    "y": 223,
+    "w": 236,
+    "h": 38
+   },
+   {
+    "x": 70,
+    "y": 351,
+    "w": 219,
+    "h": 31
+   },
+   {
+    "x": 40,
+    "y": 489,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 537,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 559,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 580,
+    "w": 249,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 601,
+    "w": 200,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 623,
+    "w": 93,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 656,
+    "w": 225,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 673,
+    "w": 231,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 829,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 877,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 899,
+    "w": 245,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 920,
+    "w": 251,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 941,
+    "w": 254,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 963,
+    "w": 220,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 996,
+    "w": 223,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1013,
+    "w": 233,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1031,
+    "w": 62,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1187,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1235,
+    "w": 174,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1256,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1277,
+    "w": 263,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1299,
+    "w": 268,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1320,
+    "w": 123,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1353,
+    "w": 220,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1371,
+    "w": 208,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1388,
+    "w": 99,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1544,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1592,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1613,
+    "w": 242,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1635,
+    "w": 193,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1656,
+    "w": 241,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1689,
+    "w": 200,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1707,
+    "w": 243,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 1863,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 1911,
+    "w": 236,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1932,
+    "w": 210,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1953,
+    "w": 234,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1975,
+    "w": 275,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 1996,
+    "w": 130,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2029,
+    "w": 217,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2047,
+    "w": 199,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2203,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2251,
+    "w": 225,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2272,
+    "w": 255,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2293,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2315,
+    "w": 219,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2348,
+    "w": 227,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2365,
+    "w": 226,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2383,
+    "w": 62,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2539,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2587,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2608,
+    "w": 265,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2629,
+    "w": 279,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2651,
+    "w": 230,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2684,
+    "w": 220,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2702,
+    "w": 220,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2719,
+    "w": 62,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 2875,
+    "w": 64,
+    "h": 24
+   },
+   {
+    "x": 40,
+    "y": 2923,
+    "w": 278,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2944,
+    "w": 270,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2966,
+    "w": 266,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 2987,
+    "w": 250,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 3008,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 40,
+    "y": 3042,
+    "w": 191,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 3059,
+    "w": 237,
+    "h": 17
+   },
+   {
+    "x": 40,
+    "y": 3077,
+    "w": 62,
+    "h": 17
+   },
+   {
+    "x": 136,
+    "y": 3318,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 152,
+    "y": 3362,
+    "w": 55,
+    "h": 20
+   },
+   {
+    "x": 84,
+    "y": 3529,
+    "w": 160,
+    "h": 19
+   },
+   {
+    "x": 131,
+    "y": 3575,
+    "w": 99,
+    "h": 20
+   },
+   {
+    "x": 32,
+    "y": 3618,
+    "w": 297,
+    "h": 20
+   },
+   {
+    "x": 132,
+    "y": 3727,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 74,
+    "y": 3751,
+    "w": 212,
+    "h": 17
+   },
+   {
+    "x": 90,
+    "y": 3793,
+    "w": 147,
+    "h": 19
+   },
+   {
+    "x": 18,
+    "y": 3899,
+    "w": 324,
+    "h": 20
+   },
+   {
+    "x": 98,
+    "y": 3940,
+    "w": 109,
+    "h": 20
+   },
+   {
+    "x": 207,
+    "y": 3940,
+    "w": 55,
+    "h": 20
+   },
+   {
+    "x": 144,
+    "y": 4103,
+    "w": 72,
+    "h": 22
+   },
+   {
+    "x": 117,
+    "y": 4151,
+    "w": 127,
+    "h": 22
+   },
+   {
+    "x": 129,
+    "y": 4199,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 148,
+    "y": 4250,
+    "w": 103,
+    "h": 22
+   },
+   {
+    "x": 103,
+    "y": 4337,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 16,
+    "y": 4436,
+    "w": 98,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4497,
+    "w": 126,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4558,
+    "w": 73,
+    "h": 20
+   },
+   {
+    "x": 16,
+    "y": 4619,
+    "w": 83,
+    "h": 20
+   },
+   {
+    "x": 37,
+    "y": 4759,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 232,
+    "y": 4759,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4862,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 113,
+    "y": 4881,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 32,
+    "y": 4932,
+    "w": 296,
+    "h": 17
+   },
+   {
+    "x": 148,
+    "y": 4974,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 140,
+    "y": 5013,
+    "w": 80,
+    "h": 17
+   },
+   {
+    "x": 113,
+    "y": 5052,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 109,
+    "y": 5090,
+    "w": 142,
+    "h": 17
+   }
+  ]
+ }
+}

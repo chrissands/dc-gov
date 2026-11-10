@@ -1,0 +1,18 @@
+{
+  "key": {
+    "url": "https://beta.dc.gov/news",
+    "width": 1440,
+    "main": "#main-content"
+  },
+  "probedAt": "2026-11-06T18:41:59.477Z",
+  "data": {
+    "doc": 6267,
+    "rootMissing": false,
+    "rootWrapsChrome": false,
+    "sections": [],
+    "footer": [
+      5616,
+      650
+    ]
+  }
+}

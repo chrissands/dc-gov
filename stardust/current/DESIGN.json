@@ -1,0 +1,1137 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-06T17:49:59.909Z",
+    "stardustVersion": "0.37.0",
+    "sources": [
+      "stardust/current/_computed-styles.json",
+      "stardust/current/assets/css/site-0.css",
+      "stardust/current/pages/*.json"
+    ]
+  },
+  "name": "DC.gov (beta)",
+  "description": "Official website of the Government of the District of Columbia — services, neighborhoods, news and events for DC residents.",
+  "colors": {
+    "primary-blue": "#03438d",
+    "accent-blue": "#0774e4",
+    "heading-navy": "#053068",
+    "background-gray": "#e8ebf1",
+    "surface": "#ffffff",
+    "text": "#1e1e2f",
+    "text-muted": "#3a3a3a",
+    "text-subtle": "#767676",
+    "dc-red": "#d22517",
+    "light-blue": "#b0d6fe"
+  },
+  "typography": {
+    "display": {
+      "fontFamily": "neue-haas-grotesk-display, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "40px",
+      "fontWeight": 700
+    },
+    "h2": {
+      "fontFamily": "neue-haas-grotesk-display, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "32px",
+      "fontWeight": 700
+    },
+    "h3": {
+      "fontFamily": "neue-haas-grotesk-display, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "24px",
+      "fontWeight": 700
+    },
+    "h4": {
+      "fontFamily": "neue-haas-grotesk-display, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": 700
+    },
+    "body": {
+      "fontFamily": "neue-haas-grotesk-text, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "18px",
+      "fontWeight": 400
+    },
+    "small": {
+      "fontFamily": "neue-haas-grotesk-text, \"Helvetica Neue\", Helvetica, Arial, sans-serif",
+      "fontSize": "16px",
+      "fontWeight": 500
+    }
+  },
+  "rounded": {
+    "card": "20px",
+    "pill": "100px"
+  },
+  "spacing": {
+    "xs": "8px",
+    "sm": "16px",
+    "md": "24px",
+    "lg": "48px"
+  },
+  "components": {
+    "button-pill-primary": {
+      "backgroundColor": "{colors.primary-blue}",
+      "textColor": "{colors.surface}",
+      "rounded": "{rounded.pill}"
+    },
+    "card": {
+      "backgroundColor": "{colors.surface}",
+      "rounded": "{rounded.card}"
+    }
+  },
+  "extensions": {
+    "fonts": {
+      "families": [
+        "neue-haas-grotesk-display",
+        "neue-haas-grotesk-text"
+      ],
+      "source": "self-hosted on beta.dc.gov /themes/custom/dc/fonts/nhg/*.woff2 (commercial Neue Haas Grotesk, licensed — not rehostable; no CORS)",
+      "substitute": "\"Helvetica Neue\", Helvetica, Arial, sans-serif (metric-close neo-grotesque; brand family kept first in the stack)"
+    },
+    "voice": {
+      "register": "product",
+      "heroHeadline": "Welcome to Washington, DC"
+    },
+    "modules": [
+      {
+        "id": "site-header",
+        "selector": "header.site-header",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "alert",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "nav",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "i-want-to",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "i-am-a",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "search",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "translate",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "header.site-header"
+          },
+          {
+            "slug": "services",
+            "selector": "header.site-header"
+          },
+          {
+            "slug": "neighborhoods",
+            "selector": "header.site-header"
+          },
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": "header.site-header"
+          },
+          {
+            "slug": "agency-directory",
+            "selector": "header.site-header"
+          },
+          {
+            "slug": "news",
+            "selector": "header.site-header"
+          },
+          {
+            "slug": "events",
+            "selector": "header.site-header"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": "header.site-header"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "site-footer",
+        "selector": "footer",
+        "slots": [
+          {
+            "name": "logo",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "primary-links",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "311-badge",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link-columns",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "social",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "legal",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": "footer"
+          },
+          {
+            "slug": "services",
+            "selector": "footer"
+          },
+          {
+            "slug": "neighborhoods",
+            "selector": "footer"
+          },
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": "footer"
+          },
+          {
+            "slug": "agency-directory",
+            "selector": "footer"
+          },
+          {
+            "slug": "news",
+            "selector": "footer"
+          },
+          {
+            "slug": "events",
+            "selector": "footer"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": "footer"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "slab-alert",
+        "selector": ".c-slab-alert",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-slab-alert"
+          },
+          {
+            "slug": "services",
+            "selector": ".c-slab-alert"
+          },
+          {
+            "slug": "neighborhoods",
+            "selector": ".c-slab-alert"
+          },
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": ".c-slab-alert"
+          },
+          {
+            "slug": "agency-directory",
+            "selector": ".c-slab-alert"
+          },
+          {
+            "slug": "news",
+            "selector": ".c-slab-alert"
+          },
+          {
+            "slug": "events",
+            "selector": ".c-slab-alert"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": ".c-slab-alert"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "breadcrumbs",
+        "selector": ".c-breadcrumbs",
+        "slots": [
+          {
+            "name": "trail",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "services",
+            "selector": ".c-breadcrumbs"
+          },
+          {
+            "slug": "neighborhoods",
+            "selector": ".c-breadcrumbs"
+          },
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": ".c-breadcrumbs"
+          },
+          {
+            "slug": "agency-directory",
+            "selector": ".c-breadcrumbs"
+          },
+          {
+            "slug": "news",
+            "selector": ".c-breadcrumbs"
+          },
+          {
+            "slug": "events",
+            "selector": ".c-breadcrumbs"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": ".c-breadcrumbs"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "hero-simple",
+        "selector": ".c-hero-simple",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "agency-directory",
+            "selector": ".c-hero-simple"
+          },
+          {
+            "slug": "news",
+            "selector": ".c-hero-simple"
+          },
+          {
+            "slug": "events",
+            "selector": ".c-hero-simple"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "hero-stack",
+        "selector": ".c-hero-stack",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "lede",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "services",
+            "selector": ".c-hero-stack"
+          },
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": ".c-hero-stack"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": ".c-hero-stack"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "hero",
+        "selector": ".c-hero",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "lede",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "image-collage",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "neighborhoods",
+            "selector": ".c-hero"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "feedback",
+        "selector": ".c-feedback",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "survey-cta",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-feedback"
+          },
+          {
+            "slug": "services",
+            "selector": ".c-feedback"
+          },
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": ".c-feedback"
+          },
+          {
+            "slug": "agency-directory",
+            "selector": ".c-feedback"
+          },
+          {
+            "slug": "news",
+            "selector": ".c-feedback"
+          },
+          {
+            "slug": "events",
+            "selector": ".c-feedback"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": ".c-feedback"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "emblem-section",
+        "selector": ".c-emblem-section",
+        "slots": [
+          {
+            "name": "seal",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "powered-by",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "presented-by",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-emblem-section"
+          },
+          {
+            "slug": "services",
+            "selector": ".c-emblem-section"
+          },
+          {
+            "slug": "neighborhoods",
+            "selector": ".c-emblem-section"
+          },
+          {
+            "slug": "news",
+            "selector": ".c-emblem-section"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": ".c-emblem-section"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "card-sidebar",
+        "selector": ".c-card-sidebar",
+        "slots": [
+          {
+            "name": "heading",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "contact",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "follow",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-card-sidebar"
+          },
+          {
+            "slug": "services",
+            "selector": ".c-card-sidebar"
+          },
+          {
+            "slug": "neighborhoods",
+            "selector": ".c-card-sidebar"
+          },
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": ".c-card-sidebar"
+          },
+          {
+            "slug": "agency-directory",
+            "selector": ".c-card-sidebar"
+          },
+          {
+            "slug": "news",
+            "selector": ".c-card-sidebar"
+          },
+          {
+            "slug": "events",
+            "selector": ".c-card-sidebar"
+          },
+          {
+            "slug": "community-engagement-and-feedback",
+            "selector": ".c-card-sidebar"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "card-service-link",
+        "selector": ".c-card-service-link",
+        "slots": [
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "description",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-card-service-link"
+          },
+          {
+            "slug": "services",
+            "selector": ".c-card-service-link"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "slab-action",
+        "selector": ".c-slab-action",
+        "slots": [
+          {
+            "name": "image",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "date",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "summary",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "news",
+            "selector": ".c-slab-action"
+          },
+          {
+            "slug": "events",
+            "selector": ".c-slab-action"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "card-link-tabbed",
+        "selector": ".c-card-link-tabbed",
+        "slots": [
+          {
+            "name": "image",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "link",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "neighborhoods",
+            "selector": ".c-card-link-tabbed"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "accordion",
+        "selector": ".c-accordion",
+        "slots": [
+          {
+            "name": "summary",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "body",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+            "selector": ".c-accordion"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "card-stat",
+        "selector": ".c-card-stat",
+        "slots": [
+          {
+            "name": "label",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "status",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "text",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-card-stat"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "card-event",
+        "selector": ".c-card-event",
+        "slots": [
+          {
+            "name": "image",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "date",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "title",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "cta",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-card-event"
+          }
+        ],
+        "status": "candidate"
+      },
+      {
+        "id": "card-animated-shape",
+        "selector": ".c-card-animated-shape",
+        "slots": [
+          {
+            "name": "image",
+            "type": "text",
+            "required": false
+          },
+          {
+            "name": "label",
+            "type": "text",
+            "required": false
+          }
+        ],
+        "instances": [
+          {
+            "slug": "index",
+            "selector": ".c-card-animated-shape"
+          }
+        ],
+        "status": "candidate"
+      }
+    ],
+    "breakpoints": {
+      "containerMaxWidth": "1920px",
+      "probeWidth": 2560,
+      "shellMaxWidth": null,
+      "caps": [
+        {
+          "kind": "module",
+          "px": 1968,
+          "via": "max-width",
+          "selector": "div.node__l > div.node-bottom > section.c-emblem-section > div.c-emblem-section__l",
+          "pages": [
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/neighborhoods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1920,
+          "via": "max-width",
+          "selector": "#today-in-dc > section.c-hero-home",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/neighborhoods",
+            "https://beta.dc.gov/agency-directory"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1464,
+          "via": "max-width",
+          "selector": "#today-in-dc > section.c-hero-home > div.c-hero-home__l",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/neighborhoods",
+            "https://beta.dc.gov/agency-directory"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1224,
+          "via": "max-width",
+          "selector": "div.node-core > section.c-layout-container.whats-happening-in-dc > div > div",
+          "pages": [
+            "https://beta.dc.gov/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 1176,
+          "via": "max-width",
+          "selector": "div.node-bottom > section.c-emblem-section > div.c-emblem-section__l > div.c-emblem-section__top",
+          "pages": [
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/neighborhoods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 984,
+          "via": "max-width",
+          "selector": "div.node-details > section.c-layout-container.mayors-greeting-block > div > div",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/agency-directory"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 936,
+          "via": "max-width",
+          "selector": "div.node-bottom > section.c-emblem-section > div.c-emblem-section__l > div.c-emblem-section__content",
+          "pages": [
+            "https://beta.dc.gov/news"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 732,
+          "via": "max-width",
+          "selector": "div.node__l > div.node-bottom > div.node-attribution > div.node-attribution__updated",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/neighborhoods",
+            "https://beta.dc.gov/agency-directory"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 690,
+          "via": "max-width",
+          "selector": "div > div.c-layout-container__content > div.c-layout-grid > article.c-card-link-tabbed",
+          "pages": [
+            "https://beta.dc.gov/neighborhoods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 660,
+          "via": "fixed",
+          "selector": "#layout-scroll-combo-scope-id > div.c-layout-scroll-combo__scroll",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/neighborhoods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 635,
+          "via": "fixed",
+          "selector": "div.c-slab-tight__l > div.c-slab-tight__content > h3.c-heading > a.c-heading__link",
+          "pages": [
+            "https://beta.dc.gov/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 600,
+          "via": "max-width",
+          "selector": "article.c-slab-action > div.c-slab-action__l > div.c-slab-action__panel > div.c-slab-action__content",
+          "pages": [
+            "https://beta.dc.gov/news"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 579,
+          "via": "fixed",
+          "selector": "div.c-slab-action__panel > div.c-slab-action__content > h3.c-heading.c-slab-action__heading > span",
+          "pages": [
+            "https://beta.dc.gov/news"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 550,
+          "via": "fixed",
+          "selector": "#today-in-dc > section.c-hero-home > div.c-hero-home__l > div.c-hero-home__text",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 518,
+          "via": "fixed",
+          "selector": "article.c-feedback > div.c-feedback__l > div.c-feedback__cards-l > div.c-feedback__card",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/agency-directory"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 488,
+          "via": "fixed",
+          "selector": "#layout-scroll-combo-scope-id > div.c-layout-scroll-combo__lock",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 450,
+          "via": "max-width",
+          "selector": "#layout-scroll-combo-scope-id > div.c-layout-scroll-combo__lock > div.c-layout-scroll-combo__lock-l > article.c-card-event",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/agency-directory"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 389,
+          "via": "fixed",
+          "selector": "#splide01-slide03 > div.c-card-service-link > div.c-card-service-link__l > div.c-card-service-link__text-l",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/agency-directory"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 364,
+          "via": "fixed",
+          "selector": "#layout-double-scope-id > div.c-layout-double__left",
+          "pages": [
+            "https://beta.dc.gov/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 340,
+          "via": "fixed",
+          "selector": "div.c-slab-tight__l > div.c-slab-tight__content > h3.c-heading > a.c-heading__link",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/neighborhoods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 295,
+          "via": "fixed",
+          "selector": "div > div.c-layout-container__content > div.scroll-combo-header > h2.c-heading",
+          "pages": [
+            "https://beta.dc.gov/",
+            "https://beta.dc.gov/news",
+            "https://beta.dc.gov/neighborhoods"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 273,
+          "via": "fixed",
+          "selector": "#national-veterans-parade > a.c-heading__link",
+          "pages": [
+            "https://beta.dc.gov/"
+          ]
+        },
+        {
+          "kind": "module",
+          "px": 244,
+          "via": "fixed",
+          "selector": "#layout-double-scope-id > div.c-layout-double__right > div.c-layout-flex > a.c-link-arrow",
+          "pages": [
+            "https://beta.dc.gov/"
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "url": "https://beta.dc.gov/",
+          "section": 0,
+          "selector": "#home-jump-links",
+          "px": null
+        },
+        {
+          "url": "https://beta.dc.gov/",
+          "section": 1,
+          "selector": "#today-in-dc",
+          "px": 1920
+        },
+        {
+          "url": "https://beta.dc.gov/",
+          "section": 2,
+          "selector": "#home-search",
+          "px": 1464
+        },
+        {
+          "url": "https://beta.dc.gov/",
+          "section": 3,
+          "selector": "#block-dcgov-content > article.node.node--homepage > div.node__l > div.home-post-hero",
+          "px": 1464
+        },
+        {
+          "url": "https://beta.dc.gov/",
+          "section": 4,
+          "selector": "#block-dcgov-content > article.node.node--homepage > div.node__l > div.node-details",
+          "px": 1920
+        },
+        {
+          "url": "https://beta.dc.gov/",
+          "section": 5,
+          "selector": "#block-dcgov-content > article.node.node--homepage > div.node__l > div.node-core",
+          "px": 1920
+        },
+        {
+          "url": "https://beta.dc.gov/",
+          "section": 6,
+          "selector": "#block-dcgov-content > article.node.node--homepage > div.node__l > div.node-bottom",
+          "px": 1920
+        },
+        {
+          "url": "https://beta.dc.gov/news",
+          "section": 0,
+          "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-header",
+          "px": 1464
+        },
+        {
+          "url": "https://beta.dc.gov/news",
+          "section": 1,
+          "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-core",
+          "px": 1920
+        },
+        {
+          "url": "https://beta.dc.gov/news",
+          "section": 2,
+          "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-bottom",
+          "px": 1968
+        },
+        {
+          "url": "https://beta.dc.gov/neighborhoods",
+          "section": 0,
+          "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-header",
+          "px": 1920
+        },
+        {
+          "url": "https://beta.dc.gov/neighborhoods",
+          "section": 1,
+          "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-core",
+          "px": 1920
+        },
+        {
+          "url": "https://beta.dc.gov/neighborhoods",
+          "section": 2,
+          "selector": "#block-dcgov-content > article.node.node--department-landing-page > div.node__l > div.node-bottom",
+          "px": 1968
+        },
+        {
+          "url": "https://beta.dc.gov/agency-directory",
+          "section": 0,
+          "selector": "#block-dcgov-content > article.node.node--page > div.node__l > div.node-header",
+          "px": 1464
+        },
+        {
+          "url": "https://beta.dc.gov/agency-directory",
+          "section": 1,
+          "selector": "#block-dcgov-content > article.node.node--page > div.node__l > div.node-core",
+          "px": 1464
+        },
+        {
+          "url": "https://beta.dc.gov/agency-directory",
+          "section": 2,
+          "selector": "#block-dcgov-content > article.node.node--page > div.node__l > div.node-bottom",
+          "px": 1920
+        }
+      ],
+      "capRegister": [
+        "contentMaxWidth differs between archetypes: 1920 (https://beta.dc.gov/), fluid (https://beta.dc.gov/news), 1920 (https://beta.dc.gov/neighborhoods), 1464 (https://beta.dc.gov/agency-directory) — decide per template in the inconsistency register"
+      ],
+      "capProvenance": {
+        "writtenBy": "skills/replica/scripts/cap-probe.mjs",
+        "writtenAt": "2026-11-06T17:50:02.690Z",
+        "baseWidth": 1440,
+        "urls": [
+          "https://beta.dc.gov/",
+          "https://beta.dc.gov/news",
+          "https://beta.dc.gov/neighborhoods",
+          "https://beta.dc.gov/agency-directory"
+        ]
+      }
+    }
+  }
+}

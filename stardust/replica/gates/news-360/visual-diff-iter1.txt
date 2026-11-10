@@ -1,0 +1,589 @@
+[live-session] waiting to pace live navigations to beta.dc.gov (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/news-360/vdiff-iter1/
+
+build red flags (advisory): none
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6795,
+  "textLen": 2585,
+  "images": [
+   {
+    "src": "logo-flag.svg",
+    "natural": "35x26",
+    "rendered": "33x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-small.svg",
+    "natural": "72x26",
+    "rendered": "72x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Mayor-image.png.webp?itok=FKYJybJW",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo.svg",
+    "natural": "154x71",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "we-are-dc-logo.webp",
+    "natural": "120x155",
+    "rendered": "66x66",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "DC%20gov%20logo-min.png.webp?itok=ydf4roEP",
+    "natural": "220x101",
+    "rendered": "220x101",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Mayor-image.png.webp?itok=A5hc1XKK",
+    "natural": "480x361",
+    "rendered": "56x56",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Breadcrumb",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h1",
+    "text": "All News",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "News > News Listing",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Marks Start of Hypo",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Celebrates Veterans",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser to Break Ground on ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Announces the Start",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser to Host 39th Annual",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We want to hear from you.",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Send your feedback",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "c-breadcrumbs",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 6880,
+  "textLen": 2578,
+  "images": [
+   {
+    "src": "logo-flag.svg",
+    "natural": "35x26",
+    "rendered": "33x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-small.svg",
+    "natural": "72x26",
+    "rendered": "72x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo.svg",
+    "natural": "154x71",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "max_650x650--Mayor-image.png.webp",
+    "natural": "650x489",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "we-are-dc-logo.webp",
+    "natural": "120x155",
+    "rendered": "66x66",
+    "fit": "contain",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "medium--DC_20gov_20logo-min.png.webp",
+    "natural": "220x101",
+    "rendered": "220x101",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "large--Mayor-image.png.webp",
+    "natural": "480x361",
+    "rendered": "56x56",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Breadcrumb",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h1",
+    "text": "All News",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "32px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "News > News Listing",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Marks Start of Hypo",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Celebrates Veterans",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser to Break Ground on ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Announces the Start",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Public Calendar for",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser to Host 39th Annual",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We want to hear from you.",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Send your feedback",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "c-breadcrumbs",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   },
+   {
+    "sel": "c-slab-action__content",
+    "width": 280,
+    "left": 40
+   }
+  ]
+ }
+}

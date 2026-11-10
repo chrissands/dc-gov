@@ -1,0 +1,11 @@
+{
+  "variantName": "seasonal-area",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "\"Essential Fall Resources\" seasonal band: heading and intro, then dated event and news cards with images and type labels.",
+  "contentPattern": "Rows: heading and intro, then one row per card (date, image, title link, text, type).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage seasonal highlights, refreshed each season.",
+  "reuseGuidance": "Reuse for seasonal collections of dated event and news cards."
+}

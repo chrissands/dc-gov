@@ -1,0 +1,205 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:dynamics",
+    "writtenAt": "2026-11-06T22:37:24.069Z"
+  },
+  "method": "curated rows of stardust/dynamic-features.md; behaviour verified in Chromium against the published origin (block code routed from the repo while the CDN Origin-variant of block JS expires), replayed by dynamics-check",
+  "features": [
+    {
+      "checks": [],
+      "id": "read-settings",
+      "feature": "drupalSettings / dataLayer objects",
+      "class": "A",
+      "pages": 8,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "nothing user-visible depends on them"
+    },
+    {
+      "checks": [
+        {
+          "type": "dom-count",
+          "path": "/",
+          "selector": ".juicer-feed li.feed-item",
+          "min": 3
+        }
+      ],
+      "id": "juicer-feed",
+      "feature": "Juicer social feed on home",
+      "class": "A",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "6 feed items rendered on / (li.feed-item, Mayorbowser)"
+    },
+    {
+      "checks": [],
+      "id": "feedback-form",
+      "feature": "\"Was this page helpful?\" + \"Send your feedback\" webform",
+      "class": "F",
+      "pages": 6,
+      "disposition": "rebuild-native",
+      "reproducibility": "needs-backend",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "UI rebuilt (email, url fields, submit) on /agency-directory and siblings; survey link live",
+      "owner": "name the endpoint that receives \"Send your feedback\" submissions (the source posts to its Drupal webform)"
+    },
+    {
+      "checks": [],
+      "id": "govdelivery-overlay",
+      "feature": "timed GovDelivery subscription overlay (#prefix-overlay-outer)",
+      "class": "M",
+      "pages": 8,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "the source's vendor script content.govdelivery.com/overlay/js/18684.js is loaded on every page (scripts.js loadDelayed), 200",
+      "environmentLimit": "the vendor account stores its state on the dc.gov cookie domain, so the overlay shows on a *.dc.gov host only; on the aem.live preview host it stays silent (injected at DOMContentLoaded or after load: no overlay). Not a defect: it activates when the site is served from dc.gov"
+    },
+    {
+      "checks": [],
+      "id": "site-search",
+      "feature": "header search → /search",
+      "class": "S",
+      "pages": 8,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "#sh-search-form and #home-search-form GET https://beta.dc.gov/search?key=… (the source form: action /search, name key)",
+      "owner": "/search is outside the 8-page plan: decide whether it migrates (index-backed) or keeps handing off to the source"
+    },
+    {
+      "checks": [],
+      "id": "services-filter",
+      "feature": "/services and /news keyword filter",
+      "class": "S",
+      "pages": 2,
+      "disposition": "client-only",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "/services \"permit\": 19 → 1 card; /news \"bowser\": 15 → 15 (every release names the Mayor); facet checkboxes and sort stay static (authored rows carry no agency/topic data)"
+    },
+    {
+      "checks": [],
+      "id": "tags",
+      "feature": "GTM, Google Analytics/Ads, ad pixel, Cloudflare Insights",
+      "class": "T",
+      "pages": 8,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-business-decision",
+      "status": "scaffolded-awaiting-owner",
+      "verifiedBy": "consent-check scaffold loads consented.js only on consent (default declined)",
+      "owner": "martech only on request: name the container / property ids to carry over"
+    },
+    {
+      "checks": [],
+      "id": "gtranslate",
+      "feature": "Translate (cdn.gtranslate.net dropdown)",
+      "class": "T",
+      "pages": 8,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "source settings (7 languages, url_structure none); 1440: Spanish → html.translated-ltr, h1 \"Bienvenidos a Washington, DC.\"; 390: small-header selector forwards to the vendor → Chinese"
+    },
+    {
+      "checks": [],
+      "id": "runtime-iframes",
+      "feature": "iframes without src (tag/translate runtime)",
+      "class": "V",
+      "pages": 8,
+      "disposition": "embed-passthrough",
+      "reproducibility": "needs-human-capture",
+      "status": "done",
+      "verifiedBy": "belong to rows tags/gtranslate; created by the vendor runtimes"
+    },
+    {
+      "checks": [],
+      "id": "account-links",
+      "feature": "sign-in / account links",
+      "class": "X",
+      "pages": 8,
+      "disposition": "link-out",
+      "reproducibility": "needs-backend",
+      "status": "done",
+      "verifiedBy": "links keep their source targets"
+    },
+    {
+      "checks": [],
+      "id": "chrome-menus",
+      "feature": "header menus (Government dropover, I want to / I am a), alerts toggle",
+      "class": "M",
+      "pages": 8,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "1440: Government panel 1440×537 at y155 = source; alerts 96px + scroll lock; search drawer 730px; open-state colours = source"
+    },
+    {
+      "checks": [],
+      "id": "chrome-drawer",
+      "feature": "mobile menu drawer",
+      "class": "M",
+      "pages": 8,
+      "disposition": "rebuild-native",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "390: drawer 390×788 at y112 = source; nav moved into the drawer (Services 111px, Neighborhoods 174px wide = source); hamburger → X"
+    },
+    {
+      "checks": [],
+      "id": "chrome-search",
+      "feature": "header search overlay",
+      "class": "S",
+      "pages": 8,
+      "disposition": "index-backed",
+      "reproducibility": "self",
+      "status": "interim",
+      "verifiedBy": "drawer opens (1440 and 390), Escape closes it; submit hands off as site-search"
+    },
+    {
+      "checks": [
+        {
+          "type": "no-page-errors",
+          "paths": [
+            "/",
+            "/services",
+            "/neighborhoods",
+            "/organizational-charts-agencies-and-offices-under-mayors-authority",
+            "/agency-directory",
+            "/news",
+            "/events",
+            "/community-engagement-and-feedback"
+          ]
+        }
+      ],
+      "id": "page-errors",
+      "feature": "no uncaught exceptions on the delivered pages",
+      "class": "A",
+      "pages": 8,
+      "disposition": "static-snapshot",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "0 page errors over the 8 pages"
+    },
+    {
+      "id": "hero-video",
+      "feature": "home hero video (autoplay, muted; frozen at capture, restoreAtDelivery)",
+      "class": "V",
+      "pages": 1,
+      "disposition": "embed-passthrough",
+      "reproducibility": "self",
+      "status": "done",
+      "verifiedBy": "video-plays replay on /",
+      "checks": [
+        {
+          "type": "video-plays",
+          "path": "/",
+          "videoSelector": "main video"
+        }
+      ]
+    }
+  ]
+}

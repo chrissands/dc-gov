@@ -1,0 +1,61 @@
+{
+  "a": "stardust/replica/gates/all-1440/events/origin.png",
+  "b": "stardust/replica/gates/all-1440/events/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 3229,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 37808,
+  "pct": 0.81,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/events/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 13.05,
+  "textBoxes": 98,
+  "textPixels": 284711,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.3
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.6
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.5
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 0.8
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 0.9
+    },
+    {
+      "y0": 2500,
+      "y1": 3000,
+      "pct": 1.9
+    },
+    {
+      "y0": 3000,
+      "y1": 3229,
+      "pct": 0.5
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--7ddb4c84--aemcoder.aem.page/events"
+  }
+}

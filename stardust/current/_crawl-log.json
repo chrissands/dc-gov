@@ -1,0 +1,332 @@
+{
+  "discovery": {
+    "fetchTechnique": "chrome",
+    "count": 8,
+    "concurrency": 3
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://beta.dc.gov/themes/custom/dcgov/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "failures": [],
+    "pageTimeoutMs": 60000
+  },
+  "captureGaps": {
+    "roots": [],
+    "detail": "uncaptured first-level targets: none (no locale root captured)"
+  },
+  "dynamicSurface": {
+    "pages": 8,
+    "pagesWithSameSiteData": 8,
+    "pagesWithSearchForm": 3,
+    "pagesHydrated": 8,
+    "truncatedPages": 0,
+    "endpoints": [
+      {
+        "method": "POST",
+        "host": "beta.dc.gov",
+        "path": "/cdn-cgi/rum",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://beta.dc.gov/cdn-cgi/rum",
+        "pages": 8,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "analytics.google.com",
+        "path": "/g/collect",
+        "query": [
+          "_eu",
+          "_fv",
+          "_gaz",
+          "_nsi",
+          "_p",
+          "_s",
+          "_ss",
+          "cid",
+          "dl",
+          "dma",
+          "dt",
+          "en",
+          "frm",
+          "gcd",
+          "gtm",
+          "ibt",
+          "ngs",
+          "npa",
+          "pscdl",
+          "rcb",
+          "sct",
+          "seg",
+          "sid",
+          "sr",
+          "tag_exp",
+          "tfd",
+          "tid",
+          "uaa",
+          "uab",
+          "uafvl",
+          "uam",
+          "uamb",
+          "uap",
+          "uapv",
+          "uaw",
+          "ul",
+          "v"
+        ],
+        "resourceType": "fetch",
+        "contentType": "text/plain",
+        "sameSite": false,
+        "example": "https://analytics.google.com/g/collect",
+        "pages": 6,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "beta.dc.gov",
+        "path": "/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/{hash}",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "text/plain",
+        "sameSite": true,
+        "example": "https://beta.dc.gov/cdn-cgi/challenge-platform/h/b/jsd/oneshot/8340802ab0bb/0.07430557199531052:1793985038:e8uxcVEX5zHjDHLUO6qkw6t4V3Z9kuG4KcPDtY2mvqU/a565e94b7cfb347d",
+        "pages": 3,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      },
+      {
+        "method": "GET",
+        "host": "www.juicer.io",
+        "path": "/api/feeds/mayorbowser-{uuid}",
+        "query": [
+          "origin",
+          "page",
+          "per"
+        ],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.juicer.io/api/feeds/mayorbowser-b4670da6-f4d8-4646-8daa-7efbc323d09e",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "method": "POST",
+        "host": "www.juicer.io",
+        "path": "/api/page_views",
+        "query": [],
+        "resourceType": "xhr",
+        "contentType": "application/json",
+        "sameSite": false,
+        "example": "https://www.juicer.io/api/page_views",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "thirdPartyScriptHosts": [
+      {
+        "host": "www.googletagmanager.com",
+        "pages": 8,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      },
+      {
+        "host": "static.cloudflareinsights.com",
+        "pages": 8,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      },
+      {
+        "host": "cdn.gtranslate.net",
+        "pages": 8,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      },
+      {
+        "host": "www.juicer.io",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "host": "content.govdelivery.com",
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      }
+    ],
+    "frameworkHints": [],
+    "globalState": [
+      {
+        "name": "drupalSettings",
+        "pages": 8,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      },
+      {
+        "name": "dataLayer",
+        "pages": 8,
+        "examples": [
+          "neighborhoods",
+          "services",
+          "index"
+        ]
+      }
+    ],
+    "formTargets": [
+      {
+        "action": "https://beta.dc.gov/services",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "search_api_fulltext",
+          "combodrop-text-filter--agency",
+          "field_agency_dropdown[dc_gov]",
+          "field_agency_dropdown[ddot_dc_gov]",
+          "field_agency_dropdown[mayormb_dc_gov]",
+          "field_agency_dropdown[preview_odr_dc_gov]",
+          "field_agency_dropdown[osse_dc_gov]",
+          "combodrop-text-filter--topics",
+          "combodrop-text-filter--seasons",
+          "field_seasons[35]",
+          "field_seasons[33]",
+          "field_seasons[34]"
+        ],
+        "pages": 1,
+        "examples": [
+          "services"
+        ]
+      },
+      {
+        "action": "https://beta.dc.gov/search",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "key"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "action": "https://beta.dc.gov/",
+        "method": "get",
+        "sameOrigin": true,
+        "search": false,
+        "fieldNames": [
+          "e"
+        ],
+        "pages": 1,
+        "examples": [
+          "index"
+        ]
+      },
+      {
+        "action": "https://beta.dc.gov/news",
+        "method": "get",
+        "sameOrigin": true,
+        "search": true,
+        "fieldNames": [
+          "search_api_fulltext",
+          "combodrop-text-filter--topics",
+          "field_topics[276]",
+          "field_topics[176]",
+          "field_topics[271]",
+          "field_topics[136]",
+          "field_topics[196]",
+          "field_topics[211]",
+          "field_topics[226]",
+          "field_topics[161]",
+          "field_topics[246]",
+          "field_topics[111]"
+        ],
+        "pages": 1,
+        "examples": [
+          "news"
+        ]
+      }
+    ]
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "ok",
+      "notes": "full home page rendered; a timed GovDelivery subscription overlay (#prefix-overlay-outer, close .prefix-overlay-close) sits over the hero — dismissed in every gate capture"
+    },
+    {
+      "slug": "services",
+      "verdict": "ok",
+      "notes": "rendered; headings match screenshot; no overlay"
+    },
+    {
+      "slug": "neighborhoods",
+      "verdict": "ok",
+      "notes": "rendered; headings match screenshot; no overlay"
+    },
+    {
+      "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+      "verdict": "ok",
+      "notes": "rendered; headings match screenshot; no overlay"
+    },
+    {
+      "slug": "agency-directory",
+      "verdict": "ok",
+      "notes": "rendered; headings match screenshot; no overlay"
+    },
+    {
+      "slug": "news",
+      "verdict": "ok",
+      "notes": "rendered; headings match screenshot; no overlay"
+    },
+    {
+      "slug": "events",
+      "verdict": "ok",
+      "notes": "rendered; headings match screenshot; no overlay"
+    },
+    {
+      "slug": "community-engagement-and-feedback",
+      "verdict": "ok",
+      "notes": "rendered; headings match screenshot; no overlay"
+    }
+  ],
+  "siblingCandidates": []
+}

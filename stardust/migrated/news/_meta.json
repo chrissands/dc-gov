@@ -1,0 +1,240 @@
+{
+  "slug": "news",
+  "type": "listing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-simple",
+    "news-listing",
+    "emblem"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "shct",
+    "block--main"
+  ],
+  "canonShas": {
+    "header": "7ea515a418a7",
+    "footer": "2904d9298f38",
+    "css": "48f0559f0425"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "All News | DC.gov",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "All News | DC.gov",
+    "url": "https://beta.dc.gov/news"
+  },
+  "migratedAt": "2026-11-06T19:18:19Z",
+  "designMdSha": "97e903412583",
+  "designJsonSha": "2a11f90f5560",
+  "sourceCurrentSha": "3b468fdc6466",
+  "sourceProposedSha": "4dbb06d852b0",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 13,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/services/marriage-license",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/unemployment-compensation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/apply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/check-status",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/8",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/31",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/27",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/roles/job-seeker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/22",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/news/mayor-bowser-announces-ramon-griffin-thurgood-marshall-academy-2027-dc-teacher-year-surprise",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/community-engagement-and-feedback",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/search?key=Public%20School%20Enrollment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Boundaries%20Map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Choice%20and%20Lottery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=Special%20Education%20Services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Calendars%20and%20Holidays",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-thursday-november-5-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-wednesday-november-4-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-tuesday-november-3-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-monday-november-2-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-celebrates-veterans-and-military-families-month-and-25-years-mayors-office",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-saturday-october-31-sunday-november-1-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-friday-october-30-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-thursday-october-29-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-break-ground-new-upshur-recreation-center-ward-4",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-wednesday-october-28-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-announces-start-dc-health-link-and-healthy-dc-plan-open-enrollment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-tuesday-october-27-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-public-calendar-monday-october-26-2026",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-host-39th-annual-17th-street-high-heel-race",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/mayor",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/dc-agency-facebook-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-twitter-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-youtube-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-dc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-and-security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-and-conditions-use",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "news/index.html",
+  "outputPathDefault": "trailing-slash",
+  "sidecar": "news/_meta.json",
+  "driverVersion": "1"
+}

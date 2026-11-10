@@ -1,0 +1,11 @@
+{
+  "variantName": "accordion-stack",
+  "baseBlock": "accordion",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Stack of collapsible items with a \"Toggle all\" control; panels start collapsed.",
+  "contentPattern": "One row per item: cell 1 the title, cell 2 the panel (free-form text, lists, links).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Static pages with long grouped content, such as organizational charts.",
+  "reuseGuidance": "Reuse for any list of expandable sections."
+}

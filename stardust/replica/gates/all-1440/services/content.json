@@ -1,0 +1,6406 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-06T21:55:00.425Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://beta.dc.gov/services",
+  "at": "2026-11-06T21:54:42.472Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3734,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main > div.shl-main__l > a.shl-logo",
+    "x": 24,
+    "y": 35,
+    "w": 186,
+    "h": 127,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__l > a.shl-logo > img",
+    "x": 24,
+    "y": 55,
+    "w": 186,
+    "h": 86,
+    "text": "home",
+    "file": "logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1157,
+    "y": 43,
+    "w": 83,
+    "h": 20,
+    "text": "translate"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1157,
+    "y": 43,
+    "w": 83,
+    "h": 20,
+    "label": "trigger",
+    "value": "translate",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > a.is-active",
+    "x": 917,
+    "y": 100,
+    "w": 80,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > a",
+    "x": 1057,
+    "y": 100,
+    "w": 140,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > a",
+    "x": 1257,
+    "y": 99,
+    "w": 113,
+    "h": 27,
+    "text": "government",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > button.menu-main-toggle._js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > button.menu-main-toggle._js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs__link.--home-link",
+    "x": 24,
+    "y": 207,
+    "w": 43,
+    "h": 22,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs__text",
+    "x": 113,
+    "y": 210,
+    "w": 64,
+    "h": 19,
+    "text": "Services"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-hero-stack__l > div.c-hero-stack__text > h1#services",
+    "x": 647,
+    "y": 264,
+    "w": 145,
+    "h": 40,
+    "level": 1,
+    "text": "services"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container__color-wrapper > div.c-layout-container__l-content-width > h2#services-gt-all-services",
+    "x": 24,
+    "y": 503,
+    "w": 1392,
+    "h": 40,
+    "level": 2,
+    "text": "services > all services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div.filterset__filters > span.filterset-label.--filters",
+    "x": 684,
+    "y": 579,
+    "w": 50,
+    "h": 21,
+    "text": "Filters"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 744,
+    "y": 567,
+    "w": 108,
+    "h": 46,
+    "text": "agency"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 744,
+    "y": 567,
+    "w": 108,
+    "h": 46,
+    "label": "trigger",
+    "value": "agency",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 862,
+    "y": 567,
+    "w": 101,
+    "h": 46,
+    "text": "topics"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 862,
+    "y": 567,
+    "w": 101,
+    "h": 46,
+    "label": "trigger",
+    "value": "topics",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 973,
+    "y": 567,
+    "w": 116,
+    "h": 46,
+    "text": "seasons"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 973,
+    "y": 567,
+    "w": 116,
+    "h": 46,
+    "label": "trigger",
+    "value": "seasons",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div.filterset__sort > span.filterset-label.--sort",
+    "x": 1109,
+    "y": 579,
+    "w": 50,
+    "h": 21,
+    "text": "Sort"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__sort > div.js-form-item.form-item > select#edit-sort-bef-combine",
+    "x": 1169,
+    "y": 567,
+    "w": 121,
+    "h": 46,
+    "label": "sort",
+    "value": "title asc",
+    "via": "select"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div#edit-actions > input#edit-submit-services",
+    "x": 1326,
+    "y": 567,
+    "w": 90,
+    "h": 46,
+    "text": "apply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-frame._set-small-text > div.c-card-frame__l._grid-cell-stretch > h3",
+    "x": 64,
+    "y": 816,
+    "w": 363,
+    "h": 32,
+    "level": 3,
+    "text": "311 non-emergency requests"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-frame._set-small-text > div.c-card-frame__l._grid-cell-stretch > p",
+    "x": 64,
+    "y": 858,
+    "w": 363,
+    "h": 43,
+    "text": "Quickly request non-emergency services and report issues in the District."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-frame__l._grid-cell-stretch > div.c-layout-flex > a.c-link-pill.--arrow",
+    "x": 64,
+    "y": 929,
+    "w": 144,
+    "h": 48,
+    "text": "new request",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-frame__l._grid-cell-stretch > div.c-layout-flex > a.c-link-small-pill",
+    "x": 239,
+    "y": 935,
+    "w": 98,
+    "h": 36,
+    "text": "login",
+    "href": "/citizen/s/login/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#elderly-and-persons-with-physical-disabilities-waiver-program--2",
+    "x": 515,
+    "y": 677,
+    "w": 411,
+    "h": 40,
+    "level": 3,
+    "text": "elderly and persons with physical disabilities waiver program"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#elderly-and-persons-with-physical-disabilities-waiver-program--2 > a.c-heading__link._stretch-link",
+    "x": 515,
+    "y": 675,
+    "w": 367,
+    "h": 42,
+    "text": "elderly and persons with physical disabilities waiver program",
+    "href": "/services/elderly-and-persons-physical-disabilities-waiver-program"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 515,
+    "y": 726,
+    "w": 411,
+    "h": 48,
+    "text": "Get services and support that help you live safely at home or in assisted living"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#accident-report-pd-10-or-incidentoffense-report-pd-251--2",
+    "x": 989,
+    "y": 677,
+    "w": 411,
+    "h": 40,
+    "level": 3,
+    "text": "accident report (pd-10) or incident/offense report (pd-251)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#accident-report-pd-10-or-incidentoffense-report-pd-251--2 > a.c-heading__link._stretch-link",
+    "x": 989,
+    "y": 675,
+    "w": 363,
+    "h": 42,
+    "text": "accident report (pd-10) or incident/offense report (pd-251)",
+    "href": "/services/accident-report-pd-10-or-incidentoffense-report-pd-251"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 989,
+    "y": 726,
+    "w": 411,
+    "h": 24,
+    "text": "Request an official accident or incident report."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#adult-protective-services--2",
+    "x": 515,
+    "y": 880,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "adult protective services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#adult-protective-services--2 > a.c-heading__link._stretch-link",
+    "x": 515,
+    "y": 878,
+    "w": 208,
+    "h": 22,
+    "text": "adult protective services",
+    "href": "/services/adult-protective-services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 515,
+    "y": 910,
+    "w": 411,
+    "h": 48,
+    "text": "Report concerns about an adult who may be harmed, abused, or taken advantage of."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#age-friendly-dc--2",
+    "x": 989,
+    "y": 880,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "age-friendly dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#age-friendly-dc--2 > a.c-heading__link._stretch-link",
+    "x": 989,
+    "y": 878,
+    "w": 134,
+    "h": 22,
+    "text": "age-friendly dc",
+    "href": "/services/age-friendly-dc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 989,
+    "y": 910,
+    "w": 411,
+    "h": 48,
+    "text": "Learn how DC plans to make the city more accessible, inclusive, and supportive f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#alzheimer039s-disease-and-related-dementias--2",
+    "x": 40,
+    "y": 1065,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "alzheimer's disease and related dementias"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#alzheimer039s-disease-and-related-dementias--2 > a.c-heading__link._stretch-link",
+    "x": 40,
+    "y": 1063,
+    "w": 357,
+    "h": 22,
+    "text": "alzheimer's disease and related dementias",
+    "href": "/services/alzheimers-disease-and-related-dementias"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 40,
+    "y": 1094,
+    "w": 411,
+    "h": 72,
+    "text": "Find information, resources, and support for people living with Alzheimer's dise"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#benefits-assistance--2",
+    "x": 515,
+    "y": 1065,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "benefits assistance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#benefits-assistance--2 > a.c-heading__link._stretch-link",
+    "x": 515,
+    "y": 1063,
+    "w": 163,
+    "h": 22,
+    "text": "benefits assistance",
+    "href": "/services/benefits-assistance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 515,
+    "y": 1094,
+    "w": 411,
+    "h": 48,
+    "text": "Get help applying for benefits like Medicaid, the EPD Waiver, and SNAP."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#birth-certificate",
+    "x": 989,
+    "y": 1065,
+    "w": 200,
+    "h": 20,
+    "level": 3,
+    "text": "birth certificate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#birth-certificate > a.c-heading__link._stretch-link",
+    "x": 989,
+    "y": 1063,
+    "w": 131,
+    "h": 22,
+    "text": "birth certificate",
+    "href": "/services/birth-certificate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 989,
+    "y": 1094,
+    "w": 200,
+    "h": 24,
+    "text": "Order a birth certificate."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#building-permit--2",
+    "x": 40,
+    "y": 1253,
+    "w": 346,
+    "h": 20,
+    "level": 3,
+    "text": "building permit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#building-permit--2 > a.c-heading__link._stretch-link",
+    "x": 40,
+    "y": 1251,
+    "w": 125,
+    "h": 22,
+    "text": "building permit",
+    "href": "/services/building-permit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 40,
+    "y": 1283,
+    "w": 346,
+    "h": 24,
+    "text": "Apply and pay for building permits online."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#bulk-trash-collection--2",
+    "x": 515,
+    "y": 1253,
+    "w": 261,
+    "h": 20,
+    "level": 3,
+    "text": "bulk trash collection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#bulk-trash-collection--2 > a.c-heading__link._stretch-link",
+    "x": 515,
+    "y": 1251,
+    "w": 174,
+    "h": 22,
+    "text": "bulk trash collection",
+    "href": "/services/bulk-trash-collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 515,
+    "y": 1283,
+    "w": 261,
+    "h": 24,
+    "text": "Request a bulk trash collection."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#business-license--2",
+    "x": 989,
+    "y": 1253,
+    "w": 236,
+    "h": 20,
+    "level": 3,
+    "text": "business license"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#business-license--2 > a.c-heading__link._stretch-link",
+    "x": 989,
+    "y": 1251,
+    "w": 143,
+    "h": 22,
+    "text": "business license",
+    "href": "/services/business-license"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 989,
+    "y": 1283,
+    "w": 236,
+    "h": 24,
+    "text": "Apply for a business license."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#business-resource-center--2",
+    "x": 40,
+    "y": 1405,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "business resource center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#business-resource-center--2 > a.c-heading__link._stretch-link",
+    "x": 40,
+    "y": 1403,
+    "w": 217,
+    "h": 22,
+    "text": "business resource center",
+    "href": "/services/business-resource-center"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 40,
+    "y": 1434,
+    "w": 411,
+    "h": 48,
+    "text": "Get training and guidance to help you start, manage, or grow your business."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#caregiver-programs--2",
+    "x": 515,
+    "y": 1405,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "caregiver programs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#caregiver-programs--2 > a.c-heading__link._stretch-link",
+    "x": 515,
+    "y": 1403,
+    "w": 164,
+    "h": 22,
+    "text": "caregiver programs",
+    "href": "/services/caregiver-programs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 515,
+    "y": 1434,
+    "w": 411,
+    "h": 72,
+    "text": "Find training, support, and short-term relief for unpaid caregivers of seniors a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#case-management--2",
+    "x": 989,
+    "y": 1405,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "case management"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#case-management--2 > a.c-heading__link._stretch-link",
+    "x": 989,
+    "y": 1403,
+    "w": 153,
+    "h": 22,
+    "text": "case management",
+    "href": "/services/case-management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 989,
+    "y": 1434,
+    "w": 411,
+    "h": 72,
+    "text": "Get help finding community programs, benefits, and services for eligible seniors"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#certificate-of-clean-hands--2",
+    "x": 40,
+    "y": 1593,
+    "w": 375,
+    "h": 20,
+    "level": 3,
+    "text": "certificate of clean hands"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#certificate-of-clean-hands--2 > a.c-heading__link._stretch-link",
+    "x": 40,
+    "y": 1591,
+    "w": 215,
+    "h": 22,
+    "text": "certificate of clean hands",
+    "href": "/services/certificate-clean-hands"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 40,
+    "y": 1623,
+    "w": 375,
+    "h": 24,
+    "text": "Verify if you're current on DC tax obligations."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#cold-weather-information--2",
+    "x": 515,
+    "y": 1593,
+    "w": 368,
+    "h": 20,
+    "level": 3,
+    "text": "cold weather information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#cold-weather-information--2 > a.c-heading__link._stretch-link",
+    "x": 515,
+    "y": 1591,
+    "w": 210,
+    "h": 22,
+    "text": "cold weather information",
+    "href": "/services/cold-weather-information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 515,
+    "y": 1623,
+    "w": 368,
+    "h": 24,
+    "text": "Stay informed on the season's cold weather."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#commercial-vehicles--2",
+    "x": 989,
+    "y": 1593,
+    "w": 366,
+    "h": 20,
+    "level": 3,
+    "text": "commercial vehicles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#commercial-vehicles--2 > a.c-heading__link._stretch-link",
+    "x": 989,
+    "y": 1591,
+    "w": 172,
+    "h": 22,
+    "text": "commercial vehicles",
+    "href": "/services/commercial-vehicles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 989,
+    "y": 1623,
+    "w": 366,
+    "h": 24,
+    "text": "Apply for a commercial driver license (CDL)."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#community-transition-program--2",
+    "x": 40,
+    "y": 1745,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "community transition program"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#community-transition-program--2 > a.c-heading__link._stretch-link",
+    "x": 40,
+    "y": 1743,
+    "w": 255,
+    "h": 22,
+    "text": "community transition program",
+    "href": "/services/community-transition-program"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 40,
+    "y": 1775,
+    "w": 411,
+    "h": 72,
+    "text": "Receive guidance, consultation, and more for residents transitioning out of nurs"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#corporations--2",
+    "x": 515,
+    "y": 1745,
+    "w": 319,
+    "h": 20,
+    "level": 3,
+    "text": "corporations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#corporations--2 > a.c-heading__link._stretch-link",
+    "x": 515,
+    "y": 1743,
+    "w": 109,
+    "h": 22,
+    "text": "corporations",
+    "href": "/services/corporations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 515,
+    "y": 1775,
+    "w": 319,
+    "h": 24,
+    "text": "Register a business corporation in DC."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__l._grid-cell-stretch > div.c-card-service-link__text-l > h3#dc-business-portal--2",
+    "x": 989,
+    "y": 1745,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "dc business portal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > h3#dc-business-portal--2 > a.c-heading__link._stretch-link",
+    "x": 989,
+    "y": 1743,
+    "w": 157,
+    "h": 22,
+    "text": "dc business portal",
+    "href": "/services/dc-business-portal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link__text-l > div.c-card-service-link__content > p",
+    "x": 989,
+    "y": 1775,
+    "w": 411,
+    "h": 48,
+    "text": "Use the DC Business Portal to start, update, or expand your business."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.js-pager__items > div.c-layout-flex.--center > a.c-link-pill.--arrow",
+    "x": 656,
+    "y": 1917,
+    "w": 128,
+    "h": 48,
+    "text": "load more",
+    "href": "/services"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__l > div.c-emblem-section__emblem > img",
+    "x": 677,
+    "y": 2101,
+    "w": 86,
+    "h": 86,
+    "text": "we are dc",
+    "file": "we-are-dc-logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__top > div.c-emblem-section__left > p",
+    "x": 311,
+    "y": 2225,
+    "w": 98,
+    "h": 24,
+    "text": "Powered by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > strong",
+    "x": 329,
+    "y": 2273,
+    "w": 62,
+    "h": 23,
+    "text": "DC.gov"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > img",
+    "x": 250,
+    "y": 2322,
+    "w": 220,
+    "h": 101,
+    "text": "dc logo",
+    "file": "DC%20gov%20logo-min.png"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > a.c-link-arrow.--arrow",
+    "x": 265,
+    "y": 2447,
+    "w": 190,
+    "h": 24,
+    "text": "visit dc.gov's website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__top > div.c-emblem-section__right > p",
+    "x": 1025,
+    "y": 2225,
+    "w": 111,
+    "h": 24,
+    "text": "Presented by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__right > p > strong",
+    "x": 913,
+    "y": 2273,
+    "w": 334,
+    "h": 23,
+    "text": "Government of the District of Columbia"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile._set-small-text > div.c-profile__img > img",
+    "x": 935,
+    "y": 2322,
+    "w": 56,
+    "h": 56,
+    "text": "mayor-image.png",
+    "file": "Mayor-image.png"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile__content > p > strong",
+    "x": 1010,
+    "y": 2329,
+    "w": 95,
+    "h": 18,
+    "text": "Muriel Bowser"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile._set-small-text > div.c-profile__content > p",
+    "x": 1010,
+    "y": 2352,
+    "w": 214,
+    "h": 19,
+    "text": "Mayor of the District of Columbia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__right > p > a.c-link-arrow.--arrow",
+    "x": 990,
+    "y": 2402,
+    "w": 180,
+    "h": 24,
+    "text": "visit the mayor's site",
+    "href": "/mayor"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > h2#we-want-to-hear-from-you--20",
+    "x": 276,
+    "y": 2588,
+    "w": 470,
+    "h": 29,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > p",
+    "x": 276,
+    "y": 2641,
+    "w": 470,
+    "h": 72,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--left > div.c-feedback__card-bottom > p",
+    "x": 276,
+    "y": 2798,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 503,
+    "y": 2787,
+    "w": 68,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 591,
+    "y": 2787,
+    "w": 62,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-top._set-bg-dark > p",
+    "x": 829,
+    "y": 2662,
+    "w": 327,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > button.c-button-pill.--icon",
+    "x": 821,
+    "y": 2795,
+    "w": 181,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > a.c-link-arrow.--arrow",
+    "x": 1026,
+    "y": 2807,
+    "w": 111,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__updated",
+    "x": 0,
+    "y": 2987,
+    "w": 720,
+    "h": 96,
+    "text": "Last updated: 1:57 PM EDT May 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__maintainer",
+    "x": 720,
+    "y": 2987,
+    "w": 720,
+    "h": 96,
+    "text": "Maintained by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution > div.node-attribution__maintainer > a",
+    "x": 1356,
+    "y": 3023,
+    "w": 60,
+    "h": 22,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__l > div.site-footer__top-l > a.site-footer__logo",
+    "x": 24,
+    "y": 3135,
+    "w": 186,
+    "h": 96,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a.is-active",
+    "x": 400,
+    "y": 3171,
+    "w": 80,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 530,
+    "y": 3171,
+    "w": 141,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 721,
+    "y": 3171,
+    "w": 113,
+    "h": 24,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-center-l > div.site-footer__accessibility > a",
+    "x": 922,
+    "y": 3170,
+    "w": 115,
+    "h": 27,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-l > div.site-footer__submit-request > a",
+    "x": 1228,
+    "y": 3174,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 24,
+    "y": 3275,
+    "w": 112,
+    "h": 22,
+    "text": "District News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3314,
+    "w": 101,
+    "h": 18,
+    "text": "citywide news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3347,
+    "w": 125,
+    "h": 18,
+    "text": "citywide calendar",
+    "href": "/events"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3380,
+    "w": 192,
+    "h": 18,
+    "text": "subscribe to receive emails",
+    "href": "/service/user.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3413,
+    "w": 163,
+    "h": 18,
+    "text": "subscribe to text alerts",
+    "href": "/index.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3446,
+    "w": 172,
+    "h": 18,
+    "text": "subscribe to newsletters",
+    "href": "/accounts/DCWASH/subscriber/new"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 306,
+    "y": 3275,
+    "w": 143,
+    "h": 22,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3314,
+    "w": 66,
+    "h": 18,
+    "text": "green dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3347,
+    "w": 111,
+    "h": 18,
+    "text": "age-friendly dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3380,
+    "w": 104,
+    "h": 18,
+    "text": "sustainable dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3413,
+    "w": 82,
+    "h": 18,
+    "text": "connect dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3446,
+    "w": 92,
+    "h": 18,
+    "text": "great streets",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3479,
+    "w": 67,
+    "h": 18,
+    "text": "ready dc",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 587,
+    "y": 3275,
+    "w": 82,
+    "h": 22,
+    "text": "About DC"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3314,
+    "w": 61,
+    "h": 18,
+    "text": "open dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3347,
+    "w": 49,
+    "h": 18,
+    "text": "budget",
+    "href": "/budget"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3380,
+    "w": 93,
+    "h": 18,
+    "text": "emancipation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3413,
+    "w": 146,
+    "h": 18,
+    "text": "consumer protection",
+    "href": "/consumer-protection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3446,
+    "w": 104,
+    "h": 18,
+    "text": "property quest",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 869,
+    "y": 3275,
+    "w": 94,
+    "h": 22,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 869,
+    "y": 3314,
+    "w": 162,
+    "h": 18,
+    "text": "service request center",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 1278,
+    "y": 3275,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__count",
+    "x": 1278,
+    "y": 3296,
+    "w": 122,
+    "h": 19,
+    "text": "41 pages available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__action",
+    "x": 1278,
+    "y": 3317,
+    "w": 102,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 1278,
+    "y": 3353,
+    "w": 116,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__count",
+    "x": 1278,
+    "y": 3374,
+    "w": 116,
+    "h": 19,
+    "text": "72 feeds available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__action",
+    "x": 1278,
+    "y": 3394,
+    "w": 93,
+    "h": 19,
+    "text": "Read Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 1278,
+    "y": 3431,
+    "w": 138,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__count",
+    "x": 1278,
+    "y": 3470,
+    "w": 138,
+    "h": 19,
+    "text": "27 channels available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__action",
+    "x": 1278,
+    "y": 3491,
+    "w": 102,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__bottom-l > div.site-footer__legal > p",
+    "x": 24,
+    "y": 3595,
+    "w": 297,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 937,
+    "y": 3595,
+    "w": 64,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1021,
+    "y": 3595,
+    "w": 81,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1122,
+    "y": 3595,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1274,
+    "y": 3595,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 117,
+    "controls": 72,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--7ddb4c84--aemcoder.aem.page/services",
+  "at": "2026-11-06T21:55:00.311Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 3733,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main > div.shl-main-l > a.shl-logo",
+    "x": 24,
+    "y": 35,
+    "w": 186,
+    "h": 127,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-l > a.shl-logo > img",
+    "x": 24,
+    "y": 55,
+    "w": 186,
+    "h": 86,
+    "text": "home",
+    "file": "logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1156,
+    "y": 43,
+    "w": 84,
+    "h": 20,
+    "text": "translate"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1156,
+    "y": 43,
+    "w": 84,
+    "h": 20,
+    "label": "trigger",
+    "value": "translate",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > a.is-active",
+    "x": 916,
+    "y": 100,
+    "w": 79,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > a",
+    "x": 1055,
+    "y": 100,
+    "w": 142,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > a",
+    "x": 1257,
+    "y": 99,
+    "w": 113,
+    "h": 27,
+    "text": "government",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > button.menu-main-toggle.js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > button.menu-main-toggle.js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs-link.mod-home-link",
+    "x": 24,
+    "y": 207,
+    "w": 43,
+    "h": 22,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs-text",
+    "x": 113,
+    "y": 210,
+    "w": 64,
+    "h": 19,
+    "text": "Services"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-hero-stack-l > div.c-hero-stack-text > h1#services",
+    "x": 648,
+    "y": 264,
+    "w": 144,
+    "h": 40,
+    "level": 1,
+    "text": "services"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container-color-wrapper > div.c-layout-container-l-content-width > h2#services-gt-all-services",
+    "x": 24,
+    "y": 503,
+    "w": 1392,
+    "h": 40,
+    "level": 2,
+    "text": "services > all services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div.filterset-filters > span.filterset-label.mod-filters",
+    "x": 681,
+    "y": 579,
+    "w": 50,
+    "h": 21,
+    "text": "Filters"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 741,
+    "y": 567,
+    "w": 109,
+    "h": 46,
+    "text": "agency"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 741,
+    "y": 567,
+    "w": 109,
+    "h": 46,
+    "label": "trigger",
+    "value": "agency",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 860,
+    "y": 567,
+    "w": 102,
+    "h": 46,
+    "text": "topics"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 860,
+    "y": 567,
+    "w": 102,
+    "h": 46,
+    "label": "trigger",
+    "value": "topics",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 972,
+    "y": 567,
+    "w": 116,
+    "h": 46,
+    "text": "seasons"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 972,
+    "y": 567,
+    "w": 116,
+    "h": 46,
+    "label": "trigger",
+    "value": "seasons",
+    "via": "trigger"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div.filterset-sort > span.filterset-label.mod-sort",
+    "x": 1108,
+    "y": 579,
+    "w": 50,
+    "h": 21,
+    "text": "Sort"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-sort > div.js-form-item.form-item > select#edit-sort-bef-combine",
+    "x": 1168,
+    "y": 567,
+    "w": 122,
+    "h": 46,
+    "label": "sort",
+    "value": "title asc",
+    "via": "select"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div#edit-actions > input#edit-submit-services",
+    "x": 1326,
+    "y": 567,
+    "w": 90,
+    "h": 46,
+    "text": "apply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-frame.set-small-text > div.c-card-frame-l.grid-cell-stretch > h3#non-emergency-requests",
+    "x": 64,
+    "y": 816,
+    "w": 363,
+    "h": 32,
+    "level": 3,
+    "text": "311 non-emergency requests"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "article.c-card-frame.set-small-text > div.c-card-frame-l.grid-cell-stretch > p",
+    "x": 64,
+    "y": 858,
+    "w": 363,
+    "h": 43,
+    "text": "Quickly request non-emergency services and report issues in the District."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-flex > p.tp > a.c-link-pill.mod-arrow",
+    "x": 64,
+    "y": 929,
+    "w": 144,
+    "h": 48,
+    "text": "new request",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-flex > p.tp > a.c-link-small-pill",
+    "x": 239,
+    "y": 935,
+    "w": 98,
+    "h": 36,
+    "text": "login",
+    "href": "/citizen/s/login/"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#elderly-and-persons-with-physical-disabilities-waiver-program-2",
+    "x": 515,
+    "y": 677,
+    "w": 411,
+    "h": 40,
+    "level": 3,
+    "text": "elderly and persons with physical disabilities waiver program"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#elderly-and-persons-with-physical-disabilities-waiver-program-2 > a.c-heading-link.stretch-link",
+    "x": 515,
+    "y": 675,
+    "w": 376,
+    "h": 42,
+    "text": "elderly and persons with physical disabilities waiver program",
+    "href": "/services/elderly-and-persons-physical-disabilities-waiver-program"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 515,
+    "y": 726,
+    "w": 411,
+    "h": 48,
+    "text": "Get services and support that help you live safely at home or in assisted living"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#accident-report-pd-10-or-incidentoffense-report-pd-251-2",
+    "x": 989,
+    "y": 677,
+    "w": 411,
+    "h": 40,
+    "level": 3,
+    "text": "accident report (pd-10) or incident/offense report (pd-251)"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#accident-report-pd-10-or-incidentoffense-report-pd-251-2 > a.c-heading-link.stretch-link",
+    "x": 989,
+    "y": 675,
+    "w": 363,
+    "h": 42,
+    "text": "accident report (pd-10) or incident/offense report (pd-251)",
+    "href": "/services/accident-report-pd-10-or-incidentoffense-report-pd-251"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 989,
+    "y": 726,
+    "w": 411,
+    "h": 24,
+    "text": "Request an official accident or incident report."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#adult-protective-services-2",
+    "x": 515,
+    "y": 880,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "adult protective services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#adult-protective-services-2 > a.c-heading-link.stretch-link",
+    "x": 515,
+    "y": 878,
+    "w": 209,
+    "h": 22,
+    "text": "adult protective services",
+    "href": "/services/adult-protective-services"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 515,
+    "y": 910,
+    "w": 411,
+    "h": 48,
+    "text": "Report concerns about an adult who may be harmed, abused, or taken advantage of."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#age-friendly-dc-2",
+    "x": 989,
+    "y": 880,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "age-friendly dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#age-friendly-dc-2 > a.c-heading-link.stretch-link",
+    "x": 989,
+    "y": 878,
+    "w": 136,
+    "h": 22,
+    "text": "age-friendly dc",
+    "href": "/services/age-friendly-dc"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 989,
+    "y": 910,
+    "w": 411,
+    "h": 48,
+    "text": "Learn how DC plans to make the city more accessible, inclusive, and supportive f"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#alzheimer039s-disease-and-related-dementias-2",
+    "x": 40,
+    "y": 1065,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "alzheimer's disease and related dementias"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#alzheimer039s-disease-and-related-dementias-2 > a.c-heading-link.stretch-link",
+    "x": 40,
+    "y": 1063,
+    "w": 361,
+    "h": 22,
+    "text": "alzheimer's disease and related dementias",
+    "href": "/services/alzheimers-disease-and-related-dementias"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 40,
+    "y": 1094,
+    "w": 411,
+    "h": 72,
+    "text": "Find information, resources, and support for people living with Alzheimer's dise"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#benefits-assistance-2",
+    "x": 515,
+    "y": 1065,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "benefits assistance"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#benefits-assistance-2 > a.c-heading-link.stretch-link",
+    "x": 515,
+    "y": 1063,
+    "w": 165,
+    "h": 22,
+    "text": "benefits assistance",
+    "href": "/services/benefits-assistance"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 515,
+    "y": 1094,
+    "w": 411,
+    "h": 48,
+    "text": "Get help applying for benefits like Medicaid, the EPD Waiver, and SNAP."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#birth-certificate",
+    "x": 989,
+    "y": 1065,
+    "w": 195,
+    "h": 20,
+    "level": 3,
+    "text": "birth certificate"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#birth-certificate > a.c-heading-link.stretch-link",
+    "x": 989,
+    "y": 1063,
+    "w": 131,
+    "h": 22,
+    "text": "birth certificate",
+    "href": "/services/birth-certificate"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 989,
+    "y": 1094,
+    "w": 195,
+    "h": 24,
+    "text": "Order a birth certificate."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#building-permit-2",
+    "x": 40,
+    "y": 1253,
+    "w": 342,
+    "h": 20,
+    "level": 3,
+    "text": "building permit"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#building-permit-2 > a.c-heading-link.stretch-link",
+    "x": 40,
+    "y": 1251,
+    "w": 128,
+    "h": 22,
+    "text": "building permit",
+    "href": "/services/building-permit"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 40,
+    "y": 1283,
+    "w": 342,
+    "h": 24,
+    "text": "Apply and pay for building permits online."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#bulk-trash-collection-2",
+    "x": 515,
+    "y": 1253,
+    "w": 260,
+    "h": 20,
+    "level": 3,
+    "text": "bulk trash collection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#bulk-trash-collection-2 > a.c-heading-link.stretch-link",
+    "x": 515,
+    "y": 1251,
+    "w": 177,
+    "h": 22,
+    "text": "bulk trash collection",
+    "href": "/services/bulk-trash-collection"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 515,
+    "y": 1283,
+    "w": 260,
+    "h": 24,
+    "text": "Request a bulk trash collection."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#business-license-2",
+    "x": 989,
+    "y": 1253,
+    "w": 237,
+    "h": 20,
+    "level": 3,
+    "text": "business license"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#business-license-2 > a.c-heading-link.stretch-link",
+    "x": 989,
+    "y": 1251,
+    "w": 147,
+    "h": 22,
+    "text": "business license",
+    "href": "/services/business-license"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 989,
+    "y": 1283,
+    "w": 237,
+    "h": 24,
+    "text": "Apply for a business license."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#business-resource-center-2",
+    "x": 40,
+    "y": 1405,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "business resource center"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#business-resource-center-2 > a.c-heading-link.stretch-link",
+    "x": 40,
+    "y": 1403,
+    "w": 220,
+    "h": 22,
+    "text": "business resource center",
+    "href": "/services/business-resource-center"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 40,
+    "y": 1434,
+    "w": 411,
+    "h": 48,
+    "text": "Get training and guidance to help you start, manage, or grow your business."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#caregiver-programs-2",
+    "x": 515,
+    "y": 1405,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "caregiver programs"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#caregiver-programs-2 > a.c-heading-link.stretch-link",
+    "x": 515,
+    "y": 1403,
+    "w": 166,
+    "h": 22,
+    "text": "caregiver programs",
+    "href": "/services/caregiver-programs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 515,
+    "y": 1434,
+    "w": 411,
+    "h": 72,
+    "text": "Find training, support, and short-term relief for unpaid caregivers of seniors a"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#case-management-2",
+    "x": 989,
+    "y": 1405,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "case management"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#case-management-2 > a.c-heading-link.stretch-link",
+    "x": 989,
+    "y": 1403,
+    "w": 152,
+    "h": 22,
+    "text": "case management",
+    "href": "/services/case-management"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 989,
+    "y": 1434,
+    "w": 411,
+    "h": 72,
+    "text": "Get help finding community programs, benefits, and services for eligible seniors"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#certificate-of-clean-hands-2",
+    "x": 40,
+    "y": 1593,
+    "w": 368,
+    "h": 20,
+    "level": 3,
+    "text": "certificate of clean hands"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#certificate-of-clean-hands-2 > a.c-heading-link.stretch-link",
+    "x": 40,
+    "y": 1591,
+    "w": 214,
+    "h": 22,
+    "text": "certificate of clean hands",
+    "href": "/services/certificate-clean-hands"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 40,
+    "y": 1623,
+    "w": 368,
+    "h": 24,
+    "text": "Verify if you're current on DC tax obligations."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#cold-weather-information-2",
+    "x": 515,
+    "y": 1593,
+    "w": 368,
+    "h": 20,
+    "level": 3,
+    "text": "cold weather information"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#cold-weather-information-2 > a.c-heading-link.stretch-link",
+    "x": 515,
+    "y": 1591,
+    "w": 211,
+    "h": 22,
+    "text": "cold weather information",
+    "href": "/services/cold-weather-information"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 515,
+    "y": 1623,
+    "w": 368,
+    "h": 24,
+    "text": "Stay informed on the season's cold weather."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#commercial-vehicles-2",
+    "x": 989,
+    "y": 1593,
+    "w": 366,
+    "h": 20,
+    "level": 3,
+    "text": "commercial vehicles"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#commercial-vehicles-2 > a.c-heading-link.stretch-link",
+    "x": 989,
+    "y": 1591,
+    "w": 174,
+    "h": 22,
+    "text": "commercial vehicles",
+    "href": "/services/commercial-vehicles"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 989,
+    "y": 1623,
+    "w": 366,
+    "h": 24,
+    "text": "Apply for a commercial driver license (CDL)."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#community-transition-program-2",
+    "x": 40,
+    "y": 1745,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "community transition program"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#community-transition-program-2 > a.c-heading-link.stretch-link",
+    "x": 40,
+    "y": 1743,
+    "w": 259,
+    "h": 22,
+    "text": "community transition program",
+    "href": "/services/community-transition-program"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 40,
+    "y": 1775,
+    "w": 411,
+    "h": 72,
+    "text": "Receive guidance, consultation, and more for residents transitioning out of nurs"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#corporations-2",
+    "x": 515,
+    "y": 1745,
+    "w": 320,
+    "h": 20,
+    "level": 3,
+    "text": "corporations"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#corporations-2 > a.c-heading-link.stretch-link",
+    "x": 515,
+    "y": 1743,
+    "w": 110,
+    "h": 22,
+    "text": "corporations",
+    "href": "/services/corporations"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 515,
+    "y": 1775,
+    "w": 320,
+    "h": 24,
+    "text": "Register a business corporation in DC."
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-l.grid-cell-stretch > div.c-card-service-link-text-l > h3#dc-business-portal-2",
+    "x": 989,
+    "y": 1745,
+    "w": 411,
+    "h": 20,
+    "level": 3,
+    "text": "dc business portal"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > h3#dc-business-portal-2 > a.c-heading-link.stretch-link",
+    "x": 989,
+    "y": 1743,
+    "w": 160,
+    "h": 22,
+    "text": "dc business portal",
+    "href": "/services/dc-business-portal"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-card-service-link-text-l > div.c-card-service-link-content > p",
+    "x": 989,
+    "y": 1775,
+    "w": 411,
+    "h": 48,
+    "text": "Use the DC Business Portal to start, update, or expand your business."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.js-pager-items > div.c-layout-flex.mod-center > a.c-link-pill.mod-arrow",
+    "x": 656,
+    "y": 1917,
+    "w": 129,
+    "h": 48,
+    "text": "load more",
+    "href": "/services"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-emblem > picture.tp > img",
+    "x": 677,
+    "y": 2101,
+    "w": 86,
+    "h": 86,
+    "text": "we are dc",
+    "file": "media_125e7df68bea2963c49420c530124feaa5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-top > div.c-emblem-section-left > p",
+    "x": 310,
+    "y": 2225,
+    "w": 99,
+    "h": 24,
+    "text": "Powered by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-left > p > strong",
+    "x": 329,
+    "y": 2273,
+    "w": 62,
+    "h": 23,
+    "text": "DC.gov"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture.tp > img",
+    "x": 250,
+    "y": 2322,
+    "w": 220,
+    "h": 101,
+    "text": "dc logo",
+    "file": "media_1db1f5b26bf155ce68648f45c106930763"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-left > p > a.c-link-arrow.mod-arrow",
+    "x": 264,
+    "y": 2447,
+    "w": 192,
+    "h": 24,
+    "text": "visit dc.gov's website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-top > div.c-emblem-section-right > p",
+    "x": 1024,
+    "y": 2225,
+    "w": 111,
+    "h": 24,
+    "text": "Presented by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-right > p > strong",
+    "x": 913,
+    "y": 2273,
+    "w": 334,
+    "h": 23,
+    "text": "Government of the District of Columbia"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile-img > picture.tp > img",
+    "x": 937,
+    "y": 2322,
+    "w": 56,
+    "h": 56,
+    "text": "mayor-image.png",
+    "file": "media_14f9a3a9fb9c918312a220030255cb92c5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile-content > p > strong",
+    "x": 1012,
+    "y": 2329,
+    "w": 95,
+    "h": 18,
+    "text": "Muriel Bowser"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile.set-small-text > div.c-profile-content > p",
+    "x": 1012,
+    "y": 2352,
+    "w": 212,
+    "h": 19,
+    "text": "Mayor of the District of Columbia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-right > p > a.c-link-arrow.mod-arrow",
+    "x": 990,
+    "y": 2402,
+    "w": 179,
+    "h": 24,
+    "text": "visit the mayor's site",
+    "href": "/mayor"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > h2#we-want-to-hear-from-you-16",
+    "x": 276,
+    "y": 2588,
+    "w": 470,
+    "h": 29,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > p",
+    "x": 276,
+    "y": 2641,
+    "w": 470,
+    "h": 72,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-left > div.c-feedback-card-bottom > p",
+    "x": 276,
+    "y": 2798,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 503,
+    "y": 2787,
+    "w": 69,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 593,
+    "y": 2787,
+    "w": 63,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-top.set-bg-dark > p",
+    "x": 829,
+    "y": 2662,
+    "w": 327,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-bottom.set-bg-mid > button.c-button-pill.mod-icon",
+    "x": 821,
+    "y": 2795,
+    "w": 181,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom.set-bg-mid > p.tp > a.c-link-arrow.mod-arrow",
+    "x": 1026,
+    "y": 2807,
+    "w": 110,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution-maintainer > p.tp > a",
+    "x": 1354,
+    "y": 3023,
+    "w": 62,
+    "h": 22,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-l > div.site-footer-top-l > a.site-footer-logo",
+    "x": 24,
+    "y": 3135,
+    "w": 186,
+    "h": 96,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a.is-active",
+    "x": 401,
+    "y": 3171,
+    "w": 80,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 531,
+    "y": 3171,
+    "w": 141,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 721,
+    "y": 3171,
+    "w": 114,
+    "h": 24,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-center-l > div.site-footer-accessibility > a",
+    "x": 923,
+    "y": 3170,
+    "w": 114,
+    "h": 27,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-l > div.site-footer-submit-request > a",
+    "x": 1228,
+    "y": 3174,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 24,
+    "y": 3275,
+    "w": 110,
+    "h": 22,
+    "text": "District News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3314,
+    "w": 100,
+    "h": 18,
+    "text": "citywide news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3347,
+    "w": 124,
+    "h": 18,
+    "text": "citywide calendar",
+    "href": "/events"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3380,
+    "w": 193,
+    "h": 18,
+    "text": "subscribe to receive emails",
+    "href": "/service/user.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3413,
+    "w": 162,
+    "h": 18,
+    "text": "subscribe to text alerts",
+    "href": "/index.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 3446,
+    "w": 170,
+    "h": 18,
+    "text": "subscribe to newsletters",
+    "href": "/accounts/DCWASH/subscriber/new"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 306,
+    "y": 3275,
+    "w": 141,
+    "h": 22,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3314,
+    "w": 65,
+    "h": 18,
+    "text": "green dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3347,
+    "w": 112,
+    "h": 18,
+    "text": "age-friendly dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3380,
+    "w": 104,
+    "h": 18,
+    "text": "sustainable dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3413,
+    "w": 81,
+    "h": 18,
+    "text": "connect dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3446,
+    "w": 89,
+    "h": 18,
+    "text": "great streets",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 3479,
+    "w": 67,
+    "h": 18,
+    "text": "ready dc",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 587,
+    "y": 3275,
+    "w": 82,
+    "h": 22,
+    "text": "About DC"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3314,
+    "w": 61,
+    "h": 18,
+    "text": "open dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3347,
+    "w": 49,
+    "h": 18,
+    "text": "budget",
+    "href": "/budget"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3380,
+    "w": 94,
+    "h": 18,
+    "text": "emancipation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3413,
+    "w": 145,
+    "h": 18,
+    "text": "consumer protection",
+    "href": "/consumer-protection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 3446,
+    "w": 103,
+    "h": 18,
+    "text": "property quest",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 869,
+    "y": 3275,
+    "w": 93,
+    "h": 22,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 869,
+    "y": 3314,
+    "w": 160,
+    "h": 18,
+    "text": "service request center",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 1277,
+    "y": 3275,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-count",
+    "x": 1277,
+    "y": 3296,
+    "w": 122,
+    "h": 19,
+    "text": "41 pages available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-action",
+    "x": 1277,
+    "y": 3317,
+    "w": 101,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 1277,
+    "y": 3353,
+    "w": 114,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-count",
+    "x": 1277,
+    "y": 3374,
+    "w": 114,
+    "h": 19,
+    "text": "72 feeds available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-action",
+    "x": 1277,
+    "y": 3394,
+    "w": 91,
+    "h": 19,
+    "text": "Read Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 1277,
+    "y": 3431,
+    "w": 139,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-count",
+    "x": 1277,
+    "y": 3470,
+    "w": 139,
+    "h": 19,
+    "text": "27 channels available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-action",
+    "x": 1277,
+    "y": 3491,
+    "w": 101,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-bottom-l > div.site-footer-legal > p",
+    "x": 24,
+    "y": 3595,
+    "w": 296,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 937,
+    "y": 3595,
+    "w": 63,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1021,
+    "y": 3595,
+    "w": 80,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1121,
+    "y": 3595,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1274,
+    "y": 3595,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 117,
+    "controls": 72,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "services",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "services > all services",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 4,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 4,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "elderly and persons with physical disabilities waiver program",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "accident report (pd-10) or incident/offense report (pd-251)",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "311 non-emergency requests",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "adult protective services",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "age-friendly dc",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "alzheimer's disease and related dementias",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "benefits assistance",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "birth certificate",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "building permit",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "bulk trash collection",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "business license",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "business resource center",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "caregiver programs",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "case management",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "certificate of clean hands",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 18,
+   "heading": "cold weather information",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 19,
+   "heading": "commercial vehicles",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 20,
+   "heading": "community transition program",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 21,
+   "heading": "corporations",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 22,
+   "heading": "dc business portal",
+   "variable": false,
+   "origin": {
+    "link": 3,
+    "button": 0,
+    "text": 9,
+    "image": 3
+   },
+   "eds": {
+    "link": 3,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 9,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 23,
+   "heading": "we want to hear from you.",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 3,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 0,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1183,
+    "y": 43,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 1282,
+    "y": 41,
+    "w": 4,
+    "h": 11
+   },
+   {
+    "x": 1360,
+    "y": 43,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 917,
+    "y": 100,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 1057,
+    "y": 100,
+    "w": 140,
+    "h": 24
+   },
+   {
+    "x": 1257,
+    "y": 100,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 24,
+    "y": 210,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 113,
+    "y": 210,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 647,
+    "y": 263,
+    "w": 145,
+    "h": 42
+   },
+   {
+    "x": 551,
+    "y": 504,
+    "w": 339,
+    "h": 38
+   },
+   {
+    "x": 688,
+    "y": 580,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 762,
+    "y": 579,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 880,
+    "y": 579,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 991,
+    "y": 579,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 1127,
+    "y": 580,
+    "w": 32,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 817,
+    "w": 333,
+    "h": 28
+   },
+   {
+    "x": 64,
+    "y": 858,
+    "w": 335,
+    "h": 20
+   },
+   {
+    "x": 64,
+    "y": 880,
+    "w": 203,
+    "h": 20
+   },
+   {
+    "x": 86,
+    "y": 943,
+    "w": 100,
+    "h": 20
+   },
+   {
+    "x": 285,
+    "y": 944,
+    "w": 36,
+    "h": 17
+   },
+   {
+    "x": 515,
+    "y": 675,
+    "w": 367,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 694,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 726,
+    "w": 409,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 750,
+    "w": 234,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 675,
+    "w": 363,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 694,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 726,
+    "w": 384,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 878,
+    "w": 208,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 910,
+    "w": 370,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 934,
+    "w": 328,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 878,
+    "w": 134,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 910,
+    "w": 354,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 934,
+    "w": 401,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1063,
+    "w": 357,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1094,
+    "w": 365,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1118,
+    "w": 398,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1142,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1063,
+    "w": 163,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1094,
+    "w": 395,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1118,
+    "w": 193,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1063,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1094,
+    "w": 200,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1251,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1283,
+    "w": 346,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1251,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1283,
+    "w": 261,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1251,
+    "w": 143,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1283,
+    "w": 236,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1403,
+    "w": 217,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1434,
+    "w": 359,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1458,
+    "w": 263,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1403,
+    "w": 164,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1434,
+    "w": 385,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1458,
+    "w": 366,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1482,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1403,
+    "w": 153,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1434,
+    "w": 393,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1458,
+    "w": 394,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1482,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1591,
+    "w": 215,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1623,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1591,
+    "w": 210,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1623,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1591,
+    "w": 172,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1623,
+    "w": 366,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1743,
+    "w": 255,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1775,
+    "w": 374,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1798,
+    "w": 401,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1822,
+    "w": 125,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1743,
+    "w": 109,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1775,
+    "w": 319,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1743,
+    "w": 157,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1775,
+    "w": 389,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1798,
+    "w": 186,
+    "h": 22
+   },
+   {
+    "x": 678,
+    "y": 1931,
+    "w": 84,
+    "h": 20
+   },
+   {
+    "x": 311,
+    "y": 2225,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 329,
+    "y": 2273,
+    "w": 62,
+    "h": 23
+   },
+   {
+    "x": 265,
+    "y": 2450,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "x": 1025,
+    "y": 2225,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 913,
+    "y": 2273,
+    "w": 334,
+    "h": 23
+   },
+   {
+    "x": 1010,
+    "y": 2329,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 1010,
+    "y": 2352,
+    "w": 214,
+    "h": 17
+   },
+   {
+    "x": 990,
+    "y": 2405,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "x": 276,
+    "y": 2589,
+    "w": 256,
+    "h": 26
+   },
+   {
+    "x": 276,
+    "y": 2641,
+    "w": 448,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 2665,
+    "w": 404,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 2689,
+    "w": 100,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 2799,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 523,
+    "y": 2801,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 611,
+    "y": 2801,
+    "w": 22,
+    "h": 20
+   },
+   {
+    "x": 829,
+    "y": 2663,
+    "w": 262,
+    "h": 24
+   },
+   {
+    "x": 829,
+    "y": 2690,
+    "w": 130,
+    "h": 24
+   },
+   {
+    "x": 843,
+    "y": 2809,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 1026,
+    "y": 2810,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 3023,
+    "w": 344,
+    "h": 22
+   },
+   {
+    "x": 1235,
+    "y": 3023,
+    "w": 121,
+    "h": 22
+   },
+   {
+    "x": 1356,
+    "y": 3023,
+    "w": 60,
+    "h": 22
+   },
+   {
+    "x": 400,
+    "y": 3171,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 530,
+    "y": 3171,
+    "w": 141,
+    "h": 24
+   },
+   {
+    "x": 721,
+    "y": 3171,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 922,
+    "y": 3171,
+    "w": 115,
+    "h": 24
+   },
+   {
+    "x": 1228,
+    "y": 3174,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3275,
+    "w": 112,
+    "h": 22
+   },
+   {
+    "x": 24,
+    "y": 3314,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3347,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3380,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3413,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3446,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3275,
+    "w": 143,
+    "h": 22
+   },
+   {
+    "x": 306,
+    "y": 3314,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3347,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3380,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3413,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3446,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3479,
+    "w": 67,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3275,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 587,
+    "y": 3314,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3347,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3380,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3413,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3446,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 869,
+    "y": 3275,
+    "w": 94,
+    "h": 22
+   },
+   {
+    "x": 869,
+    "y": 3314,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 3275,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 3296,
+    "w": 117,
+    "h": 17
+   },
+   {
+    "x": 1278,
+    "y": 3317,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 3353,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 3374,
+    "w": 116,
+    "h": 17
+   },
+   {
+    "x": 1278,
+    "y": 3394,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 3431,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 3450,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 3470,
+    "w": 138,
+    "h": 17
+   },
+   {
+    "x": 1278,
+    "y": 3491,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3595,
+    "w": 297,
+    "h": 17
+   },
+   {
+    "x": 937,
+    "y": 3595,
+    "w": 64,
+    "h": 17
+   },
+   {
+    "x": 1021,
+    "y": 3595,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 1122,
+    "y": 3595,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 1274,
+    "y": 3595,
+    "w": 142,
+    "h": 17
+   }
+  ],
+  "eds": [
+   {
+    "x": 1182,
+    "y": 43,
+    "w": 58,
+    "h": 17
+   },
+   {
+    "x": 1282,
+    "y": 41,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 1360,
+    "y": 43,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 916,
+    "y": 100,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 1055,
+    "y": 100,
+    "w": 142,
+    "h": 24
+   },
+   {
+    "x": 1257,
+    "y": 100,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 24,
+    "y": 210,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 113,
+    "y": 210,
+    "w": 64,
+    "h": 19
+   },
+   {
+    "x": 648,
+    "y": 263,
+    "w": 144,
+    "h": 42
+   },
+   {
+    "x": 550,
+    "y": 504,
+    "w": 340,
+    "h": 38
+   },
+   {
+    "x": 685,
+    "y": 580,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 759,
+    "y": 579,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 878,
+    "y": 579,
+    "w": 47,
+    "h": 19
+   },
+   {
+    "x": 990,
+    "y": 579,
+    "w": 61,
+    "h": 19
+   },
+   {
+    "x": 1127,
+    "y": 580,
+    "w": 31,
+    "h": 19
+   },
+   {
+    "x": 64,
+    "y": 817,
+    "w": 342,
+    "h": 29
+   },
+   {
+    "x": 64,
+    "y": 858,
+    "w": 335,
+    "h": 20
+   },
+   {
+    "x": 64,
+    "y": 880,
+    "w": 200,
+    "h": 20
+   },
+   {
+    "x": 86,
+    "y": 943,
+    "w": 100,
+    "h": 20
+   },
+   {
+    "x": 285,
+    "y": 944,
+    "w": 36,
+    "h": 17
+   },
+   {
+    "x": 515,
+    "y": 675,
+    "w": 376,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 694,
+    "w": 132,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 726,
+    "w": 409,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 750,
+    "w": 235,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 675,
+    "w": 363,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 694,
+    "w": 133,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 726,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 878,
+    "w": 209,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 910,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 934,
+    "w": 329,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 878,
+    "w": 136,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 910,
+    "w": 354,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 934,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1063,
+    "w": 361,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1094,
+    "w": 362,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1118,
+    "w": 399,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1142,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1063,
+    "w": 165,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1094,
+    "w": 393,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1118,
+    "w": 202,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1063,
+    "w": 131,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1094,
+    "w": 195,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1251,
+    "w": 128,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1283,
+    "w": 342,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1251,
+    "w": 177,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1283,
+    "w": 260,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1251,
+    "w": 147,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1283,
+    "w": 237,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1403,
+    "w": 220,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1434,
+    "w": 357,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1458,
+    "w": 265,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1403,
+    "w": 166,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1434,
+    "w": 379,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1458,
+    "w": 365,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1482,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1403,
+    "w": 152,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1434,
+    "w": 391,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1458,
+    "w": 392,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1482,
+    "w": 91,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1591,
+    "w": 214,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1623,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1591,
+    "w": 211,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1623,
+    "w": 368,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1591,
+    "w": 174,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1623,
+    "w": 366,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1743,
+    "w": 259,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1775,
+    "w": 375,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1798,
+    "w": 400,
+    "h": 22
+   },
+   {
+    "x": 40,
+    "y": 1822,
+    "w": 124,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1743,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 515,
+    "y": 1775,
+    "w": 320,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1743,
+    "w": 160,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1775,
+    "w": 387,
+    "h": 22
+   },
+   {
+    "x": 989,
+    "y": 1798,
+    "w": 187,
+    "h": 22
+   },
+   {
+    "x": 678,
+    "y": 1931,
+    "w": 85,
+    "h": 20
+   },
+   {
+    "x": 310,
+    "y": 2225,
+    "w": 99,
+    "h": 22
+   },
+   {
+    "x": 329,
+    "y": 2273,
+    "w": 62,
+    "h": 23
+   },
+   {
+    "x": 264,
+    "y": 2450,
+    "w": 160,
+    "h": 19
+   },
+   {
+    "x": 1024,
+    "y": 2225,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 913,
+    "y": 2273,
+    "w": 334,
+    "h": 23
+   },
+   {
+    "x": 1012,
+    "y": 2329,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 1012,
+    "y": 2352,
+    "w": 212,
+    "h": 17
+   },
+   {
+    "x": 990,
+    "y": 2405,
+    "w": 147,
+    "h": 19
+   },
+   {
+    "x": 276,
+    "y": 2589,
+    "w": 256,
+    "h": 26
+   },
+   {
+    "x": 276,
+    "y": 2641,
+    "w": 446,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 2665,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 2689,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 2799,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 523,
+    "y": 2801,
+    "w": 29,
+    "h": 20
+   },
+   {
+    "x": 613,
+    "y": 2801,
+    "w": 23,
+    "h": 20
+   },
+   {
+    "x": 829,
+    "y": 2663,
+    "w": 325,
+    "h": 24
+   },
+   {
+    "x": 829,
+    "y": 2690,
+    "w": 66,
+    "h": 24
+   },
+   {
+    "x": 843,
+    "y": 2809,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 1026,
+    "y": 2810,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 3023,
+    "w": 349,
+    "h": 22
+   },
+   {
+    "x": 1232,
+    "y": 3023,
+    "w": 122,
+    "h": 22
+   },
+   {
+    "x": 1354,
+    "y": 3023,
+    "w": 62,
+    "h": 22
+   },
+   {
+    "x": 401,
+    "y": 3171,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 531,
+    "y": 3171,
+    "w": 141,
+    "h": 24
+   },
+   {
+    "x": 721,
+    "y": 3171,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 923,
+    "y": 3171,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1228,
+    "y": 3174,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3275,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 24,
+    "y": 3314,
+    "w": 100,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3347,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3380,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3413,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3446,
+    "w": 170,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3275,
+    "w": 141,
+    "h": 22
+   },
+   {
+    "x": 306,
+    "y": 3314,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3347,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3380,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3413,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3446,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 3479,
+    "w": 67,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3275,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 587,
+    "y": 3314,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3347,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3380,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3413,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 3446,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 869,
+    "y": 3275,
+    "w": 93,
+    "h": 22
+   },
+   {
+    "x": 869,
+    "y": 3314,
+    "w": 160,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 3275,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 3296,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 1277,
+    "y": 3317,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 3353,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 3374,
+    "w": 114,
+    "h": 17
+   },
+   {
+    "x": 1277,
+    "y": 3394,
+    "w": 67,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 3431,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 3450,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 3470,
+    "w": 136,
+    "h": 17
+   },
+   {
+    "x": 1277,
+    "y": 3491,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 3595,
+    "w": 296,
+    "h": 17
+   },
+   {
+    "x": 937,
+    "y": 3595,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 1021,
+    "y": 3595,
+    "w": 80,
+    "h": 17
+   },
+   {
+    "x": 1121,
+    "y": 3595,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 1274,
+    "y": 3595,
+    "w": 142,
+    "h": 17
+   }
+  ]
+ }
+}

@@ -1,0 +1,121 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-11-06T17:51:20.878Z",
+    "sources": [
+      "stardust/current/_computed-styles.json"
+    ]
+  },
+  "origins": [
+    {
+      "origin": "https://beta.dc.gov",
+      "role": "primary",
+      "pages": 8
+    }
+  ],
+  "logo": {
+    "file": "stardust/current/assets/logo.svg",
+    "source": "img.shl-logo (header) /themes/custom/dcgov/img/logo.svg",
+    "variants": [
+      "assets/logo-flag.svg",
+      "assets/logo-small.svg"
+    ]
+  },
+  "favicon": {
+    "file": "stardust/current/assets/favicon.ico"
+  },
+  "palette": {
+    "primary-blue": "#03438d",
+    "accent-blue": "#0774e4",
+    "heading-navy": "#053068",
+    "background-gray": "#e8ebf1",
+    "surface": "#ffffff",
+    "text": "#1e1e2f",
+    "text-muted": "#3a3a3a",
+    "text-subtle": "#767676",
+    "dc-red": "#d22517",
+    "light-blue": "#b0d6fe"
+  },
+  "type": {
+    "headingFamily": "neue-haas-grotesk-display",
+    "bodyFamily": "neue-haas-grotesk-text",
+    "files": [
+      {
+        "url": "https://beta.dc.gov/themes/custom/dc/fonts/nhg/",
+        "licensed": true,
+        "note": "commercial Neue Haas Grotesk; not rehosted"
+      }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [
+        52,
+        40,
+        32,
+        28,
+        26,
+        24,
+        22,
+        20,
+        18,
+        16,
+        14
+      ]
+    }
+  },
+  "motifs": {
+    "radius": {
+      "mode": "20px",
+      "pill": "100px"
+    },
+    "shadows": [],
+    "gradients": []
+  },
+  "iconFont": {
+    "families": [
+      "fontawesome-5-juicer"
+    ],
+    "note": "only in third-party Juicer social embed"
+  },
+  "voice": {
+    "heroHeadline": "Welcome to Washington, DC",
+    "register": "product"
+  },
+  "systemComponents": [
+    {
+      "id": "site-header",
+      "selector": "header.site-header",
+      "pages": 8
+    },
+    {
+      "id": "site-footer",
+      "selector": "footer",
+      "pages": 8
+    },
+    {
+      "id": "slab-alert",
+      "selector": ".c-slab-alert",
+      "pages": 8
+    },
+    {
+      "id": "breadcrumbs",
+      "selector": ".c-breadcrumbs",
+      "pages": 7
+    },
+    {
+      "id": "feedback",
+      "selector": ".c-feedback",
+      "pages": 7
+    },
+    {
+      "id": "emblem-section",
+      "selector": ".c-emblem-section",
+      "pages": 5
+    },
+    {
+      "id": "card-sidebar",
+      "selector": ".c-card-sidebar",
+      "pages": 8
+    }
+  ]
+}

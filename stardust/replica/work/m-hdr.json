@@ -1,0 +1,2199 @@
+{
+  "_provenance": {
+    "writtenBy": "skills/replica/scripts/measure.mjs",
+    "writtenAt": "2026-11-06T18:01:53.746Z",
+    "urls": [
+      "https://beta.dc.gov/"
+    ],
+    "widths": [
+      1440,
+      360
+    ],
+    "selectors": [
+      ".shl-main",
+      ".shl-main__l",
+      ".shl-logo",
+      ".shl-logo img",
+      ".shl-main__top",
+      ".shl-translate-toggle",
+      ".shl-translate-toggle__label",
+      ".shl-alerts-toggle",
+      ".shl-alerts-toggle__icon-count",
+      ".shl-search-toggle",
+      ".shl-search-toggle__label",
+      ".shl-main__bottom",
+      ".menu-main",
+      ".menu-main > li",
+      ".menu-main > li > a",
+      ".menu-main-toggle",
+      ".shs-main__top",
+      ".shs-top-logo img",
+      ".shs-alerts-toggle",
+      ".shs-main__bottom",
+      ".shs-menu-toggle",
+      ".shs-logo img",
+      ".shs-search-toggle",
+      ".shct",
+      ".shs-translate-slot",
+      ".shct select"
+    ],
+    "props": [
+      "display",
+      "position",
+      "boxSizing",
+      "width",
+      "height",
+      "maxWidth",
+      "margin",
+      "padding",
+      "gap",
+      "backgroundColor",
+      "backgroundImage",
+      "color",
+      "fontFamily",
+      "fontSize",
+      "fontWeight",
+      "lineHeight",
+      "letterSpacing",
+      "textTransform",
+      "textAlign",
+      "borderRadius",
+      "border",
+      "boxShadow",
+      "opacity",
+      "objectFit"
+    ],
+    "allMatches": false,
+    "failed": [],
+    "warnings": []
+  },
+  "widths": [
+    1440,
+    360
+  ],
+  "selectors": [
+    ".shl-main",
+    ".shl-main__l",
+    ".shl-logo",
+    ".shl-logo img",
+    ".shl-main__top",
+    ".shl-translate-toggle",
+    ".shl-translate-toggle__label",
+    ".shl-alerts-toggle",
+    ".shl-alerts-toggle__icon-count",
+    ".shl-search-toggle",
+    ".shl-search-toggle__label",
+    ".shl-main__bottom",
+    ".menu-main",
+    ".menu-main > li",
+    ".menu-main > li > a",
+    ".menu-main-toggle",
+    ".shs-main__top",
+    ".shs-top-logo img",
+    ".shs-alerts-toggle",
+    ".shs-main__bottom",
+    ".shs-menu-toggle",
+    ".shs-logo img",
+    ".shs-search-toggle",
+    ".shct",
+    ".shs-translate-slot",
+    ".shct select"
+  ],
+  "root": {
+    "https://beta.dc.gov/": {
+      "360": {
+        "viewport": 360,
+        "clientWidth": 360,
+        "scrollWidth": 360,
+        "scrollHeight": 18227,
+        "overflowX": 0
+      },
+      "1440": {
+        "viewport": 1440,
+        "clientWidth": 1440,
+        "scrollWidth": 1440,
+        "scrollHeight": 9877,
+        "overflowX": 0
+      }
+    }
+  },
+  "pages": {
+    "https://beta.dc.gov/": {
+      "360": {
+        ".shl-main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle translation Translate 1 alert 1 …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "170px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "26px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-main__l": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle translation Translate 1 alert 1 …",
+            "props": {
+              "display": "grid",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "1448px",
+              "margin": "0px auto",
+              "padding": "0px 16px",
+              "gap": "18px 28px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-logo": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "186px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 154,
+              "naturalHeight": 71,
+              "currentSrc": "https://beta.dc.gov/themes/custom/dcgov/img/logo.svg"
+            }
+          }
+        ],
+        ".shl-main__top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle translation Translate 1 alert 1 …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "30px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-translate-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle translation Translate",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "6px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(210, 37, 23)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(210, 37, 23)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-translate-toggle__label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Translate",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-display, \"Neue Haas Grotesk Display Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "lineHeight": "18.6662px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-alerts-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "1 alert 1",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "23px",
+              "height": "27px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 7px 4px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(210, 37, 23)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(210, 37, 23)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-alerts-toggle__icon-count": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "1",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "16px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(7, 116, 228)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "9px",
+              "fontWeight": "700",
+              "lineHeight": "11.9997px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "100%",
+              "border": "1px solid rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-search-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle search Search",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 10px",
+              "gap": "6px",
+              "backgroundColor": "rgb(3, 67, 141)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "200px",
+              "border": "2px solid rgb(3, 67, 141)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-search-toggle__label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Search",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-display, \"Neue Haas Grotesk Display Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "lineHeight": "18.6662px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-main__bottom": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 36px",
+              "gap": "40px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Services Neighborhoods Government Toggl…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px 0px 32px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main > li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Services",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "100%",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "14px 0px",
+              "gap": "16px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main > li > a": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Services",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 28px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "500",
+              "lineHeight": "26.666px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle sub-menu",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "32px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "100%",
+              "border": "2px solid rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-main__top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 360,
+              "h": 48
+            },
+            "visible": true,
+            "text": "1 alert 1",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 31px",
+              "gap": "normal",
+              "backgroundColor": "rgb(3, 67, 141)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-top-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 31,
+              "y": 13,
+              "w": 33,
+              "h": 25
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "33px",
+              "height": "24.5px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 35,
+              "naturalHeight": 26,
+              "currentSrc": "https://beta.dc.gov/themes/custom/dcgov/img/logo-flag.svg"
+            }
+          }
+        ],
+        ".shs-alerts-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 306,
+              "y": 11,
+              "w": 23,
+              "h": 27
+            },
+            "visible": true,
+            "text": "1 alert 1",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "23px",
+              "height": "27px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 242px",
+              "padding": "7px 7px 4px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-main__bottom": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 48,
+              "w": 360,
+              "h": 64
+            },
+            "visible": true,
+            "text": "Toggle menu Toggle search",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "64px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-menu-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 20,
+              "y": 60,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Toggle menu",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px 84px 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 144,
+              "y": 67,
+              "w": 72,
+              "h": 26
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "72px",
+              "height": "26px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 72,
+              "naturalHeight": 26,
+              "currentSrc": "https://beta.dc.gov/themes/custom/dcgov/img/logo-small.svg"
+            }
+          }
+        ],
+        ".shs-search-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 300,
+              "y": 60,
+              "w": 40,
+              "h": 40
+            },
+            "visible": true,
+            "text": "Toggle search",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px 84px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(3, 67, 141)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "100%",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shct": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 112,
+              "w": 360,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Select Language English Spanish Amharic…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-translate-slot": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 112,
+              "w": 360,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Select Language English Spanish Amharic…",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "360px",
+              "height": "32px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "16px",
+              "fontWeight": "400",
+              "lineHeight": "21.3328px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shct select": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 107,
+              "y": 112,
+              "w": 174,
+              "h": 32
+            },
+            "visible": true,
+            "text": "Select Language English Spanish Amharic…",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "174px",
+              "height": "32px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "2px 32px 3px 12px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "url(\"https://beta.dc.gov/themes/custom/dc/img/icons/caret-down--blue.svg\")",
+              "color": "rgb(5, 48, 104)",
+              "fontFamily": "neue-haas-grotesk-display, \"Neue Haas Grotesk Display Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "lineHeight": "15.4px",
+              "letterSpacing": "0.2px",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "6px",
+              "border": "1px solid rgb(184, 184, 184)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ]
+      },
+      "1440": {
+        ".shl-main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 1440,
+              "h": 170
+            },
+            "visible": true,
+            "text": "Toggle translation Translate 1 alert 1 …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "170px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "26px 0px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-main__l": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 35,
+              "w": 1440,
+              "h": 127
+            },
+            "visible": true,
+            "text": "Toggle translation Translate 1 alert 1 …",
+            "props": {
+              "display": "grid",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1440px",
+              "height": "126.656px",
+              "maxWidth": "1464px",
+              "margin": "0px",
+              "padding": "0px 24px",
+              "gap": "18px 28px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-logo": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 35,
+              "w": 186,
+              "h": 127
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "186px",
+              "height": "126.656px",
+              "maxWidth": "186px",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 24,
+              "y": 55,
+              "w": 186,
+              "h": 86
+            },
+            "visible": true,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "186px",
+              "height": "85.75px",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 154,
+              "naturalHeight": 71,
+              "currentSrc": "https://beta.dc.gov/themes/custom/dcgov/img/logo.svg"
+            }
+          }
+        ],
+        ".shl-main__top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 238,
+              "y": 35,
+              "w": 1178,
+              "h": 36
+            },
+            "visible": true,
+            "text": "Toggle translation Translate 1 alert 1 …",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1178px",
+              "height": "36px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "30px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-translate-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1157,
+              "y": 43,
+              "w": 83,
+              "h": 20
+            },
+            "visible": true,
+            "text": "Toggle translation Translate",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "82.625px",
+              "height": "20px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "6px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(210, 37, 23)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(210, 37, 23)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-translate-toggle__label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1183,
+              "y": 43,
+              "w": 57,
+              "h": 19
+            },
+            "visible": true,
+            "text": "Translate",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "56.625px",
+              "height": "18.6562px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-display, \"Neue Haas Grotesk Display Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "500",
+              "lineHeight": "18.6662px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-alerts-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1269,
+              "y": 39,
+              "w": 23,
+              "h": 27
+            },
+            "visible": true,
+            "text": "1 alert 1",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "23px",
+              "height": "27px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "7px 7px 4px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(210, 37, 23)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(210, 37, 23)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-alerts-toggle__icon-count": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1276,
+              "y": 39,
+              "w": 16,
+              "h": 16
+            },
+            "visible": true,
+            "text": "1",
+            "props": {
+              "display": "flex",
+              "position": "absolute",
+              "boxSizing": "border-box",
+              "width": "16px",
+              "height": "16px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(7, 116, 228)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "9px",
+              "fontWeight": "700",
+              "lineHeight": "11.9997px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "100%",
+              "border": "1px solid rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-search-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1322,
+              "y": 35,
+              "w": 94,
+              "h": 36
+            },
+            "visible": true,
+            "text": "Toggle search Search",
+            "props": {
+              "display": "inline-flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "93.7031px",
+              "height": "36px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "6px 10px",
+              "gap": "6px",
+              "backgroundColor": "rgb(3, 67, 141)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "200px",
+              "border": "2px solid rgb(3, 67, 141)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-search-toggle__label": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1360,
+              "y": 43,
+              "w": 44,
+              "h": 19
+            },
+            "visible": true,
+            "text": "Search",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "43.7031px",
+              "height": "18.6562px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-display, \"Neue Haas Grotesk Display Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "14px",
+              "fontWeight": "600",
+              "lineHeight": "18.6662px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shl-main__bottom": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 238,
+              "y": 89,
+              "w": 1178,
+              "h": 73
+            },
+            "visible": true,
+            "text": "Main Menu Services Neighborhoods Govern…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "1178px",
+              "height": "72.6562px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 0px 36px",
+              "gap": "60px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 901,
+              "y": 89,
+              "w": 515,
+              "h": 37
+            },
+            "visible": true,
+            "text": "Services Neighborhoods Government Toggl…",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "515.219px",
+              "height": "36.6562px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "28px",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main > li": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 901,
+              "y": 89,
+              "w": 112,
+              "h": 37
+            },
+            "visible": true,
+            "text": "Services",
+            "props": {
+              "display": "list-item",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "111.734px",
+              "height": "36.6562px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "10px 16px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main > li > a": [
+          {
+            "index": 0,
+            "of": 3,
+            "rect": {
+              "x": 917,
+              "y": 100,
+              "w": 80,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Services",
+            "props": {
+              "display": "inline",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(3, 67, 141)",
+              "fontFamily": "neue-haas-grotesk-display, \"Neue Haas Grotesk Display Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "20px",
+              "fontWeight": "700",
+              "lineHeight": "26.666px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(3, 67, 141)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".menu-main-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 1376,
+              "y": 100,
+              "w": 24,
+              "h": 24
+            },
+            "visible": true,
+            "text": "Toggle sub-menu",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "24px",
+              "height": "24px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-main__top": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "1 alert 1",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "48px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 31px",
+              "gap": "normal",
+              "backgroundColor": "rgb(3, 67, 141)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-top-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "35px",
+              "height": "auto",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 35,
+              "naturalHeight": 26,
+              "currentSrc": "https://beta.dc.gov/themes/custom/dcgov/img/logo-flag.svg"
+            }
+          }
+        ],
+        ".shs-alerts-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "1 alert 1",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "23px",
+              "height": "27px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px auto",
+              "padding": "7px 7px 4px 0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-main__bottom": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle menu Toggle search",
+            "props": {
+              "display": "flex",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "64px",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px 20px",
+              "gap": "normal",
+              "backgroundColor": "rgb(255, 255, 255)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-menu-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle menu",
+            "props": {
+              "display": "block",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px auto 0px 0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 0)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 0)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-logo img": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "72px",
+              "height": "auto",
+              "maxWidth": "100%",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(0, 0, 238)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(0, 0, 238)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            },
+            "img": {
+              "naturalWidth": 72,
+              "naturalHeight": 26,
+              "currentSrc": "https://beta.dc.gov/themes/custom/dcgov/img/logo-small.svg"
+            }
+          }
+        ],
+        ".shs-search-toggle": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "Toggle search",
+            "props": {
+              "display": "flex",
+              "position": "relative",
+              "boxSizing": "border-box",
+              "width": "40px",
+              "height": "40px",
+              "maxWidth": "none",
+              "margin": "0px 0px 0px auto",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgb(3, 67, 141)",
+              "backgroundImage": "none",
+              "color": "rgb(255, 255, 255)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "center",
+              "borderRadius": "100%",
+              "border": "0px none rgb(255, 255, 255)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shct": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "none",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shs-translate-slot": [
+          {
+            "index": 0,
+            "of": 1,
+            "rect": {
+              "x": 0,
+              "y": 0,
+              "w": 0,
+              "h": 0
+            },
+            "visible": false,
+            "text": "",
+            "props": {
+              "display": "block",
+              "position": "static",
+              "boxSizing": "border-box",
+              "width": "auto",
+              "height": "auto",
+              "maxWidth": "none",
+              "margin": "0px",
+              "padding": "0px",
+              "gap": "normal",
+              "backgroundColor": "rgba(0, 0, 0, 0)",
+              "backgroundImage": "none",
+              "color": "rgb(30, 30, 47)",
+              "fontFamily": "neue-haas-grotesk-text, \"Neue Haas Grotesk Text Pro\", \"Helvetica Neue\", Helvetica, Arial, -apple-system, BlinkMacSystemFont, \"Open Sans\", \"Source Sans Pro\", \"Droid Serif\", \"Segoe UI\", sans-serif",
+              "fontSize": "18px",
+              "fontWeight": "400",
+              "lineHeight": "23.9994px",
+              "letterSpacing": "normal",
+              "textTransform": "none",
+              "textAlign": "start",
+              "borderRadius": "0px",
+              "border": "0px none rgb(30, 30, 47)",
+              "boxShadow": "none",
+              "opacity": "1",
+              "objectFit": "fill"
+            }
+          }
+        ],
+        ".shct select": []
+      }
+    }
+  }
+}

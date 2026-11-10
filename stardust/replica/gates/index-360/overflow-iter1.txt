@@ -1,0 +1,9 @@
+measure: http://localhost:8791/index-proposed.html @360: horizontal overflow +112px (scrollWidth 472 > viewport 360)
+measure  http://localhost:8791/index-proposed.html
+  widths 360 · 1 selector(s) · 1 props · first match
+
+@ 360px
+  root  scrollWidth   472  viewport 360  scrollHeight  14478  ◄◄ OVERFLOW +112px
+  html
+       x     0  y      0  w   360  h 14478  vis  "Skip to main content Welcome to Washing…"
+      display: block

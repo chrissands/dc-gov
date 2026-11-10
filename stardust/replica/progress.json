@@ -1,0 +1,234 @@
+{
+  "types": {
+    "landing": {
+      "archetype": "index",
+      "url": "https://beta.dc.gov/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "iterations": {
+        "360": 11,
+        "1440": 11
+      },
+      "note": "rounds 1-2 were build-shell defects (header hidden attribute, missing page wrapper); fidelity rounds 3-8",
+      "gates": {
+        "360": {
+          "pixel": 11.68,
+          "heightDelta": -11,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "text-width deltas (R-01)",
+          "alignedPixel": "2.93% above y4250; 5.64% below with the 21px wrap offset aligned",
+          "verdict": "RESIDUAL (R-01)",
+          "regate": "conf round on the final canon"
+        },
+        "1440": {
+          "pixel": 2.2,
+          "heightDelta": -1,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "29 text-width deltas of 2-5px (R-01 font substitute)",
+          "verdict": "PASS",
+          "regate": "conf round on the final canon"
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 8 rows failed)",
+      "residuals": [
+        {
+          "width": 360,
+          "what": "three R-01 wrap junctions: \"311 Non-Emergency Requests\" fits on live (the live 1 is 0.705x the fallback tabular 1; a dedicated 1-face would shrink the glyph visibly) and wraps in the fallback (+24px); the Veterans Parade teaser wraps one line less (-19px); the stat-card mixed-weight lines are 1px taller (+6px)",
+          "register": "R-01",
+          "effect": "Δh -11 at 360: 11.68% raw, the only failing prototype-table row"
+        },
+        {
+          "width": 1440,
+          "what": "chrome text widths 2-5px off",
+          "register": "R-01"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/index.json",
+        "implemented": [
+          "header scroll-morph (--sh-short)",
+          "tabset --active/--open",
+          "hero video pause toggle (--paused)",
+          "carousel-grid mount below 728px",
+          "hover transitions (lifted CSS)"
+        ],
+        "dead": [
+          "--hjl--shift-down (home jump links hidden at 1440/360)",
+          "c-link-arrow hover (no measured diff)"
+        ]
+      },
+      "captureState": [
+        {
+          "what": "Juicer social feed frozen as captured",
+          "restoreAtDelivery": "live Juicer embed on the https origin"
+        },
+        {
+          "what": "hero video autoplay, muted",
+          "restoreAtDelivery": "same"
+        }
+      ]
+    },
+    "listing": {
+      "archetype": "news",
+      "url": "https://beta.dc.gov/news",
+      "prototype": "stardust/prototypes/news-proposed.html",
+      "iterations": {
+        "360": 4,
+        "1440": 4
+      },
+      "note": "round 1: the side-filters listing grid needs the views-element-container/view/js-form-item hooks (emitter now keeps them); rounds 2-3: R-01 fallback metrics (overrides divided by size-adjust; digit/space/comma faces; letter ratios at the wrap-junction optimum); round 4 --full confirmation",
+      "gates": {
+        "360": {
+          "pixel": 2.13,
+          "heightDelta": 1,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "quiet",
+          "verdict": "PASS"
+        },
+        "1440": {
+          "pixel": 0.85,
+          "heightDelta": 1,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "13 text-width deltas of 2-5px (R-01)",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 4 rows failed)",
+      "residuals": [
+        {
+          "width": "1440,360",
+          "what": "chrome text widths 2-5px off",
+          "register": "R-01"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/news.json",
+        "implemented": [
+          "header scroll-morph (--sh-short)",
+          "filter-link and pager hover colour (lifted CSS)"
+        ],
+        "dead": [
+          "c-link-pill hover (no measured diff)",
+          "_tag hover (no measured diff)"
+        ]
+      },
+      "captureState": []
+    },
+    "static": {
+      "archetype": "agency-directory",
+      "url": "https://beta.dc.gov/agency-directory",
+      "prototype": "stardust/prototypes/agency-directory-proposed.html",
+      "iterations": {
+        "360": 1,
+        "1440": 1
+      },
+      "note": "first round --full on the shared canon (emitter + lift + R-01 faces from the landing/listing archetypes); no new modules beyond c-layout-sidebar and c-card-sidebar",
+      "gates": {
+        "360": {
+          "pixel": 3.15,
+          "heightDelta": 1,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "quiet",
+          "verdict": "PASS",
+          "regate": "conf round: the corpus-mean text-400 ratio resolved the Real Property wrap"
+        },
+        "1440": {
+          "pixel": 1.37,
+          "heightDelta": 1,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "13 text-width deltas (R-01)",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 4 rows failed)",
+      "residuals": [
+        {
+          "width": "1440,360",
+          "what": "chrome text widths 2-5px off",
+          "register": "R-01"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/agency-directory.json",
+        "implemented": [
+          "header scroll-morph (--sh-short)",
+          "agency link hover colour (lifted CSS)"
+        ],
+        "dead": [
+          "c-card-sidebar link hover (no measured diff)",
+          "c-icon-content-icon hover (no measured diff)"
+        ]
+      },
+      "captureState": []
+    },
+    "unique": {
+      "archetype": "neighborhoods",
+      "url": "https://beta.dc.gov/neighborhoods",
+      "prototype": "stardust/prototypes/neighborhoods-proposed.html",
+      "iterations": {
+        "360": 2,
+        "1440": 2
+      },
+      "note": "round 1 on the shared canon; round 2 (conf) after the text-400 ratio returned to its corpus mean with the footer-social compensation (R-01)",
+      "gates": {
+        "360": {
+          "pixel": 6.34,
+          "heightDelta": 22,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "quiet",
+          "verdict": "RESIDUAL (R-01)"
+        },
+        "1440": {
+          "pixel": 1.21,
+          "heightDelta": 1,
+          "contentDiffRed": 0,
+          "nothingLost": 0,
+          "clipped": 0,
+          "overflow": "ok",
+          "chromeParity": "13 text-width deltas (R-01)",
+          "verdict": "PASS"
+        }
+      },
+      "capProbe": "PASS at 2560 (0 of 4 rows failed)",
+      "residuals": [
+        {
+          "width": 360,
+          "what": "the Ward 7 paragraph wraps to 5 lines on live and 4 in the fallback; text 400 at >=105.6% fixes it but wraps another paragraph on the home page (+29px)",
+          "register": "R-01",
+          "effect": "-22px offset below the ward grid at 360; pixel 6.34% under the bar"
+        }
+      ],
+      "motion": {
+        "observed": "stardust/replica/motion/neighborhoods.json",
+        "implemented": [
+          "header scroll-morph (--sh-short)",
+          "ward card hover (lifted CSS, 250ms)"
+        ],
+        "dead": [
+          "c-link-pill, c-button-plus, c-link-arrow hover (no measured diff)"
+        ]
+      },
+      "captureState": []
+    }
+  }
+}

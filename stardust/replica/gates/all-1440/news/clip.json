@@ -1,0 +1,36 @@
+{
+ "url": "https://main--7ddb4c84--aemcoder.aem.page/news",
+ "at": "2026-11-06T21:56:39.344Z",
+ "source": "content-presence",
+ "counts": {
+  "textClipped": 0,
+  "textHidden": 0,
+  "controlHidden": 0,
+  "controlClipped": 0,
+  "clamped": 0,
+  "collapsed": 0,
+  "scrollHidden": 0,
+  "horizontal": 0,
+  "offPage": 0,
+  "textNodes": 151,
+  "controls": 79,
+  "total": 0
+ },
+ "groups": [],
+ "origin": {
+  "counts": {
+   "textClipped": 0,
+   "textHidden": 0,
+   "controlHidden": 0,
+   "controlClipped": 0,
+   "clamped": 0,
+   "collapsed": 0,
+   "scrollHidden": 0,
+   "horizontal": 0,
+   "offPage": 0,
+   "textNodes": 151,
+   "controls": 79,
+   "total": 0
+  }
+ }
+}

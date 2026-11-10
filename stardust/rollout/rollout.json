@@ -1,0 +1,41 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:rollout/inventory",
+    "writtenAt": "2026-11-06T19:18:42.076Z",
+    "stardustVersion": "0.0.0"
+  },
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://beta.dc.gov/",
+    "da": {
+      "org": "aemcoder",
+      "site": "7ddb4c84",
+      "ref": "main"
+    },
+    "liveHost": "main--7ddb4c84--aemcoder.aem.live"
+  },
+  "scope": {
+    "pages": 8,
+    "discovered": 8,
+    "capped": false,
+    "pageCap": null
+  },
+  "lastRun": {
+    "at": "2026-11-06T22:39:30.068Z",
+    "pages": {
+      "total": 8,
+      "verified": 8,
+      "deployed": 0,
+      "pending": 0,
+      "contentPending": 0,
+      "stale": 0,
+      "failed": 0
+    },
+    "blocks": {
+      "total": 14,
+      "converted": 0,
+      "pending": 14
+    },
+    "verifyFailures": 0
+  }
+}

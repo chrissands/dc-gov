@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-11-06T22:42:22.131Z",
+  "target": "aem-eds",
+  "site": {
+    "sourceUrl": "https://beta.dc.gov/",
+    "liveHost": "main--7ddb4c84--aemcoder.aem.live"
+  },
+  "stageCount": {
+    "identified": 8,
+    "prototyped": 8,
+    "deployed": 8,
+    "optimised": 0
+  },
+  "stageExclusive": {
+    "identified": 0,
+    "prototyped": 0,
+    "deployed": 8,
+    "optimised": 0
+  },
+  "pages": [
+    {
+      "slug": "index",
+      "path": "/",
+      "stage": "deployed",
+      "templateId": "index",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "agency-directory",
+      "path": "/agency-directory",
+      "stage": "deployed",
+      "templateId": "agency-directory",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "community-engagement-and-feedback",
+      "path": "/community-engagement-and-feedback",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "events",
+      "path": "/events",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "neighborhoods",
+      "path": "/neighborhoods",
+      "stage": "deployed",
+      "templateId": "neighborhoods",
+      "isTemplate": true,
+      "openFindings": 1
+    },
+    {
+      "slug": "news",
+      "path": "/news",
+      "stage": "deployed",
+      "templateId": "news",
+      "isTemplate": true,
+      "openFindings": 2
+    },
+    {
+      "slug": "organizational-charts-agencies-and-offices-under-mayors-authority",
+      "path": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "stage": "deployed",
+      "templateId": "static",
+      "isTemplate": false,
+      "openFindings": 3
+    },
+    {
+      "slug": "services",
+      "path": "/services",
+      "stage": "deployed",
+      "templateId": "listing",
+      "isTemplate": false,
+      "openFindings": 1
+    }
+  ],
+  "templates": [
+    {
+      "id": "agency-directory",
+      "archetype": "agency-directory",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "index",
+      "archetype": "index",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "listing",
+      "archetype": "events",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "neighborhoods",
+      "archetype": "neighborhoods",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "news",
+      "archetype": "news",
+      "pageCount": 1,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 1,
+        "optimised": 0
+      }
+    },
+    {
+      "id": "static",
+      "archetype": "community-engagement-and-feedback",
+      "pageCount": 2,
+      "stages": {
+        "identified": 0,
+        "prototyped": 0,
+        "deployed": 2,
+        "optimised": 0
+      }
+    }
+  ],
+  "blocks": {
+    "total": 14,
+    "converted": 0
+  },
+  "quality": {
+    "overall": 99,
+    "dimensions": {
+      "brand-tensions": null,
+      "design-ux": null,
+      "accessibility": null,
+      "seo": 100,
+      "content-conversion": null,
+      "ai-search": 100,
+      "cross-page": 96
+    },
+    "severity": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 1
+    },
+    "history": [
+      99
+    ]
+  },
+  "findings": {
+    "byFixability": {
+      "out-of-scope": 10,
+      "design-pass": 1
+    },
+    "byAutofix": {}
+  }
+}

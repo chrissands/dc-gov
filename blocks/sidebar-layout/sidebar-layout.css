@@ -1,0 +1,19 @@
+/* sidebar-layout — lifted from stardust/prototypes/css/lifted.css (GPL-2.0-or-later Drupal theme CSS), kebab-mapped, scoped */
+/* stylelint-disable */
+.sidebar-layout .tp {
+  display: contents;
+}
+
+.c-layout-sidebar:where(.sidebar-layout *){margin-left:auto;margin-right:auto;max-width:1416px;max-width:calc(1416px + clamp(1rem,.8889cqw + .72rem,1.5rem)*2);padding-left:clamp(1rem,.8889cqw + .72rem,1.5rem);padding-right:clamp(1rem,.8889cqw + .72rem,1.5rem);width:100%}@media(max-width:320px){.c-layout-sidebar:where(.sidebar-layout *){padding-left:clamp(.625rem,1.5556cqw + .14rem,1.5rem);padding-right:clamp(.625rem,1.5556cqw + .14rem,1.5rem)}}.c-layout-sidebar:where(.sidebar-layout *){container:layout_sidebar/inline-size}.c-layout-sidebar.sidebar-section:where(.sidebar-layout *){display:grid;gap:50px;grid-template-areas:"main sidebar";grid-template-columns:var(--content-width-m-narrow) var(--content-width-m-narrowest);padding-bottom:clamp(2.25rem,2.6667cqw + 1.42rem,3.75rem);padding-top:clamp(2.25rem,2.6667cqw + 1.42rem,3.75rem)}.c-layout-sidebar.sidebar-section .c-layout-sidebar-main:where(.sidebar-layout *){grid-area:main}.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar:where(.sidebar-layout *){grid-area:sidebar}@media(max-width:1464px){.c-layout-sidebar.sidebar-section:where(.sidebar-layout *){gap:32px;grid-template-columns:1fr var(--content-width-m-narrowest)}}@media(min-width:1200.1px){.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar-l:where(.sidebar-layout *){--l-gap:24px;align-items:start;container:stack/inline-size;display:flex;flex-flow:column;gap:var(--l-gap);width:100%}@layer base{.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar-l>*:where(.sidebar-layout *){width:100%}}.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar-l:where(.sidebar-layout *){align-items:center}@layer base{.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar-l>:not(li):where(.sidebar-layout *){margin:0 auto}}}@media(max-width:1200px){.c-layout-sidebar.sidebar-section:where(.sidebar-layout *){display:block}.c-layout-sidebar.sidebar-section .c-layout-sidebar-main:where(.sidebar-layout *){padding-bottom:clamp(2.25rem,2.6667cqw + 1.42rem,3.75rem)}.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar-l:where(.sidebar-layout *){align-items:normal;container:grid/inline-size;display:grid;gap:clamp(1.5rem,1.7241cqw + .49rem,2rem);grid-auto-rows:min-content;grid-template-columns:repeat(auto-fit,minmax(min(430px,100%),1fr));justify-items:normal;row-gap:clamp(1.5rem,1.7241cqw + .49rem,2rem)}.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar-l:where(.sidebar-layout *){padding-top:clamp(2.25rem,2.6667cqw + 1.42rem,3.75rem)}.c-layout-sidebar.sidebar-section .c-layout-sidebar-sidebar-l>*:where(.sidebar-layout *){max-width:690px}}.c-layout-sidebar.mod-no-vertical-spacing:where(.sidebar-layout *),
+.c-layout-sidebar.mod-no-vertical-spacing .c-layout-sidebar-sidebar-l:where(.sidebar-layout *){padding-bottom:0;padding-top:0}
+/* the source's node-core → node-bottom gap: the following feedback block does not carry the
+   node-bottom wrapper, so its top margin is kept here (as view-listing.media does) */
+.sidebar-layout {
+  padding-bottom: clamp(2.25rem, 2.6667cqw + 1.42rem, 3.75rem);
+}
+
+/* mist (/community-engagement-and-feedback): the following emblem-section carries its own
+   node-bottom wrapper (and margin), so no gap here */
+.sidebar-layout.mist {
+  padding-bottom: 0;
+}

@@ -1,0 +1,20 @@
+{
+  "variantName": "view-listing",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Listing view: section heading, view title and one unit per item, with an exposed filter form and pager. Default: text slabs with numbered pager (news). Grid: a feature card and service link cards with load-more (services). Media: image slabs with load-more, no heading or form (events).",
+  "contentPattern": "Rows: section heading, view title, then one row per listing item (title link, date, type, text, image as available).",
+  "options": [
+    {
+      "class": "grid",
+      "label": "Grid"
+    },
+    {
+      "class": "media",
+      "label": "Media"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "News, services and events listing pages.",
+  "reuseGuidance": "Reuse for any filterable listing of news, services or events; pick grid for service cards and media for image-led event listings."
+}

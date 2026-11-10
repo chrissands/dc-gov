@@ -1,0 +1,56 @@
+{
+  "a": "stardust/replica/gates/all-1440/community-engagement-and-feedback/origin.png",
+  "b": "stardust/replica/gates/all-1440/community-engagement-and-feedback/eds.png",
+  "compared": {
+    "width": 1440,
+    "height": 2604,
+    "mode": "overlap"
+  },
+  "heightDelta": 1,
+  "differingPixels": 33143,
+  "pct": 0.88,
+  "threshold": 10,
+  "pass": true,
+  "diff": "stardust/replica/gates/all-1440/community-engagement-and-feedback/diff.png",
+  "masks": [],
+  "maskedRows": 0,
+  "textPct": 13.25,
+  "textBoxes": 84,
+  "textPixels": 240502,
+  "bands": [
+    {
+      "y0": 0,
+      "y1": 500,
+      "pct": 0.5
+    },
+    {
+      "y0": 500,
+      "y1": 1000,
+      "pct": 0.5
+    },
+    {
+      "y0": 1000,
+      "y1": 1500,
+      "pct": 0.6
+    },
+    {
+      "y0": 1500,
+      "y1": 2000,
+      "pct": 1.2
+    },
+    {
+      "y0": 2000,
+      "y1": 2500,
+      "pct": 1.8
+    },
+    {
+      "y0": 2500,
+      "y1": 2604,
+      "pct": 0
+    }
+  ],
+  "capturesDropped": {
+    "masks": [],
+    "edsUrl": "https://main--7ddb4c84--aemcoder.aem.page/community-engagement-and-feedback"
+  }
+}

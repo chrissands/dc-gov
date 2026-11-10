@@ -1,0 +1,7 @@
+/* stats — lifted from stardust/prototypes/css/lifted.css (GPL-2.0-or-later Drupal theme CSS), kebab-mapped, scoped */
+/* stylelint-disable */
+.stats .tp {
+  display: contents;
+}
+
+.c-card-stat:where(.stats *){color:var(--l-color,var(--color-m-text))}.c-card-stat:where(.stats *){align-items:center;display:flex;flex-direction:column;margin:0 auto;max-width:360px;min-width:280px;padding:8px;text-align:center}.c-card-stat .c-card-stat-icon:where(.stats *){margin-bottom:.6667rem}.c-card-stat .c-card-stat-heading:where(.stats *){margin-bottom:1rem}.c-card-stat .c-card-stat-stat:where(.stats *){color:var(--color-m-heading);font-family:neue-haas-grotesk-display,Neue Haas Grotesk Display Pro,nhg-display-fallback,Helvetica Neue,Helvetica,Arial,-apple-system,BlinkMacSystemFont,Open Sans,Source Sans Pro,"Droid Serif",Segoe UI,sans-serif;font-size:clamp(2rem,3.5556cqw + .89rem,4rem);font-weight:700;letter-spacing:.24px;line-height:1;margin-bottom:1rem}@container (max-width:500px){.c-card-stat:where(.stats *){max-width:100%;width:100%}}

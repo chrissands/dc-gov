@@ -1,0 +1,7223 @@
+{
+ "_provenance": {
+  "writtenBy": "content-presence.mjs",
+  "at": "2026-11-06T21:56:39.344Z",
+  "width": 1440,
+  "variable": [],
+  "tier": "chrome"
+ },
+ "origin": {
+  "url": "https://beta.dc.gov/news",
+  "at": "2026-11-06T21:56:18.439Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6267,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main > div.shl-main__l > a.shl-logo",
+    "x": 24,
+    "y": 35,
+    "w": 186,
+    "h": 127,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__l > a.shl-logo > img",
+    "x": 24,
+    "y": 55,
+    "w": 186,
+    "h": 86,
+    "text": "home",
+    "file": "logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1157,
+    "y": 43,
+    "w": 83,
+    "h": 20,
+    "text": "translate"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1157,
+    "y": 43,
+    "w": 83,
+    "h": 20,
+    "label": "trigger",
+    "value": "translate",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main__top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > a",
+    "x": 917,
+    "y": 100,
+    "w": 80,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > a",
+    "x": 1057,
+    "y": 100,
+    "w": 140,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > a",
+    "x": 1257,
+    "y": 99,
+    "w": 113,
+    "h": 27,
+    "text": "government",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > button.menu-main-toggle._js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.--menu-level-0 > button.menu-main-toggle._js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs__link.--home-link",
+    "x": 24,
+    "y": 208,
+    "w": 43,
+    "h": 22,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs__text",
+    "x": 113,
+    "y": 211,
+    "w": 62,
+    "h": 19,
+    "text": "All News"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-header > section.c-hero-simple._set-bg-light > h1#all-news",
+    "x": 24,
+    "y": 242,
+    "w": 1392,
+    "h": 44,
+    "level": 1,
+    "text": "all news"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container__color-wrapper > div.c-layout-container__l-content-width > h2#news-gt-news-listing",
+    "x": 24,
+    "y": 418,
+    "w": 1392,
+    "h": 40,
+    "level": 2,
+    "text": "news > news listing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-filters > div.js-form-item.form-item > label",
+    "x": 24,
+    "y": 492,
+    "w": 122,
+    "h": 22,
+    "text": "Release Type"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-all",
+    "x": 24,
+    "y": 538,
+    "w": 40,
+    "h": 21,
+    "text": "all",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-76",
+    "x": 24,
+    "y": 584,
+    "w": 40,
+    "h": 21,
+    "text": "news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-81",
+    "x": 24,
+    "y": 629,
+    "w": 109,
+    "h": 21,
+    "text": "press releases",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-471",
+    "x": 24,
+    "y": 675,
+    "w": 75,
+    "h": 21,
+    "text": "advisories",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-481",
+    "x": 24,
+    "y": 720,
+    "w": 161,
+    "h": 21,
+    "text": "letters from the mayor",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-486",
+    "x": 24,
+    "y": 766,
+    "w": 86,
+    "h": 21,
+    "text": "newsletters",
+    "href": "/news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div.filterset__filters > span.filterset-label.--filters",
+    "x": 1011,
+    "y": 494,
+    "w": 50,
+    "h": 21,
+    "text": "Filters"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 1071,
+    "y": 482,
+    "w": 101,
+    "h": 46,
+    "text": "topics"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 1071,
+    "y": 482,
+    "w": 101,
+    "h": 46,
+    "label": "trigger",
+    "value": "topics",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 1182,
+    "y": 482,
+    "w": 108,
+    "h": 46,
+    "text": "agency"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset__filters > div.combodrop._js-combodrop > button.combodrop-toggle._js-combodrop-toggle",
+    "x": 1182,
+    "y": 482,
+    "w": 108,
+    "h": 46,
+    "label": "trigger",
+    "value": "agency",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div#edit-actions > input#edit-submit-news-content",
+    "x": 1326,
+    "y": 482,
+    "w": 90,
+    "h": 46,
+    "text": "apply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-thursday-november-5-2026--2",
+    "x": 340,
+    "y": 612,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for thursday, november 5, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-thursday-november-5-2026--2 > span",
+    "x": 340,
+    "y": 613,
+    "w": 495,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Thursday, November 5, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 687,
+    "w": 141,
+    "h": 20,
+    "text": "November 5, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 720,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 662,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-thursday-november-5-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-marks-start-of-hypothermia-season-urges-residents-to-call-the-shelter-hotline-to-connect-neighbors-in-need-with-free-accessible-transportation-to-shelter--2",
+    "x": 340,
+    "y": 864,
+    "w": 600,
+    "h": 128,
+    "level": 3,
+    "text": "mayor bowser marks start of hypothermia season, urges residents to call the shelter hotline to connect neighbors in need"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-marks-start-of-hypothermia-season-urges-residents-to-call-the-shelter-hotline-to-connect-neighbors-in-need-with-free-accessible-transportation-to-shelter--2 > span",
+    "x": 340,
+    "y": 865,
+    "w": 600,
+    "h": 124,
+    "text": "Mayor Bowser Marks Start of Hypothermia Season, Urges Residents to Call the Shel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 1003,
+    "w": 141,
+    "h": 20,
+    "text": "November 5, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 1036,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 946,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-wednesday-november-4-2026--2",
+    "x": 340,
+    "y": 1180,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for wednesday, november 4, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-wednesday-november-4-2026--2 > span",
+    "x": 340,
+    "y": 1181,
+    "w": 519,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Wednesday, November 4, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 1255,
+    "w": 141,
+    "h": 20,
+    "text": "November 4, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 1288,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 1230,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-wednesday-november-4-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-tuesday-november-3-2026--2",
+    "x": 340,
+    "y": 1432,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for tuesday, november 3, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-tuesday-november-3-2026--2 > span",
+    "x": 340,
+    "y": 1433,
+    "w": 483,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Tuesday, November 3, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 1507,
+    "w": 141,
+    "h": 20,
+    "text": "November 3, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 1540,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 1482,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-tuesday-november-3-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-monday-november-2-2026--2",
+    "x": 340,
+    "y": 1684,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for monday, november 2, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-monday-november-2-2026--2 > span",
+    "x": 340,
+    "y": 1685,
+    "w": 599,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Monday, November 2, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 1759,
+    "w": 140,
+    "h": 20,
+    "text": "November 2, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 1792,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 1734,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-monday-november-2-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-celebrates-veterans-and-military-families-month-and-25-years-of-the-mayors-office-of-veterans-affairs--3",
+    "x": 340,
+    "y": 1936,
+    "w": 600,
+    "h": 96,
+    "level": 3,
+    "text": "mayor bowser celebrates veterans and military families month and 25 years of the mayor’s office of veterans affairs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-celebrates-veterans-and-military-families-month-and-25-years-of-the-mayors-office-of-veterans-affairs--3 > span",
+    "x": 340,
+    "y": 1937,
+    "w": 578,
+    "h": 92,
+    "text": "Mayor Bowser Celebrates Veterans and Military Families Month and 25 Years of the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 2043,
+    "w": 140,
+    "h": 20,
+    "text": "November 2, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 2076,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 2002,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-celebrates-veterans-and-military-families-month-and-25-years-mayors-office"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-saturday-october-31-sunday-november-1-2026--2",
+    "x": 340,
+    "y": 2220,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for saturday, october 31 – sunday, november 1, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-saturday-october-31-sunday-november-1-2026--2 > span",
+    "x": 340,
+    "y": 2221,
+    "w": 587,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Saturday, October 31 – Sunday, November 1, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 2295,
+    "w": 132,
+    "h": 20,
+    "text": "October 31, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 2328,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 2270,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-saturday-october-31-sunday-november-1-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-friday-october302026--2",
+    "x": 340,
+    "y": 2472,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for friday, october 30, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-friday-october302026--2 > span",
+    "x": 340,
+    "y": 2473,
+    "w": 459,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Friday, October 30, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 2547,
+    "w": 136,
+    "h": 20,
+    "text": "October 30, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 2580,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 2522,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-friday-october-30-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-thursday-october-29-2026--2",
+    "x": 340,
+    "y": 2724,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for thursday, october 29, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-thursday-october-29-2026--2 > span",
+    "x": 340,
+    "y": 2725,
+    "w": 592,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Thursday, October 29, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 2799,
+    "w": 135,
+    "h": 20,
+    "text": "October 29, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 2832,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 2774,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-thursday-october-29-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-to-break-ground-on-the-new-upshur-recreation-center-in-ward-4--2",
+    "x": 340,
+    "y": 2976,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser to break ground on the new upshur recreation center in ward 4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-to-break-ground-on-the-new-upshur-recreation-center-in-ward-4--2 > span",
+    "x": 340,
+    "y": 2977,
+    "w": 562,
+    "h": 60,
+    "text": "Mayor Bowser to Break Ground on the New Upshur Recreation Center in Ward 4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 3051,
+    "w": 135,
+    "h": 20,
+    "text": "October 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 3084,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 3026,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-break-ground-new-upshur-recreation-center-ward-4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-wednesday-october-28-2026--2",
+    "x": 340,
+    "y": 3228,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for wednesday, october 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-wednesday-october-28-2026--2 > span",
+    "x": 340,
+    "y": 3229,
+    "w": 519,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Wednesday, October 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 3303,
+    "w": 135,
+    "h": 20,
+    "text": "October 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 3336,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 3278,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-wednesday-october-28-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-announces-the-start-of-dc-health-link-and-healthy-dc-plan-open-enrollment--2",
+    "x": 340,
+    "y": 3480,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser announces the start of dc health link and healthy dc plan open enrollment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-announces-the-start-of-dc-health-link-and-healthy-dc-plan-open-enrollment--2 > span",
+    "x": 340,
+    "y": 3481,
+    "w": 592,
+    "h": 60,
+    "text": "Mayor Bowser Announces the Start of DC Health Link and Healthy DC Plan Open Enro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 3555,
+    "w": 135,
+    "h": 20,
+    "text": "October 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 3588,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 3530,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-announces-start-dc-health-link-and-healthy-dc-plan-open-enrollment"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-tuesday-october-27-2026--2",
+    "x": 340,
+    "y": 3732,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for tuesday, october 27, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-tuesday-october-27-2026--2 > span",
+    "x": 340,
+    "y": 3733,
+    "w": 580,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Tuesday, October 27, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 3807,
+    "w": 133,
+    "h": 20,
+    "text": "October 27, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 3840,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 3782,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-tuesday-october-27-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-monday-october-26-2026--2",
+    "x": 340,
+    "y": 3984,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for monday, october 26, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-public-calendar-for-monday-october-26-2026--2 > span",
+    "x": 340,
+    "y": 3985,
+    "w": 575,
+    "h": 60,
+    "text": "Mayor Bowser Public Calendar for Monday, October 26, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 4059,
+    "w": 135,
+    "h": 20,
+    "text": "October 26, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 4092,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 4034,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-monday-october-26-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > h3#mayor-bowser-to-host-39th-annual-17th-street-high-heel-race--2",
+    "x": 340,
+    "y": 4236,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser to host 39th annual 17th street high heel race"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__content > h3#mayor-bowser-to-host-39th-annual-17th-street-high-heel-race--2 > span",
+    "x": 340,
+    "y": 4237,
+    "w": 567,
+    "h": 60,
+    "text": "Mayor Bowser to Host 39th Annual 17th Street High Heel Race"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > strong > time",
+    "x": 340,
+    "y": 4311,
+    "w": 135,
+    "h": 20,
+    "text": "October 26, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__content > span._tag",
+    "x": 340,
+    "y": 4344,
+    "w": 125,
+    "h": 40,
+    "text": "Press Releases"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action__panel > div.c-slab-action__action > a.c-link-pill.--arrow",
+    "x": 1250,
+    "y": 4286,
+    "w": 130,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-host-39th-annual-17th-street-high-heel-race"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > span.pager-page.pager-page--current",
+    "x": 512,
+    "y": 4452,
+    "w": 46,
+    "h": 46,
+    "label": "current",
+    "value": "1",
+    "via": "aria-current"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 578,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "2",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 630,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "3",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 682,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "4",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 734,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "5",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 785,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "6",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 837,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "7",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 889,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "8",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--number > a.pager-page",
+    "x": 941,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "9",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--next > a.pager-page",
+    "x": 1051,
+    "y": 4452,
+    "w": 62,
+    "h": 46,
+    "text": "next",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager__items.js-pager__items > li.pager-item.pager-item--last > a.pager-page",
+    "x": 1149,
+    "y": 4452,
+    "w": 58,
+    "h": 46,
+    "text": "last",
+    "href": "/news"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__l > div.c-emblem-section__emblem > img",
+    "x": 677,
+    "y": 4634,
+    "w": 86,
+    "h": 86,
+    "text": "we are dc",
+    "file": "we-are-dc-logo"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__top > div.c-emblem-section__left > p",
+    "x": 311,
+    "y": 4758,
+    "w": 98,
+    "h": 24,
+    "text": "Powered by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > strong",
+    "x": 329,
+    "y": 4806,
+    "w": 62,
+    "h": 23,
+    "text": "DC.gov"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > img",
+    "x": 250,
+    "y": 4855,
+    "w": 220,
+    "h": 101,
+    "text": "dc logo",
+    "file": "DC%20gov%20logo-min.png"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__left > p > a.c-link-arrow.--arrow",
+    "x": 265,
+    "y": 4980,
+    "w": 190,
+    "h": 24,
+    "text": "visit dc.gov's website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__top > div.c-emblem-section__right > p",
+    "x": 1025,
+    "y": 4758,
+    "w": 111,
+    "h": 24,
+    "text": "Presented by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__right > p > strong",
+    "x": 913,
+    "y": 4806,
+    "w": 334,
+    "h": 23,
+    "text": "Government of the District of Columbia"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile._set-small-text > div.c-profile__img > img",
+    "x": 935,
+    "y": 4855,
+    "w": 56,
+    "h": 56,
+    "text": "mayor-image.png",
+    "file": "Mayor-image.png"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile__content > p > strong",
+    "x": 1010,
+    "y": 4862,
+    "w": 95,
+    "h": 18,
+    "text": "Muriel Bowser"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile._set-small-text > div.c-profile__content > p",
+    "x": 1010,
+    "y": 4885,
+    "w": 214,
+    "h": 19,
+    "text": "Mayor of the District of Columbia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section__right > p > a.c-link-arrow.--arrow",
+    "x": 990,
+    "y": 4935,
+    "w": 180,
+    "h": 24,
+    "text": "visit the mayor's site",
+    "href": "/mayor"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > h2#we-want-to-hear-from-you--16",
+    "x": 276,
+    "y": 5121,
+    "w": 470,
+    "h": 29,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__cards-l > div.c-feedback__card.--left > p",
+    "x": 276,
+    "y": 5174,
+    "w": 470,
+    "h": 72,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--left > div.c-feedback__card-bottom > p",
+    "x": 276,
+    "y": 5331,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 503,
+    "y": 5320,
+    "w": 68,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card-bottom > div.c-feedback__card-actions > button.c-button-pill.c-feedback__form-open",
+    "x": 591,
+    "y": 5320,
+    "w": 62,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-top._set-bg-dark > p",
+    "x": 829,
+    "y": 5195,
+    "w": 327,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > button.c-button-pill.--icon",
+    "x": 821,
+    "y": 5328,
+    "w": 181,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback__card.--right > div.c-feedback__card-bottom._set-bg-mid > a.c-link-arrow.--arrow",
+    "x": 1026,
+    "y": 5340,
+    "w": 111,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__updated",
+    "x": 0,
+    "y": 5520,
+    "w": 720,
+    "h": 96,
+    "text": "Last updated: 12:26 PM EST December 9, 2025"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-bottom > div.node-attribution > div.node-attribution__maintainer",
+    "x": 720,
+    "y": 5520,
+    "w": 720,
+    "h": 96,
+    "text": "Maintained by"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution > div.node-attribution__maintainer > a",
+    "x": 1356,
+    "y": 5556,
+    "w": 60,
+    "h": 22,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__l > div.site-footer__top-l > a.site-footer__logo",
+    "x": 24,
+    "y": 5668,
+    "w": 186,
+    "h": 96,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 400,
+    "y": 5704,
+    "w": 80,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 530,
+    "y": 5704,
+    "w": 141,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 721,
+    "y": 5704,
+    "w": 113,
+    "h": 24,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-center-l > div.site-footer__accessibility > a",
+    "x": 922,
+    "y": 5703,
+    "w": 115,
+    "h": 27,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__top-l > div.site-footer__submit-request > a",
+    "x": 1228,
+    "y": 5707,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 24,
+    "y": 5808,
+    "w": 112,
+    "h": 22,
+    "text": "District News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a.is-active",
+    "x": 24,
+    "y": 5847,
+    "w": 101,
+    "h": 18,
+    "text": "citywide news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5880,
+    "w": 125,
+    "h": 18,
+    "text": "citywide calendar",
+    "href": "/events"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5913,
+    "w": 192,
+    "h": 18,
+    "text": "subscribe to receive emails",
+    "href": "/service/user.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5946,
+    "w": 163,
+    "h": 18,
+    "text": "subscribe to text alerts",
+    "href": "/index.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5979,
+    "w": 172,
+    "h": 18,
+    "text": "subscribe to newsletters",
+    "href": "/accounts/DCWASH/subscriber/new"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 306,
+    "y": 5808,
+    "w": 143,
+    "h": 22,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5847,
+    "w": 66,
+    "h": 18,
+    "text": "green dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5880,
+    "w": 111,
+    "h": 18,
+    "text": "age-friendly dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5913,
+    "w": 104,
+    "h": 18,
+    "text": "sustainable dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5946,
+    "w": 82,
+    "h": 18,
+    "text": "connect dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5979,
+    "w": 92,
+    "h": 18,
+    "text": "great streets",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 6012,
+    "w": 67,
+    "h": 18,
+    "text": "ready dc",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 587,
+    "y": 5808,
+    "w": 82,
+    "h": 22,
+    "text": "About DC"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5847,
+    "w": 61,
+    "h": 18,
+    "text": "open dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5880,
+    "w": 49,
+    "h": 18,
+    "text": "budget",
+    "href": "/budget"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5913,
+    "w": 93,
+    "h": 18,
+    "text": "emancipation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5946,
+    "w": 146,
+    "h": 18,
+    "text": "consumer protection",
+    "href": "/consumer-protection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5979,
+    "w": 104,
+    "h": 18,
+    "text": "property quest",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.--has-submenu > div.accordion-menu__top > span",
+    "x": 869,
+    "y": 5808,
+    "w": 94,
+    "h": 22,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 869,
+    "y": 5847,
+    "w": 162,
+    "h": 18,
+    "text": "service request center",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 1278,
+    "y": 5808,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__count",
+    "x": 1278,
+    "y": 5829,
+    "w": 122,
+    "h": 19,
+    "text": "41 pages available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__action",
+    "x": 1278,
+    "y": 5849,
+    "w": 102,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 1278,
+    "y": 5886,
+    "w": 116,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__count",
+    "x": 1278,
+    "y": 5907,
+    "w": 116,
+    "h": 19,
+    "text": "72 feeds available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__action",
+    "x": 1278,
+    "y": 5927,
+    "w": 93,
+    "h": 19,
+    "text": "Read Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > a",
+    "x": 1278,
+    "y": 5964,
+    "w": 138,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__count",
+    "x": 1278,
+    "y": 6003,
+    "w": 138,
+    "h": 19,
+    "text": "27 channels available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item__text > p.social-item__action",
+    "x": 1278,
+    "y": 6024,
+    "w": 102,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer__bottom-l > div.site-footer__legal > p",
+    "x": 24,
+    "y": 6128,
+    "w": 297,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 937,
+    "y": 6128,
+    "w": 64,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1021,
+    "y": 6128,
+    "w": 81,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1122,
+    "y": 6128,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1274,
+    "y": 6128,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 151,
+    "controls": 79,
+    "total": 0
+   },
+   "groups": []
+  }
+ },
+ "eds": {
+  "url": "https://main--7ddb4c84--aemcoder.aem.page/news",
+  "at": "2026-11-06T21:56:39.240Z",
+  "status": 200,
+  "settlePasses": 2,
+  "docH": 6266,
+  "root": "main#main-content",
+  "items": [
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main > div.shl-main-l > a.shl-logo",
+    "x": 24,
+    "y": 35,
+    "w": 186,
+    "h": 127,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-l > a.shl-logo > img",
+    "x": 24,
+    "y": 55,
+    "w": 186,
+    "h": 86,
+    "text": "home",
+    "file": "logo"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1156,
+    "y": 43,
+    "w": 84,
+    "h": 20,
+    "text": "translate"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-translate-toggle-slot-tall > button.shl-translate-toggle",
+    "x": 1156,
+    "y": 43,
+    "w": 84,
+    "h": 20,
+    "label": "trigger",
+    "value": "translate",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "text": "1"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-alerts-toggle-slot-tall > button.shl-alerts-toggle",
+    "x": 1269,
+    "y": 39,
+    "w": 23,
+    "h": 27,
+    "label": "trigger",
+    "value": "1",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "text": "search"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.shl-main-top > div.shl-search-toggle-slot-tall > button.shl-search-toggle",
+    "x": 1322,
+    "y": 35,
+    "w": 94,
+    "h": 36,
+    "label": "trigger",
+    "value": "search",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > a",
+    "x": 916,
+    "y": 100,
+    "w": 79,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > a",
+    "x": 1055,
+    "y": 100,
+    "w": 142,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > a",
+    "x": 1257,
+    "y": 99,
+    "w": 113,
+    "h": 27,
+    "text": "government",
+    "href": "/"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > button.menu-main-toggle.js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "text": ""
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-main > li.menu-item.mod-menu-level-0 > button.menu-main-toggle.js-dropover-toggle",
+    "x": 1376,
+    "y": 100,
+    "w": 24,
+    "h": 24,
+    "label": "trigger",
+    "value": "",
+    "via": "trigger"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > a.c-breadcrumbs-link.mod-home-link",
+    "x": 24,
+    "y": 208,
+    "w": 43,
+    "h": 22,
+    "text": "home",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ol > li > span.c-breadcrumbs-text",
+    "x": 113,
+    "y": 211,
+    "w": 63,
+    "h": 19,
+    "text": "All News"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-header > section.c-hero-simple.set-bg-light > h1#all-news",
+    "x": 24,
+    "y": 242,
+    "w": 1392,
+    "h": 44,
+    "level": 1,
+    "text": "all news"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-layout-container-color-wrapper > div.c-layout-container-l-content-width > h2#news-gt-news-listing",
+    "x": 24,
+    "y": 418,
+    "w": 1392,
+    "h": 40,
+    "level": 2,
+    "text": "news > news listing"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.side-filters > div.js-form-item.form-item > label",
+    "x": 24,
+    "y": 492,
+    "w": 121,
+    "h": 22,
+    "text": "Release Type"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-all",
+    "x": 24,
+    "y": 538,
+    "w": 42,
+    "h": 21,
+    "text": "all",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-76",
+    "x": 24,
+    "y": 584,
+    "w": 40,
+    "h": 21,
+    "text": "news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-81",
+    "x": 24,
+    "y": 629,
+    "w": 110,
+    "h": 21,
+    "text": "press releases",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-471",
+    "x": 24,
+    "y": 675,
+    "w": 78,
+    "h": 21,
+    "text": "advisories",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-481",
+    "x": 24,
+    "y": 720,
+    "w": 161,
+    "h": 21,
+    "text": "letters from the mayor",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul > li > a#edit-field-release-type-486",
+    "x": 24,
+    "y": 766,
+    "w": 85,
+    "h": 21,
+    "text": "newsletters",
+    "href": "/news"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div.filterset-filters > span.filterset-label.mod-filters",
+    "x": 1009,
+    "y": 494,
+    "w": 50,
+    "h": 21,
+    "text": "Filters"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 1069,
+    "y": 482,
+    "w": 102,
+    "h": 46,
+    "text": "topics"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 1069,
+    "y": 482,
+    "w": 102,
+    "h": 46,
+    "label": "trigger",
+    "value": "topics",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 1181,
+    "y": 482,
+    "w": 109,
+    "h": 46,
+    "text": "agency"
+   },
+   {
+    "kind": "control",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset-filters > div.combodrop.js-combodrop > button.combodrop-toggle.js-combodrop-toggle",
+    "x": 1181,
+    "y": 482,
+    "w": 109,
+    "h": 46,
+    "label": "trigger",
+    "value": "agency",
+    "via": "trigger"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.filterset > div#edit-actions > input#edit-submit-news-content",
+    "x": 1326,
+    "y": 482,
+    "w": 90,
+    "h": 46,
+    "text": "apply"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-thursday-november-5-2026-2",
+    "x": 340,
+    "y": 612,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for thursday, november 5, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-thursday-november-5-2026-2 > span",
+    "x": 340,
+    "y": 613,
+    "w": 496,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Thursday, November 5, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 687,
+    "w": 138,
+    "h": 20,
+    "text": "November 5, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 662,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-thursday-november-5-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-marks-start-of-hypothermia-season-urges-residents-to-call-the-shelter-hotline-to-connect-neighbors-in-need-with-free-accessible-transportation-to-shelter-2",
+    "x": 340,
+    "y": 864,
+    "w": 600,
+    "h": 128,
+    "level": 3,
+    "text": "mayor bowser marks start of hypothermia season, urges residents to call the shelter hotline to connect neighbors in need"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-marks-start-of-hypothermia-season-urges-residents-to-call-the-shelter-hotline-to-connect-neighbors-in-need-with-free-accessible-transportation-to-shelter-2 > span",
+    "x": 340,
+    "y": 865,
+    "w": 598,
+    "h": 125,
+    "text": "Mayor Bowser Marks Start of Hypothermia Season, Urges Residents to Call the Shel"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 1003,
+    "w": 138,
+    "h": 20,
+    "text": "November 5, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 946,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-wednesday-november-4-2026-2",
+    "x": 340,
+    "y": 1180,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for wednesday, november 4, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-wednesday-november-4-2026-2 > span",
+    "x": 340,
+    "y": 1181,
+    "w": 521,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Wednesday, November 4, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 1255,
+    "w": 138,
+    "h": 20,
+    "text": "November 4, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 1230,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-wednesday-november-4-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-tuesday-november-3-2026-2",
+    "x": 340,
+    "y": 1432,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for tuesday, november 3, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-tuesday-november-3-2026-2 > span",
+    "x": 340,
+    "y": 1433,
+    "w": 484,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Tuesday, November 3, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 1507,
+    "w": 138,
+    "h": 20,
+    "text": "November 3, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 1482,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-tuesday-november-3-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-monday-november-2-2026-2",
+    "x": 340,
+    "y": 1684,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for monday, november 2, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-monday-november-2-2026-2 > span",
+    "x": 340,
+    "y": 1685,
+    "w": 599,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Monday, November 2, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 1759,
+    "w": 138,
+    "h": 20,
+    "text": "November 2, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 1734,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-monday-november-2-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-celebrates-veterans-and-military-families-month-and-25-years-of-the-mayors-office-of-veterans-affairs-3",
+    "x": 340,
+    "y": 1936,
+    "w": 600,
+    "h": 96,
+    "level": 3,
+    "text": "mayor bowser celebrates veterans and military families month and 25 years of the mayor’s office of veterans affairs"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-celebrates-veterans-and-military-families-month-and-25-years-of-the-mayors-office-of-veterans-affairs-3 > span",
+    "x": 340,
+    "y": 1937,
+    "w": 579,
+    "h": 93,
+    "text": "Mayor Bowser Celebrates Veterans and Military Families Month and 25 Years of the"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 2043,
+    "w": 138,
+    "h": 20,
+    "text": "November 2, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 2002,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-celebrates-veterans-and-military-families-month-and-25-years-mayors-office"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-saturday-october-31-sunday-november-1-2026-2",
+    "x": 340,
+    "y": 2220,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for saturday, october 31 – sunday, november 1, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-saturday-october-31-sunday-november-1-2026-2 > span",
+    "x": 340,
+    "y": 2221,
+    "w": 587,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Saturday, October 31 – Sunday, November 1, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 2295,
+    "w": 131,
+    "h": 20,
+    "text": "October 31, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 2270,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-saturday-october-31-sunday-november-1-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-friday-october302026-2",
+    "x": 340,
+    "y": 2472,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for friday, october 30, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-friday-october302026-2 > span",
+    "x": 340,
+    "y": 2473,
+    "w": 596,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Friday, October 30, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 2547,
+    "w": 131,
+    "h": 20,
+    "text": "October 30, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 2522,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-friday-october-30-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-thursday-october-29-2026-2",
+    "x": 340,
+    "y": 2724,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for thursday, october 29, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-thursday-october-29-2026-2 > span",
+    "x": 340,
+    "y": 2725,
+    "w": 592,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Thursday, October 29, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 2799,
+    "w": 131,
+    "h": 20,
+    "text": "October 29, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 2774,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-thursday-october-29-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-to-break-ground-on-the-new-upshur-recreation-center-in-ward-4-2",
+    "x": 340,
+    "y": 2976,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser to break ground on the new upshur recreation center in ward 4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-to-break-ground-on-the-new-upshur-recreation-center-in-ward-4-2 > span",
+    "x": 340,
+    "y": 2977,
+    "w": 561,
+    "h": 61,
+    "text": "Mayor Bowser to Break Ground on the New Upshur Recreation Center in Ward 4"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 3051,
+    "w": 131,
+    "h": 20,
+    "text": "October 28, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 3026,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-break-ground-new-upshur-recreation-center-ward-4"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-wednesday-october-28-2026-2",
+    "x": 340,
+    "y": 3228,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for wednesday, october 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-wednesday-october-28-2026-2 > span",
+    "x": 340,
+    "y": 3229,
+    "w": 521,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Wednesday, October 28, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 3303,
+    "w": 131,
+    "h": 20,
+    "text": "October 28, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 3278,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-wednesday-october-28-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-announces-the-start-of-dc-health-link-and-healthy-dc-plan-open-enrollment-2",
+    "x": 340,
+    "y": 3480,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser announces the start of dc health link and healthy dc plan open enrollment"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-announces-the-start-of-dc-health-link-and-healthy-dc-plan-open-enrollment-2 > span",
+    "x": 340,
+    "y": 3481,
+    "w": 589,
+    "h": 61,
+    "text": "Mayor Bowser Announces the Start of DC Health Link and Healthy DC Plan Open Enro"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 3555,
+    "w": 131,
+    "h": 20,
+    "text": "October 28, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 3530,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-announces-start-dc-health-link-and-healthy-dc-plan-open-enrollment"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-tuesday-october-27-2026-2",
+    "x": 340,
+    "y": 3732,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for tuesday, october 27, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-tuesday-october-27-2026-2 > span",
+    "x": 340,
+    "y": 3733,
+    "w": 580,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Tuesday, October 27, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 3807,
+    "w": 131,
+    "h": 20,
+    "text": "October 27, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 3782,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-tuesday-october-27-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-monday-october-26-2026-2",
+    "x": 340,
+    "y": 3984,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser public calendar for monday, october 26, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-public-calendar-for-monday-october-26-2026-2 > span",
+    "x": 340,
+    "y": 3985,
+    "w": 575,
+    "h": 61,
+    "text": "Mayor Bowser Public Calendar for Monday, October 26, 2026"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 4059,
+    "w": 131,
+    "h": 20,
+    "text": "October 26, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 4034,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-public-calendar-monday-october-26-2026"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-panel > div.c-slab-action-content > h3#mayor-bowser-to-host-39th-annual-17th-street-high-heel-race-2",
+    "x": 340,
+    "y": 4236,
+    "w": 600,
+    "h": 64,
+    "level": 3,
+    "text": "mayor bowser to host 39th annual 17th street high heel race"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > h3#mayor-bowser-to-host-39th-annual-17th-street-high-heel-race-2 > span",
+    "x": 340,
+    "y": 4237,
+    "w": 570,
+    "h": 61,
+    "text": "Mayor Bowser to Host 39th Annual 17th Street High Heel Race"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-content > p > strong",
+    "x": 340,
+    "y": 4311,
+    "w": 131,
+    "h": 20,
+    "text": "October 26, 2026"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-slab-action-action > p.tp > a.c-link-pill.mod-arrow",
+    "x": 1248,
+    "y": 4286,
+    "w": 132,
+    "h": 48,
+    "text": "read more",
+    "href": "/news/mayor-bowser-host-39th-annual-17th-street-high-heel-race"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 576,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "2",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 627,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "3",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 679,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "4",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 731,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "5",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 783,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "6",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 834,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "7",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 886,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "8",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-number > a.pager-page",
+    "x": 938,
+    "y": 4452,
+    "w": 32,
+    "h": 46,
+    "text": "9",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-next > a.pager-page",
+    "x": 1054,
+    "y": 4452,
+    "w": 63,
+    "h": 46,
+    "text": "next",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "ul.pager-items > li.pager-item.pager-item-last > a.pager-page",
+    "x": 1152,
+    "y": 4452,
+    "w": 58,
+    "h": 46,
+    "text": "last",
+    "href": "/news"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-emblem > picture.tp > img",
+    "x": 677,
+    "y": 4634,
+    "w": 86,
+    "h": 86,
+    "text": "we are dc",
+    "file": "media_125e7df68bea2963c49420c530124feaa5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-top > div.c-emblem-section-left > p",
+    "x": 310,
+    "y": 4758,
+    "w": 99,
+    "h": 24,
+    "text": "Powered by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-left > p > strong",
+    "x": 329,
+    "y": 4806,
+    "w": 62,
+    "h": 23,
+    "text": "DC.gov"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "p > picture.tp > img",
+    "x": 250,
+    "y": 4855,
+    "w": 220,
+    "h": 101,
+    "text": "dc logo",
+    "file": "media_1db1f5b26bf155ce68648f45c106930763"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-left > p > a.c-link-arrow.mod-arrow",
+    "x": 264,
+    "y": 4980,
+    "w": 192,
+    "h": 24,
+    "text": "visit dc.gov's website",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-top > div.c-emblem-section-right > p",
+    "x": 1024,
+    "y": 4758,
+    "w": 111,
+    "h": 24,
+    "text": "Presented by"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-right > p > strong",
+    "x": 913,
+    "y": 4806,
+    "w": 334,
+    "h": 23,
+    "text": "Government of the District of Columbia"
+   },
+   {
+    "kind": "image",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile-img > picture.tp > img",
+    "x": 937,
+    "y": 4855,
+    "w": 56,
+    "h": 56,
+    "text": "mayor-image.png",
+    "file": "media_14f9a3a9fb9c918312a220030255cb92c5"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile-content > p > strong",
+    "x": 1012,
+    "y": 4862,
+    "w": 95,
+    "h": 18,
+    "text": "Muriel Bowser"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-profile.set-small-text > div.c-profile-content > p",
+    "x": 1012,
+    "y": 4885,
+    "w": 212,
+    "h": 19,
+    "text": "Mayor of the District of Columbia"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-emblem-section-right > p > a.c-link-arrow.mod-arrow",
+    "x": 990,
+    "y": 4935,
+    "w": 179,
+    "h": 24,
+    "text": "visit the mayor's site",
+    "href": "/mayor"
+   },
+   {
+    "kind": "heading",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > h2#we-want-to-hear-from-you-16",
+    "x": 276,
+    "y": 5121,
+    "w": 470,
+    "h": 29,
+    "level": 2,
+    "text": "we want to hear from you."
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-cards-l > div.c-feedback-card.mod-left > p",
+    "x": 276,
+    "y": 5174,
+    "w": 470,
+    "h": 72,
+    "text": "Your feedback is important to us. We use it to improve this website and District"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-left > div.c-feedback-card-bottom > p",
+    "x": 276,
+    "y": 5331,
+    "w": 203,
+    "h": 27,
+    "text": "Was this page helpful?"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 503,
+    "y": 5320,
+    "w": 69,
+    "h": 48,
+    "text": "yes"
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom > div.c-feedback-card-actions > button.c-button-pill.c-feedback-form-open",
+    "x": 593,
+    "y": 5320,
+    "w": 63,
+    "h": 48,
+    "text": "no"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-top.set-bg-dark > p",
+    "x": 829,
+    "y": 5195,
+    "w": 327,
+    "h": 53,
+    "text": "Tell us what you think in our 5 minute survey."
+   },
+   {
+    "kind": "button",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card.mod-right > div.c-feedback-card-bottom.set-bg-mid > button.c-button-pill.mod-icon",
+    "x": 821,
+    "y": 5328,
+    "w": 181,
+    "h": 48,
+    "text": "send feedback"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.c-feedback-card-bottom.set-bg-mid > p.tp > a.c-link-arrow.mod-arrow",
+    "x": 1026,
+    "y": 5340,
+    "w": 110,
+    "h": 24,
+    "text": "contact us",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": true,
+    "inChrome": false,
+    "path": "div.node-attribution-maintainer > p.tp > a",
+    "x": 1354,
+    "y": 5556,
+    "w": 62,
+    "h": 22,
+    "text": "dc.gov",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-l > div.site-footer-top-l > a.site-footer-logo",
+    "x": 24,
+    "y": 5668,
+    "w": 186,
+    "h": 96,
+    "text": "",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 401,
+    "y": 5704,
+    "w": 80,
+    "h": 24,
+    "text": "services",
+    "href": "/services"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > a",
+    "x": 531,
+    "y": 5704,
+    "w": 141,
+    "h": 24,
+    "text": "neighborhoods",
+    "href": "/neighborhoods"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-simple-footer > li.menu-item > span",
+    "x": 721,
+    "y": 5704,
+    "w": 114,
+    "h": 24,
+    "text": "Government"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-center-l > div.site-footer-accessibility > a",
+    "x": 923,
+    "y": 5703,
+    "w": 114,
+    "h": 27,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-top-l > div.site-footer-submit-request > a",
+    "x": 1228,
+    "y": 5707,
+    "w": 113,
+    "h": 19,
+    "text": "submit a request",
+    "href": "/citizen/s/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 24,
+    "y": 5808,
+    "w": 110,
+    "h": 22,
+    "text": "District News"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a.is-active",
+    "x": 24,
+    "y": 5847,
+    "w": 100,
+    "h": 18,
+    "text": "citywide news",
+    "href": "/news"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5880,
+    "w": 124,
+    "h": 18,
+    "text": "citywide calendar",
+    "href": "/events"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5913,
+    "w": 193,
+    "h": 18,
+    "text": "subscribe to receive emails",
+    "href": "/service/user.html"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5946,
+    "w": 162,
+    "h": 18,
+    "text": "subscribe to text alerts",
+    "href": "/index.php"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 24,
+    "y": 5979,
+    "w": 170,
+    "h": 18,
+    "text": "subscribe to newsletters",
+    "href": "/accounts/DCWASH/subscriber/new"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 306,
+    "y": 5808,
+    "w": 141,
+    "h": 22,
+    "text": "District Initiatives"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5847,
+    "w": 65,
+    "h": 18,
+    "text": "green dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5880,
+    "w": 112,
+    "h": 18,
+    "text": "age-friendly dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5913,
+    "w": 104,
+    "h": 18,
+    "text": "sustainable dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5946,
+    "w": 81,
+    "h": 18,
+    "text": "connect dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 5979,
+    "w": 89,
+    "h": 18,
+    "text": "great streets",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 306,
+    "y": 6012,
+    "w": 67,
+    "h": 18,
+    "text": "ready dc",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 587,
+    "y": 5808,
+    "w": 82,
+    "h": 22,
+    "text": "About DC"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5847,
+    "w": 61,
+    "h": 18,
+    "text": "open dc",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5880,
+    "w": 49,
+    "h": 18,
+    "text": "budget",
+    "href": "/budget"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5913,
+    "w": 94,
+    "h": 18,
+    "text": "emancipation",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5946,
+    "w": 145,
+    "h": 18,
+    "text": "consumer protection",
+    "href": "/consumer-protection"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 587,
+    "y": 5979,
+    "w": 103,
+    "h": 18,
+    "text": "property quest",
+    "href": "/"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.menu-item.mod-has-submenu > div.accordion-menu-top > span",
+    "x": 869,
+    "y": 5808,
+    "w": 93,
+    "h": 22,
+    "text": "Contact Us"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.submenu > li.menu-item > a",
+    "x": 869,
+    "y": 5847,
+    "w": 160,
+    "h": 18,
+    "text": "service request center",
+    "href": "/"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 1277,
+    "y": 5808,
+    "w": 122,
+    "h": 19,
+    "text": "facebook pages",
+    "href": "/dc-agency-facebook-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-count",
+    "x": 1277,
+    "y": 5829,
+    "w": 122,
+    "h": 19,
+    "text": "41 pages available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-action",
+    "x": 1277,
+    "y": 5849,
+    "w": 101,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 1277,
+    "y": 5886,
+    "w": 114,
+    "h": 19,
+    "text": "x feeds",
+    "href": "/dc-agency-twitter-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-count",
+    "x": 1277,
+    "y": 5907,
+    "w": 114,
+    "h": 19,
+    "text": "72 feeds available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-action",
+    "x": 1277,
+    "y": 5927,
+    "w": 91,
+    "h": 19,
+    "text": "Read Now"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > a",
+    "x": 1277,
+    "y": 5964,
+    "w": 139,
+    "h": 37,
+    "text": "youtube channels.",
+    "href": "/dc-agency-youtube-links"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-count",
+    "x": 1277,
+    "y": 6003,
+    "w": 139,
+    "h": 19,
+    "text": "27 channels available"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "li.social-item > div.social-item-text > p.social-item-action",
+    "x": 1277,
+    "y": 6024,
+    "w": 101,
+    "h": 19,
+    "text": "Follow Now"
+   },
+   {
+    "kind": "text",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "div.site-footer-bottom-l > div.site-footer-legal > p",
+    "x": 24,
+    "y": 6128,
+    "w": 296,
+    "h": 19,
+    "text": "Copyright © 2026 DC.Gov. All rights reserved."
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 937,
+    "y": 6128,
+    "w": 63,
+    "h": 17,
+    "text": "about dc",
+    "href": "/about-dc"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1021,
+    "y": 6128,
+    "w": 80,
+    "h": 17,
+    "text": "accessibility",
+    "href": "/dcgov-accessibility-policy"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1121,
+    "y": 6128,
+    "w": 133,
+    "h": 17,
+    "text": "privacy and security",
+    "href": "/privacy-and-security"
+   },
+   {
+    "kind": "link",
+    "state": "visible",
+    "variable": false,
+    "inRoot": false,
+    "inChrome": true,
+    "path": "ul.menu.menu-policies-footer > li.menu-item > a",
+    "x": 1274,
+    "y": 6128,
+    "w": 142,
+    "h": 17,
+    "text": "terms and conditions",
+    "href": "/terms-and-conditions-use"
+   }
+  ],
+  "clip": {
+   "counts": {
+    "textClipped": 0,
+    "textHidden": 0,
+    "controlHidden": 0,
+    "controlClipped": 0,
+    "clamped": 0,
+    "collapsed": 0,
+    "scrollHidden": 0,
+    "horizontal": 0,
+    "offPage": 0,
+    "textNodes": 151,
+    "controls": 79,
+    "total": 0
+   },
+   "groups": [],
+   "findings": []
+  }
+ },
+ "bands": [
+  {
+   "index": 0,
+   "heading": "(top)",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 1,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 1,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 1,
+   "heading": "all news",
+   "variable": false,
+   "origin": {
+    "link": 0,
+    "button": 0,
+    "text": 0,
+    "image": 0
+   },
+   "eds": {
+    "link": 0,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 0,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 2,
+   "heading": "news > news listing",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 3,
+    "text": 2,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 3,
+   "heading": "mayor bowser public calendar for thursday, november 5, 2026",
+   "variable": false,
+   "origin": {
+    "link": 5,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 5,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 4,
+   "heading": "mayor bowser marks start of hypothermia season, urges residents to call the shelter hotline to connect neighbors in need",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 5,
+   "heading": "mayor bowser public calendar for wednesday, november 4, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 6,
+   "heading": "mayor bowser public calendar for tuesday, november 3, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 7,
+   "heading": "mayor bowser public calendar for monday, november 2, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 8,
+   "heading": "mayor bowser celebrates veterans and military families month and 25 years of the mayor’s office of veterans affairs",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 9,
+   "heading": "mayor bowser public calendar for saturday, october 31 – sunday, november 1, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 10,
+   "heading": "mayor bowser public calendar for friday, october 30, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 11,
+   "heading": "mayor bowser public calendar for thursday, october 29, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 12,
+   "heading": "mayor bowser to break ground on the new upshur recreation center in ward 4",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 13,
+   "heading": "mayor bowser public calendar for wednesday, october 28, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 14,
+   "heading": "mayor bowser announces the start of dc health link and healthy dc plan open enrollment",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 15,
+   "heading": "mayor bowser public calendar for tuesday, october 27, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 16,
+   "heading": "mayor bowser public calendar for monday, october 26, 2026",
+   "variable": false,
+   "origin": {
+    "link": 1,
+    "button": 0,
+    "text": 3,
+    "image": 0
+   },
+   "eds": {
+    "link": 1,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 2,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  },
+  {
+   "index": 17,
+   "heading": "mayor bowser to host 39th annual 17th street high heel race",
+   "variable": false,
+   "origin": {
+    "link": 13,
+    "button": 0,
+    "text": 9,
+    "image": 3
+   },
+   "eds": {
+    "link": 13,
+    "linkHidden": 0,
+    "button": 0,
+    "buttonHidden": 0,
+    "text": 8,
+    "textHidden": 0,
+    "image": 3,
+    "imageHidden": 0
+   },
+   "findings": [
+    "CONTROL MISSING"
+   ]
+  },
+  {
+   "index": 18,
+   "heading": "we want to hear from you.",
+   "variable": false,
+   "origin": {
+    "link": 2,
+    "button": 3,
+    "text": 5,
+    "image": 0
+   },
+   "eds": {
+    "link": 2,
+    "linkHidden": 0,
+    "button": 3,
+    "buttonHidden": 0,
+    "text": 3,
+    "textHidden": 0,
+    "image": 0,
+    "imageHidden": 0
+   },
+   "findings": []
+  }
+ ],
+ "findings": [
+  {
+   "sev": "🟡",
+   "kind": "CONTROL MISSING",
+   "msg": "current = \"1\" (band \"mayor bowser to host 39th annual 17th street high heel race\") has no served counterpart",
+   "band": 17,
+   "label": "current",
+   "value": "1"
+  }
+ ],
+ "totals": {
+  "missingHeadings": 0,
+  "hiddenHeadings": 0,
+  "extraHeadings": 0,
+  "missingLinks": 0,
+  "hiddenLinks": 0,
+  "movedLinks": 0,
+  "extraLinks": 0,
+  "missingButtons": 0,
+  "hiddenButtons": 0,
+  "controlState": 0,
+  "countDeltas": 0,
+  "findings": 1,
+  "structural": 0,
+  "missing": 0,
+  "hidden": 0
+ },
+ "textBoxes": {
+  "origin": [
+   {
+    "x": 1183,
+    "y": 43,
+    "w": 57,
+    "h": 17
+   },
+   {
+    "x": 1282,
+    "y": 41,
+    "w": 4,
+    "h": 11
+   },
+   {
+    "x": 1360,
+    "y": 43,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 917,
+    "y": 100,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 1057,
+    "y": 100,
+    "w": 140,
+    "h": 24
+   },
+   {
+    "x": 1257,
+    "y": 100,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 24,
+    "y": 211,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 113,
+    "y": 211,
+    "w": 62,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 240,
+    "w": 161,
+    "h": 48
+   },
+   {
+    "x": 569,
+    "y": 419,
+    "w": 303,
+    "h": 38
+   },
+   {
+    "x": 24,
+    "y": 491,
+    "w": 122,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 539,
+    "w": 18,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 585,
+    "w": 40,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 630,
+    "w": 109,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 676,
+    "w": 75,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 721,
+    "w": 161,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 767,
+    "w": 86,
+    "h": 19
+   },
+   {
+    "x": 1015,
+    "y": 495,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1089,
+    "y": 495,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1200,
+    "y": 495,
+    "w": 53,
+    "h": 19
+   },
+   {
+    "x": 340,
+    "y": 613,
+    "w": 495,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 645,
+    "w": 207,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 687,
+    "w": 141,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 731,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 676,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 865,
+    "w": 568,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 897,
+    "w": 600,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 929,
+    "w": 448,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 961,
+    "w": 282,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1003,
+    "w": 141,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1047,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 960,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1181,
+    "w": 519,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1213,
+    "w": 207,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1255,
+    "w": 141,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1299,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 1244,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1433,
+    "w": 483,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1465,
+    "w": 206,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1507,
+    "w": 141,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1551,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 1496,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1685,
+    "w": 599,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1717,
+    "w": 85,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1759,
+    "w": 140,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1803,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 1748,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1937,
+    "w": 528,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 1969,
+    "w": 578,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2001,
+    "w": 180,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2043,
+    "w": 140,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2087,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 2016,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2221,
+    "w": 587,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2253,
+    "w": 342,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2295,
+    "w": 132,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2339,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 2284,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2473,
+    "w": 459,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2505,
+    "w": 198,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2547,
+    "w": 136,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2591,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 2536,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2725,
+    "w": 592,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2757,
+    "w": 100,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 2799,
+    "w": 135,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2843,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 2788,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2977,
+    "w": 562,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3009,
+    "w": 313,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3051,
+    "w": 135,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3095,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 3040,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3229,
+    "w": 519,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3261,
+    "w": 197,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3303,
+    "w": 135,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3347,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 3292,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3481,
+    "w": 592,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3513,
+    "w": 419,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3555,
+    "w": 135,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3599,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 3544,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3733,
+    "w": 580,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3765,
+    "w": 97,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 3807,
+    "w": 133,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3851,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 3796,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3985,
+    "w": 575,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 4017,
+    "w": 100,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 4059,
+    "w": 135,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 4103,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 4048,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 4237,
+    "w": 567,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 4269,
+    "w": 113,
+    "h": 28
+   },
+   {
+    "x": 340,
+    "y": 4311,
+    "w": 135,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 4355,
+    "w": 97,
+    "h": 17
+   },
+   {
+    "x": 1272,
+    "y": 4300,
+    "w": 86,
+    "h": 20
+   },
+   {
+    "x": 528,
+    "y": 4463,
+    "w": 8,
+    "h": 24
+   },
+   {
+    "x": 589,
+    "y": 4463,
+    "w": 11,
+    "h": 24
+   },
+   {
+    "x": 640,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 692,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 744,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 795,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 848,
+    "y": 4463,
+    "w": 11,
+    "h": 24
+   },
+   {
+    "x": 899,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 950,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 1000,
+    "y": 4463,
+    "w": 15,
+    "h": 24
+   },
+   {
+    "x": 1051,
+    "y": 4463,
+    "w": 42,
+    "h": 24
+   },
+   {
+    "x": 1149,
+    "y": 4463,
+    "w": 39,
+    "h": 24
+   },
+   {
+    "x": 311,
+    "y": 4758,
+    "w": 98,
+    "h": 22
+   },
+   {
+    "x": 329,
+    "y": 4806,
+    "w": 62,
+    "h": 23
+   },
+   {
+    "x": 265,
+    "y": 4983,
+    "w": 158,
+    "h": 19
+   },
+   {
+    "x": 1025,
+    "y": 4758,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 913,
+    "y": 4806,
+    "w": 334,
+    "h": 23
+   },
+   {
+    "x": 1010,
+    "y": 4862,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 1010,
+    "y": 4885,
+    "w": 214,
+    "h": 17
+   },
+   {
+    "x": 990,
+    "y": 4938,
+    "w": 148,
+    "h": 19
+   },
+   {
+    "x": 276,
+    "y": 5122,
+    "w": 256,
+    "h": 26
+   },
+   {
+    "x": 276,
+    "y": 5174,
+    "w": 448,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 5198,
+    "w": 404,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 5222,
+    "w": 100,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 5332,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 523,
+    "y": 5334,
+    "w": 28,
+    "h": 20
+   },
+   {
+    "x": 611,
+    "y": 5334,
+    "w": 22,
+    "h": 20
+   },
+   {
+    "x": 829,
+    "y": 5196,
+    "w": 262,
+    "h": 24
+   },
+   {
+    "x": 829,
+    "y": 5223,
+    "w": 130,
+    "h": 24
+   },
+   {
+    "x": 843,
+    "y": 5342,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 1026,
+    "y": 5343,
+    "w": 79,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 5556,
+    "w": 395,
+    "h": 22
+   },
+   {
+    "x": 1235,
+    "y": 5556,
+    "w": 121,
+    "h": 22
+   },
+   {
+    "x": 1356,
+    "y": 5556,
+    "w": 60,
+    "h": 22
+   },
+   {
+    "x": 400,
+    "y": 5704,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 530,
+    "y": 5704,
+    "w": 141,
+    "h": 24
+   },
+   {
+    "x": 721,
+    "y": 5704,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 922,
+    "y": 5704,
+    "w": 115,
+    "h": 24
+   },
+   {
+    "x": 1228,
+    "y": 5707,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5808,
+    "w": 112,
+    "h": 22
+   },
+   {
+    "x": 24,
+    "y": 5847,
+    "w": 101,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5880,
+    "w": 125,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5913,
+    "w": 192,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5946,
+    "w": 163,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5979,
+    "w": 172,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5808,
+    "w": 143,
+    "h": 22
+   },
+   {
+    "x": 306,
+    "y": 5847,
+    "w": 66,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5880,
+    "w": 111,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5913,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5946,
+    "w": 82,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5979,
+    "w": 92,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 6012,
+    "w": 67,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5808,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 587,
+    "y": 5847,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5880,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5913,
+    "w": 93,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5946,
+    "w": 146,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5979,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 869,
+    "y": 5808,
+    "w": 94,
+    "h": 22
+   },
+   {
+    "x": 869,
+    "y": 5847,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 5808,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 5829,
+    "w": 117,
+    "h": 17
+   },
+   {
+    "x": 1278,
+    "y": 5849,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 5886,
+    "w": 60,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 5907,
+    "w": 116,
+    "h": 17
+   },
+   {
+    "x": 1278,
+    "y": 5927,
+    "w": 69,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 5964,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 5983,
+    "w": 71,
+    "h": 18
+   },
+   {
+    "x": 1278,
+    "y": 6003,
+    "w": 138,
+    "h": 17
+   },
+   {
+    "x": 1278,
+    "y": 6024,
+    "w": 78,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 6128,
+    "w": 297,
+    "h": 17
+   },
+   {
+    "x": 937,
+    "y": 6128,
+    "w": 64,
+    "h": 17
+   },
+   {
+    "x": 1021,
+    "y": 6128,
+    "w": 81,
+    "h": 17
+   },
+   {
+    "x": 1122,
+    "y": 6128,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 1274,
+    "y": 6128,
+    "w": 142,
+    "h": 17
+   }
+  ],
+  "eds": [
+   {
+    "x": 1182,
+    "y": 43,
+    "w": 58,
+    "h": 17
+   },
+   {
+    "x": 1282,
+    "y": 41,
+    "w": 6,
+    "h": 11
+   },
+   {
+    "x": 1360,
+    "y": 43,
+    "w": 44,
+    "h": 17
+   },
+   {
+    "x": 916,
+    "y": 100,
+    "w": 79,
+    "h": 24
+   },
+   {
+    "x": 1055,
+    "y": 100,
+    "w": 142,
+    "h": 24
+   },
+   {
+    "x": 1257,
+    "y": 100,
+    "w": 113,
+    "h": 24
+   },
+   {
+    "x": 24,
+    "y": 211,
+    "w": 43,
+    "h": 19
+   },
+   {
+    "x": 113,
+    "y": 211,
+    "w": 63,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 240,
+    "w": 162,
+    "h": 48
+   },
+   {
+    "x": 567,
+    "y": 419,
+    "w": 306,
+    "h": 38
+   },
+   {
+    "x": 24,
+    "y": 491,
+    "w": 121,
+    "h": 24
+   },
+   {
+    "x": 46,
+    "y": 539,
+    "w": 20,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 585,
+    "w": 40,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 630,
+    "w": 110,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 676,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 721,
+    "w": 161,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 767,
+    "w": 85,
+    "h": 19
+   },
+   {
+    "x": 1014,
+    "y": 495,
+    "w": 46,
+    "h": 19
+   },
+   {
+    "x": 1087,
+    "y": 495,
+    "w": 47,
+    "h": 19
+   },
+   {
+    "x": 1199,
+    "y": 495,
+    "w": 54,
+    "h": 19
+   },
+   {
+    "x": 340,
+    "y": 613,
+    "w": 496,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 645,
+    "w": 203,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 687,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 731,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 676,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 865,
+    "w": 564,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 897,
+    "w": 598,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 929,
+    "w": 448,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 961,
+    "w": 280,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1003,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1047,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 960,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1181,
+    "w": 521,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1213,
+    "w": 203,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1255,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1299,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 1244,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1433,
+    "w": 484,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1465,
+    "w": 203,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1507,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1551,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 1496,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1685,
+    "w": 599,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1717,
+    "w": 82,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1759,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 1803,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 1748,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 1937,
+    "w": 526,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 1969,
+    "w": 579,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2001,
+    "w": 180,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2043,
+    "w": 138,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2087,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 2016,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2221,
+    "w": 587,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2253,
+    "w": 350,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2295,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2339,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 2284,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2473,
+    "w": 596,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2505,
+    "w": 58,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2547,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2591,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 2536,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2725,
+    "w": 592,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2757,
+    "w": 97,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 2799,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 2843,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 2788,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 2977,
+    "w": 561,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3009,
+    "w": 310,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3051,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3095,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 3040,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3229,
+    "w": 521,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3261,
+    "w": 193,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3303,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3347,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 3292,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3481,
+    "w": 589,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3513,
+    "w": 420,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3555,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3599,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 3544,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3733,
+    "w": 580,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3765,
+    "w": 97,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 3807,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 3851,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 3796,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 3985,
+    "w": 575,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 4017,
+    "w": 97,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 4059,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 4103,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 4048,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 340,
+    "y": 4237,
+    "w": 570,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 4269,
+    "w": 112,
+    "h": 29
+   },
+   {
+    "x": 340,
+    "y": 4311,
+    "w": 131,
+    "h": 20
+   },
+   {
+    "x": 354,
+    "y": 4355,
+    "w": 98,
+    "h": 17
+   },
+   {
+    "x": 1270,
+    "y": 4300,
+    "w": 88,
+    "h": 20
+   },
+   {
+    "x": 524,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 586,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 637,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 689,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 741,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 793,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 845,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 896,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 948,
+    "y": 4463,
+    "w": 12,
+    "h": 24
+   },
+   {
+    "x": 998,
+    "y": 4463,
+    "w": 20,
+    "h": 24
+   },
+   {
+    "x": 1054,
+    "y": 4463,
+    "w": 43,
+    "h": 24
+   },
+   {
+    "x": 1152,
+    "y": 4463,
+    "w": 39,
+    "h": 24
+   },
+   {
+    "x": 310,
+    "y": 4758,
+    "w": 99,
+    "h": 22
+   },
+   {
+    "x": 329,
+    "y": 4806,
+    "w": 62,
+    "h": 23
+   },
+   {
+    "x": 264,
+    "y": 4983,
+    "w": 160,
+    "h": 19
+   },
+   {
+    "x": 1024,
+    "y": 4758,
+    "w": 111,
+    "h": 22
+   },
+   {
+    "x": 913,
+    "y": 4806,
+    "w": 334,
+    "h": 23
+   },
+   {
+    "x": 1012,
+    "y": 4862,
+    "w": 95,
+    "h": 18
+   },
+   {
+    "x": 1012,
+    "y": 4885,
+    "w": 212,
+    "h": 17
+   },
+   {
+    "x": 990,
+    "y": 4938,
+    "w": 147,
+    "h": 19
+   },
+   {
+    "x": 276,
+    "y": 5122,
+    "w": 256,
+    "h": 26
+   },
+   {
+    "x": 276,
+    "y": 5174,
+    "w": 446,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 5198,
+    "w": 402,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 5222,
+    "w": 102,
+    "h": 22
+   },
+   {
+    "x": 276,
+    "y": 5332,
+    "w": 203,
+    "h": 24
+   },
+   {
+    "x": 523,
+    "y": 5334,
+    "w": 29,
+    "h": 20
+   },
+   {
+    "x": 613,
+    "y": 5334,
+    "w": 23,
+    "h": 20
+   },
+   {
+    "x": 829,
+    "y": 5196,
+    "w": 325,
+    "h": 24
+   },
+   {
+    "x": 829,
+    "y": 5223,
+    "w": 66,
+    "h": 24
+   },
+   {
+    "x": 843,
+    "y": 5342,
+    "w": 119,
+    "h": 20
+   },
+   {
+    "x": 1026,
+    "y": 5343,
+    "w": 78,
+    "h": 19
+   },
+   {
+    "x": 24,
+    "y": 5556,
+    "w": 400,
+    "h": 22
+   },
+   {
+    "x": 1232,
+    "y": 5556,
+    "w": 122,
+    "h": 22
+   },
+   {
+    "x": 1354,
+    "y": 5556,
+    "w": 62,
+    "h": 22
+   },
+   {
+    "x": 401,
+    "y": 5704,
+    "w": 80,
+    "h": 24
+   },
+   {
+    "x": 531,
+    "y": 5704,
+    "w": 141,
+    "h": 24
+   },
+   {
+    "x": 721,
+    "y": 5704,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 923,
+    "y": 5704,
+    "w": 114,
+    "h": 24
+   },
+   {
+    "x": 1228,
+    "y": 5707,
+    "w": 113,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5808,
+    "w": 110,
+    "h": 22
+   },
+   {
+    "x": 24,
+    "y": 5847,
+    "w": 100,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5880,
+    "w": 124,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5913,
+    "w": 193,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5946,
+    "w": 162,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 5979,
+    "w": 170,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5808,
+    "w": 141,
+    "h": 22
+   },
+   {
+    "x": 306,
+    "y": 5847,
+    "w": 65,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5880,
+    "w": 112,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5913,
+    "w": 104,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5946,
+    "w": 81,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 5979,
+    "w": 89,
+    "h": 18
+   },
+   {
+    "x": 306,
+    "y": 6012,
+    "w": 67,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5808,
+    "w": 82,
+    "h": 22
+   },
+   {
+    "x": 587,
+    "y": 5847,
+    "w": 61,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5880,
+    "w": 49,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5913,
+    "w": 94,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5946,
+    "w": 145,
+    "h": 18
+   },
+   {
+    "x": 587,
+    "y": 5979,
+    "w": 103,
+    "h": 18
+   },
+   {
+    "x": 869,
+    "y": 5808,
+    "w": 93,
+    "h": 22
+   },
+   {
+    "x": 869,
+    "y": 5847,
+    "w": 160,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 5808,
+    "w": 122,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 5829,
+    "w": 118,
+    "h": 17
+   },
+   {
+    "x": 1277,
+    "y": 5849,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 5886,
+    "w": 59,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 5907,
+    "w": 114,
+    "h": 17
+   },
+   {
+    "x": 1277,
+    "y": 5927,
+    "w": 67,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 5964,
+    "w": 64,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 5983,
+    "w": 72,
+    "h": 18
+   },
+   {
+    "x": 1277,
+    "y": 6003,
+    "w": 136,
+    "h": 17
+   },
+   {
+    "x": 1277,
+    "y": 6024,
+    "w": 77,
+    "h": 18
+   },
+   {
+    "x": 24,
+    "y": 6128,
+    "w": 296,
+    "h": 17
+   },
+   {
+    "x": 937,
+    "y": 6128,
+    "w": 63,
+    "h": 17
+   },
+   {
+    "x": 1021,
+    "y": 6128,
+    "w": 80,
+    "h": 17
+   },
+   {
+    "x": 1121,
+    "y": 6128,
+    "w": 133,
+    "h": 17
+   },
+   {
+    "x": 1274,
+    "y": 6128,
+    "w": 142,
+    "h": 17
+   }
+  ]
+ }
+}

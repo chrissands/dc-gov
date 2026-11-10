@@ -1,0 +1,11 @@
+{
+  "/news": {
+    "status": "live",
+    "attempts": 1,
+    "ts": "2026-11-06T20:39:38.249Z",
+    "put": 201,
+    "preview": 200,
+    "live": 200,
+    "verify": "ok"
+  }
+}

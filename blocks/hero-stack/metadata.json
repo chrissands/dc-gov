@@ -1,0 +1,11 @@
+{
+  "variantName": "hero-stack",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Dark stacked hero: breadcrumb trail above a centred page heading.",
+  "contentPattern": "Rows: breadcrumb list, page heading.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top of static and listing pages (services, community engagement, organizational charts).",
+  "reuseGuidance": "Use for interior pages with a dark title band and no image."
+}

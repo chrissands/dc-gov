@@ -1,0 +1,33 @@
+[live-session] waiting to pace live navigations to beta.dc.gov (1000 ms apart, 2 max parallel; STARDUST_LIVE_PACE_MS / STARDUST_LIVE_MAX_PARALLEL; 0 disables either) — first wait 100 ms
+
+Content diff @ 1440px (profile "generic", roots: #main-content, header, footer)
+root "#main-content"
+  source: 40 text nodes — 11 headings, 0 eyebrows, 4 CTAs, 25 body; 12 img
+  build: 48 text nodes — 11 headings, 0 eyebrows, 4 CTAs, 33 body; 12 img
+  editable texts (outermost h*/p/ul/ol): source 28 / build 28
+  attributes (placeholder/aria-label/title): source 1 / build 1; icons: source 9 / build 9
+  accepted (invisible, nothing lost): 1 SAME IMAGE — "Mayor-image.png.webp ↔ large--Mayor-image.png.webp"
+root "header"
+  source: 90 text nodes — 10 headings, 0 eyebrows, 39 CTAs, 41 body; 4 img
+  build: 90 text nodes — 10 headings, 0 eyebrows, 39 CTAs, 41 body; 4 img
+  editable texts (outermost h*/p/ul/ol): source 20 / build 20
+  attributes (placeholder/aria-label/title): source 2 / build 2; icons: source 29 / build 29
+root "footer"
+  source: 44 text nodes — 0 headings, 0 eyebrows, 28 CTAs, 16 body; 0 img
+  build: 44 text nodes — 0 headings, 0 eyebrows, 28 CTAs, 16 body; 0 img
+  editable texts (outermost h*/p/ul/ol): source 5 / build 5
+  attributes (placeholder/aria-label/title): source 0 / build 0; icons: source 10 / build 10
+
+Findings: 11 (0 structural 🔴)
+Tiers: looks-same 🔴 0 · nothing-lost 🟡 0 · accepted 🟢 1 (owner 0, auto 1) · advisory 11
+  🟠 FONT FORK [header]: 2 matched line(s) render a DIFFERENT face: body "1": source Neue Haas Grotesk Text Pro→sys vs build Neue Haas Grotesk Text Pro→sys (47%); body "1": source Neue Haas Grotesk Text Pro→sys vs build Neue Haas Grotesk Text Pro→sys (47%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 EXTRA [#main-content]: build body "Select Language" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Amharic" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Chinese (Simplified)" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "English" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "French" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Korean" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Spanish" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA [#main-content]: build body "Vietnamese" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 MISSING TITLE [#main-content]: source <img> title="Mayor-image.png" has no build <img> with that title. Authored text a user or assistive tech reads, dropped by the build — carry it over verbatim.
+  🟡 EXTRA ARIA-LABEL [#main-content]: build <select> aria-label="Select Language" has no source source. Build-only attribute — confirm it is intended (an unregistered change is a fidelity bug).

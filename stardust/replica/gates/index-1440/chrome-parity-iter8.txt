@@ -1,0 +1,53 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://beta.dc.gov/ (live side from cache stardust/replica/gates/index-1440/chrome-live.json, probed 2026-11-06T18:07:09.084Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: 10 delta(s) — 11 paired of 11/11 texts, 4/4 icons
+  PAIR         "Toggle translation"  Δx +2px (1197→1199)
+  PAIR         "Translate"  Δx +2px (1183→1185)
+  PAIR         "1 alert"  Δx +2px (1269→1271)
+  PAIR         "1"  Δx +2px (1276→1278)
+  PAIR         "Toggle search"  <button> box 94×36 → 92×36
+  PAIR         "Search"  Δx +2px (1360→1362); Δw -2px (44→42); <button> box 94×36 → 92×36
+  PAIR         "Main Menu"  Δx +10px (901→911)
+  PAIR         "Services"  Δx +10px (917→927); Δw -3px (80→77); Δh -2px (24→22)
+  PAIR         "Neighborhoods"  Δx +6px (1057→1063); Δw -3px (140→137); Δh -2px (24→22)
+  PAIR         "Government"  Δx +3px (1257→1260); Δw -3px (113→110)
+
+■ footer: 34 delta(s) — 41 paired of 41/41 texts, 6/6 icons
+  PAIR         "Services"  Δx +9px (400→409); Δw -3px (80→77)
+  PAIR         "Neighborhoods"  Δx +6px (530→536); Δw -5px (141→136)
+  PAIR         "Government"  Δw -3px (113→110)
+  PAIR         "Accessibility"  Δx -2px (922→920); Δw -5px (115→110)
+  PAIR         "District News"  Δw -3px (112→109)
+  PAIR         "Citywide Calendar"  Δw +2px (125→127)
+  PAIR         "Subscribe to Receive Emails"  Δw +7px (192→199)
+  PAIR         "Subscribe to Text Alerts"  Δw +3px (163→166)
+  PAIR         "Subscribe to Newsletters"  Δw +3px (172→175)
+  PAIR         "District Initiatives"  Δw -3px (143→140)
+  PAIR         "Age-Friendly DC"  Δw +3px (111→114)
+  PAIR         "Sustainable DC"  Δw +3px (104→107)
+  PAIR         "Connect DC"  Δw +2px (82→84)
+  PAIR         "Ready DC"  Δw +2px (67→69)
+  PAIR         "Open DC"  Δw +2px (61→63)
+  PAIR         "Emancipation"  Δw +3px (93→96)
+  PAIR         "Consumer Protection"  Δw +3px (146→149)
+  PAIR         "Property Quest"  Δw +2px (104→106)
+  PAIR         "Contact Us"  Δx -3px (869→866); Δw -2px (94→92)
+  PAIR         "Service Request Center"  Δx -3px (869→866); Δw +2px (162→164)
+  PAIR         "Facebook Pages"  Δx -4px (1278→1274); Δw +3px (122→125)
+  PAIR         "41 pages available"  Δx -4px (1278→1274); Δw +3px (122→125)
+  PAIR         "Follow Now"  Δx -4px (1278→1274); Δw +3px (102→105)
+  PAIR         "X Feeds"  Δx -4px (1278→1274)
+  PAIR         "72 feeds available"  Δx -4px (1278→1274)
+  PAIR         "Read Now"  Δx -4px (1278→1274); Δw +2px (93→95)
+  PAIR         "YouTube channels."  Δx -4px (1278→1274); Δw +4px (138→142)
+  PAIR         "27 channels available"  Δx -4px (1278→1274); Δw +4px (138→142)
+  PAIR         "Follow Now"  Δx -4px (1278→1274); Δw +3px (102→105)
+  PAIR         "Copyright © 2026 DC.Gov. All rights rese"  Δw -2px (297→295)
+  PAIR         "About DC"  Δx +5px (937→942)
+  PAIR         "Accessibility"  Δx +4px (1021→1025); Δw -2px (81→79)
+  PAIR         "Privacy and Security"  Δx +2px (1122→1124)
+  PAIR         "Terms and Conditions"  Δx +2px (1274→1276); Δw -2px (142→140)
+
+✗ 44 delta(s) — fix these before any pixel iteration on chrome; re-run until quiet, then crop-compare confirms.

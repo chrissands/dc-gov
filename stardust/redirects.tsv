@@ -1,0 +1,9 @@
+Source	Destination
+# trailing-slash forms: the source answers 301 <path>/ → <path> (curl -sI https://beta.dc.gov/news/, 2026-11-06)
+/agency-directory/	/agency-directory
+/community-engagement-and-feedback/	/community-engagement-and-feedback
+/events/	/events
+/neighborhoods/	/neighborhoods
+/news/	/news
+/organizational-charts-agencies-and-offices-under-mayors-authority/	/organizational-charts-agencies-and-offices-under-mayors-authority
+/services/	/services

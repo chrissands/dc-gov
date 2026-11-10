@@ -1,0 +1,1975 @@
+
+Visual diff @ 360px (profile "generic") — screenshots in stardust/replica/gates/index-360/vdiff-iter11/
+
+build red flags (advisory): 
+  • SURFACE/GROUND MISMATCH: heading "#BeDowntown: DowntownDC Holiday " is rgb(5, 48, 104) in build vs rgb(255, 255, 255) in source (luminance 42 vs 255). A matched heading renders on a different ground (dark vs light) — check the section background.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 16947,
+  "textLen": 6616,
+  "images": [
+   {
+    "src": "logo-flag.svg",
+    "natural": "35x26",
+    "rendered": "33x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-small.svg",
+    "natural": "72x26",
+    "rendered": "72x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Mayor-image.png.webp?itok=FKYJybJW",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo.svg",
+    "natural": "154x71",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "new%20mayor%20headshot%202x.png.webp?itok=m4bQujBX",
+    "natural": "900x540",
+    "rendered": "328x197",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "veterans.jpeg.webp?itok=qf_zznum",
+    "natural": "450x400",
+    "rendered": "328x292",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Riggs-LaSalle%20Community%20Ctr-ward4.jpg.webp?itok=EN_OhMb1",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "winter-season-thumbnail.png.webp?itok=-CwWct_o",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Veterans-5K.jpg.webp?itok=yvIzRBDk",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Arboretum%20Community%20Ctr-Ward-5.jpg.webp?itok=EWxonzXQ",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GettyImages-2170556126.jpg.webp?itok=Cp5zsgGE",
+    "natural": "540x304",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "District%20News%203x.png.webp?itok=wp5vc5pk",
+    "natural": "540x420",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "man-sitting-600x500.png.webp?itok=blsIFfF3",
+    "natural": "540x450",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GettyImages-1195566019.jpg.webp?itok=IiRgx_lH",
+    "natural": "540x864",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "our-rfk_450x270.png.webp?itok=m9zdakDA",
+    "natural": "450x270",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "GettyImages-2186986083.jpg.webp?itok=FCxDaAMU",
+    "natural": "540x285",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "Veterans-5K.jpg.webp?itok=pu-ZigSR",
+    "natural": "450x400",
+    "rendered": "328x286",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "winter-season-thumbnail.png.webp?itok=TgAjI6D2",
+    "natural": "900x540",
+    "rendered": "328x131",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "washingtondc_logo_white.png.webp?itok=yYqdSzUY",
+    "natural": "100x73",
+    "rendered": "100x73",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118749109809025098&s=0155864f0f5e301660782c1eb57042690601e5cd",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "38043223?s=be4ba95c5679ed42e431da5658f47866a82ac03b",
+    "natural": "960x1200",
+    "rendered": "287x359",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118392403820474730&s=044c68bc20415d3bb057d52c6ef2da7e911dd24c",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37985888?s=e611a769316aaef45956bb4d2af9b10ab919682a",
+    "natural": "857x1024",
+    "rendered": "287x343",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118389825095012353&s=c313340e1480b89cb8c997f22740262b5e797c08",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37985886?s=fb5dcb0591cec2b66e28cf32bcd3eb3bb564a27c",
+    "natural": "960x1200",
+    "rendered": "287x359",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118374415691846046&s=21fca5203ec1926648ab1d784e1352534e9ddc0e",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37982222?s=423d3b8e3d9c57fde4f073a8a61e9a805b2b14db",
+    "natural": "960x540",
+    "rendered": "287x161",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118027815769821489&s=07e7ea14f4e630cd466d9b76fb9787a71c929a39",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2117979442173669752&s=43191a4dd463ce1d2a196a4d3ff7f0c58e09db7e",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37943980?s=4a3256e3e270e8af49042974b04589c02cccebb5",
+    "natural": "88x35",
+    "rendered": "287x114",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Welcome to Washington, DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "24px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Search for Services",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Search services results",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Mayor Muriel Bowser",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "28px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Service Status",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "DMV Service Centers",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Trash & Recycling",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Parking",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Metro Service",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Road Closures",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Frequently Requested Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "311 Non-Emergency Requests",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Elderly and Persons with Physica",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Adult Protective Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Alzheimer's Disease and Related ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Benefits Assistance",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Birth Certificate",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "My School DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Out-of-State Driver Licenses",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Residential Parking Permits",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Vehicle Registration",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "DC Careers",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Department of Employment Service",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "FedSupport",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Occupational Skills Training",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Talent Capital AI",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Unemployment Compensation",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Building Permit",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Business License",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Business Resource Center",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Caregiver Programs",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Case Management",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Commercial Vehicles",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Elderly and Persons with Physica",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Adult Protective Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Alzheimer's Disease and Related ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Benefits Assistance",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Nutrition for Seniors",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Safe at Home Program",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Certificate of Clean Hands",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "MyTax.DC.gov",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "New Business Registration",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "OTR Recorder of Deeds",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Search, File, Pay Taxes Online",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Tax Forms & Instructions",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "What's happening in DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "24px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterans Parade",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 4 Roll Off Day - Nov 21, 20",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "#BeDowntown: DowntownDC Holiday ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterans Parade 5K",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 5 Roll Off Day - Nov 7, 202",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Marks Start of Hypo",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "More of what's happening in DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Upcoming Events",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "District News",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Newsletters",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayoral Initiatives",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Citywide Projects",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Jobs & Careers",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Essential Fall Resources",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterans Parade 5K",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "#BeDowntown: DowntownDC Holiday ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "DowntownDC Holiday Market Return",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "A Local's Guide to the Best Thin",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Essential Fall Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Free Produce From DPR",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Holiday Safety Tips From MPD",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Leaf Collection",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "My School DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Parks",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Winter Wellness",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "District Statistics",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Population",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Housing Units",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Median Household Income",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Poverty Rate",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Median Rent",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Unemployment Rate",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Social Updates",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We want to hear from you.",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Send your feedback",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Nov",
+    "color": "rgb(3, 67, 141)"
+   },
+   {
+    "text": "Nov",
+    "color": "rgb(3, 67, 141)"
+   },
+   {
+    "text": "Nov",
+    "color": "rgb(3, 67, 141)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "c-hero-home__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hph-item__text",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "hph-item",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "c-layout-double__right",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 360
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 688
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 1016
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 1344
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 1672
+   },
+   {
+    "sel": "c-card-frame__l",
+    "width": 272,
+    "left": 44
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 288,
+    "left": 36
+   }
+  ]
+ },
+ "build": {
+  "viewport": 360,
+  "blankRender": false,
+  "mainHeight": 16958,
+  "textLen": 6616,
+  "images": [
+   {
+    "src": "logo-flag.svg",
+    "natural": "35x26",
+    "rendered": "33x25",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo-small.svg",
+    "natural": "72x26",
+    "rendered": "72x26",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "logo.svg",
+    "natural": "154x71",
+    "rendered": "0x0",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "max_650x650--Mayor-image.png.webp",
+    "natural": "650x489",
+    "rendered": "0x0",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_450x270--new_20mayor_20headshot_202x.png.webp",
+    "natural": "900x540",
+    "rendered": "328x197",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "promo_card--veterans.jpeg.webp",
+    "natural": "450x400",
+    "rendered": "328x292",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "listing_thumbnail--Riggs-LaSalle_20Community_20Ctr-ward4.jpg.webp",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "listing_thumbnail--winter-season-thumbnail.png.webp",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "listing_thumbnail--Veterans-5K.jpg.webp",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "listing_thumbnail--Arboretum_20Community_20Ctr-Ward-5.jpg.webp",
+    "natural": "300x185",
+    "rendered": "328x185",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "feature_card_max_540w--GettyImages-2170556126.jpg.webp",
+    "natural": "540x304",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "feature_card_max_540w--District_20News_203x.png.webp",
+    "natural": "540x420",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "feature_card_max_540w--man-sitting-600x500.png.webp",
+    "natural": "540x450",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "feature_card_max_540w--GettyImages-1195566019.jpg.webp",
+    "natural": "540x864",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "feature_card_max_540w--our-rfk_450x270.png.webp",
+    "natural": "450x270",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "feature_card_max_540w--GettyImages-2186986083.jpg.webp",
+    "natural": "540x285",
+    "rendered": "293x242",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "promo_card--Veterans-5K.jpg.webp",
+    "natural": "450x400",
+    "rendered": "328x286",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "card_450x270--winter-season-thumbnail.png.webp",
+    "natural": "900x540",
+    "rendered": "328x131",
+    "fit": "cover",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "thumbnail--washingtondc_logo_white.png.webp",
+    "natural": "100x73",
+    "rendered": "100x73",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118749109809025098&s=0155864f0f5e301660782c1eb57042690601e5cd",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "38043223?s=be4ba95c5679ed42e431da5658f47866a82ac03b",
+    "natural": "960x1200",
+    "rendered": "287x359",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118374415691846046&s=21fca5203ec1926648ab1d784e1352534e9ddc0e",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37982222?s=423d3b8e3d9c57fde4f073a8a61e9a805b2b14db",
+    "natural": "960x540",
+    "rendered": "287x161",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118392403820474730&s=044c68bc20415d3bb057d52c6ef2da7e911dd24c",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37985888?s=e611a769316aaef45956bb4d2af9b10ab919682a",
+    "natural": "857x1024",
+    "rendered": "287x343",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118027815769821489&s=07e7ea14f4e630cd466d9b76fb9787a71c929a39",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2118389825095012353&s=c313340e1480b89cb8c997f22740262b5e797c08",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37985886?s=fb5dcb0591cec2b66e28cf32bcd3eb3bb564a27c",
+    "natural": "960x1200",
+    "rendered": "287x359",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "poster_images.jpg?external_id=2117979442173669752&s=43191a4dd463ce1d2a196a4d3ff7f0c58e09db7e",
+    "natural": "48x48",
+    "rendered": "30x30",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "37943980?s=4a3256e3e270e8af49042974b04589c02cccebb5",
+    "natural": "88x35",
+    "rendered": "287x114",
+    "fit": "fill",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h1",
+    "text": "Welcome to Washington, DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "24px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Search for Services",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "28px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Search services results",
+    "color": "rgba(0, 0, 0, 0)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Mayor Muriel Bowser",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "28px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Service Status",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "DMV Service Centers",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Trash & Recycling",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Parking",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Metro Service",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Road Closures",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Frequently Requested Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "311 Non-Emergency Requests",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Elderly and Persons with Physica",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Adult Protective Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Alzheimer's Disease and Related ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Benefits Assistance",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Birth Certificate",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "My School DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Out-of-State Driver Licenses",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Residential Parking Permits",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Vehicle Registration",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "DC Careers",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Department of Employment Service",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "FedSupport",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Occupational Skills Training",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Talent Capital AI",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Unemployment Compensation",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Building Permit",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Business License",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Business Resource Center",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Caregiver Programs",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Case Management",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Commercial Vehicles",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Elderly and Persons with Physica",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Adult Protective Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Alzheimer's Disease and Related ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Benefits Assistance",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Nutrition for Seniors",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Safe at Home Program",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Certificate of Clean Hands",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "MyTax.DC.gov",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "New Business Registration",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "OTR Recorder of Deeds",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Search, File, Pay Taxes Online",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Tax Forms & Instructions",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "What's happening in DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "24px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterans Parade",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 4 Roll Off Day - Nov 21, 20",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "#BeDowntown: DowntownDC Holiday ",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterans Parade 5K",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Ward 5 Roll Off Day - Nov 7, 202",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayor Bowser Marks Start of Hypo",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "More of what's happening in DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Upcoming Events",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "District News",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Newsletters",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Mayoral Initiatives",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Citywide Projects",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Jobs & Careers",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Essential Fall Resources",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "National Veterans Parade 5K",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "#BeDowntown: DowntownDC Holiday ",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "DowntownDC Holiday Market Return",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "A Local's Guide to the Best Thin",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Essential Fall Services",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Free Produce From DPR",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Holiday Safety Tips From MPD",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Leaf Collection",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "My School DC",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Parks",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Winter Wellness",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "18px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "District Statistics",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Population",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Housing Units",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Median Household Income",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Poverty Rate",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Median Rent",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Unemployment Rate",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "20px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Social Updates",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "26px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We want to hear from you.",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Send your feedback",
+    "color": "rgb(5, 48, 104)",
+    "fontSize": "22px",
+    "family": "Neue Haas Grotesk Display Pro",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Nov",
+    "color": "rgb(3, 67, 141)"
+   },
+   {
+    "text": "Nov",
+    "color": "rgb(3, 67, 141)"
+   },
+   {
+    "text": "Nov",
+    "color": "rgb(3, 67, 141)"
+   }
+  ],
+  "flushText": [],
+  "contentBoxes": [
+   {
+    "sel": "c-hero-home__content",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "hph-item__text",
+    "width": 264,
+    "left": 48
+   },
+   {
+    "sel": "hph-item",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "c-layout-double__right",
+    "width": 328,
+    "left": 16
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 32
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 384
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 736
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 1088
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 1440
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 296,
+    "left": 1792
+   },
+   {
+    "sel": "c-card-frame__l",
+    "width": 272,
+    "left": 44
+   },
+   {
+    "sel": "c-card-service-link__content",
+    "width": 288,
+    "left": 36
+   }
+  ]
+ }
+}

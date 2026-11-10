@@ -1,0 +1,9 @@
+{
+  "instrument": "stitch-live",
+  "url": "https://beta.dc.gov/services",
+  "log": [
+    "stitched stardust/replica/gates/all-1440/services/origin.png: 1440x3734 from 5 chunks"
+  ],
+  "fontsFailed": [],
+  "at": "2026-11-06T21:08:33.919Z"
+}

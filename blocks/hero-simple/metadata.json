@@ -1,0 +1,11 @@
+{
+  "variantName": "hero-simple",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Light band with a breadcrumb trail (Home > current page) above a large page heading.",
+  "contentPattern": "Rows: breadcrumb links (Home, current page), then the page H1.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top of interior and listing pages (agency directory, news) to show the page title and breadcrumb.",
+  "reuseGuidance": "Use for any interior page that opens with breadcrumb + title and no image; use hero-home for the homepage."
+}

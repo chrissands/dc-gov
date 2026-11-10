@@ -1,0 +1,16 @@
+{
+  "variantName": "sidebar-layout",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Two-column static page layout: a wide main column of editor text beside an aside of sidebar cards (Contact, Follow, ...).",
+  "contentPattern": "Row 1: main column, free-form text (headings, paragraphs, lists, links). Each further row: one sidebar card (heading, then its items; an image cell for a logo).",
+  "options": [
+    {
+      "class": "mist",
+      "label": "Mist"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Body of static/informational pages such as the agency directory and community engagement page.",
+  "reuseGuidance": "Reuse for any page body with a text column and contact/follow sidebar cards; use (mist) when the main column sits on the light mist band."
+}

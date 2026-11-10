@@ -1,0 +1,413 @@
+{
+  "slug": "index",
+  "type": "landing",
+  "renderBranch": "A",
+  "template": null,
+  "modules": [
+    "hero-home",
+    "carousel-grid",
+    "tabset",
+    "scroll-combo",
+    "card-shapes",
+    "stats",
+    "social-feed",
+    "feedback"
+  ],
+  "widgets": [],
+  "slotsFilled": [
+    "div",
+    "shct",
+    "block--main"
+  ],
+  "canonShas": {
+    "header": "aab89e079103",
+    "footer": "caf84c28457c",
+    "css": "48f0559f0425"
+  },
+  "deviations": [],
+  "migrationDecisions": [],
+  "metadata": {
+    "title": "Home",
+    "description": null,
+    "canonical": null,
+    "lang": "en"
+  },
+  "jsonLd": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Home",
+    "url": "https://beta.dc.gov/"
+  },
+  "migratedAt": "2026-11-06T19:18:19Z",
+  "designMdSha": "97e903412583",
+  "designJsonSha": "2a11f90f5560",
+  "sourceCurrentSha": "ba44f231d491",
+  "sourceProposedSha": "f84f56a0ce06",
+  "fidelityTier": "archetype",
+  "archetypeSource": null,
+  "archetypeSha": null,
+  "variants": [],
+  "gatesPassed": [],
+  "gateEvidence": {},
+  "contentDeviations": [],
+  "assetsBundled": 30,
+  "missingAssets": [],
+  "brokenInternalLinks": [
+    {
+      "href": "/services/marriage-license",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/unemployment-compensation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/apply",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/actions/check-status",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/8",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/31",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/27",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/roles/job-seeker",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/taxonomy/term/22",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/organizational-charts-agencies-and-offices-under-mayors-authority",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/news/mayor-bowser-announces-ramon-griffin-thurgood-marshall-academy-2027-dc-teacher-year-surprise",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/community-engagement-and-feedback",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/search?key=Public%20School%20Enrollment",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Boundaries%20Map",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Choice%20and%20Lottery",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=Special%20Education%20Services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/search?key=School%20Calendars%20and%20Holidays",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/faq",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-government-organization",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/elderly-and-persons-physical-disabilities-waiver-program",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/adult-protective-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/alzheimers-disease-and-related-dementias",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/benefits-assistance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/services/birth-certificate",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/my-school-dc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/out-state-driver-licenses",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/residential-parking-permits",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/vehicle-registration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/services/dc-careers",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/department-employment-services-does",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/fedsupport",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/occupational-skills-training",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/talent-capital-ai",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/unemployment-compensation",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/services/building-permit",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/business-license",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/business-resource-center",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/caregiver-programs",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/case-management",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/commercial-vehicles",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/services/elderly-and-persons-physical-disabilities-waiver-program",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/adult-protective-services",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/alzheimers-disease-and-related-dementias",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/benefits-assistance",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/nutrition-seniors",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/safe-home-program",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/services/certificate-clean-hands",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/mytaxdcgov",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/new-business-registration",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/otr-recorder-deeds",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/search-file-pay-taxes-online",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/tax-forms-instructions",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/events/national-veterans-parade",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/ward-4-roll-day-nov-21-2026-riggs-lasalle-community-ctr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/bedowntown-downtowndc-holiday-market-dates-announced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/national-veterans-parade-5k",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/ward-5-roll-day-nov-7-2026-arboretum-community-ctr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/news/mayor-bowser-marks-start-hypothermia-season-urges-residents-call-shelter-hotline-connect",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/initiatives",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/citywide-projects",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/national-veterans-parade-5k",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events/bedowntown-downtowndc-holiday-market-dates-announced",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/services/free-produce-dpr",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/holiday-safety-tips-mpd",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/leaf-collection",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/my-school-dc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/parks",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services/winter-wellness",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/services",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/events",
+      "reason": "in-inventory-not-migrated"
+    },
+    {
+      "href": "/dc-agency-facebook-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-twitter-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dc-agency-youtube-links",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/about-dc",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/dcgov-accessibility-policy",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/privacy-and-security",
+      "reason": "not-in-inventory"
+    },
+    {
+      "href": "/terms-and-conditions-use",
+      "reason": "not-in-inventory"
+    }
+  ],
+  "outputPath": "index.html",
+  "outputPathDefault": null,
+  "sidecar": "_meta.json",
+  "driverVersion": "1"
+}

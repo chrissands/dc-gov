@@ -9,6 +9,7 @@ import {
   loadSection,
   loadSections,
   loadCSS,
+  loadScript,
   buildBlock,
 } from './aem.js';
 
@@ -163,7 +164,10 @@ async function loadEager(doc) {
   document.documentElement.lang = 'en';
   decorateTemplateAndTheme();
   const main = doc.querySelector('main');
+  // page grounds of the replicated theme (source: body._set-bg-light, main.site-content)
+  document.body.classList.add('set-bg-light', 'mod-ready', 'mod-alerts');
   if (main) {
+    main.classList.add('site-content', 'set-bg-light');
     decorateMain(main);
     document.body.classList.add('appear');
     await loadSection(main.querySelector('.section'), waitForFirstImage);
@@ -205,7 +209,32 @@ async function loadLazy(doc) {
  */
 function loadDelayed() {
   import('./consent-check.js');
-  // load anything that can be postponed to the latest here
+  // GovDelivery subscription overlay, loaded on every source page (dynamic-features.md row 4);
+  // the vendor account is bound to the dc.gov cookie domain, so it shows on a *.dc.gov host only
+  loadScript('https://content.govdelivery.com/overlay/js/18684.js');
+  // GTranslate dropdown (row 8): the source's settings; the vendor renders its selector into
+  // the header's wrapper, and the small header's selector forwards its choice to it
+  window.gtranslateSettings = {
+    default_language: 'en',
+    native_language_names: 0,
+    detect_browser_language: 0,
+    add_new_line: 1,
+    select_language_label: 'Select Language',
+    url_structure: 'none',
+    languages: ['en', 'es', 'am', 'zh-CN', 'fr', 'ko', 'vi'],
+    wrapper_selector: '.gtranslate-wrapper',
+  };
+  // the vendor renders its own selector: the header's static copy makes way for it
+  document.querySelectorAll('.gtranslate-wrapper').forEach((w) => w.replaceChildren());
+  loadScript('https://cdn.gtranslate.net/widgets/latest/dropdown.js');
+  document.querySelectorAll('.shs-translate-slot select').forEach((sel) => {
+    sel.addEventListener('change', () => {
+      const vendor = document.querySelector('.gtranslate-wrapper select');
+      if (!vendor || vendor === sel) return;
+      vendor.value = sel.value;
+      vendor.dispatchEvent(new Event('change'));
+    });
+  });
 }
 
 async function loadPage() {

@@ -1,0 +1,16 @@
+{
+  "variantName": "emblem-section",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "\"Powered by / Presented by\" emblem band, followed by the feedback card pair and the page attribution (last updated, maintained by); \"Send feedback\" opens an inline form.",
+  "contentPattern": "Rows: emblem logos and labels, feedback heading and copy, survey/contact text and links, last-updated date, maintainer.",
+  "options": [
+    {
+      "class": "plain",
+      "label": "Plain"
+    }
+  ],
+  "memberVariantIds": [],
+  "usage": "Bottom of listing and landing pages (news, services, neighborhoods, community engagement).",
+  "reuseGuidance": "Reuse where the emblem band closes a page; use (plain) to show the emblem band without the feedback pair. Use feedback for the feedback pair alone."
+}
