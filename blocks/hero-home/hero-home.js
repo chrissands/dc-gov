@@ -224,17 +224,53 @@ function run(block, html) {
   if (spare.length) block.append(...spare);
 }
 
+/* Seconds of video already played (sum of the played ranges). */
+function playedSeconds(v) {
+  let total = 0;
+  for (let i = 0; i < v.played.length; i += 1) total += v.played.end(i) - v.played.start(i);
+  return total;
+}
+
+/*
+ * Lifted from the source theme: the heading and intro stay hidden while the video's opening
+ * DC-logo animation plays, then reveal after 3.5s (skipping ahead to 3.8s if the video lags).
+ * The video loops from 4s so the intro never replays under the text; pausing before the reveal
+ * jumps to the final frame (27s) and reveals the text at once.
+ */
 function behave(block) {
   const hero = block.querySelector('.c-hero-home');
-  const v = hero && hero.querySelector('video');
-  const btn = hero && hero.querySelector('.c-hero-home-video-toggle');
-  if (!v) return;
+  if (!hero) return;
+  const v = hero.querySelector('video');
+  const btn = hero.querySelector('.c-hero-home-video-toggle');
+  let revealed = false;
+  let userPaused = false;
+  const reveal = () => {
+    revealed = true;
+    hero.classList.add('mod-reveal');
+  };
+  // The template was captured after the intro, with the text already revealed.
+  hero.classList.remove('mod-reveal');
+  if (!v) {
+    reveal();
+    return;
+  }
   v.muted = true;
-  v.loop = true;
-  v.setAttribute('loop', '');
+  v.loop = false;
+  v.removeAttribute('loop');
   v.setAttribute('preload', 'auto');
+  v.addEventListener('ended', () => {
+    if (userPaused) return;
+    v.currentTime = 4;
+    const replay = v.play();
+    if (replay && replay.catch) replay.catch(() => {});
+  });
   const p = v.play();
-  if (p && p.catch) p.catch(() => {});
+  if (p && p.catch) p.catch(() => reveal());
+  setTimeout(() => {
+    if (userPaused || revealed) return;
+    if (playedSeconds(v) <= 3) v.currentTime = 3.8;
+    reveal();
+  }, 3500);
   if (!btn) return;
   const labels = (paused) => {
     btn.querySelectorAll('.mod-pause').forEach((n) => { n.hidden = paused; });
@@ -242,10 +278,18 @@ function behave(block) {
   };
   btn.addEventListener('click', () => {
     const paused = !hero.classList.contains('mod-paused');
+    userPaused = paused;
     hero.classList.toggle('mod-paused', paused);
     labels(paused);
-    if (paused) v.pause();
-    else v.play();
+    if (paused) {
+      v.pause();
+      if (!revealed) {
+        if (playedSeconds(v) < 4) v.currentTime = 27;
+        reveal();
+      }
+    } else {
+      v.play();
+    }
   });
 }
 
