@@ -1,0 +1,11 @@
+{
+  "variantName": "link-card-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Section heading over a two-column grid of linked image cards; each card has an image, a linked heading, a description and a footer line, with an arrow overlay.",
+  "contentPattern": "Row 1 (optional, no image): section heading. Every other row: one card (image, linked heading, description, footer line).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Neighborhoods landing page card grid.",
+  "reuseGuidance": "Reuse for grids of image cards that each link to a detail page."
+}

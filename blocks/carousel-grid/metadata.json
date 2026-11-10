@@ -1,0 +1,11 @@
+{
+  "variantName": "carousel-grid",
+  "baseBlock": "cards",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "Section heading over a grid of service-link cards (icon, title, short text, arrow); below about 728px it becomes a swipeable one-card carousel with dots, arrows and a Swipe/Stack toggle.",
+  "contentPattern": "Rows: heading row, then one row per card (icon, title, description, link).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "\"Service Status\" row on the homepage; any grid of icon link cards.",
+  "reuseGuidance": "Reuse for icon + title + text link card grids that should collapse into a carousel on small screens."
+}

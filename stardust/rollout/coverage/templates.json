@@ -20,7 +20,7 @@
       "blocks": [
         "feedback",
         "hero-simple",
-        "sidebar"
+        "sidebar-layout"
       ],
       "delivery": {
         "verified": 1,
@@ -41,7 +41,9 @@
         "carousel-grid",
         "feedback",
         "hero-home",
+        "mayors-greeting",
         "scroll-combo",
+        "seasonal-area",
         "social-feed",
         "stats",
         "tabset"
@@ -61,7 +63,13 @@
         "services"
       ],
       "pageCount": 2,
-      "blocks": [],
+      "blocks": [
+        "emblem-section",
+        "feedback",
+        "hero-simple",
+        "hero-stack",
+        "view-listing"
+      ],
       "delivery": {
         "verified": 2,
         "deployed": 0,
@@ -77,9 +85,9 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "cards-tabbed",
-        "emblem",
-        "hero"
+        "emblem-section",
+        "hero-image",
+        "link-card-grid"
       ],
       "delivery": {
         "verified": 1,
@@ -96,9 +104,9 @@
       ],
       "pageCount": 1,
       "blocks": [
-        "emblem",
+        "emblem-section",
         "hero-simple",
-        "news-listing"
+        "view-listing"
       ],
       "delivery": {
         "verified": 1,
@@ -115,7 +123,13 @@
         "organizational-charts-agencies-and-offices-under-mayors-authority"
       ],
       "pageCount": 2,
-      "blocks": [],
+      "blocks": [
+        "accordion-stack",
+        "emblem-section",
+        "feedback",
+        "hero-stack",
+        "sidebar-layout"
+      ],
       "delivery": {
         "verified": 2,
         "deployed": 0,

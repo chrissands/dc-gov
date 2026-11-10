@@ -1,0 +1,11 @@
+{
+  "variantName": "hero",
+  "baseBlock": "hero",
+  "canonicalModel": "auto-blocked",
+  "visualCharacteristics": "Standard hero: page heading over a full-bleed background image.",
+  "contentPattern": "Built automatically from a leading picture and H1 in the first section.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Pages that open with a large image and title.",
+  "reuseGuidance": "Default hero; prefer hero-simple for breadcrumb-and-title headers."
+}

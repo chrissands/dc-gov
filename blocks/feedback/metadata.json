@@ -1,0 +1,11 @@
+{
+  "variantName": "feedback",
+  "baseBlock": "custom",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Two side-by-side cards (\"We want to hear from you\" with Yes/No helpful prompt and a survey/contact card), followed by a last-updated and maintained-by attribution line; \"Send feedback\" opens an inline form.",
+  "contentPattern": "Rows: feedback heading and copy, survey/contact text and links, last-updated date, maintainer.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Page footer area of most DC.gov pages, just above the global footer.",
+  "reuseGuidance": "Reuse on every page that ends with the feedback prompt; only the dates and maintainer change."
+}

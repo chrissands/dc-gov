@@ -23,7 +23,7 @@
       },
       "blocks": [
         "hero-simple",
-        "sidebar",
+        "sidebar-layout",
         "feedback"
       ],
       "widgets": [],
@@ -67,7 +67,11 @@
         "currentStatePath": "stardust/current/pages/community-engagement-and-feedback.json",
         "sourceUrl": "https://beta.dc.gov/community-engagement-and-feedback"
       },
-      "blocks": [],
+      "blocks": [
+        "hero-stack",
+        "sidebar-layout",
+        "emblem-section"
+      ],
       "widgets": [],
       "delivery": {
         "status": "verified",
@@ -109,7 +113,11 @@
         "currentStatePath": "stardust/current/pages/events.json",
         "sourceUrl": "https://beta.dc.gov/events"
       },
-      "blocks": [],
+      "blocks": [
+        "hero-simple",
+        "view-listing",
+        "feedback"
+      ],
       "widgets": [],
       "delivery": {
         "status": "verified",
@@ -151,10 +159,12 @@
       },
       "blocks": [
         "hero-home",
+        "mayors-greeting",
         "carousel-grid",
         "tabset",
         "scroll-combo",
         "card-shapes",
+        "seasonal-area",
         "stats",
         "social-feed",
         "feedback"
@@ -199,9 +209,9 @@
         "sourceUrl": "https://beta.dc.gov/neighborhoods"
       },
       "blocks": [
-        "hero",
-        "cards-tabbed",
-        "emblem"
+        "hero-image",
+        "link-card-grid",
+        "emblem-section"
       ],
       "widgets": [],
       "delivery": {
@@ -244,8 +254,8 @@
       },
       "blocks": [
         "hero-simple",
-        "news-listing",
-        "emblem"
+        "view-listing",
+        "emblem-section"
       ],
       "widgets": [],
       "delivery": {
@@ -288,7 +298,11 @@
         "currentStatePath": "stardust/current/pages/organizational-charts-agencies-and-offices-under-mayors-authority.json",
         "sourceUrl": "https://beta.dc.gov/organizational-charts-agencies-and-offices-under-mayors-authority"
       },
-      "blocks": [],
+      "blocks": [
+        "hero-stack",
+        "accordion-stack",
+        "feedback"
+      ],
       "widgets": [],
       "delivery": {
         "status": "verified",
@@ -330,7 +344,11 @@
         "currentStatePath": "stardust/current/pages/services.json",
         "sourceUrl": "https://beta.dc.gov/services"
       },
-      "blocks": [],
+      "blocks": [
+        "hero-stack",
+        "view-listing",
+        "emblem-section"
+      ],
       "widgets": [],
       "delivery": {
         "status": "verified",

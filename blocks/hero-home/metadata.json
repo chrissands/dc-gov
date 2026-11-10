@@ -1,0 +1,11 @@
+{
+  "variantName": "hero-home",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Full-width homepage hero with jump links, a large welcome heading over an autoplaying background video (with pause/play), a services search bar, and a strip below with today's date and weather, a seasonal link and an ANC link.",
+  "contentPattern": "Rows: jump links list, heading and intro, video, search label, today/weather strip, promo links.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage only.",
+  "reuseGuidance": "Homepage-specific; use hero-simple or hero for interior pages."
+}

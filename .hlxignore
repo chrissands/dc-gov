@@ -8,3 +8,5 @@ test/*
 sync-block-collection.sh
 stardust/
 content/
+catalog/
+blocks/*/metadata.json

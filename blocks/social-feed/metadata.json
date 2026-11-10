@@ -1,0 +1,11 @@
+{
+  "variantName": "social-feed",
+  "baseBlock": "embed",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "\"Social Updates\" section: an authored heading above a live Juicer social-media feed embed.",
+  "contentPattern": "Rows: heading (feed is embedded by the block).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage social media section.",
+  "reuseGuidance": "Reuse wherever the DC.gov social feed is shown; only the heading is authored."
+}

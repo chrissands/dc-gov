@@ -1,0 +1,11 @@
+{
+  "variantName": "tabset",
+  "baseBlock": "tabs",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "\"Frequently Requested Services\" tab set: a heading, a row of audience tabs (Popular, New Residents, Job Seeker, ...), and per tab a panel of service cards plus an \"All citywide services\" link.",
+  "contentPattern": "Rows: heading, one row per tab label, then per panel its card rows (title, text, links) and the closing link row.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage audience-based service lists.",
+  "reuseGuidance": "Reuse for tabbed groups of service cards; plain tabbed text belongs in a simpler tabs block."
+}

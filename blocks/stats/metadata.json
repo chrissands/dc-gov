@@ -1,0 +1,11 @@
+{
+  "variantName": "stats",
+  "baseBlock": "columns",
+  "canonicalModel": "collection",
+  "visualCharacteristics": "\"District Statistics\" band: heading, intro and updated date, then a grid of stat tiles each with a label, a large figure and a source note.",
+  "contentPattern": "Rows: heading, intro, updated date, then one row per stat (label, value, source).",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage data highlights.",
+  "reuseGuidance": "Reuse for any set of key figures with sources."
+}

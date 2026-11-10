@@ -1,0 +1,11 @@
+{
+  "variantName": "mayors-greeting",
+  "baseBlock": "columns",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Mayor introduction: portrait photo beside the Mayor's name and short bio, with a list of DC Government Organization links (Mayor's website, City Administrator, Executive Branch, ...).",
+  "contentPattern": "Rows: portrait image, name heading and bio text, organization heading and its links.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Homepage leadership section.",
+  "reuseGuidance": "Homepage-specific; reuse only where the Mayor's introduction appears."
+}

@@ -1,0 +1,11 @@
+{
+  "variantName": "hero-image",
+  "baseBlock": "hero",
+  "canonicalModel": "standalone",
+  "visualCharacteristics": "Dark split hero: breadcrumb trail and page heading beside a large image.",
+  "contentPattern": "Rows: breadcrumb list, page heading, image.",
+  "options": [],
+  "memberVariantIds": [],
+  "usage": "Top of landing pages with a feature image, such as Neighborhoods.",
+  "reuseGuidance": "Use for interior pages that open with a title and a large image; hero-simple for title only, hero-stack for a dark centred title."
+}
